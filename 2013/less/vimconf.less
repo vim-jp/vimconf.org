@@ -10,3 +10,30 @@
     margin: 0;
   }
 }
+
+
+
+#schedule{
+  .timetable{
+    .event td{ font-weight: bold; }
+    .event-gray td{ background-color: @table-bg-active; }
+    .event-yellow td{ background-color: @state-warning-bg; }
+    .event-green td{ background-color: @state-success-bg; }
+    th{
+      vertical-align: middle;
+      text-align: center;
+    }
+    td{
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      strong{
+        color: @brand-primary;
+        font-weight: bold;
+        font-size: 120%;
+        display: block;
+      }
+    }
+  }
+}
+
