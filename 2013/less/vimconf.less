@@ -2,6 +2,97 @@
 
 @footer-bg:                   @gray-lighter;
 
+.navbar-default .navbar-brand{
+  color: @brand-primary;
+}
+.navbar-default .navbar-brand:hover{
+  color: @brand-primary;
+}
+.jumbotron{
+  h1{
+    display: inline-block;
+    margin-top: 0;
+  }
+  h2{
+    vertical-align: top;
+  }
+}
+.page-header{
+  border-bottom: none;
+  h1{
+    color: white;
+    background-color: @brand-primary;
+    display: inline-block;
+    font-size: 23px;
+    line-height: 1em;
+    padding: 5px 10px;
+    position: relative;
+    margin-left: 17px;
+  }
+  h1:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: -17px;
+    width: 0;
+    height: 0;
+    border-width: 33px 17px;
+    border-style: solid;
+    border-color: @brand-primary;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+  h1:after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-width: 0 17px 33px 0;
+    border-style: solid;
+    border-color: @brand-primary;
+    border-right-color: transparent;
+  }
+}
+h2{
+  color: white;
+  background-color: @brand-primary;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 1em;
+  padding: 5px 10px;
+  position: relative;
+  margin-left: 13px;
+}
+h2:before{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: -13px;
+  width: 0;
+  height: 0;
+  border-width: 25px 13px;
+  border-style: solid;
+  border-color: @brand-primary;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+}
+h2:after{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 0;
+  height: 0;
+  border-width: 0 13px 25px 0;
+  border-style: solid;
+  border-color: @brand-primary;
+  border-right-color: transparent;
+}
+
 #footer{
   background: @footer-bg;
   margin-top: 40px;
