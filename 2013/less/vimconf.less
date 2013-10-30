@@ -1,4 +1,22 @@
 
+@header-bg: #373340;
+
+.header{
+  background: @header-bg;
+  border-bottom: 3px solid #ccc;
+  margin-bottom: 30px;
+  .container{
+    background: transparent url('./img/logo.png') no-repeat 15px 40px;
+    padding-top: 150px;
+  }
+  @media(max-width: 320px){
+    .container{
+      padding-top: 100px;
+      background-position: 15px 20px;
+      background-size: 290px;
+    }
+  }
+}
 
 @footer-bg:                   @gray-lighter;
 
@@ -19,6 +37,7 @@
 }
 .page-header{
   border-bottom: none;
+  margin: 0 0 20px;
   h1{
     color: white;
     background-color: @brand-primary;
