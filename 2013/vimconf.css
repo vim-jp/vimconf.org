@@ -12,7 +12,7 @@ body {
   margin: auto;
   border-radius: 6px;
   max-width: 1140px;
-  min-width: 320px;
+  min-width: 290px;
   height: 540px;
 }
 
@@ -79,7 +79,6 @@ body {
   color: #fff;
   text-align: center;
   margin: auto;
-  width: 380px;
 }
 .mod-main-text_icon {
   width: 80px;
@@ -123,3 +122,28 @@ body {
   float: right;
   font-weight: 700;
 }
+
+@media(max-width: 380px){
+  .mod-main-visual {
+    height: 460px;
+  }
+  .mod-main-visual_decoration-text {
+    height: 340px;
+    overflow: hidden;
+  }
+  .mod-main-text {
+    -ms-transform: scale( 0.8 );
+    -webkit-transform: scale( 0.8 );
+    transform: scale( 0.8 );
+  }
+  .mod-main-text_description p:nth-of-type(4),
+  .mod-main-text_description p:nth-of-type(5),
+  .mod-main-text_description p:nth-of-type(6),
+  .mod-main-text_description p:nth-of-type(7) {
+    display: none;
+  }
+  .mod-main-visual_header2 {
+    margin-bottom: 34px;
+  }
+}
+
