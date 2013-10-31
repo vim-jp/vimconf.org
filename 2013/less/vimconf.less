@@ -159,16 +159,27 @@ h2:after{
 
 // start main visual
 
+@main-visual-bg: #36343f;
 
 body {
   -webkit-font-smoothing: antialiased;
 }
 
+.mod-main-visual:before{
+  content: "~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~";
+  position: absolute;
+  font-weight: 700;
+  top: 60px;
+  width: 0.5em;
+  color: #406fff;
+}
+
+
 .mod-main-visual {
   font-family: 'Ubuntu Mono', sans-serif;
   font-size: 15px;
   line-height: 17px;
-  background: #36343f;
+  background: @main-visual-bg;
   padding: 0 6px;
   position: relative;
   margin: auto;
@@ -181,7 +192,7 @@ body {
 .mod-main-visual_top-bar {
   font-weight: 700;
   text-align: center;
-  color: #36343f;
+  color: @main-visual-bg;
   padding: 2px 0;
   margin: 0 -6px 0;
   border-top: 1px solid #ededed;
@@ -194,39 +205,33 @@ body {
 }
 
 .mod-main-visual_header1 {
-  display: table;
+  display: block;
   width: 100%;
   margin-top: 2px;
-}
-.mod-main-visual_header1_text {
-  display: table-cell;
-  font-weight: 700;
-  width: 7.5em;
-  color: #fff;
-}
-.mod-main-visual_header1_bar {
-  display: table-cell;
   background: #c8c8c8;
-  color: transparent;
+  span{
+    display: inline-block;
+    font-weight: 700;
+    width: 7.5em;
+    color: #fff;
+    background: @main-visual-bg;
+  }
 }
 
 .mod-main-visual_header2 {
-  display: table;
   width: 100%;
   margin-bottom: 48px;
-}
-.mod-main-visual_header2_text {
-  display: table-cell;
-  font-weight: 700;
-  width: 28px;
-  text-align: right;
-  color: #fffa63;
-  border-bottom: 1px solid #fffa63;
-}
-.mod-main-visual_header2_bar {
-  display: table-cell;
   border-bottom: 1px solid #c8c8c8;
-  color: transparent;
+  &:before {
+    content: "1";
+    display: inline-block;
+    font-weight: 700;
+    width: 28px;
+    text-align: right;
+    color: #fffa63;
+    border-bottom: 1px solid #fffa63;
+    margin-bottom: -1px;
+  }
 }
 
 .mod-main-visual_decoration-text {
@@ -241,48 +246,62 @@ body {
   color: #fff;
   text-align: center;
   margin: auto;
-}
-.mod-main-text_icon {
-  width: 80px;
-  height: 80px;
-}
-.mod-main-text_title {
-  font-family: 'Ubuntu Mono', sans-serif;
-  font-size: 56px;
-  font-weight: 400;
-}
-.mod-main-text_description {
-  font-weight: 700;
-  margin-bottom: 50px;
-}
-.mod-main-text_description p {
-  margin: 0;
-}
-.mod-main-text_description p:nth-of-type(1) {
-  margin-bottom: 17px;
-}
-.mod-main-text_description p:nth-of-type(3) {
-  margin-bottom: 17px;
-}
-.mod-main-text_description a {
-  color: #406fff;
-  text-decoration: none;
-}
-.mod-main-text_description a:hover {
-  text-decoration: underline;
+  img {
+    width: 80px;
+    height: 80px;
+  }
+  h1 {
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+  }
+  div {
+    font-weight: 700;
+    margin-bottom: 50px;
+    p {
+      margin: 0;
+    }
+    p:nth-of-type(1) {
+      margin-bottom: 17px;
+    }
+    p:nth-of-type(3) {
+      margin-bottom: 17px;
+    }
+    ul{
+      width: 380px;
+      text-align: left;
+      list-style-type: none;
+      margin: 0 auto;
+      li{
+        &:before{
+          content: "mouse";
+          padding-right: 1em;
+        }
+      }
+    }
+    a {
+      color: #406fff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .mod-main-visual_footer {
   background: #c8c8c8;
   overflow: hidden;
-}
-.mod-main-visual_footer_text1 {
-  float: left;
-  font-weight: 700;
-}
-.mod-main-visual_footer_text2 {
-  float: right;
-  font-weight: 700;
+  &:before{
+    content: "[VimConf2013] [utf-8][unix]";
+    float: left;
+    font-weight: 700;
+  }
+  &:after{
+    content: "1(ASCII=000,HEX=000) 0/1(All)";
+    float: right;
+    font-weight: 700;
+  }
 }
 
 @media(max-width: 380px){
@@ -297,12 +316,9 @@ body {
     -ms-transform: scale( 0.8 );
     -webkit-transform: scale( 0.8 );
     transform: scale( 0.8 );
-  }
-  .mod-main-text_description p:nth-of-type(4),
-  .mod-main-text_description p:nth-of-type(5),
-  .mod-main-text_description p:nth-of-type(6),
-  .mod-main-text_description p:nth-of-type(7) {
-    display: none;
+    ul{
+      display: none;
+    }
   }
   .mod-main-visual_header2 {
     margin-bottom: 34px;
