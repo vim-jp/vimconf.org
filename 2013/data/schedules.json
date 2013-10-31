@@ -1,5 +1,5 @@
 {
-    "updated_at": 1383088475,
+    "updated_at": 1383244175,
     "schedules": [
       {
         "type": "interval",
@@ -45,7 +45,7 @@
             "avatar": "https://2.gravatar.com/avatar/d9d0ceb387e3b6de5c4562af78e8a910?d=https%3A%2F%2Fidenticons.github.com%2F0fc780bb04e74ce5ed154d2e49cfe2fd.png&r=x&s=140"
           }
         ]
-      }
+      },
       {
         "type": "interval",
         "theme": "gray",
