@@ -269,8 +269,23 @@ span.banner-fix {
 
 section#main_content {
   z-index: 2;
-  padding: 20px 82px 0;
+  padding: 20px 82px 20px;
   min-height:185px;
+}
+section#main_content:before{
+  content: " ";
+  background: transparent url(../images/download-sprite.png) center -118px no-repeat;
+  height: 79px;
+  width: 550px;
+  margin: 18px -22px;
+  z-index: 1;
+  position: relative;
+  display: block;
+}
+section#main_content .to-2013{
+  font-size: 400%;
+  display: block;
+  text-align: center;
 }
 
 /* footer */
