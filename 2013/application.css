@@ -5984,6 +5984,7 @@ h2:after {
 #schedule .timetable th {
   vertical-align: middle;
   text-align: center;
+  width: 20%;
 }
 #schedule .timetable td {
   text-align: center;
