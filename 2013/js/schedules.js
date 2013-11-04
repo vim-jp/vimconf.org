@@ -9,10 +9,9 @@
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         s = _ref[_i];
         _results.push((function(s) {
-          var hour, min, offset, row, speaker, speakers, td, th, theme, time, title;
-          console.log(s['type']);
-          time = new Date(s['scheduled_at'] * 1000);
-          offset = time.getTimezoneOffset();
+          var hour, min, row, speaker, speakers, t, td, th, theme, time, title;
+          t = new Date();
+          time = new Date((s['scheduled_at'] + t.getTimezoneOffset() * 60) * 1000);
           title = s['title'];
           speakers = ((function() {
             var _j, _len1, _ref1, _results1;
@@ -25,7 +24,7 @@
             return _results1;
           })()).join(', ');
           theme = s['theme'] != null ? s['theme'] : s['theme'] = 'default';
-          hour = time.getHours() + offset / 60 + 9;
+          hour = time.getHours() + 9;
           min = time.getMinutes();
           if (min === 0) {
             min = '00';

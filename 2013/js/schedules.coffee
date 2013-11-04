@@ -3,14 +3,14 @@ $ ->
   table = $('.timetable')
   $.getJSON './data/schedules.json', (data)->
     ((s)->
-      console.log s['type']
-      time = new Date(s['scheduled_at'] * 1000)
-      offset = time.getTimezoneOffset()
+      t = new Date()
+      time = new Date((s['scheduled_at'] + t.getTimezoneOffset()*60) * 1000)
       title = s['title']
       speakers = (speaker['name'] for speaker in s['speakers'] ?= []).join ', '
       theme = s['theme'] ?= 'default'
 
-      hour = time.getHours() + offset/60 + 9
+
+      hour = time.getHours() + 9
       min = time.getMinutes()
       min = '00' if min == 0
       th =  hour + ':' + min + ' JST'
