@@ -1,56 +1,181 @@
-updated_at: 1383244175
+updated_at: 1383088475
 schedules:
-  - type: interval
-    theme: yellow
-    scheduled_at: 1384574400
-    created_at: 1383088475
-    updated_at: 1383088475
-    title: Opening
-    title-i18n: 開場
-    description: Description
-    description-i18n: 説明
-  - type: presentation
-    scheduled_at: 1383088475
-    created_at: 1383088475
-    updated_at: 1383088475
-    title: Title
-    title-i18n: タイトル
-    summary: Summary of presentation
-    summary-i18n: 要約
-    details: Details
-    details-i18n: 詳細
-    language: English
-    time: About 10 minutes
-    speakers:
-      - name: ujihisa
-        name-extra: ujm
-        twitter: ujm
-        github: ujihisa
-        avatar: https://2.gravatar.com/avatar/d9d0ceb387e3b6de5c4562af78e8a910?d=https%3A%2F%2Fidenticons.github.com%2F0fc780bb04e74ce5ed154d2e49cfe2fd.png&r=x&s=140
-  - type: interval
+  - scheduled_at: 1384570800 #12:00
+    type: interval
     theme: gray
-    scheduled_at: 1383088475
     created_at: 1383088475
     updated_at: 1383088475
     title: Lunch time
     title-i18n: 昼食
     description: Description
     description-i18n: 説明
-  - type: presentation
-    scheduled_at: 1383088475
-    created_at: 1383244175
-    updated_at: 1383244175
-    title: Title
-    title-i18n: タイトル
-    summary: Summary of presentation
+#  - scheduled_at: 1384571400 #12:10
+#    type: presentation
+#    title: TBD
+#    title-i18n: 未定
+#  - scheduled_at: 1384572000 #12:20
+#    type: presentation
+#    title: TBD
+#    title-i18n: 未定
+#  - scheduled_at: 1384572600 #12:30
+#    type: presentation
+#    title: TBD
+#    title-i18n: 未定
+#  - scheduled_at: 1384573200 #12:40
+#    type: presentation
+#    title: TBD
+#    title-i18n: 未定
+#  - scheduled_at: 1384573800 #12:50
+#    type: presentation
+#    title: TBD
+#    title-i18n: 未定
+  - scheduled_at: 1384574400 #13:00
+    type: interval
+    theme: yellow
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Opening
+    title-i18n: 開場
+    description: Description
+    description-i18n: 説明
+  - scheduled_at: 1384575000 #13:10
+    type: presentation
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: vital.ProcessManager 
+    title-i18n: vital.ProcessManager
+    summary: Vital.ProcessManager is a Vim's process manager library, powered by vimproc. This manager stores external processes ran by this library, and provide higher layer synchronous non-blocking read/write interface.
     summary-i18n: 要約
-    details: Details
-    details-i18n: 詳細
+    details: TBD
+    details-i18n: TBD
     language: English
     time: About 10 minutes
     speakers:
-      - name: ujihisa
-        name-extra: ujm
-        twitter: ujm
-        github: ujihisa
-        avatar: https://2.gravatar.com/avatar/d9d0ceb387e3b6de5c4562af78e8a910?d=https%3A%2F%2Fidenticons.github.com%2F0fc780bb04e74ce5ed154d2e49cfe2fd.png&r=x&s=140
+    - name: ujihisa
+      name-extra: Tatsuhiro Ujihisa
+      twitter: ujm
+      github: ujihisa
+      avatar: https://2.gravatar.com/avatar/d9d0ceb387e3b6de5c4562af78e8a910?d=https%3A%2F%2Fidenticons.github.com%2F0fc780bb04e74ce5ed154d2e49cfe2fd.png&r=x&s=140
+  - scheduled_at: 1384575600 #13:20
+    type: presentation
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Evil is Justice. 
+    title-i18n: Evil is Justice.
+    summary: Presentation for Evil-mode in emacs.
+    summary-i18n: Presentation for Evil-mode in emacs.
+    details: Recentlly, I use emacs because I wish to write code by Clojure. but, I feel not so good emacs keybind.I like vim keybind and install Evil-mode.It is very confortable for me.
+    details-i18n: 以前はVimを使っていたのですが、Lisp、あるいはClojureの勉強のために、Emacsを使い始めました。じかし、Emacsはいいものの、キーバインドにどうしても慣れることが出来ません。なんでInsertModeがない！VisualModeがない！そんな失意の中、出会ったのがEvil-modeでした。そして、実はVimのキーバインドはLispを書くのにも非常に適していることがわかりました。そういうわけで、エディタ1000年戦争を完結させるために、Evil-modeの紹介をしたいと思います。
+    language: Lisp or Japanese
+    time: About 20 minutes
+    speakers:
+    - name: esehara shigeo
+      name-extra: esehara shigeo
+      twitter: esehara
+      github: esehara
+      avatar: https://0.gravatar.com/avatar/693bc79cb6a72163ecdd9012d2631af0?d=https%3A%2F%2Fidenticons.github.com%2F3340d74806621f44043d2c8c2893e8a0.png&r=x&s=140
+#  - scheduled_at: 1384576200 #13:30
+  - scheduled_at: 1384576800 #13:40
+    type: presentation
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: How to use Git from Vim
+    title-i18n: How to use Git from Vim
+    summary: An introduction to plugins and settings to use Git from Vim.
+    summary-i18n: An introduction to plugins and settings to use Git from Vim.
+    details: Git is a great version control system but using it from command-line interface is boring. Let me introduce some Vim plugins and settings to execute git commands from Vim. You can improve making a commit, showing a status or log, taking a diff and more by using Git from Vim.
+    details-i18n: Git は優れた分散バージョン管理システムですが、Vim でコードを書きつついちいちターミナルに戻ってコマンドから使うのはいささか面倒です。 そこで、本発表では Git を Vim から便利に使うためのプラグインや設定例を紹介します。 Vim から Git を使うことによりコミットしたり、ステータスやログを確認したり、diff を取ったりといったことが非常に簡単にかつ素早くできるようになります。
+    language: Japanese
+    time: About 20 minutes
+    speakers:
+    - name: cohama
+      name-extra: cohama
+      twitter: c0hama
+      github: cohama
+      avatar: https://0.gravatar.com/avatar/c76de5d3abe4e4d96cd23c248145c47a?d=https%3A%2F%2Fidenticons.github.com%2F5055245876a0da181c69e9b06e4268c7.png&r=x&s=140
+  #- scheduled_at: 1384577400 #13:50
+  - scheduled_at: 1384578000 #14:00
+    type: interval
+    theme: gray
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Interval
+    title-i18n: 休憩
+    description: Description
+    description-i18n: 説明
+  - scheduled_at: 1384578600 #14:10
+    type: presentation
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Do You Know About Vim Builtin Runtime Files?
+    title-i18n: Do You Know About Vim Builtin Runtime Files?
+    summary: There are many runtime files in Vim. They are loaded at vim starting up and provides many useful features. You can use them without installing any plugins. However, these files are not known well. I will introduce them with setting examples.
+    summary-i18n: Vim には多くの runtime ファイルがデフォルトでインストールされていますが， それらはあまり良く知られていません．プラグインをインストールする必要なく デフォルトで利用できるこれらのファイルについて（必要なところは設定付きで） 紹介します．
+    details: T.B.D
+    details-i18n: T.B.D
+    language: Japanese
+    time: T.B.D
+    speakers:
+      - name: Linda_pp
+        name-extra: Lindan, rhysd
+        twitter: Linda_pp
+        github: rhysd
+        avatar: https://2.gravatar.com/avatar/81c7022cd3d17c75e8da981274da6911?d=https%3A%2F%2Fidenticons.github.com%2Fdceedfb8fead9fa7b27ecb18b332b575.png&r=x&s=140
+  #- scheduled_at: 1384579200 #14:20
+  - scheduled_at: 1384579800 #14:30
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  #- scheduled_at: 1384580400 #14:40
+  - scheduled_at: 1384581000 #14:50
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  #- scheduled_at: 1384581600 #15:00
+  - scheduled_at: 1384582200 #15:10
+    type: interval
+    theme: gray
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Interval
+    title-i18n: 休憩
+    description: Description
+    description-i18n: 説明
+  - scheduled_at: 1384582800 #15:20
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384583400 #15:30
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384584000 #15:40
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384584600 #15:50
+    type: presentation
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: About of neocomplete
+    title-i18n: About of neocomplete
+    summary: An introduction to neocomplete by DarkVim Master(暗黒美夢王)
+    summary-i18n: An introduction to neocomplete by DarkVim Master(暗黒美夢王)
+    details: After previous conference, the speaker awakes as Dark Vim Master. He introduces neocomplete completion plugin created by him for you.
+    details-i18n: 前回の発表により暗黒美夢王として覚醒した発表者が、新しく開発した補完プラグインであるneocompleteについて紹介します。
+    language: Japanese
+    time: 30 min
+    speakers:
+      - name: Shougo
+        twitter: ShougoMatsu
+        github: Shougo
+        avatar: https://2.gravatar.com/avatar/7f5a1bfaf8b64cbcdfaf82a7de92506b?d=https%3A%2F%2Fidenticons.github.com%2Ff702407c8ab99af3b508ed528516b86c.png&r=x&s=140
+#  - scheduled_at: 1384585200 #16:00
+#  - scheduled_at: 1384585800 #16:10
+  - scheduled_at: 1384586400 #16:20
+    type: presentation
+    title: LT                      
+    title-i18n: LT                
+#  - scheduled_at: 1384587000 #16:30
+#  - scheduled_at: 1384587600 #16:40
+#  - scheduled_at: 1384588200 #16:50
