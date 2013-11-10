@@ -6162,6 +6162,14 @@ iframe.flickr {
   border: none;
   margin-bottom: 10px;
 }
+iframe.ust {
+  display: block;
+  border: none;
+  margin: 10px auto;
+}
+#live div.ust {
+  text-align: center;
+}
 #index .header .container {
   background: transparent;
   padding-top: 20px;
