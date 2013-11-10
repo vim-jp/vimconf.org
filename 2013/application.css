@@ -6150,7 +6150,17 @@ body {
     margin-bottom: 34px;
   }
 }
+a.appstore {
+  display: block;
+  width: 135px;
+  height: 40px;
+  background: transparent url('img/appstore.png') no-repeat left top;
+  text-indent: -9999em;
+}
 #index .header .container {
   background: transparent;
   padding-top: 20px;
+}
+#index .whats-vimconf p {
+  font-size: 120%;
 }
