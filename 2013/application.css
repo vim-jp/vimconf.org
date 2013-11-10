@@ -6150,3 +6150,7 @@ body {
     margin-bottom: 34px;
   }
 }
+#index .header .container {
+  background: transparent;
+  padding-top: 20px;
+}
