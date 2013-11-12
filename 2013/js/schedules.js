@@ -29,7 +29,11 @@
         }
         th = hour + ':' + min + ' JST';
         if (s['type'] === 'presentation') {
-          td = '<strong>' + title + '</strong><span class="speaker">' + speakers + '</span>';
+          td = '<strong>' + title + '</strong>';
+          if (s['title-i18n'] && s['title-i18n'] === !s['title']) {
+            td += '<strong>' + s['title-i18n'] + '</strong>';
+          }
+          td += '<span class="speaker">' + speakers + '</span>';
           if (s['details']) {
             td += '<div class="panel panel-default"><div class="panel-body">';
             td += s['details'];
@@ -41,6 +45,9 @@
         }
         if (s['type'] === 'interval') {
           td = title;
+          if (s['title-i18n']) {
+            td += '( ' + s['title-i18n'] + ' )';
+          }
           if (s['description']) {
             td += '<div class="panel panel-default"><div class="panel-body">';
             td += s['description'];
