@@ -5,8 +5,8 @@ schedules:
     theme: gray
     created_at: 1383088475
     updated_at: 1383088475
-    title: Lunch time
-    title-i18n: 昼食
+    title: Social (w/ your own lunchbox)
+    title-i18n: カジュアルにわさわさがやがやビムランチ (ランチ持参推奨)
     time: 60 minutes
     description: Description
     description-i18n: 説明
@@ -35,11 +35,11 @@ schedules:
       name-extra: MURAOKA Taro
       twitter: kaoriya
       github: koron
-      avatar: https://1.gravatar.com/avatar/4b5a6f711a4e22e617b74058239ade53?d=https%3A%2F%2Fidenticons.github.com%2F6d3fc9ef0ebf9315ec4bc5e7572e8044.png&r=x&s=140 
+      avatar: https://1.gravatar.com/avatar/4b5a6f711a4e22e617b74058239ade53?d=https%3A%2F%2Fidenticons.github.com%2F6d3fc9ef0ebf9315ec4bc5e7572e8044.png&r=x&s=140
   - type: presentation
     created_at: 1383088475
     updated_at: 1383088475
-    title: vital.ProcessManager 
+    title: vital.ProcessManager
     title-i18n: vital.ProcessManager
     summary: Vital.ProcessManager is a Vim's process manager library, powered by vimproc. This manager stores external processes ran by this library, and provide higher layer synchronous non-blocking read/write interface.
     summary-i18n: 要約
@@ -56,7 +56,7 @@ schedules:
   - type: presentation
     created_at: 1383088475
     updated_at: 1383088475
-    title: Evil is Justice. 
+    title: Evil is Justice.
     title-i18n: Evil is Justice.
     summary: Presentation for Evil-mode in emacs.
     summary-i18n: Presentation for Evil-mode in emacs.
@@ -116,8 +116,8 @@ schedules:
   - type: presentation
     created_at: 1383088475
     updated_at: 1383088475
-    title: How to write patches for Vim 
-    title-i18n: How to write patches for Vim 
+    title: How to write patches for Vim
+    title-i18n: How to write patches for Vim
     summary: I sent about 70 patches for Vim in this year. I explain how to write patches based on this experience. I also introduce some interesting patches.
     summary-i18n: 1年の間にVimに対するパッチを約70個送った経験を元に、パッチの書き方を説明します。興味深いパッチもいくつか紹介します。
     details: T.B.D.
@@ -140,11 +140,15 @@ schedules:
     description-i18n: 説明
     time: 10 minutes
   - type: presentation
+    title: LT
+    title-i18n: LT
+    time: 30 minutes
+  - type: presentation
     created_at: 1383088475
     updated_at: 1383088475
     title: About of neocomplete
     title-i18n: About of neocomplete
-    summary: An introduction to neocomplete by DarkVim Master(暗黒美夢王)
+    summary: An introduction to neocomplete by DarkVim Master (Uncock Vim Awe)
     summary-i18n: An introduction to neocomplete by DarkVim Master(暗黒美夢王)
     details: After previous conference, the speaker awakes as Dark Vim Master. He introduces neocomplete completion plugin created by him for you.
     details-i18n: 前回の発表により暗黒美夢王として覚醒した発表者が、新しく開発した補完プラグインであるneocompleteについて紹介します。
@@ -155,16 +159,30 @@ schedules:
         twitter: ShougoMatsu
         github: Shougo
         avatar: https://2.gravatar.com/avatar/7f5a1bfaf8b64cbcdfaf82a7de92506b?d=https%3A%2F%2Fidenticons.github.com%2Ff702407c8ab99af3b508ed528516b86c.png&r=x&s=140
-  - type: presentation
-    title: LT                      
-    title-i18n: LT                
-    time: 30 minutes
   - type: interval
     theme: yellow
     created_at: 1383088475
     updated_at: 1383088475
     title: Closing
     title-i18n: おわり
+    description: Closing
+    description-i18n: 感極まります
+    time: 1 minute
+  - type: interval
+    theme: gray
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Interval
+    title-i18n: 休憩
     description: Description
     description-i18n: 説明
-    time: 0 minutes
+    time: 60 minutes
+  - type: interval
+    theme: gray
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Party (w/ dinner by vimconf)
+    title-i18n: 懇親会 (vimconfによる夕食)
+    description: Enjoy VimDinner
+    description-i18n: ビムディナーをお楽しみください。
+    time: 90 minutes
