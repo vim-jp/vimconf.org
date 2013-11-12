@@ -5988,14 +5988,28 @@ h2:after {
 }
 #schedule .timetable td {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 10px;
+  position: relative;
 }
 #schedule .timetable td strong {
   color: #373340;
   font-weight: bold;
-  font-size: 120%;
+  font-size: 130%;
   display: block;
+  padding-bottom: 10px;
+}
+#schedule .timetable td .avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+}
+#schedule .timetable td a.btn-xs {
+  margin: 0 2px;
+}
+#schedule .timetable td .panel {
+  margin-top: 20px;
+  font-size: 90%;
+  background: #fafafa;
 }
 body {
   -webkit-font-smoothing: antialiased;
