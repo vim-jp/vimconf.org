@@ -148,7 +148,7 @@ schedules:
     updated_at: 1383088475
     title: About of neocomplete
     title-i18n: About of neocomplete
-    summary: An introduction to neocomplete by DarkVim Master(暗黒美夢王)
+    summary: An introduction to neocomplete by DarkVim Master (Uncock Vim Awe)
     summary-i18n: An introduction to neocomplete by DarkVim Master(暗黒美夢王)
     details: After previous conference, the speaker awakes as Dark Vim Master. He introduces neocomplete completion plugin created by him for you.
     details-i18n: 前回の発表により暗黒美夢王として覚醒した発表者が、新しく開発した補完プラグインであるneocompleteについて紹介します。
