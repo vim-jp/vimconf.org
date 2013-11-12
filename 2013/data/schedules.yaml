@@ -9,7 +9,7 @@ schedules:
     title-i18n: カジュアルにわさわさがやがやビムランチ (ランチ持参推奨)
     time: 60 minutes
     description: Description
-    description-i18n: 説明
+    description-i18n: 各自持参したランチを食べながらみんなでわいわいがやがやカジュアルにビムランチする
   - type: interval
     theme: yellow
     created_at: 1383088475
@@ -17,7 +17,7 @@ schedules:
     title: Opening
     title-i18n: 開場
     description: Description
-    description-i18n: 説明
+    description-i18n: 開場時間です
     time: 10 minutes
   - type: presentation
     created_at: 1383088475
@@ -42,7 +42,7 @@ schedules:
     title: vital.ProcessManager
     title-i18n: vital.ProcessManager
     summary: Vital.ProcessManager is a Vim's process manager library, powered by vimproc. This manager stores external processes ran by this library, and provide higher layer synchronous non-blocking read/write interface.
-    summary-i18n: 要約
+    summary-i18n: Vital.ProcessManager is a Vim's process manager library, powered by vimproc. This manager stores external processes ran by this library, and provide higher layer synchronous non-blocking read/write interface.
     details: TBD
     details-i18n: TBD
     language: English
