@@ -140,6 +140,10 @@ schedules:
     description-i18n: 説明
     time: 10 minutes
   - type: presentation
+    title: LT
+    title-i18n: LT
+    time: 30 minutes
+  - type: presentation
     created_at: 1383088475
     updated_at: 1383088475
     title: About of neocomplete
@@ -155,10 +159,6 @@ schedules:
         twitter: ShougoMatsu
         github: Shougo
         avatar: https://2.gravatar.com/avatar/7f5a1bfaf8b64cbcdfaf82a7de92506b?d=https%3A%2F%2Fidenticons.github.com%2Ff702407c8ab99af3b508ed528516b86c.png&r=x&s=140
-  - type: presentation
-    title: LT
-    title-i18n: LT
-    time: 30 minutes
   - type: interval
     theme: yellow
     created_at: 1383088475
