@@ -168,3 +168,21 @@ schedules:
     description: Closing
     description-i18n: 感極まります
     time: 1 minute
+  - type: interval
+    theme: gray
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Interval
+    title-i18n: 休憩
+    description: Description
+    description-i18n: 説明
+    time: 60 minutes
+  - type: interval
+    theme: gray
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Party (w/ dinner by vimconf)
+    title-i18n: 懇親会 (vimconfによる夕食)
+    description: Enjoy VimDinner
+    description-i18n: ビムディナーをお楽しみください。
+    time: 90 minutes
