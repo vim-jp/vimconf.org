@@ -6006,6 +6006,13 @@ h2:after {
 #schedule .timetable td a.btn-xs {
   margin: 0 2px;
 }
+#schedule .timetable td .summary {
+  padding: 10px 0 0 0;
+  font-size: 85%;
+}
+#schedule .timetable td .i18n {
+  color: #999;
+}
 #schedule .timetable td .panel {
   margin-top: 20px;
   font-size: 90%;

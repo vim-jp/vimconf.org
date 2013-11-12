@@ -31,9 +31,17 @@
         if (s['type'] === 'presentation') {
           td = '<strong>' + title + '</strong>';
           if (s['title-i18n'] && s['title-i18n'] === !s['title']) {
-            td += '<strong>' + s['title-i18n'] + '</strong>';
+            td += '<strong class="i18n">' + s['title-i18n'] + '</strong>';
           }
           td += '<span class="speaker">' + speakers + '</span>';
+          if (s['summary']) {
+            td += '<div class="summary">';
+            td += s['summary'];
+            if (s['summary-i18n']) {
+              td += '<div class="i18n">' + s['summary-i18n'] + '</div>';
+            }
+            td += '</div>';
+          }
           if (s['details']) {
             td += '<div class="panel panel-default"><div class="panel-body">';
             td += s['details'];
@@ -46,7 +54,7 @@
         if (s['type'] === 'interval') {
           td = title;
           if (s['title-i18n']) {
-            td += '( ' + s['title-i18n'] + ' )';
+            td += '<span class="i18n"> ( ' + s['title-i18n'] + ' )</span>';
           }
           if (s['description']) {
             td += '<div class="panel panel-default"><div class="panel-body">';
