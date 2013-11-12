@@ -30,14 +30,14 @@
         th = hour + ':' + min + ' JST';
         if (s['type'] === 'presentation') {
           td = '<strong>' + title + '</strong>';
-          if (s['title-i18n'] && s['title-i18n'] === !s['title']) {
+          if (s['title-i18n'] && s['title-i18n'] !== s['title']) {
             td += '<strong class="i18n">' + s['title-i18n'] + '</strong>';
           }
           td += '<span class="speaker">' + speakers + '</span>';
           if (s['summary']) {
             td += '<div class="summary">';
             td += s['summary'];
-            if (s['summary-i18n']) {
+            if (s['summary-i18n'] && s['summary-i18n'] !== s['summary']) {
               td += '<div class="i18n">' + s['summary-i18n'] + '</div>';
             }
             td += '</div>';
@@ -45,7 +45,7 @@
           if (s['details']) {
             td += '<div class="panel panel-default"><div class="panel-body">';
             td += s['details'];
-            if (s['details-i18n']) {
+            if (s['details-i18n'] && s['details-i18n'] !== s['details']) {
               td += '<hr />' + s['details-i18n'];
             }
             td += '</div></div>';

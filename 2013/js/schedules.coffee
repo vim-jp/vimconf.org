@@ -23,17 +23,17 @@ $ ->
       th =  hour + ':' + min + ' JST'
       if s['type'] is 'presentation'
         td = '<strong>' + title + '</strong>'
-        td += '<strong class="i18n">' + s['title-i18n'] + '</strong>' if s['title-i18n'] && s['title-i18n'] is not s['title']
+        td += '<strong class="i18n">' + s['title-i18n'] + '</strong>' if s['title-i18n'] && s['title-i18n'] != s['title']
         td += '<span class="speaker">' + speakers + '</span>'
         if s['summary']
           td += '<div class="summary">'
           td += s['summary']
-          td += '<div class="i18n">' + s['summary-i18n'] + '</div>' if s['summary-i18n']
+          td += '<div class="i18n">' + s['summary-i18n'] + '</div>' if s['summary-i18n'] && s['summary-i18n'] != s['summary']
           td += '</div>'
         if s['details']
           td += '<div class="panel panel-default"><div class="panel-body">'
           td += s['details']
-          td += '<hr />' + s['details-i18n'] if s['details-i18n']
+          td += '<hr />' + s['details-i18n'] if s['details-i18n'] && s['details-i18n'] != s['details']
           td += '</div></div>'
       if s['type'] is 'interval'
         td = title
