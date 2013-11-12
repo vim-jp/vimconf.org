@@ -6,7 +6,7 @@ schedules:
     created_at: 1383088475
     updated_at: 1383088475
     title: Social (w/ your own lunchbox)
-    title-i18n: カジュアルにわさわさがやがやビムランチ (ランチ持参推奨)
+    title-i18n: カジュアルにわいわいがやがやビムランチ (ランチ持参推奨)
     time: 60 minutes
     description: Description
     description-i18n: 各自持参したランチを食べながらみんなでわいわいがやがやカジュアルにビムランチする
