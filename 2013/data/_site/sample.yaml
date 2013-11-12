@@ -1,0 +1,240 @@
+updated_at: 1383088475
+schedules:
+  - scheduled_at: 1384556400 #08:00
+    type: interval
+    theme: yellow
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Opening
+    title-i18n: 開場
+    description: Description
+    description-i18n: 説明
+  - scheduled_at: 1384557000 #08:10
+    type: presentation
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Title
+    title-i18n: タイトル
+    summary: Summary of presentation
+    summary-i18n: 要約
+    details: Details
+    details-i18n: 詳細
+    language: English
+    time: About 10 minutes
+    speakers:
+    - name: ujihisa
+      name-extra: ujm
+      twitter: ujm
+      github: ujihisa
+      avatar: https://2.gravatar.com/avatar/d9d0ceb387e3b6de5c4562af78e8a910?d=https%3A%2F%2Fidenticons.github.com%2F0fc780bb04e74ce5ed154d2e49cfe2fd.png&r=x&s=140
+  - scheduled_at: 1384557600 #08:20
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384558200 #08:30
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384558800 #08:40
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384559400 #08:50
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384560000 #09:00
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384560600 #09:10
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384561200 #09:20
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384561800 #09:30
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384562400 #09:40
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384563000 #09:50
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384563600 #10:00
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384564200 #10:10
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384564800 #10:20
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384565400 #10:30
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384566000 #10:40
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384566600 #10:50
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384567200 #11:00
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384567800 #11:10
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384568400 #11:20
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384569000 #11:30
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384569600 #11:40
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384570200 #11:50
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384570800 #12:00
+    type: interval
+    theme: gray
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Lunch time
+    title-i18n: 昼食
+    description: Description
+    description-i18n: 説明
+  - scheduled_at: 1384571400 #12:10
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384572000 #12:20
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384572600 #12:30
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384573200 #12:40
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384573800 #12:50
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384574400 #13:00
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384575000 #13:10
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384575600 #13:20
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384576200 #13:30
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384576800 #13:40
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384577400 #13:50
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384578000 #14:00
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384578600 #14:10
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384579200 #14:20
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384579800 #14:30
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384580400 #14:40
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384581000 #14:50
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384581600 #15:00
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384582200 #15:10
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384582800 #15:20
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384583400 #15:30
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384584000 #15:40
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384584600 #15:50
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384585200 #16:00
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384585800 #16:10
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384586400 #16:20
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384587000 #16:30
+    type: presentation
+    title: TBD                      
+    title-i18n: 未定                
+  - scheduled_at: 1384587600 #16:40
+    type: presentation
+    title: TBD
+    title-i18n: 未定
+  - scheduled_at: 1384588200 #16:50
+    type: presentation
+    title: TBD
+    title-i18n: 未定

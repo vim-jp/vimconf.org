@@ -126,10 +126,9 @@ schedules:
     time: 20 minutes
     speakers:
       - name: K.Takata
-        name-extra: Ken Takata
-        twitter: k_takata
-        github: k-takata
-        avatar: https://1.gravatar.com/avatar/9591288dd638ee8904f92f8a3c25b33f?d=https%3A%2F%2Fidenticons.github.com%2F58c20beed3707dc61cb2fe4e9684a5ab.png&r=x&s=140
+      - name-extra: Ken Takata
+      - twitter: k_takata
+      - github: k-takata
   - type: interval
     theme: gray
     created_at: 1383088475
