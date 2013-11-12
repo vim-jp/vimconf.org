@@ -165,6 +165,6 @@ schedules:
     updated_at: 1383088475
     title: Closing
     title-i18n: おわり
-    description: Description
-    description-i18n: 説明
-    time: 0 minutes
+    description: Closing
+    description-i18n: 感極まります
+    time: 1 minute
