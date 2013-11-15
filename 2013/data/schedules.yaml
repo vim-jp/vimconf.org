@@ -39,23 +39,6 @@ schedules:
   - type: presentation
     created_at: 1383088475
     updated_at: 1383088475
-    title: vital.ProcessManager
-    title-i18n: vital.ProcessManager
-    summary: Vital.ProcessManager is a Vim's process manager library, powered by vimproc. This manager stores external processes ran by this library, and provide higher layer synchronous non-blocking read/write interface.
-    summary-i18n: Vital.ProcessManager is a Vim's process manager library, powered by vimproc. This manager stores external processes ran by this library, and provide higher layer synchronous non-blocking read/write interface.
-    details: TBD
-    details-i18n: TBD
-    language: English
-    time: About 20 minutes
-    speakers:
-    - name: ujihisa
-      name-extra: Tatsuhiro Ujihisa
-      twitter: ujm
-      github: ujihisa
-      avatar: https://2.gravatar.com/avatar/d9d0ceb387e3b6de5c4562af78e8a910?d=https%3A%2F%2Fidenticons.github.com%2F0fc780bb04e74ce5ed154d2e49cfe2fd.png&r=x&s=140
-  - type: presentation
-    created_at: 1383088475
-    updated_at: 1383088475
     title: Evil is Justice.
     title-i18n: Evil is Justice.
     summary: Presentation for Evil-mode in emacs.
@@ -70,15 +53,6 @@ schedules:
       twitter: esehara
       github: esehara
       avatar: https://0.gravatar.com/avatar/693bc79cb6a72163ecdd9012d2631af0?d=https%3A%2F%2Fidenticons.github.com%2F3340d74806621f44043d2c8c2893e8a0.png&r=x&s=140
-  - type: interval
-    theme: gray
-    created_at: 1383088475
-    updated_at: 1383088475
-    title: Interval
-    title-i18n: 休憩
-    description: Description
-    description-i18n: 説明
-    time: 10 minutes
   - type: presentation
     created_at: 1383088475
     updated_at: 1383088475
@@ -96,6 +70,32 @@ schedules:
       twitter: c0hama
       github: cohama
       avatar: https://0.gravatar.com/avatar/c76de5d3abe4e4d96cd23c248145c47a?d=https%3A%2F%2Fidenticons.github.com%2F5055245876a0da181c69e9b06e4268c7.png&r=x&s=140
+  - type: interval
+    theme: gray
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: Interval
+    title-i18n: 休憩
+    description: Description
+    description-i18n: 説明
+    time: 10 minutes
+  - type: presentation
+    created_at: 1383088475
+    updated_at: 1383088475
+    title: vital.ProcessManager
+    title-i18n: vital.ProcessManager
+    summary: Vital.ProcessManager is a Vim's process manager library, powered by vimproc. This manager stores external processes ran by this library, and provide higher layer synchronous non-blocking read/write interface.
+    summary-i18n: Vital.ProcessManager is a Vim's process manager library, powered by vimproc. This manager stores external processes ran by this library, and provide higher layer synchronous non-blocking read/write interface.
+    details: TBD
+    details-i18n: TBD
+    language: English
+    time: About 20 minutes
+    speakers:
+    - name: ujihisa
+      name-extra: Tatsuhiro Ujihisa
+      twitter: ujm
+      github: ujihisa
+      avatar: https://2.gravatar.com/avatar/d9d0ceb387e3b6de5c4562af78e8a910?d=https%3A%2F%2Fidenticons.github.com%2F0fc780bb04e74ce5ed154d2e49cfe2fd.png&r=x&s=140
   - type: presentation
     created_at: 1383088475
     updated_at: 1383088475
