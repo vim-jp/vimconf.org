@@ -88,7 +88,7 @@ schedules:
     summary-i18n: Vital.ProcessManager is a Vim's process manager library, powered by vimproc. This manager stores external processes ran by this library, and provide higher layer synchronous non-blocking read/write interface.
     details: Describes problems and difficulties Vim has about its concurrency and parallelism supports, shows bad solutions that everyone took at first, describes why, and shows alternative solution, ProcessManager the external process management library. This talk also involves lots of random topics Ujihisa may want to shout.
     language: English
-    time: About 20 minutes
+    time: 20 minutes (or 30 minutes?)
     speakers:
     - name: ujihisa
       name-extra: Tatsuhiro Ujihisa
