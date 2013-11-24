@@ -376,6 +376,79 @@ iframe.ust{
   }
 }
 
+// Report page
+
+#report{
+  .page-header{
+    h1{
+      margin: 0 auto;
+      text-align: center;
+      display: block;
+      width: 400px;
+      @media(max-width: 410px){
+        width: 95%;
+      }
+    }
+  }
+  h2{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 200px;
+    @media(max-width: 410px){
+      width: 95%;
+    }
+  }
+  .visual{
+    padding-bottom: 50px;
+    .frame {
+      display: inline-block;
+      position: relative;
+      overflow: hidden; /* 不要部分を消す */
+      padding: 6px; /* 6px だけは写真からはみ出す */
+    }
+    .frame:before,
+    .frame:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      width: 97px;
+      height: 50px;
+      background: #fff; /* 背景色 */
+      -webkit-transform: rotate(-30deg);
+      -moz-transform: rotate(-30deg);
+      -ms-transform: rotate(-30deg);
+      -o-transform: rotate(-30deg);
+      transform: rotate(-30deg);
+    }
+    .frame:before {
+      box-shadow: 0 10px 8px -12px rgba(0, 0, 0, 0.8);
+      top: -24px;
+      bottom: auto;
+      right: auto;
+      left: -26px;
+
+    }
+    .frame:after {
+      box-shadow: 0 -10px 10px -10px rgba(0, 0, 0, 0.7);
+      top: auto;
+      bottom: -22px;
+      right: -25px;
+      left: auto;
+    }
+    text-align: center;
+    img{
+      max-width: 720px;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    }
+    @media(max-width: 730px){
+      img{
+        max-width: 100%;
+      }
+    }
+  }
+}
+
 // index page
 #index{
   .header{
