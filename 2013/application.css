@@ -6263,6 +6263,27 @@ iframe.ust {
     max-width: 100%;
   }
 }
+#report table {
+  margin: 10px 0;
+}
+#report .slides th {
+  text-align: center;
+}
+#report .slides th img {
+  display: block;
+  margin: 10px auto;
+  width: 72px;
+  height: 72px;
+  border-radius: 36px;
+}
+#report .slides td {
+  text-align: center;
+  vertical-align: middle;
+}
+#report .slides td a {
+  text-decoration: underline;
+  font-size: 130%;
+}
 #index .header .container {
   background: transparent;
   padding-top: 20px;
