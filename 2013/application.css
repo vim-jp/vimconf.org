@@ -6191,6 +6191,7 @@ iframe.ust {
 #live div.ust {
   text-align: center;
 }
+#index .page-header h1,
 #report .page-header h1 {
   margin: 0 auto;
   text-align: center;
@@ -6198,10 +6199,12 @@ iframe.ust {
   width: 400px;
 }
 @media (max-width: 410px) {
+  #index .page-header h1,
   #report .page-header h1 {
     width: 95%;
   }
 }
+#index h2,
 #report h2 {
   margin: 0 auto;
   text-align: center;
@@ -6209,14 +6212,24 @@ iframe.ust {
   width: 200px;
 }
 @media (max-width: 410px) {
+  #index h2,
   #report h2 {
     width: 95%;
   }
 }
+#index .visual,
 #report .visual {
   padding-bottom: 50px;
   text-align: center;
 }
+#index .visual .report-btn,
+#report .visual .report-btn {
+  top: 250px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+#index .visual .frame,
 #report .visual .frame {
   display: inline-block;
   position: relative;
@@ -6225,7 +6238,9 @@ iframe.ust {
   padding: 6px;
   /* 6px だけは写真からはみ出す */
 }
+#index .visual .frame:before,
 #report .visual .frame:before,
+#index .visual .frame:after,
 #report .visual .frame:after {
   content: "";
   position: absolute;
@@ -6240,6 +6255,7 @@ iframe.ust {
   -o-transform: rotate(-30deg);
   transform: rotate(-30deg);
 }
+#index .visual .frame:before,
 #report .visual .frame:before {
   box-shadow: 0 10px 8px -12px rgba(0, 0, 0, 0.8);
   top: -24px;
@@ -6247,6 +6263,7 @@ iframe.ust {
   right: auto;
   left: -26px;
 }
+#index .visual .frame:after,
 #report .visual .frame:after {
   box-shadow: 0 -10px 10px -10px rgba(0, 0, 0, 0.7);
   top: auto;
@@ -6254,21 +6271,26 @@ iframe.ust {
   right: -25px;
   left: auto;
 }
+#index .visual img,
 #report .visual img {
   max-width: 720px;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 730px) {
+  #index .visual img,
   #report .visual img {
     max-width: 100%;
   }
 }
+#index table,
 #report table {
   margin: 10px 0;
 }
+#index .slides th,
 #report .slides th {
   text-align: center;
 }
+#index .slides th img,
 #report .slides th img {
   display: block;
   margin: 10px auto;
@@ -6276,10 +6298,12 @@ iframe.ust {
   height: 72px;
   border-radius: 36px;
 }
+#index .slides td,
 #report .slides td {
   text-align: center;
   vertical-align: middle;
 }
+#index .slides td a,
 #report .slides td a {
   text-decoration: underline;
   font-size: 130%;
