@@ -282,10 +282,17 @@ section#main_content:before{
   position: relative;
   display: block;
 }
-section#main_content .to-2013{
-  font-size: 400%;
+
+section#main_content .to-year {
+  font-size: 200%;
   display: block;
   text-align: center;
+  color: #96aab4;
+}
+
+section#main_content .to-year.current {
+  font-size: 400%;
+  color: #417090;
 }
 
 /* footer */

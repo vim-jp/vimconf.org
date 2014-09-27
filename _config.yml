@@ -1,0 +1,16 @@
+encoding:       utf-8
+markdown:       redcarpet
+permalink:      pretty
+
+gems:
+  - jekyll-sitemap
+
+redcarpet:
+  extensions:
+    - 'autolink'
+    - 'tables'
+    - 'strikethrough'
+
+sass:
+  # commented out while under development.
+  #style: compressed

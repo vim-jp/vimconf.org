@@ -1,0 +1,7 @@
+.navbar-nav {
+  width: 100%;
+}
+
+.navbar-nav > li.root {
+  float: right;
+}
