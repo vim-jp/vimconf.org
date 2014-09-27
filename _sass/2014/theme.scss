@@ -1,0 +1,78 @@
+// vim:set sts=2 sw=2 tw=0 et:
+
+@mixin label-font {
+  font-family: 'Audiowide', ;
+  font-weight: normal;
+}
+
+@mixin normal-font {
+  font-family: 'Play', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'MS PGothic', 'Osaka', sans-serif;
+  font-weight: normal;
+}
+
+html {
+  @include normal-font;
+
+  color: $NORMAL_FORECOLOR;
+  background-color: $NORMAL_BACKCOLOR;
+}
+
+a {
+  color: $LINK_FORECOLOR;
+  background-color: $LINK_BACKCOLOR;
+  &:hover {
+    color: $HOVER_FORECOLOR;
+    background-color: $HOVER_BACKCOLOR;
+  }
+}
+
+nav.fixed-top {
+  color: $NAV_FIXEDTOP_COLOR_FORE;
+  background-color: $NAV_FIXEDTOP_COLOR_BACK;
+
+  @include label-font;
+
+  a {
+    color: $NAV_FIXEDTOP_COLOR_FORE;
+    &:hover {
+      color: $NAV_FIXEDTOP_COLOR_HOVER;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include label-font;
+}
+
+.content {
+  > * {
+    padding-left: $DEFAULT_FONTSIZE * 2;
+  }
+  > h1, h2, h3, h4, h5, h6 {
+    padding-left: $DEFAULT_FONTSIZE;
+  }
+
+  p {
+    line-height: 1.3em;
+  }
+
+  table {
+    margin-left: 1.5em;
+    margin-right: 1em;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    td, th {
+      border: 1px solid $NORMAL_FORECOLOR;
+      padding: 0.5em;
+      line-height: 1.25em;
+    }
+    th {
+      white-space: nowrap;
+    }
+  }
+
+  dl, ul, ol {
+    line-height: 1.25em;
+  }
+}

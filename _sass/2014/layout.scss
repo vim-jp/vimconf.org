@@ -1,3 +1,83 @@
-.layout {
-  background: test;
+// vim:set sts=2 sw=2 tw=0 et:
+
+html {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  line-height: 1;
+  font-size: $DEFAULT_FONTSIZE;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav.fixed-top {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: $NAV_FIXEDTOP_HEIGHT;
+
+  > ul {
+    margin: 0;
+    padding: 0 1.5em;
+
+    font-size: 1em;
+
+    > li {
+      float: left;
+      display: inline-block;
+      list-style-type: none;
+      > a {
+        padding: 0 1em;
+        display: block;
+        line-height: $NAV_FIXEDTOP_HEIGHT;
+      }
+    }
+    > li.upward {
+      float: right;
+    }
+  }
+
+  & + * {
+    margin-top: $NAV_FIXEDTOP_HEIGHT;
+    &.content {
+      margin-top: calc(#{$NAV_FIXEDTOP_HEIGHT} + 1em);
+    }
+  }
+
+}
+
+.content-area {
+  display: table;
+  width: 100%;
+  > * {
+    vertical-align: top;
+    display: table-cell;
+  }
+  > .content-main {
+    margin: 1em;
+  }
+  > .content-sub {
+    padding: 1em 1em 0 0em;
+    width: $SUB_CONTENT_WIDTH;
+  }
+}
+
+.content {
+  > * {
+    padding-left: $DEFAULT_FONTSIZE;
+    padding-right: $DEFAULT_FONTSIZE;
+  }
+}
+
+.twitter-widget {
+  height: $TWITTER_WIDGET_HEIGHT;
 }

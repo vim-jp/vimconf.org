@@ -1,0 +1,42 @@
+---
+layout: 2014/pages
+title: Details
+
+---
+<dl>
+  <dt>Date</dt>
+  <dd>Sat Nov 8th 2014</dd>
+
+  <dt>Place</dt>
+  <dd>mixi Inc<br />
+  1-2-20 Higashi, Shibuya-ku, Tokyo, 150-0011 Japan</dd>
+
+  <dt>Start time</dt>
+  <dd>10:00 or 13:00 (coordinating)</dd>
+
+  <dt>End time</dt>
+  <dd>18:00 (coordinating)</dd>
+
+  <dt>Pos-conference party</dt>
+  <dd>(coordinating)</dd>
+</dl>
+
+## 日本語/Japanese
+
+<dl>
+  <dt>開催日</dt>
+  <dd>2014/11/08 (土)</dd>
+
+  <dt>場所</dt>
+  <dd>株式会社ミクシィ<br />
+  東京都渋谷区東1-2-20 住友不動産渋谷ファーストタワー7F</dd>
+
+  <dt>開始時刻</dt>
+  <dd>10:00 or 13:00 (調整中)</dd>
+
+  <dt>終了時刻</dt>
+  <dd>18:00 (調整中)</dd>
+
+  <dt>懇親会</dt>
+  <dd>有 (調整中)</dd>
+</dl>

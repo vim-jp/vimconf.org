@@ -9,11 +9,13 @@
 <meta property="og:url" content="{{site.base-url}}{{page.url}}">{%if page.summary%}
 <meta property="og:description" content="{{page.summary|liquify|markdownify|strip_html}}">{%endif%}
 <meta property="og:site_name" content="VimConf - Vim Conference">
-<title>{{ page.title | liquify }}</title>
-<link rel="stylesheet" href="{{site.data.root-2014}}/default.css" type="text/css" />{%for css in page.stylesheets%}
-<link rel="stylesheet" href="{{site.data.root-2014}}/{{css}}" type="text/css" />{%endfor%}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{page.title | liquify}}</title>
+<link rel="stylesheet" href="{{site.data.root-2014}}/default.css">{%for css in page.stylesheets%}
+<link rel="stylesheet" href="{{site.data.root-2014}}/{{css}}">{%endfor%}
 </head>
 <body{%if page.class.body%} class="{{page.class.body}}"{%endif%}>
-{{content}}</body>{%for js in page.javascripts%}
-<script type="text/javascript" src="{{js}}"></script>{%endfor%}
+{{content}}</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>{%for js in page.javascripts%}
+<script src="{{js}}"></script>{%endfor%}
 </html>
