@@ -70,6 +70,9 @@ h1, h2, h3, h4, h5, h6 {
     th {
       white-space: nowrap;
     }
+    .nobreak {
+      white-space: none;
+    }
   }
 
   dl, ul, ol {
@@ -87,6 +90,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content {
+  margin-bottom: 2em;
+
   .two-columns {
     display: table;
     width: 100%;
@@ -126,6 +131,11 @@ h1, h2, h3, h4, h5, h6 {
         background-color: #00f;
         border: 4px solid #66f;
       }
+    }
+    a.button.disabled {
+      color: #fff;
+      background-color: #ccc;
+      border: 4px solid #eee;
     }
   }
 }
