@@ -20,7 +20,8 @@ a {
 }
 
 nav.fixed-top {
-  position: absolute;
+  position: fixed;
+
   top: 0;
   width: 100%;
   height: $NAV_FIXEDTOP_HEIGHT;
@@ -56,6 +57,8 @@ nav.fixed-top {
 }
 
 .content-area {
+  top: $NAV_FIXEDTOP_HEIGHT;
+
   display: table;
   width: 100%;
   > * {
