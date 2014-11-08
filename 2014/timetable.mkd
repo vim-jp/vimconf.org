@@ -17,7 +17,7 @@ title: Timetable
 | 14:55 - 15:10 | cohama               | auto closing parenthesis                                 |
 | 15:10 - 15:20 | deris                | 怖くないマクロ入門                                       |
 | 15:20 - 15:35 |                      | 休憩                                                     |
-| 15:35 - 16:00 | thinca               | Test for Vim script                                      |
+| 15:35 - 16:00 | thinca               | [Test for Vim script](https://gist.github.com/thinca/2cf4ae0df88a99423c9d)|
 | 16:00 - 16:30 | Shougo               | Let's talk about neovim                                  |
 | 16:30 - 16:45 |                      | 休憩                                                     |
 | 16:45 - 17:00 | supermomonga         | かなりすごい発表（かなり）                               |

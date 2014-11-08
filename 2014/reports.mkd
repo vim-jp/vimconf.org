@@ -14,3 +14,4 @@ Speaker | Link to material/slide
 KoRoN   | [Identity of the Vim](http://koron.github.io/vimconf-2014-koron/)
 ujihisa | [PM2](https://docs.google.com/presentation/d/1u5A7F3Kd4XwJlIUQZAVmrwWfLcoLf9NURtqAEafi_oo/edit#slide=id.p)
 Linda\_pp | [f](https://speakerdeck.com/rhysd/vimconf-2014-f)
+thinca  | [Test for Vim script](https://gist.github.com/thinca/2cf4ae0df88a99423c9d)
