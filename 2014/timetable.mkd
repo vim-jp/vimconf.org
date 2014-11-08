@@ -15,7 +15,7 @@ title: Timetable
 | 14:25 - 14:40 | Linda\_pp            | [f](https://speakerdeck.com/rhysd/vimconf-2014-f)|
 | 14:40 - 14:55 | kamichidu            | [Hey, Java! Vim is coming.](https://docs.google.com/presentation/d/1zaPy82NJ6A3Iw1llKqU-lX88AJNt1EKy5O15nOp085c/edit#slide=id.p)|
 | 14:55 - 15:10 | cohama               | [auto closing parenthesis](http://www.slideshare.net/cohama/auto-closing-parenthesis-vim-conf2014-41290298)|
-| 15:10 - 15:20 | deris                | [怖くないマクロ入門](https://speakerdeck.com/orgachem/vim-to-mixi)|
+| 15:10 - 15:20 | deris                | [怖くないマクロ入門](http://www.slideshare.net/deris0126/vimconf4)|
 | 15:20 - 15:35 |                      | 休憩                                                     |
 | 15:35 - 16:00 | thinca               | [Test for Vim script](https://gist.github.com/thinca/2cf4ae0df88a99423c9d)|
 | 16:00 - 16:30 | Shougo               | Let's talk about neovim                                  |
