@@ -3,4 +3,12 @@ layout: 2014/pages
 title: Reports
 
 ---
+## Photos
+
 Will arrive after the conference.
+
+## Materials/Slides
+
+Speaker | Link to material/slide
+--------|-----------------------
+KoRoN   | <a href="http://koron.github.io/vimconf-2014-koron/">Identity of the Vim</a>
