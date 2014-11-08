@@ -9,7 +9,7 @@ title: Timetable
 | 10:00 - 12:00 |                      | 設営準備 & ミニもくもく会                                |
 | 12:00 - 13:00 |                      | 受付                                                     |
 | 13:00 - 13:10 |                      | オープニング                                             |
-| 13:10 - 13:40 | KoRoN (MURAOKA Taro) | Identity of the Vim                                      |
+| 13:10 - 13:40 | KoRoN (MURAOKA Taro) | <a href="http://koron.github.io/vimconf-2014-koron/">Identity of the Vim</a>|
 | 13:40 - 14:10 | ujihisa              | PM2 (仮)                                                 |
 | 14:10 - 14:25 |                      | 休憩                                                     |
 | 14:25 - 14:40 | Linda_pp             | f                                                        |
