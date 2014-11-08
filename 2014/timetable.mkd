@@ -10,14 +10,14 @@ title: Timetable
 | 12:00 - 13:00 |                      | 受付                                                     |
 | 13:00 - 13:10 |                      | オープニング                                             |
 | 13:10 - 13:40 | KoRoN (MURAOKA Taro) | Identity of the Vim                                      |
-| 13:40 - 14:10 | ujihisa              | PM2 (仮)                                                 |
+| 13:40 - 14:10 | ujihisa              | PM2                                                     |
 | 14:10 - 14:25 |                      | 休憩                                                     |
 | 14:25 - 14:40 | Linda_pp             | f                                                        |
 | 14:40 - 14:55 | kamichidu            | Hey, Java! Vim is coming.                                |
-| 14:55 - 15:05 | deris                | 怖くないマクロ入門                                       |
-| 15:05 - 15:15 | cohama               | auto closing parenthesis                                 |
-| 15:15 - 15:30 |                      | 休憩                                                     |
-| 15:30 - 16:00 | thinca               | Test for Vim script                                      |
+| 14:55 - 15:10 | cohama               | auto closing parenthesis                                 |
+| 15:10 - 15:20 | deris                | 怖くないマクロ入門                                       |
+| 15:20 - 15:35 |                      | 休憩                                                     |
+| 15:35 - 16:00 | thinca               | Test for Vim script                                      |
 | 16:00 - 16:30 | Shougo               | Let's talk about neovim                                  |
 | 16:30 - 16:45 |                      | 休憩                                                     |
 | 16:45 - 17:00 | supermomonga         | かなりすごい発表（かなり）                               |
