@@ -19,6 +19,8 @@ kamichidu | [Hey, Java! Vim is coming.](https://docs.google.com/presentation/d/1
 cohama  | [auto closing parenthesis](http://www.slideshare.net/cohama/auto-closing-parenthesis-vim-conf2014-41290298)
 deris   | [怖くないマクロ入門](http://www.slideshare.net/deris0126/vimconf4)
 thinca  | [Test for Vim script](https://gist.github.com/thinca/2cf4ae0df88a99423c9d)
+supermomonga | [かなりすごい発表（かなり）](http://www.slideshare.net/supermomonga/super-cool-presentation-at-vimconf2014)
 haya14busa | [/-improved](https://docs.google.com/presentation/d/1ie2VCSt9onXmoY3v_zxJdMjYJSbAelVR-QExdUQK-Tw/pub?start=false&loop=false&delayms=3000&slide=id.g4e7add63c_05)
+pebble8888 | [XVim with MacVim and smartgrep](http://www.slideshare.net/pebble8888/using-xvim-with-macvim)
 Kuniwak | [vim script初心者に使ってもらいたい、転ばぬ先の杖「Vint」](https://speakerdeck.com/orgachem/zhuan-banuxian-falsezhang-vint)
 raa0121(らぁ) | [Jenkins + vimenv で 最新のVimを使おう！](http://www.slideshare.net/raa0121/jenkinsvimenv-vim-vimconf2014)
