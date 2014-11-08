@@ -3,4 +3,4 @@ layout: 2014/pages
 title: Live/Streaming
 
 ---
-Preparing...
+Live streaming will be held at [vimconf channel](git@github.com:vim-jp/vimconf.git) on Ustream!
