@@ -12,3 +12,4 @@ Will arrive after the conference.
 Speaker | Link to material/slide
 --------|-----------------------
 KoRoN   | <a href="http://koron.github.io/vimconf-2014-koron/">Identity of the Vim</a>
+ujihisa | <a href="https://docs.google.com/presentation/d/1u5A7F3Kd4XwJlIUQZAVmrwWfLcoLf9NURtqAEafi_oo/edit#slide=id.p">PM2</a>
