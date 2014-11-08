@@ -13,7 +13,7 @@ title: Timetable
 | 13:40 - 14:10 | ujihisa              | [PM2](https://docs.google.com/presentation/d/1u5A7F3Kd4XwJlIUQZAVmrwWfLcoLf9NURtqAEafi_oo/edit#slide=id.p)|
 | 14:10 - 14:25 |                      | 休憩                                                     |
 | 14:25 - 14:40 | Linda\_pp            | [f](https://speakerdeck.com/rhysd/vimconf-2014-f)|
-| 14:40 - 14:55 | kamichidu            | Hey, Java! Vim is coming.                                |
+| 14:40 - 14:55 | kamichidu            | [Hey, Java! Vim is coming.](https://docs.google.com/presentation/d/1zaPy82NJ6A3Iw1llKqU-lX88AJNt1EKy5O15nOp085c/edit#slide=id.p)|
 | 14:55 - 15:10 | cohama               | auto closing parenthesis                                 |
 | 15:10 - 15:20 | deris                | 怖くないマクロ入門                                       |
 | 15:20 - 15:35 |                      | 休憩                                                     |
