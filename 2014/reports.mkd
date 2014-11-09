@@ -24,3 +24,7 @@ haya14busa | [/-improved](https://docs.google.com/presentation/d/1ie2VCSt9onXmoY
 pebble8888 | [XVim with MacVim and smartgrep](http://www.slideshare.net/pebble8888/using-xvim-with-macvim)
 Kuniwak | [vim script初心者に使ってもらいたい、転ばぬ先の杖「Vint」](https://speakerdeck.com/orgachem/zhuan-banuxian-falsezhang-vint)
 raa0121(らぁ) | [Jenkins + vimenv で 最新のVimを使おう！](http://www.slideshare.net/raa0121/jenkinsvimenv-vim-vimconf2014)
+
+## Twitter
+
+[VimConf2014まとめ - Togetterまとめ](http://togetter.com/li/742963)
