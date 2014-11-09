@@ -18,7 +18,7 @@ title: Timetable
 | 15:10 - 15:20 | deris                | [怖くないマクロ入門](http://www.slideshare.net/deris0126/vimconf4)|
 | 15:20 - 15:35 |                      | 休憩                                                     |
 | 15:35 - 16:00 | thinca               | [Test for Vim script](https://gist.github.com/thinca/2cf4ae0df88a99423c9d)|
-| 16:00 - 16:30 | Shougo               | Let's talk about neovim                                  |
+| 16:00 - 16:30 | Shougo               | [Let's talk about neovim](http://www.slideshare.net/Shougo/lets-talk-about-neovim)|
 | 16:30 - 16:45 |                      | 休憩                                                     |
 | 16:45 - 17:00 | supermomonga         | [かなりすごい発表（かなり）](http://www.slideshare.net/supermomonga/super-cool-presentation-at-vimconf2014)|
 | 17:00 - 17:10 | pebble8888           | [XVim with MacVim and smartgrep](http://www.slideshare.net/pebble8888/using-xvim-with-macvim)|
