@@ -3,6 +3,6 @@ layout: 2014/pages
 title: Live/Streaming
 
 ---
-Live streaming was already closed, but you can see the recorded video.
+Live streaming was already closed, but you can see [the recorded video](http://www.youtube.com/playlist?list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ).
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ" frameborder="0" allowfullscreen></iframe>
