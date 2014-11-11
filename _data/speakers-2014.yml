@@ -1,0 +1,97 @@
+- name: mixi
+  site_url: http://mixi.co.jp/
+  title: Vim and mixi
+  slide_url: https://speakerdeck.com/orgachem/vim-to-mixi
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=rdG58KW5UEw&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=1
+
+- name: KoRoN
+  site_url: https://twitter.com/kaoriya
+  title: Identity of the Vim
+  slide_url: http://koron.github.io/vimconf-2014-koron/
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=s2Gs50__BFE&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=2
+
+- name: ujihisa
+  site_url: https://twitter.com/ujm
+  title: PM2
+  slide_url: https://docs.google.com/presentation/d/1u5A7F3Kd4XwJlIUQZAVmrwWfLcoLf9NURtqAEafi_oo/edit#slide=id.p
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=xef_r7Yc9oA&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=3
+
+- name: Lida_pp
+  site_url: https://twitter.com/Linda_pp
+  title: f
+  slide_url: https://speakerdeck.com/rhysd/vimconf-2014-f
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=q8sSbNgCoL0&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=4
+
+- name: kamichidu
+  site_url: https://twitter.com/Linda_pp
+  title: Hey, Java! Vim is coming.
+  slide_url: https://docs.google.com/presentation/d/1zaPy82NJ6A3Iw1llKqU-lX88AJNt1EKy5O15nOp085c/edit#slide=id.p
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=M9ZdK7dX6BE&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=5
+
+- name: cohama
+  site_url: https://twitter.com/c0hama
+  title: auto closing parenthesis
+  slide_url: http://www.slideshare.net/cohama/auto-closing-parenthesis-vim-conf2014-41290298
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=FjpxTL3925c&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=6
+
+- name: deris
+  site_url: https://twitter.com/deris0126
+  title: 怖くないマクロ入門
+  slide_url: http://www.slideshare.net/deris0126/vimconf4
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=CZXU7-yHG80&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=7
+
+- name: thinca
+  site_url: https://twitter.com/thinca
+  title: Test for Vim script
+  slide_url: https://gist.github.com/thinca/2cf4ae0df88a99423c9d
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=2RPKEHtyK8c&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=8
+
+- name: Sougo
+  site_url: https://twitter.com/ShougoMatsu
+  title: Let's task about neovim
+  slide_url: http://www.slideshare.net/Shougo/lets-talk-about-neovim
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=K3xkTWhJiXk&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=9
+
+- name: supermomonga
+  site_url: https://twitter.com/supermomonga
+  title: かなりすごい発表（かなり）
+  slide_url: http://www.slideshare.net/supermomonga/super-cool-presentation-at-vimconf2014
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=vGFPunrGC_4&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=10
+
+- name: pebble8888
+  site_url: https://twitter.com/pebble8888
+  title: XVim with MacVim and smartgrep
+  slide_url: http://www.slideshare.net/pebble8888/using-xvim-with-macvim
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=KY_sKJldvCQ&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=11
+
+- name: haya14busa
+  site_url: https://twitter.com/haya14busa
+  title: /-improved
+  slide_url: https://docs.google.com/presentation/d/1ie2VCSt9onXmoY3v_zxJdMjYJSbAelVR-QExdUQK-Tw/pub?start=false&loop=false&delayms=3000&slide=id.g4e7add63c_05
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=yB1H5V8e1j4&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=12
+
+- name: Kuniwak
+  site_url: https://twitter.com/orga_chem
+  title: vim script初心者に使ってもらいたい、転ばぬ先の杖「Vint」
+  slide_url: https://speakerdeck.com/orgachem/zhuan-banuxian-falsezhang-vint
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=U-Lds6blqpo&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=13
+
+- name: raa0121(らぁ)
+  site_url: https://twitter.com/raa0121
+  title: Jenkins + vimenv で 最新のVimを使おう！
+  slide_url: http://www.slideshare.net/raa0121/jenkinsvimenv-vim-vimconf2014
+  slide_backup_path: 
+  video_url: https://www.youtube.com/watch?v=6B-y1QriIEk&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=14
