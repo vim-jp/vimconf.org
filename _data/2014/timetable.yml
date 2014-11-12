@@ -1,0 +1,70 @@
+- time: 10:00 - 12:00
+  speaker:
+  content: 設営準備 & ミニもくもく会
+- time: 12:00 - 13:00
+  speaker:
+  content: 受付
+- time: 13:00 - 13:10
+  speaker:
+  content: オープニング
+- time: 13:10 - 13:40
+  speaker: KoRoN (MURAOKA Taro)
+  content: Identity of the Vim
+- time: 13:40 - 14:10
+  speaker: ujihisa
+  content: PM2
+- time: 14:10 - 14:25
+  speaker:
+  content: 休憩
+- time: 14:25 - 14:40
+  speaker: Linda\_pp
+  content: f
+- time: 14:40 - 14:55
+  speaker: kamichidu
+  content: Hey, Java! Vim is coming.
+- time: 14:55 - 15:10
+  speaker: cohama
+  content: auto closing parenthesis
+- time: 15:10 - 15:20
+  speaker: deris
+  content: 怖くないマクロ入門
+- time: 15:20 - 15:35
+  speaker:
+  content: 休憩
+- time: 15:35 - 16:00
+  speaker: thinca
+  content: Test for Vim script
+- time: 16:00 - 16:30
+  speaker: Shougo
+  content: Let's talk about neovim
+- time: 16:30 - 16:45
+  speaker:
+  content: 休憩
+- time: 16:45 - 17:00
+  speaker: supermomonga
+  content: かなりすごい発表（かなり）
+- time: 17:00 - 17:10
+  speaker: pebble8888
+  content: XVim with MacVim and smartgrep
+- time: 17:10 - 17:20
+  speaker: haya14busa
+  content: /-improved
+- time: 17:20 - 17:30
+  speaker: Kuniwak
+  content: vim script初心者に使ってもらいたい、転ばぬ先の杖「Vint」
+- time: 17:30 - 17:40
+  speaker: raa0121(らぁ)
+  content: Jenkins + vimenv で 最新のVimを使おう！
+- time: 17:40 - 17:50
+  speaker:
+  content: クロージング
+- time: 17:50 - 18:00
+  speaker:
+  content: 懇親会準備
+- time: 18:00 - 20:00
+  speaker:
+  content: 懇親会
+- time: 20:00
+  speaker:
+  content: 終了
+
