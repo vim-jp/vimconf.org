@@ -19,7 +19,7 @@
   slide_backup_path: /slides/02_PM2__ujihisa.pdf
   video_url: https://www.youtube.com/watch?v=xef_r7Yc9oA&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=3
 
-- name: Lida_pp
+- name: Linda_pp
   site_url: https://twitter.com/Linda_pp
   title: f
   slide_url: https://speakerdeck.com/rhysd/vimconf-2014-f
@@ -54,9 +54,9 @@
   slide_backup_path: /slides/07_Test_for_Vim_script_themis__thinca.md
   video_url: https://www.youtube.com/watch?v=2RPKEHtyK8c&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=8
 
-- name: Sougo
+- name: Shougo
   site_url: https://twitter.com/ShougoMatsu
-  title: Let's task about neovim
+  title: Let's talk about neovim
   slide_url: http://www.slideshare.net/Shougo/lets-talk-about-neovim
   slide_backup_path: /slides/08_Let's_talk_about_neovim__Shougo.pdf
   video_url: https://www.youtube.com/watch?v=K3xkTWhJiXk&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=9
