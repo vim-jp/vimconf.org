@@ -17,3 +17,9 @@ Speaker | Title | Slide | Video/[All](https://www.youtube.com/playlist?list=PLx8
 ## Photos
 
 Will arrive after the conference.
+
+## Reports
+
+Author | Link
+-------|-------{% for d in site.data.2014.reports %}
+{{d.author}} さん | [{{d.title}}]({{d.url}}) {% endfor %}
