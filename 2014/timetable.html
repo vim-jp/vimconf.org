@@ -1,0 +1,47 @@
+---
+layout: 2014/pages
+title: Timetable
+
+---
+
+<script>
+var offset = (new Date().getTimezoneOffset() + 540) * 60000 
+var base_time = {{ site.data.2014.config.scheduled_at}} * 1000 + offset
+
+function showTime(minutes) {
+  var msec = minutes*60000
+  var base = new Date(base_time)
+  var time = new Date(base_time + msec)
+  var text = ("00" + base.getHours()).substr(-2) + ":" + ("00" + base.getMinutes()).substr(-2)
+  text += " - " + ("00" + time.getHours()).substr(-2) + ":" + ("00" + time.getMinutes()).substr(-2)
+  document.write(text)
+  base_time += msec
+}
+</script>
+
+<style>
+img {
+  width: 40px;
+}
+</style>
+
+You can see slides and Youtube videos at <a href={{site.data.2014.root}}/reports>Reports</a> page
+
+<table border=1>
+  <tr> <th>時間</th> <th>発表者</th> <th>内容</th> </tr>
+  {% for d in site.data.2014.timetable %}
+  <tr>
+    <td><script>showTime({{d.time}})</script></td>
+    <td>
+    {% if d.speakers %}
+      <img src={{ d.speakers[0].avatar }}>
+      <br>{{ d.speakers[0].name }}
+    {% endif %}
+    </td>
+    <td>
+      <h3>{{ d.title }}</h3>
+      {{d.details}}
+    </td>
+  </tr>
+  {% endfor %}
+</table>

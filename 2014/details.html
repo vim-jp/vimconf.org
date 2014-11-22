@@ -3,14 +3,15 @@ layout: 2014/pages
 title: Details / 詳細情報
 
 ---
+
 <section class="two-columns">
 <dl class="panel">
   <dt>Date</dt>
-  <dd>Sat Nov 8th 2014</dd>
+  <dd>{{site.data.2014.info.scheduled_at | date_to_string}}</dd>
 
   <dt>Place</dt>
-  <dd>mixi Inc<br />
-  1-2-20 Higashi, Shibuya-ku, Tokyo, 150-0011 Japan</dd>
+  <dd>{{site.data.2014.info.place.name}}<br />
+  {{site.data.2014.info.place.address}}</dd>
 
   <dt>Start time</dt>
   <dd>12:00 Doors open<br />13:00 Start of conference</dd>
@@ -24,11 +25,11 @@ title: Details / 詳細情報
 
 <dl class="panel">
   <dt>開催日</dt>
-  <dd>2014/11/08 (土)</dd>
+  <dd>{{site.data.2014.info.scheduled_at | date: "%Y/%m/%d (%a)"}}</dd>
 
   <dt>場所</dt>
-  <dd>株式会社ミクシィ<br />
-  東京都渋谷区東1-2-20 住友不動産渋谷ファーストタワー7F</dd>
+  <dd>{{site.data.2014.info.place.name-i18n}}<br />
+  {{site.data.2014.info.place.address-i18n}}</dd>
 
   <dt>開始時刻</dt>
   <dd>12:00 開場<br />13:00 開始</dd>
