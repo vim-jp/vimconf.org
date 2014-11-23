@@ -26,8 +26,7 @@
   slide_backup_path: /slides/00_Vim_and_mixi__mixi.pdf
   video_url: https://www.youtube.com/watch?v=rdG58KW5UEw&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=1
   speaker:
-  - name: mixi
-    name-extra: mixi
+    name: mixi
     site_url: http://mixi.co.jp/
 
 - type: presentation
@@ -41,8 +40,7 @@
   slide_backup_path: /slides/01_Identity_of_the_Vim__KoRoN.pdf
   video_url: https://www.youtube.com/watch?v=s2Gs50__BFE&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=2
   speaker:
-  - name: MURAOKA Taro
-    name-extra: MURAOKA Taro
+    name: MURAOKA Taro
     twitter: kaoriya
     github: koron
     avatar: https://1.gravatar.com/avatar/4b5a6f711a4e22e617b74058239ade53?d=https%3A%2F%2Fidenticons.github.com%2F6d3fc9ef0ebf9315ec4bc5e7572e8044.png&r=x&s=140
@@ -58,8 +56,7 @@
   slide_backup_path: /slides/02_PM2__ujihisa.pdf
   video_url: https://www.youtube.com/watch?v=xef_r7Yc9oA&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=3
   speaker:
-  - name: ujihisa
-    name-extra: ujihisa
+    name: ujihisa
     twitter: ujm
     github: ujihisa
     avatar: https://avatars2.githubusercontent.com/u/11504?v=2&s=96 
@@ -82,8 +79,7 @@
   slide_backup_path: 
   video_url: https://www.youtube.com/watch?v=q8sSbNgCoL0&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=4
   speaker:
-  - name: Linda_pp
-    name-extra: Linda_pp
+    name: Linda_pp
     twitter: Linda_pp
     github: rhysd
     avatar: https://avatars0.githubusercontent.com/u/823277?v=2&s=96
@@ -99,8 +95,7 @@
   slide_backup_path: /slides/04_Hey,_Java!_Vim_is_coming__kamichidu.pdf
   video_url: https://www.youtube.com/watch?v=M9ZdK7dX6BE&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=5
   speaker:
-  - name: kamichidu 
-    name-extra: kamichidu
+    name: kamichidu 
     twitter: kamichidu
     github: kamichidu
     avatar: https://avatars2.githubusercontent.com/u/571248?v=2&s=96
@@ -116,8 +111,7 @@
   slide_backup_path: /slides/05_auto_closing_parenthesis__cohama.pdf
   video_url: https://www.youtube.com/watch?v=FjpxTL3925c&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=6
   speaker:
-  - name: cohama 
-    name-extra: cohama
+    name: cohama 
     twitter: c0hama
     github: cohama
     avatar: https://avatars2.githubusercontent.com/u/348382?v=2&s=96
@@ -133,8 +127,7 @@
   slide_backup_path: /slides/06_怖くないマクロ入門__deris.pdf
   video_url: https://www.youtube.com/watch?v=CZXU7-yHG80&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=7
   speaker:
-  - name: deris
-    name-extra: deris 
+    name: deris
     twitter: deris0126
     github: deris
     avatar: https://avatars0.githubusercontent.com/u/303372?v=2&s=96
@@ -157,8 +150,7 @@
   slide_backup_path: /slides/07_Test_for_Vim_script_themis__thinca.md
   video_url: https://www.youtube.com/watch?v=2RPKEHtyK8c&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=8
   speaker:
-  - name: thinca 
-    name-extra: thinca
+    name: thinca 
     twitter: thinca
     github: thinca
     avatar: https://avatars0.githubusercontent.com/u/20474?v=2&s=96
@@ -174,8 +166,7 @@
   slide_backup_path: /slides/08_Let's_talk_about_neovim__Shougo.pdf
   video_url: https://www.youtube.com/watch?v=K3xkTWhJiXk&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=9
   speaker:
-  - name: Shougo
-    name-extra: 暗黒美夢王
+    name: Shougo
     twitter: ShougoMatsu
     github: shougo
     avatar: https://avatars3.githubusercontent.com/u/41495?v=2&s=96
@@ -198,8 +189,7 @@
   slide_backup_path: /slides/09_かなりすごい発表（かなり）__supermomonga.pdf
   video_url: https://www.youtube.com/watch?v=vGFPunrGC_4&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=10
   speaker:
-  - name: supermomonga
-    name-extra: supermomonga
+    name: supermomonga
     twitter: supermomonga
     github: supermomonga
     avatar: https://avatars3.githubusercontent.com/u/377137?v=2&s=96 
@@ -215,8 +205,7 @@
   slide_backup_path: /slides/10_XVim_with_MacVim_and_smartgrep__pebble8888.pdf
   video_url: https://www.youtube.com/watch?v=KY_sKJldvCQ&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=11
   speaker:
-  - name: pebble8888
-    name-extra: pebble8888
+    name: pebble8888
     twitter: pebble8888
     github: pebble8888
     avatar: https://avatars1.githubusercontent.com/u/1704383?v=2&s=96
@@ -232,8 +221,7 @@
   slide_backup_path: /slides/11_search-improved__haya14busa.pdf
   video_url: https://www.youtube.com/watch?v=yB1H5V8e1j4&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=12
   speaker:
-  - name: haya14busa
-    name-extra: haya14busa
+    name: haya14busa
     twitter: haya14busa
     github: haya14busa
     avatar: https://avatars0.githubusercontent.com/u/3797062?v=2&s=96
@@ -249,8 +237,7 @@
   slide_backup_path: /slides/12_vim_script初心者に使ってもらいたい、転ばぬ先の杖「Vint」__Kuniwak.pdf
   video_url: https://www.youtube.com/watch?v=U-Lds6blqpo&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=13
   speaker:
-  - name: Kuniwak
-    name-extra: Kuniwak
+    name: Kuniwak
     twitter: orga_chem
     github: Kuniwak
     avatar: https://avatars3.githubusercontent.com/u/1124024?v=2&s=96
@@ -266,8 +253,7 @@
   slide_backup_path: /slides/13_Jenkins_+_vimenv_で_最新のVimを使おう！__raa0121.pdf
   video_url: https://www.youtube.com/watch?v=6B-y1QriIEk&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=14
   speaker:
-  - name: raa0121 
-    name-extra: raa0121(らぁ) 
+    name: raa0121 
     twitter: raa0121 
     github: raa0121 
     avatar: https://avatars1.githubusercontent.com/u/237271?v=2&s=96
