@@ -11,8 +11,9 @@
 <meta property="og:site_name" content="VimConf - Vim Conference">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{page.title | liquify}} - VimConf 2014</title>
-<link rel="stylesheet" href="{{site.data.2014.root}}/default.css">{%for css in page.stylesheets%}
-<link rel="stylesheet" href="{{site.data.2014.root}}/{{css}}">{%endfor%}
+<base href="{{site.github.url}}{{site.data.2014.root}}/" target="_self">
+<link rel="stylesheet" href="default.css">{%for css in page.stylesheets%}
+<link rel="stylesheet" href="{{css}}">{%endfor%}
 </head>
 <body{%if page.class.body%} class="{{page.class.body}}"{%endif%}>
 {{content}}</body>
