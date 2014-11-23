@@ -6,7 +6,7 @@ title: Timetable
 
 <script>
 var offset = (new Date().getTimezoneOffset() + 540) * 60000 
-var base_time = {{ site.data.2014.config.scheduled_at}} * 1000 + offset
+var base_time = {{ site.data.2014.info.scheduled_at}} * 1000 + offset
 
 function showTime(minutes) {
   var msec = minutes*60000
@@ -21,7 +21,13 @@ function showTime(minutes) {
 
 <style>
 img {
+  display: block;
   width: 40px;
+  margin: auto;
+}
+span {
+  display: block;
+  text-align: center;
 }
 </style>
 
@@ -33,9 +39,9 @@ You can see slides and Youtube videos at <a href={{site.data.2014.root}}/reports
   <tr>
     <td><script>showTime({{d.time}})</script></td>
     <td>
-    {% if d.speakers %}
-      <img src={{ d.speakers[0].avatar }}>
-      <br>{{ d.speakers[0].name }}
+    {% if d.speaker %}
+      <img src={{ d.speaker.avatar }}>
+      <span>{{ d.speaker.name }}</span>
     {% endif %}
     </td>
     <td>
