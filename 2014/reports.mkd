@@ -16,7 +16,9 @@ Speaker | Title | Slide | Video/[All](https://www.youtube.com/playlist?list=PLx8
 
 ## Photos
 
-Will arrive after the conference.
+<img src="{{site.data.2014.root}}/img/vimconf2014.jpg" alt="vimconf2014" style="max-width: 90%;">
+
+Photo album: https://plus.google.com/112910197734991000171/posts/LYKBFjandnz
 
 ## Reports
 
