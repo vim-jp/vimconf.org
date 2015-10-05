@@ -8,7 +8,7 @@ title: Reports
 
 Speaker | Title | Slide | Video/[All](https://www.youtube.com/playlist?list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ)
 --------|-------|----------------|-------{% for d in site.data.2014.speakers %}
-{%if d.site_url%}[{{d.name}}]({{d.site_url}}){%else%}{{d.name}}{%endif%} | {{d.title}} | [Slide]({{d.slide_url}}){%if d.slide_backup_path%} (<a href="{{site.data.2014.root}}{{d.slide_backup_path}}" download>DL</a>){%endif%} | [Video]({{d.video_url}}) {% endfor %}
+{%if d.site_url%}[{{d.name}}]({{d.site_url}}){%else%}{{d.name}}{%endif%} | {{d.title}} | [Slide]({{d.slide_url}}){%if d.slide_backup_path%} (<a href="{{d.slide_backup_path}}" download>DL</a>){%endif%} | [Video]({{d.video_url}}) {% endfor %}
 
 ## Twitter
 

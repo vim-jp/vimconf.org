@@ -1,0 +1,9 @@
+---
+---
+
+{
+  "scheduled_at": {{site.data.2014.info.scheduled_at}},
+  "place":        {{site.data.2014.info.place | jsonify}},
+  "timetable":    {{site.data.2014.timetable | jsonify}},
+  "reports":      {{site.data.2014.reports | jsonify}}
+}
