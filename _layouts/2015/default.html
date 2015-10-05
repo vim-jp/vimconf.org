@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html{%if page.lang %} lang="{{page.lang}}"{%endif%}>
+  <head>
+    <meta charset="utf-8" />
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{page.title|liquify}}">
+    <meta property="og:url" content="{{site.base-url}}{{page.url}}">{%if page.summary%}
+    <meta property="og:description" content="{{page.summary|liquify|markdownify|strip_html}}">{%endif%}
+    <meta property="og:site_name" content="VimConf - Vim Conference">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{page.title | liquify}} - VimConf 2015</title>
+    <base href="{{site.github.url}}/2015/" target="_self">
+    <link rel="stylesheet" href="default.css">{%for css in page.stylesheets%}
+    <link rel="stylesheet" href="{{css}}">{%endfor%}
+  </head>
+  <body{%if page.class.body%} class="{{page.class.body}}"{%endif%}>
+    <header>
+      <ul class="pages">
+        <li><a href="index.html">VimConf 2015</a></li>
+        <li><a href="details/">Details</a></li>
+        <li><a href="registration/">Registration</a></li>
+        <li><a href="timetable/">Timetable</a></li>
+        <li><a href="live/">Live</a></li>
+        <li><a href="reports/"></a>Reports</li>
+        <li class="upward"><a href="/">up (vimconf)</a></li>
+      </ul>
+    </header>
+
+    {{content}}
+
+    <footer>
+      <a class="twitter-timeline" href="https://twitter.com/search?q=vimconf2015" data-widget-id="650624207659728896">vimconf2015に関するツイート</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    {%for js in page.javascripts%}
+    <script src="{{js}}"></script>
+    {%endfor%}
+  </body>
+</html>

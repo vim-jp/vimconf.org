@@ -1,0 +1,27 @@
+---
+layout: 2015/default
+title: Reports
+
+---
+
+## Materials/Slide and Video
+
+Speaker | Title | Slide | Video/[All](https://www.youtube.com/playlist?list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ)
+--------|-------|----------------|-------{% for d in site.data.2015.speakers %}
+{%if d.site_url%}[{{d.name}}]({{d.site_url}}){%else%}{{d.name}}{%endif%} | {{d.title}} | [Slide]({{d.slide_url}}){%if d.slide_backup_path%} (<a href="{{d.slide_backup_path}}" download>DL</a>){%endif%} | [Video]({{d.video_url}}) {% endfor %}
+
+## Twitter
+
+[VimConf2015まとめ - Togetterまとめ]() (T.B.D.)
+
+## Photos
+
+<img src="img/vimconf2015.jpg" alt="vimconf2015" style="max-width: 90%;">
+
+Photo album: T.B.D.
+
+## Reports
+
+Author | Link
+-------|-------{% for d in site.data.2015.reports %}
+{{d.author}} さん | [{{d.title}}]({{d.url}}) {% endfor %}
