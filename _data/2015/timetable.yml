@@ -52,11 +52,6 @@
     github: shougo
     avatar: https://avatars3.githubusercontent.com/u/41495?v=2&s=96
 
-- type: interval
-  title: Interval
-  title-i18n: 休憩
-  time: 15
-
 - type: presentation
   title: Vimのバージョンを意識したVim scripting(仮)
   title-i18n: Vimのバージョンを意識したVim scripting(仮)
@@ -73,38 +68,44 @@
     github: rbtnn
     avatar: https://avatars0.githubusercontent.com/u/1595779?v=3&s=96
 
-#- type: presentation
-#  title: f
-#  title-i18n: f
-#  details: f マッピングの拡張プラグインをざっと一通り解説します．好みのものを見つけてカーソルの横方向移動を改善してください．
-#  details-i18n: f マッピングの拡張プラグインをざっと一通り解説します．好みのものを見つけてカーソルの横方向移動を改善してください． 
-#  language: ja 
-#  time: 15
-#  slide_url: https://speakerdeck.com/rhysd/vimconf-2014-f
-#  slide_backup_path: 
-#  video_url: https://www.youtube.com/watch?v=q8sSbNgCoL0&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=4
-#  speaker:
-#    name: Linda_pp
-#    twitter: Linda_pp
-#    github: rhysd
-#    avatar: https://avatars0.githubusercontent.com/u/823277?v=2&s=96
-#
-#- type: presentation
-#  title: Hey, Java! Vim is coming.
-#  title-i18n: Hey, Java! Vim is coming.
-#  details: 私がvimでjavaを本格的に編集いじり始めてから遭遇した各種問題、java編集に使えるpluginの概要説明
-#  details-i18n: 私がvimでjavaを本格的に編集いじり始めてから遭遇した各種問題、java編集に使えるpluginの概要説明
-#  language: ja 
-#  time: 15
-#  slide_url: https://docs.google.com/presentation/d/1zaPy82NJ6A3Iw1llKqU-lX88AJNt1EKy5O15nOp085c/edit#slide=id.p
-#  slide_backup_path: /slides/04_Hey,_Java!_Vim_is_coming__kamichidu.pdf
-#  video_url: https://www.youtube.com/watch?v=M9ZdK7dX6BE&list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ&index=5
-#  speaker:
-#    name: kamichidu 
-#    twitter: kamichidu
-#    github: kamichidu
-#    avatar: https://avatars2.githubusercontent.com/u/571248?v=2&s=96
-#
+- type: interval
+  title: Interval
+  title-i18n: 休憩
+  time: 15
+
+- type: presentation
+  title: T.B.D.
+  title-i18n: T.B.D.
+  details: libcallかjavaあたりで何か話します
+  details-i18n: libcallかjavaあたりで何か話します
+  language: ja 
+  time: 30
+  slide_url: 
+  slide_backup_path: 
+  video_url: 
+  speaker:
+    name: kamichidu 
+    twitter: kamichidu
+    github: kamichidu
+    avatar: https://avatars2.githubusercontent.com/u/571248?v=2&s=96
+
+- type: presentation
+  title: Vim on Browser
+  title-i18n: Vim on Browser
+  details: Vim runs on so many platform, Linux, Unix, Windows, OS X, Android, iOS and so on. And now Vim is running even on a browser. I'll talk about how to run Vim on browser and introduce some practical use cases.
+  details-i18n: Vim runs on so many platform, Linux, Unix, Windows, OS X, Android, iOS and so on. And now Vim is running even on a browser. I'll talk about how to run Vim on browser and introduce some practical use cases.
+  language: ja 
+  time: 30
+  slide_url: 
+  slide_backup_path: 
+  video_url: 
+  speaker:
+    name: Linda_pp
+    twitter: Linda_pp
+    github: rhysd
+    avatar: https://avatars0.githubusercontent.com/u/823277?v=2&s=96
+
+
 #- type: presentation
 #  title: auto closing parenthesis
 #  title-i18n: 閉じカッコ自動入力について
