@@ -15,21 +15,40 @@
   </head>
   <body{%if page.class.body%} class="{{page.class.body}}"{%endif%}>
     <header>
-      <ul class="pages">
-        <li><a href="index.html">VimConf 2015</a></li>
-        <li><a href="details/">Details</a></li>
-        <li><a href="registration/">Registration</a></li>
-        <li><a href="timetable/">Timetable</a></li>
-        <li><a href="live/">Live</a></li>
-        <li><a href="reports/"></a>Reports</li>
-        <li class="upward"><a href="/">up (vimconf)</a></li>
-      </ul>
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="nav-collapse collapse">
+              <ul class="nav pages">
+                <li><a href="index.html">VimConf 2015</a></li>
+                <li><a href="details/">Details</a></li>
+                <li><a href="registration/">Registration</a></li>
+                <li><a href="timetable/">Timetable</a></li>
+                <li><a href="live/">Live</a></li>
+                <li><a href="reports/">Reports</a></li>
+                <li class="upward"><a href="/">up (vimconf)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
-    {{content}}
+	<div class="jumbotron masthead">
+      <div class="container">
+        {{content}}
+      </div>
+    </div>
 
-    <footer>
-      <a class="twitter-timeline" href="https://twitter.com/search?q=vimconf2015" data-widget-id="650624207659728896">vimconf2015に関するツイート</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <footer class="footer">
+      <div class="container">
+        <a class="twitter-timeline" href="https://twitter.com/search?q=vimconf2015" data-widget-id="650624207659728896">vimconf2015に関するツイート</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     {%for js in page.javascripts%}
