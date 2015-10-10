@@ -4,3 +4,22 @@ th { white-space: nowrap; }
 .speaker-name { white-space: nowrap; }
 h1.title:first-letter { color: #00a518; }
 h2.title:first-letter { color: #a50018; }
+.content { color: white; }
+body, section:before {
+  background-image: url(img/background.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+section:before {
+  content: "";
+  z-index: -1;
+  -webkit-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
