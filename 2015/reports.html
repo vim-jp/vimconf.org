@@ -1,0 +1,55 @@
+---
+layout: 2015/default
+title: Reports
+
+---
+
+<h2> Materials/Slide and Video</h2>
+
+<table>
+  <tr>
+    <th>Speaker</th>
+    <th>Title</th>
+    <th>Slide</th>
+    <th>Video/<a href="">All</a></th>
+  </tr>
+  {% for d in site.data.2015.speakers %}
+  <tr>
+    <td>
+      {%if d.site_url%}<a href="{{d.site_url}}">{{d.name}}</a>{%else%}{{d.name}}{%endif%}</td>
+    <td>{{d.title}}</td>
+    <td>
+      <a href="{{d.slide_url}}">Slide</a>
+      {%if d.slide_backup_path%} (<a href="{{d.slide_backup_path}}" download>DL</a>){%endif%}
+    </td>
+    <td><a href="{{d.video_url}}">Video</a>
+  </tr>
+  {% endfor %}
+</table>
+
+
+<h2> Twitter </h2>
+
+<a href="">VimConf2015まとめ - Togetterまとめ</a>
+
+<h2> Photos </h2>
+
+<img src="img/vimconf2015.jpg" alt="vimconf2015" style="max-width: 90%;">
+
+Photo album: T.B.D.
+
+<h2> Reports </h2>
+
+<table>
+  <tr>
+    <th>Author</th>
+    <th>Link</th>
+  </tr>
+
+  {% for d in site.data.2015.reports %}
+  <tr>
+    <td>{{d.author}} さん</td>
+    <td><a href="{{d.url}}">{{d.title}}</a></td>
+  </tr>
+  {% endfor %}
+</table>

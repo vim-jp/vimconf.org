@@ -1,0 +1,6 @@
+- name: sample 
+  site_url: http://example.com/
+  title: Vim and Sample
+  slide_url: https://speakerdeck.com/sample/sample
+  slide_backup_path: /slides/00_sample.pdf
+  video_url: https://www.youtube.com/watch?v=sample
