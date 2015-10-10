@@ -2,3 +2,5 @@
 .masthead { margin-top: 50px; margin-bottom: 50px; }
 th { white-space: nowrap; }
 .speaker-name { white-space: nowrap; }
+h1.title:first-letter { color: #00a518; }
+h2.title:first-letter { color: #a50018; }
