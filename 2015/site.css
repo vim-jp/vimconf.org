@@ -1,5 +1,4 @@
 /* workaround patch */
-.masthead {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+.masthead { margin-top: 50px; margin-bottom: 50px; }
+th { white-space: nowrap; }
+.speaker-name { white-space: nowrap; }

@@ -37,7 +37,7 @@ span {
   {% for d in site.data.2015.timetable %}
   <tr>
     <td><script>showTime({{d.time}})</script></td>
-    <td>
+    <td class="speaker-name">
     {% if d.speaker %}
       <img src={{ d.speaker.avatar }}>
       <span>{{ d.speaker.name }}</span>
