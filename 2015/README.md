@@ -1,3 +1,7 @@
+VimConf2015 Webサイト作成に関する issue はこちら https://github.com/vim-jp/vimconf/issues/67
+
+---
+
 # VimConf2015
 
 このディレクトリは VimConf2015 のためのものです。
