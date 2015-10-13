@@ -92,8 +92,8 @@
 - type: presentation
   title: Vim on Browser
   title-i18n: Vim on Browser
-  details: Vim runs on so many platform, Linux, Unix, Windows, OS X, Android, iOS and so on. And now Vim is running even on a browser. I'll talk about how to run Vim on browser and introduce some practical use cases.
-  details-i18n: Vim runs on so many platform, Linux, Unix, Windows, OS X, Android, iOS and so on. And now Vim is running even on a browser. I'll talk about how to run Vim on browser and introduce some practical use cases.
+  details: Vim runs on so many platforms, Linux, Unix, Windows, OS X, Android, iOS and so on. And now Vim is running even in web app on a browser. I'll talk about how to run Vim on browser and introduce some practical use cases.
+  details-i18n: Vim は様々なプラットフォーム（Linux, Unix, Windows, OS X, Android, iOS などなど）で利用できます。そしてなんとブラウザ上のウェブアプリでも動かすことができます。Vim をどうやってブラウザ上で動かすのか、動かせると何が嬉しいのか実用例を示してお話しします．
   language: ja 
   time: 30
   slide_url: 
