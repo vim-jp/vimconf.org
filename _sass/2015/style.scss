@@ -72,6 +72,9 @@ small {
 .danger {
   color: #DC5B6A;
 }
+.notice {
+  color: darken($key-color, 15%);
+}
 .button {
   display: inline-block;
   padding: 1.5rem 5.0rem;
@@ -299,6 +302,10 @@ small {
         width: 50%;
         padding: 1.2rem 1.5rem;
         margin: 0 auto 3rem;
+        border: none;
+        &::before {
+          display: none;
+        }
       }
       & + dl {
         dt {
