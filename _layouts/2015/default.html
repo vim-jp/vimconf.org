@@ -128,13 +128,21 @@
               {% endif %}
             </div>
             <div class="content">
-              <h3 class="title">{{d.title}}</h3>
+              {% if page.lang == 'ja' and d.title-i18n %}
+                <h3 class="title">{{d.title-i18n}}</h3>
+              {% else %}
+                <h3 class="title">{{d.title}}</h3>
+              {% endif %}
               {% if d.speaker %}
                 <div class="speaker">
                   <a href="https://twitter.com/{{d.speaker.twitter | escape}}" target="_blank">{{ d.speaker.name }} (@{{d.speaker.twitter}})</a>
                 </div>
               {% endif %}
-              <p>{{d.details}}</p>
+              {% if page.lang == 'ja' and d.details-i18n %}
+                <p>{{d.details-i18n}}</p>
+              {% else %}
+                <p>{{d.details}}</p>
+              {% endif %}
             </div>
           </li>
         {% endfor %}
