@@ -8,7 +8,6 @@
     <meta property="og:url" content="{{site.base-url}}{{page.url}}">{%if page.summary%}
     <meta property="og:description" content="{{page.summary|liquify|markdownify|strip_html}}">{%endif%}
     <meta property="og:site_name" content="VimConf 2015 - Vim Conference">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{page.title | liquify}}</title>
     <base href="{{site.github.url}}/2015/" target="_self">
     <link rel="stylesheet" href="default.css">{%for css in page.stylesheets%}
@@ -123,9 +122,9 @@
             </div>
             <div class="avatar">
               {% if d.speaker.avatar %}
-                <img src="{{d.speaker.avatar}}">
+                <img src="{{d.speaker.avatar | escape}}" alt="{{d.speaker.name}}">
               {% else %}
-                <img src="img/vim.png">
+                <img src="img/vim.png" alt="Vim">
               {% endif %}
             </div>
             <div class="content">
