@@ -1,0 +1,10 @@
+{
+  "name": "vimconf",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "node-notifier": "^4.3.1"
+  }
+}

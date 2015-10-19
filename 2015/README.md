@@ -18,6 +18,14 @@ VimConf2015 Webサイト作成に関する issue はこちら https://github.com
 * Markdown ファイルをHTMLにコンバート (** Markdown はデザインするには不向きなのでHTMLで書き直した方が良いかも**)
 * テンプレートエンジンとして[Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers) を使用 [[Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)]
 
+## debug
+gulpを使用してライブリロードしながらコーディングができます。
+
+```
+cd vimconf
+npm install
+gulp
+```
 
 ## Contributing
 

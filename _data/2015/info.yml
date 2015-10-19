@@ -1,7 +1,12 @@
 scheduled_at: 1448074800
+registration_url:
+  connpass: http://vimconf.connpass.com/event/20574/
+  github: https://github.com/vim-jp/vimconf/issues/66
 place:
   name: mixi Inc
   name-i18n: 株式会社ミクシィ
   address: 1-2-20 Higashi, Shibuya-ku, Tokyo, 150-0011 Japan
   address-i18n: 東京都渋谷区東1-2-20 住友不動産渋谷ファーストタワー7F
+  access: 
+  access-i18n: JR「渋谷駅」東口より 徒歩8分<br>各線「表参道駅」B1出口より 徒歩10分
   latlong: [35.661531, 139.711670]
