@@ -122,7 +122,7 @@
             </div>
             <div class="avatar">
               {% if d.speaker.avatar %}
-                <img src="{{d.speaker.avatar | escape}}" alt="{{d.speaker.name}}">
+                <img src="{{d.speaker.avatar | escape}}" alt="{{d.speaker.name | escape}}">
               {% else %}
                 <img src="img/vim.png" alt="Vim">
               {% endif %}
@@ -131,7 +131,7 @@
               <h3 class="title">{{d.title}}</h3>
               {% if d.speaker %}
                 <div class="speaker">
-                  <a href="https://twitter.com/{{d.speaker.twitter}}" target="_blank">{{ d.speaker.name }} (@{{d.speaker.twitter}})</a>
+                  <a href="https://twitter.com/{{d.speaker.twitter | escape}}" target="_blank">{{ d.speaker.name }} (@{{d.speaker.twitter}})</a>
                 </div>
               {% endif %}
               <p>{{d.details}}</p>
@@ -146,14 +146,14 @@
         <ul class="report-list">
           {% for d in site.data.2015.speakers %}
             <li>
-              <a href="{{d.slide_url}}">{{d.title}}</a>
+              <a href="{{d.slide_url | escape}}">{{d.title}}</a>
               {% if d.slide_backup_path %}
-                [<a href="{{d.slide_backup_path}}" download>DL</a>]
+                [<a href="{{d.slide_backup_path | escape}}" download>DL</a>]
               {% endif %}
-              [<a href="{{d.video_url}}">Video</a>]
+              [<a href="{{d.video_url | escape}}">Video</a>]
               by
               {% if d.site_url %}
-                <a href="{{d.site_url}}">{{d.name}}</a>
+                <a href="{{d.site_url | escape}}">{{d.name}}</a>
               {% else %}
                 {{d.name}}
               {% endif %}
@@ -168,7 +168,7 @@
         <ul class="report-list">
           {% for d in site.data.2015.reports %}
             <li>
-              <a href="{{d.url}}" target="_blank">{{d.title}}</a>
+              <a href="{{d.url | escape}}" target="_blank">{{d.title}}</a>
               by {{d.author}}
             </li>
           {% endfor %}
