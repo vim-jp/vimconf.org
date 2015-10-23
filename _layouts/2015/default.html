@@ -135,7 +135,11 @@
               {% endif %}
               {% if d.speaker %}
                 <div class="speaker">
+                {% if d.speaker.twitter %}
                   <a href="https://twitter.com/{{d.speaker.twitter | escape}}" target="_blank">{{ d.speaker.name }} (@{{d.speaker.twitter}})</a>
+                {% else %}
+                  {{ d.speaker.name }}
+                {% endif %}
                 </div>
               {% endif %}
               {% if page.lang == 'ja' and d.details-i18n %}

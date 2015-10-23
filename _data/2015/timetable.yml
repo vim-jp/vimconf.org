@@ -1,8 +1,6 @@
 - type: interval
   title: Open & Acceptance
   title-i18n: 開場・受付
-  details: start accepting
-  details-i18n: 開場時間です
   time: 30
 - type: interval
   title: Opening
@@ -12,8 +10,6 @@
 - type: presentation
   title: Venue Description
   title-i18n: 会場の説明
-  details: Venue Description
-  details-i18n: 会場の説明
   language: ja 
   time: 5
   slide_url: 
