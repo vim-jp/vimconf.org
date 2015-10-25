@@ -5,7 +5,7 @@ VimConf2015 Webサイト作成に関する issue はこちら https://github.com
 # VimConf2015
 
 このディレクトリは VimConf2015 のためのものです。
-ディレクトリ配下のファイルは https://vimconf.vim-jp.org/2015/ に公開されます。
+ディレクトリ配下のファイルは http://vimconf.vim-jp.org/2015/ に公開されます。
 
 ## 仕組み
 
