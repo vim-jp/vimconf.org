@@ -173,40 +173,82 @@
     avatar: https://avatars1.githubusercontent.com/u/3797062?v=3&s=96
 
 - type: presentation
-  title: LT Wanted
-  title-i18n: LT 発表者募集
-  language: ja 
+  title: Cut up! HTML
+  title-i18n: 切り刻め！HTML
+  details: The story when frontend engineer uses Vim pragmatically
+  details-i18n: フロントエンドエンジニアがVimを便利につかうときの話
+  language: ja
   time: 10
+  speaker:
+    name: よしこ
+    twitter: yoshiko_pg
+    github: yoshiko-pg
+    avatar: https://avatars1.githubusercontent.com/u/6822923?v=3&s=96
 
 - type: presentation
-  title: LT Wanted
-  title-i18n: LT 発表者募集
-  language: ja 
+  title: make yourself reader of help
+  title-i18n: ヘルプを読む
+  details: introductions to step-up Vim operations with help
+  details-i18n: Vim の操作に慣れるためのうまいヘルプの使い方
+  language: ja
   time: 10
+  speaker:
+    name: janus_wel
+    twitter: やぬすさん
+    github: januswel
+    avatar: https://avatars1.githubusercontent.com/u/43239?v=3&s=96
 
 - type: presentation
-  title: LT Wanted
-  title-i18n: LT 発表者募集
-  language: ja 
+  title: Hosting vimhelp and reading_vimrc on vim-jp
+  title-i18n:  vim-jpのvimhelp, reading_vimrcのホスト関連のお話
+  details: Hosting bot service use Docker, docker-gen, h2o, h2o-proxy. Scalable, Portable and Automated reverse proxy.
+  details-i18n: Docker,docker-gen, h2o, h2o-proxyを使ったボットのホスティングのお話．スケーラブル，ポータブル，そしてリバースプロキシの自動化．
+  language: ja
   time: 10
+  speaker:
+    name: Koichi Shiraishi
+    twitter: _zchee_
+    github: zchee
+    avatar: https://avatars1.githubusercontent.com/u/6366270?v=3&s=400
 
 - type: presentation
-  title: LT Wanted
-  title-i18n: LT 発表者募集
-  language: ja 
+  title:  Introduction of several Vim plugins developed by non-Japanese Vimmer
+  title-i18n:  海外のVimmerが開発したVim pluginの紹介
+  details: I will introduce several interesting Vim plugins developed by non-Japanese Vimmer
+  details-i18n: 海外のVimmerが開発したVim pluginをいくつかご紹介します
+  language: ja
   time: 10
+  speaker:
+    name: deris
+    twitter: deris0126
+    github: deris
+    avatar: https://avatars0.githubusercontent.com/u/303372?v=3&s=140
 
 - type: presentation
-  title: LT Wanted
-  title-i18n: LT 発表者募集
-  language: ja 
+  title: 5年間Yokohama.vimをやってみて感じた事
+  title-i18n: 5年間Yokohama.vimをやってみて感じた事
+  details: 5年間細々とコミュニティ活動を継続し続けてきて感じたことや想いを伝えたいとおもいます！
+  details-i18n: 5年間細々とコミュニティ活動を継続し続けてきて感じたことや想いを伝えたいとおもいます！
+  language: ja
   time: 10
+  speaker:
+    name: guyon
+    twitter: gu4
+    github: guyon
+    avatar: http://31.media.tumblr.com/avatar_7ec3a827a2e6_128.png
 
 - type: presentation
-  title: LT Wanted
-  title-i18n: LT 発表者募集
-  language: ja 
+  title: Let's use AppVeyor
+  title-i18n: AppVeyorを使ってみよう
+  details: Introduction to AppVeyor -- CI service for Windows
+  details-i18n: Windows用のCIサービスであるAppVeyorの紹介
+  language: ja
   time: 10
+  speaker:
+    name: K.Takata
+    twitter: k_takata
+    github: k-takata
+    avatar: https://avatars1.githubusercontent.com/u/840186?v=3&s=140
 
 - type: interval
   title: Closing 
