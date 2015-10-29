@@ -16,8 +16,9 @@
   slide_backup_path: 
   video_url: 
   speaker:
-    name: mixi
+    name: mixi, Inc.
     site_url: http://mixi.co.jp/
+    avatar: ./img/mixi.jpg
 
 - type: presentation
   title:  Vimのgitへの移行について(仮)
