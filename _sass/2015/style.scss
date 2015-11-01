@@ -265,6 +265,40 @@ small {
     }
   }
 }
+.about {
+  .sponsors {
+    position: relative;
+    margin: 5.0rem auto 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      position: relative;
+      width: 200px;
+      padding-top: 128px;
+      .title {
+        border-top: 1px solid #ddd;
+        width: 70%;
+        padding-top: 1.2rem;
+        font-size: 1.3rem;
+        margin: 0 auto;
+        white-space: nowrap;
+        letter-spacing: 2px;
+        color: #999;
+        font-weight: 300;
+        line-height: 1.8;
+        text-align: center;
+      }
+      .name {
+        width: 128px;
+        height: 128px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: 0 - 128px / 2;
+      }
+    }
+  }
+}
 .detail {
   .detail-info {
     position: relative;

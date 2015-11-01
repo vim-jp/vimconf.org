@@ -59,10 +59,26 @@
       <h2 class="heading">What's VimConf?</h2>
       <p>{{page.about.catch1}}</p>
       <p>{{page.about.catch2}}</p>
-      <p>
-        {{page.about.sponsor}}: 
-        <a href="http://vim-jp.org" target="_blank">vim-jp.org</a>
-      </p>
+      <ul class="sponsors">
+        <li>
+          <h3 class="title">
+            {{page.about.sponsor}}<br>
+            {{page.about.vim-jp}}
+          </h3>
+          <a href="http://vim-jp.org" target="_blank" class="name">
+            <img src="./img/vim-jp.jpg" alt="{{page.about.vim-jp}}">
+          </a>
+        </li>
+        <li>
+          <h3 class="title">
+            {{page.about.place-sponsor}}<br>
+            {{page.about.mixi}}
+          </h3>
+          <a href="https://mixi.co.jp/" target="_blank" class="name">
+            <img src="./img/mixi.jpg" alt="{{page.about.mixi}}">
+          </a>
+        </li>
+      </ul>
     </section>
     <section class="section detail" id="detail">
       <h2 class="heading">Detail</h2>
@@ -135,7 +151,11 @@
               {% endif %}
               {% if d.speaker %}
                 <div class="speaker">
+                {% if d.speaker.twitter %}
                   <a href="https://twitter.com/{{d.speaker.twitter | escape}}" target="_blank">{{ d.speaker.name }} (@{{d.speaker.twitter}})</a>
+                {% else %}
+                  {{ d.speaker.name }}
+                {% endif %}
                 </div>
               {% endif %}
               {% if page.lang == 'ja' and d.details-i18n %}

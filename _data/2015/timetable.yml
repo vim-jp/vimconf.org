@@ -1,8 +1,6 @@
 - type: interval
   title: Open & Acceptance
   title-i18n: 開場・受付
-  details: start accepting
-  details-i18n: 開場時間です
   time: 30
 - type: interval
   title: Opening
@@ -12,16 +10,15 @@
 - type: presentation
   title: Venue Description
   title-i18n: 会場の説明
-  details: Venue Description
-  details-i18n: 会場の説明
   language: ja 
   time: 5
   slide_url: 
   slide_backup_path: 
   video_url: 
   speaker:
-    name: mixi
+    name: mixi, Inc.
     site_url: http://mixi.co.jp/
+    avatar: ./img/mixi.jpg
 
 - type: presentation
   title:  Vimのgitへの移行について(仮)
@@ -193,8 +190,8 @@
   language: ja
   time: 10
   speaker:
-    name: janus_wel
-    twitter: やぬすさん
+    name: やぬすさん
+    twitter: janus_wel
     github: januswel
     avatar: https://avatars1.githubusercontent.com/u/43239?v=3&s=96
 
