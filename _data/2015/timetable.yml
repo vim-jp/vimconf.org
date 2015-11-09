@@ -146,10 +146,17 @@
     avatar: https://avatars1.githubusercontent.com/u/20474?v=3&s=96
 
 - type: presentation
-  title: Wanted
-  title-i18n: 発表者募集
-  language: ja 
+  title: Change the world ~ vim-gita ~
+  title-i18n: ぼくのかんがえたさいきょうのぷらぐいん vim-gita
+  details: An introduction of a new git manipulation plugin
+  details-i18n: ぼくがほんとうにほしかったもののかいせつ
+  language: ja
   time: 30
+  speaker:
+    name: Λlisue
+    twitter: lambdalisue
+    github: lambdalisue
+    avatar: https://avatars3.githubusercontent.com/u/546312?v=3&s=460
 
 - type: interval
   title: Interval
