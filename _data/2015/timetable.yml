@@ -1,5 +1,5 @@
 - type: interval
-  title: Open & Acceptance
+  title: Doors open & Reception
   title-i18n: 開場・受付
   time: 30
 - type: interval
@@ -10,7 +10,7 @@
 - type: presentation
   title: Venue Description
   title-i18n: 会場の説明
-  language: ja 
+  language: ja
   time: 5
   slide_url: 
   slide_backup_path: 
@@ -21,7 +21,7 @@
     avatar: ./img/mixi.jpg
 
 - type: presentation
-  title:  Vimのgitへの移行について(仮)
+  title:  The pathway to Git for Vim
   title-i18n:  Vimのgitへの移行について(仮)
   details: T.B.D.
   details-i18n: T.B.D.
@@ -38,14 +38,14 @@
 
 
 - type: presentation
-  title: deoplete ~ The dark powered auto completion plugin for neovim ~
+  title: "deoplete: The dark powered auto completion plugin for neovim"
   title-i18n: deoplete ~ The dark powered auto completion plugin for neovim ~
   details: |
-    Unfortunately, neovim does not support neocomplete.
-    But I need auto completion plugin.
+    Unfortunately neovim does not support neocomplete
+    but I need an auto completion plugin.
     So, I have developed deoplete.
-    Deoplete is auto completion framework for neovim.
-    I will describe the features and future works.
+    Deoplete is an auto completion framework for neovim.
+    I will describe the features and its future works.
   details-i18n: |
     Unfortunately, neovim does not support neocomplete.
     But I need auto completion plugin.
@@ -69,7 +69,7 @@
   time: 65
 
 - type: presentation
-  title: Vimのバージョンを意識したVim scripting(仮)
+  title: Vim scripting with considering Vim's versions
   title-i18n: Vimのバージョンを意識したVim scripting(仮)
   details: |
     Vimのバージョンを意識した、例えば、「function関数はv7-3-1170からスクリプト関数に対応したので、このバージョン以降なら~、以前なら~というコードを書く」みたいなのをいくつか説明する。一応最初にVim scriptの基礎的なのを簡単に説明する。(予定)
@@ -89,7 +89,7 @@
 - type: presentation
   title: T.B.D.
   title-i18n: T.B.D.
-  details: libcallかjavaあたりで何か話します
+  details: Hacking libcall and java
   details-i18n: libcallかjavaあたりで何か話します
   language: ja 
   time: 30
@@ -135,7 +135,7 @@
     avatar: https://avatars3.githubusercontent.com/u/11504?v=3&s=96
 
 - type: presentation
-  title: Introduction of OmniSharp.vim (仮)
+  title: Introduction to OmniSharp.vim
   details: TBD (Talk about OmniSharp.vim)
   language: ja
   time: 30
@@ -146,7 +146,7 @@
     avatar: https://avatars1.githubusercontent.com/u/20474?v=3&s=96
 
 - type: presentation
-  title: Change the world ~ vim-gita ~
+  title: "Change the world: vim-gita"
   title-i18n: ぼくのかんがえたさいきょうのぷらぐいん vim-gita
   details: An introduction of a new git manipulation plugin
   details-i18n: ぼくがほんとうにほしかったもののかいせつ
@@ -216,7 +216,7 @@
     avatar: https://avatars1.githubusercontent.com/u/6366270?v=3&s=400
 
 - type: presentation
-  title:  Introduction of several Vim plugins developed by non-Japanese Vimmer
+  title:  Introduction to several Vim plugins developed by non-Japanese Vimmer
   title-i18n:  海外のVimmerが開発したVim pluginの紹介
   details: I will introduce several interesting Vim plugins developed by non-Japanese Vimmer
   details-i18n: 海外のVimmerが開発したVim pluginをいくつかご紹介します
@@ -229,7 +229,7 @@
     avatar: https://avatars0.githubusercontent.com/u/303372?v=3&s=140
 
 - type: presentation
-  title: 5年間Yokohama.vimをやってみて感じた事
+  title: Our restrospection of hosting Yokohama.vim for 5 years
   title-i18n: 5年間Yokohama.vimをやってみて感じた事
   details: 5年間細々とコミュニティ活動を継続し続けてきて感じたことや想いを伝えたいとおもいます！
   details-i18n: 5年間細々とコミュニティ活動を継続し続けてきて感じたことや想いを伝えたいとおもいます！
@@ -260,7 +260,7 @@
   time: 10
 
 - type: interval
-  title: Preparing Party 
+  title: Afterparty preparation 
   title-i18n: 懇親会準備
   time: 10
 - type: interval
