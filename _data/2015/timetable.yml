@@ -69,19 +69,17 @@
   time: 65
 
 - type: presentation
-  title: Vim scripting with considering Vim's versions
-  title-i18n: Vimのバージョンを意識したVim scripting(仮)
-  details: |
-    Vimのバージョンを意識した、例えば、「function関数はv7-3-1170からスクリプト関数に対応したので、このバージョン以降なら~、以前なら~というコードを書く」みたいなのをいくつか説明する。一応最初にVim scriptの基礎的なのを簡単に説明する。(予定)
-  details-i18n: |
-    Vimのバージョンを意識した、例えば、「function関数はv7-3-1170からスクリプト関数に対応したので、このバージョン以降なら~、以前なら~というコードを書く」みたいなのをいくつか説明する。一応最初にVim scriptの基礎的なのを簡単に説明する。(予定)
+  title: How do I Write Vim script?
+  title-i18n: 私はどのようにVim scriptを書くか？
+  details: I'll talk about 'Vim script' language and my 'Vim script' tips.
+  details-i18n: Vim script言語について、私がVim scriptを書くときに気をつけていることなどを話す。
   language: ja 
   time: 30
   slide_url: 
   slide_backup_path: 
   video_url: 
   speaker:
-    name: Vimうさぎさん
+    name: うさぎさん
     twitter: rbtnn
     github: rbtnn
     avatar: https://avatars0.githubusercontent.com/u/1595779?v=3&s=96
