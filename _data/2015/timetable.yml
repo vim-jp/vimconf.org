@@ -2,6 +2,7 @@
   title: Doors open & Reception
   title-i18n: 開場・受付
   time: 30
+
 - type: interval
   title: Opening
   title-i18n: オープニング
@@ -12,8 +13,6 @@
   title-i18n: 会場の説明
   language: ja
   time: 5
-  slide_url: 
-  slide_backup_path: 
   video_url: 
   speaker:
     name: mixi, Inc.
@@ -22,19 +21,18 @@
 
 - type: presentation
   title:  The pathway to Git for Vim
-  title-i18n:  Vimのgitへの移行について(仮)
+  title-i18n:  Vimのgitへの移行について
   details: T.B.D.
   details-i18n: T.B.D.
   language: ja 
   time: 30
-  slide_url: 
-  slide_backup_path: 
   video_url: 
   speaker:
     name: MURAOKA Taro
     twitter: kaoriya
     github: koron
     avatar: https://1.gravatar.com/avatar/4b5a6f711a4e22e617b74058239ade53?d=https%3A%2F%2Fidenticons.github.com%2F6d3fc9ef0ebf9315ec4bc5e7572e8044.png&r=x&s=140
+  slide_url: https://drive.google.com/file/d/0ByQIX4Ls1SHlaGFJamN6bnZiUE0/view
 
 
 - type: presentation
@@ -54,14 +52,12 @@
     I will describe the features and future works.
   language: ja 
   time: 40
-  slide_url: 
-  slide_backup_path: 
-  video_url: 
   speaker:
     name: Shougo
     twitter: ShougoMatsu
     github: shougo
     avatar: https://avatars3.githubusercontent.com/u/41495?v=2&s=96
+  slide_url: http://www.slideshare.net/Shougo/deoplete-the-dark-powered-auto-completion-plugin-for-neovim
 
 - type: interval
   title: Interval
@@ -75,30 +71,28 @@
   details-i18n: Vim script言語について、私がVim scriptを書くときに気をつけていることなどを話す。
   language: ja 
   time: 30
-  slide_url: 
-  slide_backup_path: 
   video_url: 
   speaker:
     name: うさぎさん
     twitter: rbtnn
     github: rbtnn
     avatar: https://avatars0.githubusercontent.com/u/1595779?v=3&s=96
+  slide_url: https://dl.dropboxusercontent.com/u/3155777/etc-presentation-vimconf2015/index.html
 
 - type: presentation
-  title: T.B.D.
-  title-i18n: T.B.D.
+  title: Hacking Libcall and Java
+  title-i18n: Hacking Libcall and Java
   details: Hacking libcall and java
   details-i18n: libcallかjavaあたりで何か話します
   language: ja 
   time: 30
-  slide_url: 
-  slide_backup_path: 
   video_url: 
   speaker:
     name: kamichidu 
     twitter: kamichidu
     github: kamichidu
     avatar: https://avatars2.githubusercontent.com/u/571248?v=2&s=96
+  slide_url: https://docs.google.com/presentation/d/1fZEd11BCVWiWy4O0rMZf1m0LMK5vgpzUmdmEFZ-gEks/edit#slide=id.p
 
 - type: presentation
   title: Vim on Browser
@@ -107,14 +101,12 @@
   details-i18n: Vim は様々なプラットフォーム（Linux, Unix, Windows, OS X, Android, iOS などなど）で利用できます。そしてなんとブラウザ上のウェブアプリでも動かすことができます。Vim をどうやってブラウザ上で動かすのか、動かせると何が嬉しいのか実用例を示してお話しします．
   language: ja 
   time: 30
-  slide_url: 
-  slide_backup_path: 
-  video_url: 
   speaker:
     name: Linda_pp
     twitter: Linda_pp
     github: rhysd
     avatar: https://avatars0.githubusercontent.com/u/823277?v=2&s=96
+  slide_url: https://speakerdeck.com/rhysd/vim-on-browser
 
 - type: interval
   title: Interval
@@ -131,6 +123,7 @@
     twitter: ujm
     github: ujihisa
     avatar: https://avatars3.githubusercontent.com/u/11504?v=3&s=96
+  slide_url: https://docs.google.com/presentation/d/1byM9VMJUIsm2W_8YAxozBgzRCKz_WvcCl-6zKNGJZQI/edit
 
 - type: presentation
   title: Introduction to OmniSharp.vim
@@ -142,6 +135,7 @@
     twitter: thinca
     github: thinca
     avatar: https://avatars1.githubusercontent.com/u/20474?v=3&s=96
+  slide_url: https://gist.github.com/thinca/bd975f7198f802161655
 
 - type: presentation
   title:  Introduction to several Vim plugins developed by non-Japanese Vimmer
@@ -168,6 +162,7 @@
     twitter: lambdalisue
     github: lambdalisue
     avatar: https://avatars3.githubusercontent.com/u/546312?v=3&s=460
+  slide_url: http://lambdalisue.github.io/vimconf2015/
 
 - type: interval
   title: Interval
@@ -186,6 +181,7 @@
     twitter: haya14busa
     github: haya14busa
     avatar: https://avatars1.githubusercontent.com/u/3797062?v=3&s=96
+  slide_url: https://docs.google.com/presentation/d/1Nkll31jRFpKCFUA-5ruEFoa1-ODAHBU7wRM5s5DyETk/pub?start=false&loop=false&delayms=3000&slide=id.p
 
 - type: presentation
   title: Cut up! HTML
@@ -199,6 +195,7 @@
     twitter: yoshiko_pg
     github: yoshiko-pg
     avatar: https://avatars1.githubusercontent.com/u/6822923?v=3&s=96
+  slide_url: http://yoshiko-pg.github.io/slides/20151121-vimconf/
 
 - type: presentation
   title: make yourself reader of help
@@ -212,6 +209,7 @@
     twitter: janus_wel
     github: januswel
     avatar: https://avatars1.githubusercontent.com/u/43239?v=3&s=96
+  slide_url: http://www.slideshare.net/janus_wel/make-yourself-reader-of-help
 
 - type: presentation
   title: Hosting vimhelp and reading_vimrc on vim-jp
@@ -238,6 +236,7 @@
     twitter: gu4
     github: guyon
     avatar: http://31.media.tumblr.com/avatar_7ec3a827a2e6_128.png
+  slide_url: http://www.slideshare.net/gu4/5yokohamavim
 
 - type: presentation
   title: Let's use AppVeyor
@@ -251,6 +250,7 @@
     twitter: k_takata
     github: k-takata
     avatar: https://avatars1.githubusercontent.com/u/840186?v=3&s=140
+  slide_url: http://www.slideshare.net/k-takata/lets-use-appveyor
 
 - type: interval
   title: Closing 

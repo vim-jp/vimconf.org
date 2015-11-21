@@ -144,10 +144,16 @@
               {% endif %}
             </div>
             <div class="content">
-              {% if page.lang == 'ja' and d.title-i18n %}
-                <h3 class="title">{{d.title-i18n}}</h3>
-              {% else %}
-                <h3 class="title">{{d.title}}</h3>
+              {% if d.slide_url %}
+                <a href="{{d.slide_url | escape}}" target="_blank">
+              {% endif %}
+                {% if page.lang == 'ja' and d.title-i18n %}
+                  <h3 class="title">{{d.title-i18n}}</h3>
+                {% else %}
+                  <h3 class="title">{{d.title}}</h3>
+                {% endif %}
+              {% if d.slide_url %}
+                </a>
               {% endif %}
               {% if d.speaker %}
                 <div class="speaker">
