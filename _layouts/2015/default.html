@@ -144,10 +144,16 @@
               {% endif %}
             </div>
             <div class="content">
-              {% if page.lang == 'ja' and d.title-i18n %}
-                <h3 class="title">{{d.title-i18n}}</h3>
-              {% else %}
-                <h3 class="title">{{d.title}}</h3>
+              {% if d.slide_url %}
+                <a href="{{d.slide_url | escape}}" target="_blank">
+              {% endif %}
+                {% if page.lang == 'ja' and d.title-i18n %}
+                  <h3 class="title">{{d.title-i18n}}</h3>
+                {% else %}
+                  <h3 class="title">{{d.title}}</h3>
+                {% endif %}
+              {% if d.slide_url %}
+                </a>
               {% endif %}
               {% if d.speaker %}
                 <div class="speaker">
@@ -205,7 +211,7 @@
     {% endif %}
     <section class="section tweets" id="tweets">
       <h2 class="heading">Tweets</h2>
-      <p>Hash tag: <a href="https://twitter.com/hashtag/vimconf2015?src=hash" target="_blank">#vimconf</a></p>
+      <p>Hash tag: <a href="https://twitter.com/hashtag/vimconf2015?src=hash" target="_blank">#vimconf2015</a></p>
       <a class="twitter-timeline" href="https://twitter.com/search?q=vimconf2015" data-widget-id="650624207659728896">vimconf2015に関するツイート</a>
       <script>
         if (isPC) {
