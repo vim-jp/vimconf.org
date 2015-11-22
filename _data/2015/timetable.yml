@@ -149,6 +149,7 @@
     twitter: deris0126
     github: deris
     avatar: https://avatars0.githubusercontent.com/u/303372?v=3&s=140
+  slide_url: http://www.slideshare.net/deris0126/vimconf2015-jp
 
 - type: presentation
   title: "Change the world: vim-gita"
