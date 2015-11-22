@@ -223,6 +223,7 @@
     twitter: _zchee_
     github: zchee
     avatar: https://avatars1.githubusercontent.com/u/6366270?v=3&s=400
+  slide_url: http://talks.zchee.io/vimconf2015.slide
 
 - type: presentation
   title: Our restrospection of hosting Yokohama.vim for 5 years
