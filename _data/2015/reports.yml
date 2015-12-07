@@ -1,3 +1,42 @@
-#- author: dictav
-#  title: VimConf2014感想記事
-#  url: http://www.dictav.info
+- author: dictav
+  title: VimConf2015をめぐる闘いを通して
+  url: http://www.dictav.info/2015/11/30/VimConf2015%E3%82%92%E3%82%81%E3%81%90%E3%82%8B%E9%97%98%E3%81%84%E3%81%A8%E9%80%9A%E3%81%97%E3%81%A6.html
+- author: ujihisa
+  title: "VimConf2015を終えて/Vim script激動の時代"
+  url: https://gist.github.com/ujihisa/a9248f924a897a4a7f9d
+- author: thinca
+  title: "VimConf 2015 に行ってきた"
+  url: http://d.hatena.ne.jp/thinca/20151123/1448281594
+- author: lambdalisue
+  title: "VimConf 2015 で「ぼくのかんがえたさいきょうのぷらぐいん」を紹介してきました"
+  url: http://lambdalisue.hatenablog.com/entry/2015/11/25/020546
+- author: KazuakiM
+  title: "#vimconf2015 に参加した"
+  url: http://kazuomabuo.hatenablog.jp/entry/2015/11/22/153703
+- author: deris
+  title: "VimConf2015に参加しました - derisの日記"
+  url: http://deris.hatenablog.jp/entry/2015/11/22/192355
+- author: aiya000
+  title: "よさがぴょんぴょんするんじゃあ in VimConf 2015 - あいや☆ぱぶりっしゅぶろぐ！"
+  url: http://gcc0aiya000.blog.fc2.com/blog-entry-55.html
+- author: rhysd
+  title: "vimconf でブラウザ上で Vim を使う方法を発表してきた - sorry, uninuplemented:"
+  url: http://rhysd.hatenablog.com/entry/2015/11/22/223050
+- author: januswel
+  title: "Long time no see, Vim event !! - janus_wel's diary"
+  url: http://januswel.hatenablog.com/entry/2015/11/23/004200
+- author: guyon
+  title: "VimConf2015にLT発表者枠で参加してきました - Guyon Diary"
+  url: http://guyon.hatenablog.jp/entry/2015/11/22/234931
+- author: yasuharu519
+  title: "vimconf 2015 に参加してきた話 - def yasuharu519(self):"
+  url: http://yasuharu519.hatenablog.com/entry/2015/11/26/033059
+- author: yoshitia
+  title: "VimConf2015に行ってきました。 - yoshitia’s diary"
+  url: http://yoshitia.hatenablog.com/entry/2015/12/06/150435
+- author: basyura
+  title: "vimconf 2015 - basyura's blog"
+  url: http://blog.basyura.org/entry/2015/11/28/152407
+# - author: 
+#   title: ""
+#   url: 
