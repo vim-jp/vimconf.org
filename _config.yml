@@ -1,19 +1,27 @@
-encoding:       utf-8
-markdown:       redcarpet
-permalink:      pretty
+############################################################################
+# 原則 http://jekyllrb.com/docs/configuration/#default-configuration からの
+# 差分のみ記述している。記述順序も前述に従う。
 
+### Handling Reading
+exclude:
+  - node_modules
+# デフォルトと同じだが「utf-8で記事を書こう」という宣言的な意味合で残した。
+encoding: utf-8
+
+### Plugins
 gems:
   - jekyll-sitemap
 
-redcarpet:
-  extensions:
-    - 'autolink'
-    - 'tables'
-    - 'strikethrough'
+### Outputting
+permalink:      pretty
+
+### Markdown Processors
+kramdown:
+  input: GFM
+
+############################################################################
+# 以下はvim-jp/vimconf固有の設定項目
 
 sass:
   # commented out while under development.
   #style: compressed
-
-exclude:
-  - node_modules
