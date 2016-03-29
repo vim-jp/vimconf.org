@@ -500,8 +500,12 @@ small {
 }
 .report-list {
   list-style-type: none;
+  max-width: 90%;
+  margin: 0 auto;
   li {
+    text-align: left;
     margin: 1em;
+    line-height: 1.6;
   }
 }
 .staff-list {
