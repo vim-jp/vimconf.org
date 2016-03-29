@@ -144,17 +144,19 @@
               {% endif %}
             </div>
             <div class="content">
-              {% if d.slide_url %}
-                <a href="{{d.slide_url | escape}}" target="_blank">
-              {% endif %}
+              <h3 class="title">
                 {% if page.lang == 'ja' and d.title-i18n %}
-                  <h3 class="title">{{d.title-i18n}}</h3>
+                  {{d.title-i18n}}
                 {% else %}
-                  <h3 class="title">{{d.title}}</h3>
+                  {{d.title}}
                 {% endif %}
-              {% if d.slide_url %}
-                </a>
-              {% endif %}
+                {% if d.slide_url %}
+                  <a href="{{d.slide_url | escape}}" target="_blank"><img src="img/slide.svg" alt="資料" class="link-icon"></a>
+                {% endif %}
+                {% if d.video_url %}
+                  <a href="{{d.video_url | escape}}" target="_blank"><img src="img/video.svg" alt="動画" class="link-icon"></a>
+                {% endif %}
+              </h3>
               {% if d.speaker %}
                 <div class="speaker">
                 {% if d.speaker.twitter %}
