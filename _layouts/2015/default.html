@@ -38,7 +38,7 @@
           {% if site.data.2015.reports %}
             <li><a href="#reports">Reports</a></li>
           {% endif %}
-          <li><a href="#tweets">Tweets</a></li>
+          <li><a href="#staffs">Staffs</a></li>
         </ul>
         <div class="lang">
           {% if page.lang == 'ja' %}
@@ -144,17 +144,19 @@
               {% endif %}
             </div>
             <div class="content">
-              {% if d.slide_url %}
-                <a href="{{d.slide_url | escape}}" target="_blank">
-              {% endif %}
+              <h3 class="title">
                 {% if page.lang == 'ja' and d.title-i18n %}
-                  <h3 class="title">{{d.title-i18n}}</h3>
+                  {{d.title-i18n}}
                 {% else %}
-                  <h3 class="title">{{d.title}}</h3>
+                  {{d.title}}
                 {% endif %}
-              {% if d.slide_url %}
-                </a>
-              {% endif %}
+                {% if d.slide_url %}
+                  <a href="{{d.slide_url | escape}}" target="_blank"><img src="img/slide.svg" alt="資料" class="link-icon"></a>
+                {% endif %}
+                {% if d.video_url %}
+                  <a href="{{d.video_url | escape}}" target="_blank"><img src="img/video.svg" alt="動画" class="link-icon"></a>
+                {% endif %}
+              </h3>
               {% if d.speaker %}
                 <div class="speaker">
                 {% if d.speaker.twitter %}
@@ -209,6 +211,31 @@
         </ul>
       </section>
     {% endif %}
+    <section class="section staffs" id="staffs">
+      <h2 class="heading">Staffs</h2>
+      <ul class="staff-list">
+        {% for s in site.data.2015.staffs %}
+          <li>
+            <img class="staff-image" src="{{s.avatar | escape}}" alt="{{s.name | escape}}">
+            <div class="staff-info">
+              {% if s.twitter %}
+                <a href="https://twitter.com/{{s.twitter | escape}}" target="_blank">{{s.name}}</a>
+              {% else %}
+                {{s.name}}
+              {% endif %}
+              <br>
+              <span class="role">
+                {% if page.lang == 'ja' %}
+                  {{s.role-i18n | join: '<br>'}}
+                {% else if page.lang == 'en' %}
+                  {{s.role | join: '<br>'}}
+                {% endif %}
+              </span>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
     <section class="section tweets" id="tweets">
       <h2 class="heading">Tweets</h2>
       <p>Hash tag: <a href="https://twitter.com/hashtag/vimconf2015?src=hash" target="_blank">#vimconf2015</a></p>

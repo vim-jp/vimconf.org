@@ -13,7 +13,7 @@
   title-i18n: 会場の説明
   language: ja
   time: 5
-  video_url: 
+  video_url: https://www.youtube.com/watch?v=QQgATCE5FMQ
   speaker:
     name: mixi, Inc.
     site_url: http://mixi.co.jp/
@@ -26,7 +26,7 @@
   details-i18n: T.B.D.
   language: ja 
   time: 30
-  video_url: 
+  video_url: https://www.youtube.com/watch?v=1_rtS7T3QiE
   speaker:
     name: MURAOKA Taro
     twitter: kaoriya
@@ -52,6 +52,7 @@
     I will describe the features and future works.
   language: ja 
   time: 40
+  video_url: https://www.youtube.com/watch?v=gaUQMHZ5IoQ
   speaker:
     name: Shougo
     twitter: ShougoMatsu
@@ -71,7 +72,7 @@
   details-i18n: Vim script言語について、私がVim scriptを書くときに気をつけていることなどを話す。
   language: ja 
   time: 30
-  video_url: 
+  video_url: https://www.youtube.com/watch?v=_vnvzdtyuWw
   speaker:
     name: うさぎさん
     twitter: rbtnn
@@ -86,7 +87,7 @@
   details-i18n: libcallかjavaあたりで何か話します
   language: ja 
   time: 30
-  video_url: 
+  video_url: https://www.youtube.com/watch?v=PgdgGU-Yu7I
   speaker:
     name: kamichidu 
     twitter: kamichidu
@@ -101,6 +102,7 @@
   details-i18n: Vim は様々なプラットフォーム（Linux, Unix, Windows, OS X, Android, iOS などなど）で利用できます。そしてなんとブラウザ上のウェブアプリでも動かすことができます。Vim をどうやってブラウザ上で動かすのか、動かせると何が嬉しいのか実用例を示してお話しします．
   language: ja 
   time: 30
+  video_url: https://www.youtube.com/watch?v=ZO-uunRvMls
   speaker:
     name: Linda_pp
     twitter: Linda_pp
@@ -118,6 +120,7 @@
   details: How do you write codes in Clojure? There are some Vim plugins for Clojure, such as neoclojure, ft-clojure, slimv, paredit, sexp, fireplace, VimClojure, neoclojure, and many others. They have different focuses and implementations. Here this presentation introduces some of above and demonstrates Clojure programming.
   language: en/ja
   time: 40
+  video_url: https://www.youtube.com/watch?v=UdFzSp7FEDU
   speaker:
     name: ujihisa
     twitter: ujm
@@ -130,6 +133,7 @@
   details: TBD (Talk about OmniSharp.vim)
   language: ja
   time: 20
+  video_url: https://www.youtube.com/watch?v=t82wzzAUR0c
   speaker:
     name: thinca
     twitter: thinca
@@ -144,6 +148,7 @@
   details-i18n: 海外のVimmerが開発したVim pluginをいくつかご紹介します
   language: ja
   time: 30
+  video_url: https://www.youtube.com/watch?v=gIcNiirY6OE
   speaker:
     name: deris
     twitter: deris0126
@@ -158,6 +163,7 @@
   details-i18n: ぼくがほんとうにほしかったもののかいせつ
   language: ja
   time: 30
+  video_url: https://www.youtube.com/watch?v=iF-o1mxy92g
   speaker:
     name: Λlisue
     twitter: lambdalisue
@@ -177,6 +183,7 @@
   details-i18n: Vim script 版power-assert実装vital-power-assertのとその開発で得たVim script知見について話します
   language: ja
   time: 10
+  video_url: https://www.youtube.com/watch?v=3J0XDwbJuTw
   speaker:
     name: haya14busa
     twitter: haya14busa
@@ -191,6 +198,7 @@
   details-i18n: フロントエンドエンジニアがVimを便利につかうときの話
   language: ja
   time: 10
+  video_url: https://www.youtube.com/watch?v=u24XsWo5fdw
   speaker:
     name: よしこ
     twitter: yoshiko_pg
@@ -205,6 +213,7 @@
   details-i18n: Vim の操作に慣れるためのうまいヘルプの使い方
   language: ja
   time: 10
+  video_url: https://www.youtube.com/watch?v=O0k9onwE7xo
   speaker:
     name: やぬすさん
     twitter: janus_wel
@@ -219,6 +228,7 @@
   details-i18n: Docker,docker-gen, h2o, h2o-proxyを使ったボットのホスティングのお話．スケーラブル，ポータブル，そしてリバースプロキシの自動化．
   language: ja
   time: 10
+  video_url: https://www.youtube.com/watch?v=CKB-rC708kk
   speaker:
     name: Koichi Shiraishi
     twitter: _zchee_
@@ -233,6 +243,7 @@
   details-i18n: 5年間細々とコミュニティ活動を継続し続けてきて感じたことや想いを伝えたいとおもいます！
   language: ja
   time: 10
+  video_url: https://www.youtube.com/watch?v=YHOQWfuxpjc
   speaker:
     name: guyon
     twitter: gu4
@@ -247,6 +258,7 @@
   details-i18n: Windows用のCIサービスであるAppVeyorの紹介
   language: ja
   time: 10
+  video_url: https://www.youtube.com/watch?v=DGQ4zS96L0U
   speaker:
     name: K.Takata
     twitter: k_takata

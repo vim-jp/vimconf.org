@@ -465,6 +465,10 @@ small {
           font-weight: 300;
           margin-bottom: 1.5rem;
           line-height: 1.6;
+          .link-icon {
+            width: 16px;
+            margin-left: 10px;
+          }
         }
         .speaker {
           margin-bottom: 1.5rem;
@@ -500,8 +504,52 @@ small {
 }
 .report-list {
   list-style-type: none;
+  max-width: 90%;
+  margin: 0 auto;
   li {
+    text-align: left;
     margin: 1em;
+    line-height: 1.6;
+  }
+}
+.staff-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  max-width: 900px;
+  margin: 0 auto;
+  &::after {
+    content: '';
+    width: 250px;
+    margin: 0 10px;
+  }
+  li {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 10px 30px;
+    min-width: 250px;
+    .staff-image {
+      display: block;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    .staff-info {
+      text-align: left;
+      a {
+        text-decoration: none;
+      }
+      .role {
+        display: inline-block;
+        margin-top: .5rem;
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        color: #999;
+        line-height: 2rem;
+      }
+    }
   }
 }
 .footer {
