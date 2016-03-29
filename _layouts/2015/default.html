@@ -38,7 +38,7 @@
           {% if site.data.2015.reports %}
             <li><a href="#reports">Reports</a></li>
           {% endif %}
-          <li><a href="#tweets">Tweets</a></li>
+          <li><a href="#staffs">Staffs</a></li>
         </ul>
         <div class="lang">
           {% if page.lang == 'ja' %}
@@ -209,6 +209,31 @@
         </ul>
       </section>
     {% endif %}
+    <section class="section staffs" id="staffs">
+      <h2 class="heading">Staffs</h2>
+      <ul class="staff-list">
+        {% for s in site.data.2015.staffs %}
+          <li>
+            <img class="staff-image" src="{{s.avatar | escape}}" alt="{{s.name | escape}}">
+            <div class="staff-info">
+              {% if s.twitter %}
+                <a href="https://twitter.com/{{s.twitter | escape}}" target="_blank">{{s.name}}</a>
+              {% else %}
+                {{s.name}}
+              {% endif %}
+              <br>
+              <span class="role">
+                {% if page.lang == 'ja' %}
+                  {{s.role-i18n | join: '<br>'}}
+                {% else if page.lang == 'en' %}
+                  {{s.role | join: '<br>'}}
+                {% endif %}
+              </span>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
     <section class="section tweets" id="tweets">
       <h2 class="heading">Tweets</h2>
       <p>Hash tag: <a href="https://twitter.com/hashtag/vimconf2015?src=hash" target="_blank">#vimconf2015</a></p>
