@@ -4,13 +4,19 @@
 
 ### Handling Reading
 exclude:
-  - node_modules
+  - 'node_modules'
+  - 'Gemfile'
+  - 'README.md'
+  - 'vendor'
 # デフォルトと同じだが「utf-8で記事を書こう」という宣言的な意味合で残した。
 encoding: utf-8
 
 ### Plugins
 gems:
+  - jemoji
   - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-seo-tag
 
 ### Outputting
 permalink:      pretty
