@@ -1,8 +1,6 @@
 $key-color: #43cea2;
 $key-color2: #185a9d;
 
-// スマートフォン表示用media query
-// 使うとき: @include sp { ... }
 @mixin sp {
   @media (max-width: 767px) {
     @content
