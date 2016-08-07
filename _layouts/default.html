@@ -7,6 +7,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     {% seo %}
+    {% for css in layout.assets.css %}
+    <link rel="stylesheet" type="text/css", href="{{site.github.url}}{{css}}">
+    {% endfor %}
+    {% for css in page.assets.css %}
+    <link rel="stylesheet" type="text/css", href="{{site.github.url}}{{css}}">
+    {% endfor %}
   </head>
   <body{%if page.class.body%} class="{{page.class.body}}"{%endif%}>
     {{content}}
