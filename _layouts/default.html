@@ -13,6 +13,12 @@
     {% for css in page.assets.css %}
     <link rel="stylesheet" type="text/css", href="{{site.github.url}}{{css}}">
     {% endfor %}
+    {% for css in layout.external_assets.css %}
+    <link rel="stylesheet" type="text/css", href="{{css}}">
+    {% endfor %}
+    {% for css in page.external_assets.css %}
+    <link rel="stylesheet" type="text/css", href="{{css}}">
+    {% endfor %}
   </head>
   <body{%if page.class.body%} class="{{page.class.body}}"{%endif%}>
     {{content}}
