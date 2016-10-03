@@ -55,12 +55,14 @@
     </section>
     <section class="section">
       <h2 class="heading">{{page.schedule.title}}</h2>
-      <dl class="schedule">
+      <ul class="schedule">
         {% for item in page.schedule.timeline %}
-          <dt>{{item.date}}</dt>
-          <dd>{{item.label}}</dd>
+          <li>
+            <time class="schedule-date">{{item.date}}</time>
+            <span class="schedule-label">{{item.label}}</span>
+          </li>
         {% endfor %}
-      </dl>
+      </ul>
     </section>
     <section class="section">
       <h2 class="heading">{{page.venue.title}}</h2>

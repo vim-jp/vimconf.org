@@ -1,7 +1,6 @@
 $main-color: #00ff00;
-$main-color-light: #ccffcc;
 $submit-color: #0077ff;
-$submit-color-light: #ccddff;
+$light-color: #ffff00;
 
 @mixin sp {
   @media (max-width: 767px) {
@@ -13,15 +12,25 @@ $submit-color-light: #ccddff;
     @content
   }
 }
-@mixin bungee-bold {
+@mixin neon($color) {
+  color: lighten($color, 40%);
+  text-shadow: 0 0 10px #000, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px $color, 0 0 70px $color, 0 0 80px $color, 0 0 100px $color, 0 0 150px $color;
+}
+@mixin neon-box($color) {
+  @include neon($color);
+  border: 1px solid transparent;
+  box-shadow: 0 0 0 2px lighten($color, 40%), 0 0 0 2px lighten($color, 40%) inset,
+              0 0 20px rgba(#fff, .4), 0 0 80px rgba($color, .7),
+              0 0 20px rgba(#fff, .3) inset, 0 0 80px rgba($color, .5) inset;
+}
+@mixin bungee-bold($color: $main-color) {
+  @include neon($color);
   font-family:  'Bungee Outline', "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
-  color: $main-color-light;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px $main-color, 0 0 70px $main-color, 0 0 80px $main-color, 0 0 100px $main-color, 0 0 150px $main-color;
   font-weight: 300;
   -webkit-font-smoothing: initial;
 }
-@mixin bungee {
-  @include bungee-bold;
+@mixin bungee($color: $main-color) {
+  @include bungee-bold($color);
   font-family:  'Bungee Hairline', "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
 }
 
@@ -47,12 +56,11 @@ body {
     font-size: 1.6rem;
   }
 }
-a:link, a:visited, a:active {
-  color: $main-color;
-  transition: color .3s ease-in-out, opacity .3s ease-in-out;
-}
-a:hover {
-  color: lighten($main-color, 20%);
+a:not(.button) {
+  &:link, &:visited, &:hover, &:active {
+    @include neon($submit-color);
+    transition: color .3s ease-in-out, opacity .3s ease-in-out;
+  }
 }
 p {
   margin: 2em 0;
@@ -62,26 +70,21 @@ small {
   font-size: 70%;
 }
 .button {
+  @include neon-box($submit-color);
   display: inline-block;
   position: relative;
   padding: 1.5rem 4.0rem;
-  border: 1px solid transparent;
   background: transparent;
   border-radius: 5px;
   opacity: 1;
-  color: $submit-color-light;
   transition: opacity .3s ease-in-out;
   font-weight: 300;
   font-size: 1.4rem;
-  box-shadow: 0 0 0 2px $submit-color-light, 0 0 0 2px $submit-color-light inset,
-              0 0 20px rgba(#fff, .4), 0 0 80px rgba($submit-color, .7),
-        inset 0 0 20px rgba(#fff, .3), 0 0 80px rgba($submit-color, .5) inset;
   text-shadow: 0 0 20px #fff, 0 0 40px $submit-color;
 
   &:lang(en) {
-    @include bungee;
+    @include bungee($submit-color);
     font-size: 1.8rem;
-    text-shadow: 0 0 10px #fff, 0 0 20px $submit-color;
   }
   @include sp {
     font-size: 1.6rem;
@@ -152,11 +155,39 @@ small {
 
   .min {
     @include bungee;
-    color: $submit-color-light;
-    text-shadow: 0 0 20px #fff, 0 0 40px $submit-color;
+    @include neon($submit-color);
     font-size: .9em;
     text-align: center;
     margin: 1.4rem 0;
+  }
+}
+.schedule {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0 auto;
+  list-style: none;
+  font-size: 2.4rem;
+
+  li {
+    padding-left: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+    position: relative;
+
+    &::before {
+      @include neon-box($light-color);
+      content: '';
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-5px);
+    }
+  }
+  &-date {
+    margin-right: 15px;
   }
 }
 .staff-list {
