@@ -104,9 +104,12 @@ small {
   display: flex;
   justify-content: space-between;
 }
+.no-scroll {
+  pointer-events: none;
+}
 .section {
   position: relative;
-  margin: 14.0rem 3.0rem;
+  margin: 14.0rem 0;
 }
 .heading {
   @include bungee;
