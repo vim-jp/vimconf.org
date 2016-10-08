@@ -256,6 +256,11 @@ small {
   }
 }
 .footer {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding: 3.0rem;
+
+  a:link, a:visited, a:hover, a:active {
+    text-shadow: none;
+    text-decoration: none;
+  }
 }
