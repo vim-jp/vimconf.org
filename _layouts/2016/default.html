@@ -78,7 +78,9 @@
       <ul class="staff-list">
         {% for s in site.data.2016.staffs %}
           <li>
-            <img class="staff-image" src="{{s.avatar | escape}}" alt="{{s.name | escape}}">
+            <div class="staff-image">
+              <img src="{{s.avatar | escape}}" alt="{{s.name | escape}}">
+            </div>
             <div class="staff-info">
               {% if s.twitter %}
                 <a href="https://twitter.com/{{s.twitter | escape}}" target="_blank">{{s.name}}</a>

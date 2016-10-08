@@ -1,0 +1,85 @@
+- name: rbtnn
+  twitter: rbtnn
+  avatar: https://avatars0.githubusercontent.com/u/1595779?v=3&s=140
+  role:
+    - Arrange a venue
+    - Reception
+    - Name tag creation
+  role-i18n:
+    - 会場設営
+    - 受付
+    - 名札作成
+- name: Linda_pp
+  twitter: Linda_pp
+  avatar: https://avatars0.githubusercontent.com/u/823277?v=2&s=140
+  role:
+    - Arrange a venue
+  role-i18n:
+    - 会場設営
+- name: thinca
+  twitter: thinca
+  avatar: https://avatars1.githubusercontent.com/u/20474?v=3&s=140
+  role:
+    - Arrange a venue
+  role-i18n:
+    - 会場設営
+- name: yasuharu519
+  twitter: yasuharu519
+  avatar: https://avatars0.githubusercontent.com/u/249556?v=3&s=140
+  role:
+    - Arrange a venue
+    - Reception
+  role-i18n:
+    - 会場設営
+    - 受付
+- name: konnyakmannan
+  twitter: konnyakmannan
+  avatar: https://avatars0.githubusercontent.com/u/2263845?v=3&s=140
+  role:
+    - Moderator
+  role-i18n:
+    - 司会
+- name: aomoriringo
+  twitter: aomoriringo
+  avatar: https://avatars2.githubusercontent.com/u/694377?v=3&s=140
+  role:
+    - Question proxy
+  role-i18n:
+    - 質問プロキシ
+- name: Kuniwak
+  twitter: orga_chem
+  avatar: https://avatars0.githubusercontent.com/u/1124024?v=3&s=140
+  role:
+    - PA
+  role-i18n:
+    - PA
+- name: dictav
+  twitter: dictav
+  avatar: https://avatars0.githubusercontent.com/u/126048?v=3&s=140
+  role:
+    - Treasurer
+    - Arrange a party
+  role-i18n:
+    - 会計
+    - 懇親会準備
+- name: KazuakiM
+  twitter: NanohaAsOnKai
+  avatar: https://avatars2.githubusercontent.com/u/1524429?v=3&s=140
+  role:
+    - Arrange a party
+  role-i18n:
+    - 懇親会準備
+- name: supermomonga
+  twitter: supermomonga
+  avatar: https://avatars2.githubusercontent.com/u/377137?v=3&s=140
+  role:
+    - Logo creation
+  role-i18n:
+    - 名札ロゴデザイン
+- name: yoshiko-pg
+  twitter: yoshiko_pg
+  avatar: https://avatars0.githubusercontent.com/u/6822923?v=3&s=140
+  role:
+    - Website creation
+  role-i18n:
+    - Webサイトデザイン

@@ -212,10 +212,32 @@ small {
     min-width: 250px;
     .staff-image {
       display: block;
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
+      width: 60px;
+      height: 60px;
       margin-right: 20px;
+      overflow: hidden;
+      position: relative;
+
+      $mask-size: 44px;
+      &::before, &::after {
+        content: '';
+        width: $mask-size;
+        height: $mask-size;
+        transform: rotate(45deg);
+        background: #000;
+        position: absolute;
+      }
+      &::before {
+        left: 0 - $mask-size / 2;
+        top: 0 - $mask-size / 2;
+      }
+      &::after {
+        right: 0 - $mask-size / 2;
+        bottom: 0 - $mask-size / 2;
+      }
+      img {
+        width: 100%;
+      }
     }
     .staff-info {
       text-align: left;
