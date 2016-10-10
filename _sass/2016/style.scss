@@ -16,6 +16,10 @@ $disabled-color: #aaaaaa;
 @mixin neon($color) {
   color: lighten($color, 40%);
   text-shadow: 0 0 10px #000, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px $color, 0 0 70px $color, 0 0 80px $color, 0 0 100px $color, 0 0 150px $color;
+
+  @include sp {
+    text-shadow: none;
+  }
 }
 @mixin neon-box($color) {
   @include neon($color);
@@ -29,10 +33,18 @@ $disabled-color: #aaaaaa;
   font-family:  'Bungee Outline', "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
   font-weight: 300;
   -webkit-font-smoothing: initial;
+
+  @include sp {
+    font-family:  'Bungee Inline', "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+  }
 }
 @mixin bungee($color: $main-color) {
   @include bungee-bold($color);
   font-family:  'Bungee Hairline', "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+
+  @include sp {
+    font-family:  'Bungee Inline', "Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+  }
 }
 
 *, *::before, *::after {
@@ -53,6 +65,9 @@ body {
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
 
+  @include sp {
+    -webkit-font-smoothing: initial;
+  }
   &:lang(ja) {
     font-size: 1.6rem;
   }
@@ -119,6 +134,10 @@ small {
 .section {
   position: relative;
   margin: 14.0rem 0;
+
+  @include sp {
+    padding: 0 2.0rem;
+  }
 }
 .heading {
   @include bungee;
@@ -128,9 +147,7 @@ small {
 }
 .header {
   padding: 4.0rem 0;
-  @include sp {
-    padding-bottom: 9rem;
-  }
+
   .lang {
     @include bungee;
     position: absolute;
@@ -141,24 +158,35 @@ small {
   .title {
     font-size: 2.4rem;
     margin: 13.0rem auto 5.0rem;
-    @include sp {
-      margin-top: 7.0rem;
-    }
   }
   .main-title {
     @include bungee-bold;
     font-size: 10.0rem;
     margin-bottom: 1.0rem;
     font-weight: 300;
+
+    @include sp {
+      font-size: 4.6rem;
+      margin-bottom: 6.0rem;
+    }
   }
   .sub-title {
     @include bungee;
     font-size: 3.4rem;
     font-weight: 300;
     margin: 0;
+
+    @include sp {
+      font-size: 2.8rem;
+    }
   }
   .register {
     margin-top: 8.0rem;
+  }
+}
+.catchcopy {
+  @include sp {
+    font-size: 2.0rem;
   }
 }
 .attend {
@@ -177,6 +205,9 @@ small {
   width: 800px;
   margin: 0 auto;
 
+  @include sp {
+    width: auto;
+  }
   &-item {
     display: flex;
     align-items: center;
@@ -203,12 +234,18 @@ small {
   list-style: none;
   font-size: 2.4rem;
 
+  @include sp {
+    font-size: 1.8rem;
+  }
   li {
     padding-left: 40px;
     margin-bottom: 40px;
     text-align: left;
     position: relative;
 
+    @include sp {
+      padding-left: 0;
+    }
     &::before {
       @include neon-box($light-color);
       content: '';
@@ -219,10 +256,24 @@ small {
       top: 50%;
       left: 0;
       transform: translateY(-5px);
+
+      @include sp {
+        content: none;
+      }
     }
   }
   &-date {
     margin-right: 15px;
+  }
+}
+.venue {
+  @include sp {
+    padding: 0;
+  }
+}
+.staffs {
+  @include sp {
+    margin-bottom: 2.0rem;
   }
 }
 .staff-list {
@@ -232,6 +283,7 @@ small {
   list-style-type: none;
   max-width: 900px;
   margin: 0 auto;
+
   &::after {
     content: '';
     width: 250px;
