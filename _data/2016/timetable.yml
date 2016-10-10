@@ -1,0 +1,139 @@
+- start: "12:30"
+  title: Doors open & Reception
+  title-i18n: 開場・受付
+
+- start: "13:00"
+  title: Opening
+  title-i18n: オープニング
+
+- start: "13:10"
+  title: Venue Description
+  title-i18n: 会場の説明
+
+- start: "13:15"
+  title: Introduction to Vim 8.0
+  title-i18n: Introduction to Vim 8.0
+  speaker:
+    name: Ken Takata
+    github-id: k-takata
+  talk:
+    slide:
+    video:
+
+- start: "13:45"
+  title: Vim as the MAIN text editor
+  title-i18n: Vim as the MAIN text editor
+  speaker:
+    name: bird_nitryn
+    github-id: rnitame
+  talk:
+    slide:
+    video:
+
+- start: "14:15"
+  title: Interval
+  title-i18n: 休憩
+
+- start: "14:25"
+  title: Denite.nvim ~The next generation of unite~
+  title-i18n: Denite.nvim ~The next generation of unite~
+  speaker:
+    name: Shougo
+    github-id: Shougo
+  talk:
+    slide:
+    video:
+
+- start: "14:55"
+  title: Go、C、Pythonのためのdeoplete.nvimのソースの紹介と、Neovim専用にpure Goでvim-goをスクラッチした話
+  title-i18n: Go、C、Pythonのためのdeoplete.nvimのソースの紹介と、Neovim専用にpure Goでvim-goをスクラッチした話
+  speaker:
+    name: zchee
+    github-id: zchee
+  talk:
+    slide:
+    video:
+
+- start: "15:25"
+  title: Interval
+  title-i18n: 休憩
+
+- start: "15:35"
+  title: エディタの壁を越えるGoの開発ツールの文化と作成法
+  title-i18n: エディタの壁を越えるGoの開発ツールの文化と作成法
+  speaker:
+    name: tenntenn
+    github-id: tenntenn
+  talk:
+    slide:
+    video:
+
+- start: "16:05"
+  title: vim-mode-plus for Atom editor
+  title-i18n: vim-mode-plus for Atom editor
+  speaker:
+    name: t9md
+    github-id: t9md
+  talk:
+    slide:
+    video:
+
+- start: "16:35"
+  title: Interval
+  title-i18n: 休憩
+
+- start: "16:45"
+  title: Vimの日本語ドキュメント(仮)
+  title-i18n: Vimの日本語ドキュメント(仮)
+  speaker:
+    name: MURAOKA Taro
+    github-id: koron
+  talk:
+    slide:
+    video:
+
+- start: "17:15"
+  title: Vim script parser written in Go
+  title-i18n: Vim script parser written in Go
+  speaker:
+    name: haya14busa
+    github-id: haya14busa
+  talk:
+    slide:
+    video:
+
+- start: "17:30"
+  title: 僕の友達を紹介するよ
+  title-i18n: 僕の友達を紹介するよ
+  speaker:
+    name: aiya000
+    github-id: aiya000
+  talk:
+    slide:
+    video:
+
+- start: "17:35"
+  title: 未定
+  title-i18n: 未定
+  speaker:
+    name: thinca
+    github-id: thinca
+  talk:
+    slide:
+    video:
+
+- start: "17:45"
+  title: Empty
+  title-i18n: 未定
+
+- start: "18:00"
+  title: Closing
+  title-i18n: クロージング
+
+- start: "18:10"
+  title: Afterparty preparation
+  title-i18n: 懇親会準備
+
+- start: "18:20"
+  title: Party (w/ dinner by vimconf)
+  title-i18n: 懇親会 (vimconfによる夕食)

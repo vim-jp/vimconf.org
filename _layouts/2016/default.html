@@ -39,19 +39,31 @@
       <p>{{page.about.catch2}}</p>
     </section>
     <section class="section">
-      <h2 class="heading">{{page.speakers.title}}</h2>
-      <p>{{page.speakers.description}}</p>
-      <p>{{page.speakers.term}}</p>
-      <div class="buttons attend">
-        <div>
-          <a class="button" href="{{page.speakers.apply_speaker.url}}" target="_blank">{{page.speakers.apply_speaker.label}}</a>
-          <div class="min">{{page.speakers.apply_speaker.time}}</div>
-        </div>
-        <div>
-          <a class="button" href="{{page.speakers.apply_lt.url}}" target="_blank">{{page.speakers.apply_lt.label}}</a>
-          <div class="min">{{page.speakers.apply_lt.time}}</div>
-        </div>
-      </div>
+      <h2 class="heading">{{page.timetable.title}}</h2>
+      <ol class="timetable">
+        {% for d in site.data.2016.timetable %}
+        <li class="timetable-item">
+          <time class="timetable-time">{{d.start}}</time>
+          <div class="timetable-title">
+            {% if page.lang == 'ja' and d.title-i18n %}
+            {{d.title-i18n}}
+            {% else %}
+            {{d.title}}
+            {% endif %}
+            {% if d.talk.slide %}
+            <a href="{{d.talk.slide | escape}}" target="_blank">[slide]</a>
+            {% endif %}
+            {% if d.talk.video %}
+            <a href="{{d.talk.video | escape}}" target="_blank">[movie]</a>
+            {% endif %}
+            <br>
+            {% if d.speaker %}
+            by <a href="https://github.com/{{d.speaker.github-id | escape}}" target="_blank">{{ d.speaker.name }}</a>
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
     </section>
     <section class="section">
       <h2 class="heading">{{page.schedule.title}}</h2>
