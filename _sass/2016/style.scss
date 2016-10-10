@@ -279,9 +279,8 @@ small {
 .staff-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   list-style-type: none;
-  max-width: 900px;
+  max-width: 810px;
   margin: 0 auto;
 
   &::after {
