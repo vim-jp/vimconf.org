@@ -182,6 +182,10 @@ small {
   }
   .register {
     margin-top: 8.0rem;
+
+    @include sp {
+      margin: 8.0rem 3.0rem 0;
+    }
   }
 }
 .catchcopy {
