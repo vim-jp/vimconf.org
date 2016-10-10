@@ -1,6 +1,7 @@
 $main-color: #00ff00;
 $submit-color: #0077ff;
 $light-color: #ffff00;
+$disabled-color: #aaaaaa;
 
 @mixin sp {
   @media (max-width: 767px) {
@@ -98,6 +99,14 @@ small {
     @include sp {
       opacity: 1;
     }
+  }
+  &.disabled {
+    box-shadow: none;
+    pointer-events: none;
+    cursor: default;
+    text-shadow: none;
+    border: 4px double #aaaaaa;
+    opacity: .5;
   }
 }
 .buttons {
