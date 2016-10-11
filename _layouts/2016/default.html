@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html{%if page.lang %} lang="{{page.lang}}"{%endif%}>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{page.title|liquify}}">
+    <meta property="og:url" content="{{site.base-url}}{{page.url}}">{%if page.summary%}
+    <meta property="og:description" content="{{page.summary|liquify|markdownify|strip_html}}">{%endif%}
+    <meta property="og:site_name" content="VimConf 2016 - Vim Conference">
+    <title>{{page.title | liquify}}</title>
+    <base href="{{site.github.url}}/2016/" target="_self">
+    <link rel="stylesheet" href="default.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Bungee+Outline|Bungee+Inline" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="lang">
+        {% if page.lang == 'ja' %}
+          <span class="current">ja</span> / <a href="./en/">en</a>
+        {% else if page.lang == 'en' %}
+          <a href="./">ja</a> / <span class="current">en</span>
+        {% endif %}
+      </div>
+      <div class="title">
+        <h1 class="main-title">{{page.title}}</h1>
+        <p class="sub-title">{{page.subtitle}}</p>
+      </div>
+      <div>
+        <time class="sub-title">{{page.date}}</time>
+      </div>
+      <div class="register">
+        <a href="#connpass_url" target="_blank" class="button disabled">{{page.register}}</a>
+      </div>
+    </header>
+    <section class="section">
+      <h2 class="heading catchcopy">{{page.about.heading}}</h2>
+      <p>{{page.about.catch1}}</p>
+      <p>{{page.about.catch2}}</p>
+    </section>
+    <section class="section">
+      <h2 class="heading">{{page.timetable.title}}</h2>
+      <ol class="timetable">
+        {% for d in site.data.2016.timetable %}
+        <li class="timetable-item">
+          <time class="timetable-time">{{d.start}}</time>
+          <div class="timetable-title">
+            {% if page.lang == 'ja' and d.title-i18n %}
+            {{d.title-i18n}}
+            {% else %}
+            {{d.title}}
+            {% endif %}
+            {% if d.talk.slide %}
+            <a href="{{d.talk.slide | escape}}" target="_blank">[slide]</a>
+            {% endif %}
+            {% if d.talk.video %}
+            <a href="{{d.talk.video | escape}}" target="_blank">[movie]</a>
+            {% endif %}
+            <br>
+            {% if d.speaker %}
+            by <a href="https://github.com/{{d.speaker.github-id | escape}}" target="_blank">{{ d.speaker.name }}</a>
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+    </section>
+    <section class="section">
+      <h2 class="heading">{{page.schedule.title}}</h2>
+      <ul class="schedule">
+        {% for item in page.schedule.timeline %}
+          <li>
+            <time class="schedule-date">{{item.date}}</time>
+            <span class="schedule-label">{{item.label}}</span>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+    <section class="section venue">
+      <h2 class="heading">{{page.venue.title}}</h2>
+      <iframe id="js-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.737974353513!2d139.7035960658211!3d35.6588268470892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b5c2d400001%3A0x3c40ca478bfca9d2!2z5qCq5byP5Lya56S-44Of44Kv44K344Kj!5e0!3m2!1sja!2sjp!4v1475909067625" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen></iframe>
+      <div class="venue-info">
+        <p>{{page.venue.name}}</p>
+        <p>{{page.venue.address}}</p>
+        <p>{{page.venue.access}}</p>
+      </div>
+    </section>
+    <section class="section staffs">
+      <h2 class="heading">Staffs</h2>
+      <ul class="staff-list">
+        {% for s in site.data.2016.staffs %}
+          <li>
+            <div class="staff-image">
+              <img src="{{s.avatar | escape}}" alt="{{s.name | escape}}">
+            </div>
+            <div class="staff-info">
+              {% if s.twitter %}
+                <a href="https://twitter.com/{{s.twitter | escape}}" target="_blank">{{s.name}}</a>
+              {% else %}
+                {{s.name}}
+              {% endif %}
+              <br>
+              <span class="role">
+                {% if page.lang == 'ja' %}
+                  {{s.role-i18n | join: '<br>'}}
+                {% else if page.lang == 'en' %}
+                  {{s.role | join: '<br>'}}
+                {% endif %}
+              </span>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+    <footer class="footer">
+      2016 &copy;
+      <a href="http://vim-jp.org" target="_blank">vim-jp.org</a>
+      |
+      <a href="../2015/">2015</a>
+      |
+      <a href="../2014/">2014</a>
+      |
+      <a href="../2013/">2013</a>
+      |
+      <a href="../">VimConf</a>
+    </footer>
+    <script>
+      var timer;
+      var body = document.body;
+      var map = document.getElementById('js-map');
+      var noScrollClass = 'no-scroll';
+      var supportsPassive = false;
+
+      try {
+        var opts = Object.defineProperty({}, 'passive', {
+          get: function() { supportsPassive = true; }
+        });
+        window.addEventListener("test", null, opts);
+      } catch (e) {}
+
+      window.addEventListener('scroll', function() {
+        console.log('window');
+        clearTimeout(timer);
+        if(!map.classList.contains(noScrollClass)) {
+          map.classList.add(noScrollClass);
+        }
+        timer = setTimeout(function(){
+          map.classList.remove(noScrollClass)
+        }, 200);
+      }, supportsPassive ? { passive: true } : false);
+    </script>
+  </body>
+</html>

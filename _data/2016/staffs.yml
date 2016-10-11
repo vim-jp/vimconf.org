@@ -1,0 +1,28 @@
+- name: b4b4r07
+  twitter: b4b4r07
+  avatar: https://avatars0.githubusercontent.com/u/4442708?v=3&s=140
+  role:
+    - ?
+  role-i18n:
+    - まとめ役
+- name: ryunix
+  twitter: ryunix
+  avatar: https://avatars1.githubusercontent.com/u/7754313?v=3&s=140
+  role:
+    - ?
+  role-i18n:
+    - まとめ役
+- name: rbtnn
+  twitter: rbtnn
+  avatar: https://avatars0.githubusercontent.com/u/1595779?v=3&s=140
+  role:
+    - Name tag creation
+  role-i18n:
+    - 名札作成
+- name: Kuniwak
+  twitter: orga_chem
+  avatar: https://avatars0.githubusercontent.com/u/1124024?v=3&s=140
+  role:
+    - PA
+  role-i18n:
+    - PA
