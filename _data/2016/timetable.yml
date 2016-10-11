@@ -113,8 +113,8 @@
     video:
 
 - start: "17:35"
-  title: 未定
-  title-i18n: 未定
+  title: Best practices for building Vim plugins
+  title-i18n: Best practices for building Vim plugins
   speaker:
     name: thinca
     github-id: thinca
