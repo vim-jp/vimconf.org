@@ -137,3 +137,7 @@
 - start: "18:20"
   title: Party (w/ dinner by vimconf)
   title-i18n: 懇親会 (vimconfによる夕食)
+
+- start: "20:20"
+  title: Doors closed
+  title-i18n: 閉場
