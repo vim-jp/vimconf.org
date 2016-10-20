@@ -1,0 +1,5 @@
+Terms of use
+
+* This tool is free to use as long as builderscon link and logo are clearly visible.
+* We (the author of this tool, organizers/affiliates of the builderscon conference) are not responsible for any damages that may be caused by using this software.
+* The source code is distributed under the terms found in the source code repository https://github.com/builderscon/session-timer
