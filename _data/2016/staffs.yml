@@ -1,3 +1,31 @@
+- name: konnyakmannan
+  twitter: konnyakmannan
+  avatar: https://avatars0.githubusercontent.com/u/2263845?v=3&s=140
+  role:
+    - Moderator
+  role-i18n:
+    - 司会
+- name: ujihisa
+  twitter: ujm
+  avatar: https://avatars2.githubusercontent.com/u/11504?v=3&s=140
+  role:
+    - Reception
+  role-i18n:
+    - 受付
+- name: y0za
+  twitter: yoza_is12s
+  avatar: https://avatars1.githubusercontent.com/u/16757772?v=3&s=140
+  role:
+    - Reception
+  role-i18n:
+    - 受付
+- name: koron
+  twitter: kaoriya
+  avatar: https://avatars2.githubusercontent.com/u/468368?v=3&s=140
+  role:
+    - Reception
+  role-i18n:
+    - 受付
 - name: rbtnn
   twitter: rbtnn
   avatar: https://avatars0.githubusercontent.com/u/1595779?v=3&s=140
