@@ -19,6 +19,9 @@
   talk:
     slide:
     video:
+  english:
+    speech: false
+    slide: true
 
 - start: "13:45"
   title: Vim as the MAIN text editor
@@ -29,6 +32,9 @@
   talk:
     slide:
     video:
+  english:
+    speech: false
+    slide: false
 
 - start: "14:15"
   title: Interval
@@ -43,6 +49,9 @@
   talk:
     slide:
     video:
+  english:
+    speech: false
+    slide: true
 
 - start: "14:55"
   title: Go、C、Pythonのためのdeoplete.nvimのソースの紹介と、Neovim専用にpure Goでvim-goをスクラッチした話
@@ -53,6 +62,9 @@
   talk:
     slide:
     video:
+  english:
+    speech: false
+    slide: false
 
 - start: "15:25"
   title: Interval
@@ -67,6 +79,9 @@
   talk:
     slide:
     video:
+  english:
+    speech: false
+    slide: false
 
 - start: "16:05"
   title: vim-mode-plus for Atom editor
@@ -77,6 +92,9 @@
   talk:
     slide:
     video:
+  english:
+    speech: false
+    slide: false
 
 - start: "16:35"
   title: Interval
@@ -104,6 +122,9 @@
   talk:
     slide:
     video:
+  english:
+    speech: false
+    slide: false
 
 - start: "17:30"
   title: 僕の友達を紹介するよ
@@ -114,6 +135,9 @@
   talk:
     slide:
     video:
+  english:
+    speech: false
+    slide: false
 
 - start: "17:35"
   title: Best practices for building Vim plugins
@@ -124,6 +148,9 @@
   talk:
     slide:
     video:
+  english:
+    speech: false
+    slide: false
 
 - start: "17:45"
   title: Social time
