@@ -56,6 +56,15 @@
             {% if d.talk.video %}
             <a href="{{d.talk.video | escape}}" target="_blank">[movie]</a>
             {% endif %}
+            {% if d.lang %}
+            <br>
+            <span class="language">
+              ({{ page.language.title }}: 
+              {{ page.language.slide }}:{% if d.lang.slide %}{{ page.language.en }}{% else %}{{ page.language.ja }}{% endif %}
+              {{ page.language.speach }}:{% if d.lang.speach %}{{ page.language.en }}{% else %}{{ page.language.ja }}{% endif %}
+              )
+            </span>
+            {% endif %}
             <br>
             {% if d.speaker %}
             by <a href="https://github.com/{{d.speaker.github-id | escape}}" target="_blank">{{ d.speaker.name }}</a>

@@ -83,14 +83,17 @@
   title-i18n: 休憩
 
 - start: "16:45"
-  title: Vimの日本語ドキュメント(仮)
-  title-i18n: Vimの日本語ドキュメント(仮)
+  title: Japanese documentation for Vim
+  title-i18n: Vimの日本語ドキュメント
   speaker:
     name: MURAOKA Taro
     github-id: koron
   talk:
     slide:
     video:
+  lang:
+    speach: false
+    slide: false
 
 - start: "17:15"
   title: Vim script parser written in Go
