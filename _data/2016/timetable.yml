@@ -94,7 +94,7 @@
     video:
   english:
     speech: false
-    slide: false
+    slide: true
 
 - start: "16:35"
   title: Interval
