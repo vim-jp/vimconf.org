@@ -124,7 +124,7 @@
     video:
   english:
     speech: false
-    slide: false
+    slide: true
 
 - start: "17:30"
   title: 僕の友達を紹介するよ
