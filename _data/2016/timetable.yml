@@ -17,8 +17,8 @@
     name: Ken Takata
     github-id: k-takata
   talk:
-    slide:
-    video:
+    slide: http://www.slideshare.net/k-takata/introduction-to-vim-80
+    video: https://www.youtube.com/watch?v=9Dkfody09Xw
   english:
     speech: false
     slide: true
@@ -30,8 +30,8 @@
     name: bird_nitryn
     github-id: rnitame
   talk:
-    slide:
-    video:
+    slide: https://speakerdeck.com/bird_nitryn/vim-as-the-main-text-editor-number-vimconf2016
+    video: https://www.youtube.com/watch?v=gBsCxm2Gsnw
   english:
     speech: false
     slide: false
@@ -47,8 +47,8 @@
     name: Shougo
     github-id: Shougo
   talk:
-    slide:
-    video:
+    slide: https://gist.github.com/Shougo/7c78b3a1725f70c1435d004ed14f2558
+    video: https://www.youtube.com/watch?v=u3ZsAVWCuMM
   english:
     speech: false
     slide: true
@@ -60,8 +60,8 @@
     name: zchee
     github-id: zchee
   talk:
-    slide:
-    video:
+    slide: http://go-talks.appspot.com/github.com/zchee/talks/vimconf2016.slide#1
+    video: https://www.youtube.com/watch?v=zfIvnHXiExQ
   english:
     speech: false
     slide: false
@@ -77,8 +77,8 @@
     name: tenntenn
     github-id: tenntenn
   talk:
-    slide:
-    video:
+    slide: http://www.slideshare.net/takuyaueda967/go-68228940
+    video: https://www.youtube.com/watch?v=j57mMsJP37Y
   english:
     speech: false
     slide: false
@@ -90,8 +90,8 @@
     name: t9md
     github-id: t9md
   talk:
-    slide:
-    video:
+    slide: http://qiita.com/t9md/items/0bc7eaff726d099943eb
+    video: https://www.youtube.com/watch?v=doPtasuBuTk
   english:
     speech: false
     slide: true
@@ -107,8 +107,8 @@
     name: MURAOKA Taro
     github-id: koron
   talk:
-    slide:
-    video:
+    slide: https://drive.google.com/file/d/0ByQIX4Ls1SHlZ3JtOWxHUUkwaDA/view
+    video: https://www.youtube.com/watch?v=ILKEaGp0ekY
   english:
     speech: false
     slide: false
@@ -120,8 +120,8 @@
     name: haya14busa
     github-id: haya14busa
   talk:
-    slide:
-    video:
+    slide: https://docs.google.com/presentation/d/1A6_A7XzPoHv_wG5N_R6zbgYKBX2ycii6BCzR-7b-nOw/pub?start=false&loop=false#slide=id.p
+    video: https://www.youtube.com/watch?v=It1YlY6LSMM
   english:
     speech: false
     slide: true
@@ -133,8 +133,8 @@
     name: aiya000
     github-id: aiya000
   talk:
-    slide:
-    video:
+    slide: https://aiya000.github.io/Maid/my-vim-friends/my-vim-friends#/
+    video: https://www.youtube.com/watch?v=Lmn4X2w9Ndw
   english:
     speech: false
     slide: false
@@ -146,8 +146,8 @@
     name: thinca
     github-id: thinca
   talk:
-    slide:
-    video:
+    slide: https://gist.github.com/thinca/785171e327e66c48d2d293690dc2f65a
+    video: https://www.youtube.com/watch?v=iaBxJDnpnVc
   english:
     speech: false
     slide: true
