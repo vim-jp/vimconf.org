@@ -270,6 +270,20 @@ small {
     margin-right: 15px;
   }
 }
+.report-list {
+  list-style-type: none;
+  max-width: 90%;
+  margin: 0 auto;
+  li {
+    text-align: left;
+    margin: 1em;
+    line-height: 1.6;
+
+    a:link, a:visited, a:hover, a:active {
+      text-shadow: none;
+    }
+  }
+}
 .venue {
   @include sp {
     padding: 0;
