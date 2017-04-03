@@ -30,7 +30,7 @@
     name: bird_nitryn
     github-id: rnitame
   talk:
-    slide: https://speakerdeck.com/bird_nitryn/vim-as-the-main-text-editor-number-vimconf2016
+    slide: https://speakerdeck.com/bird_tummy/vim-as-the-main-text-editor-number-vimconf2016
     video: https://www.youtube.com/watch?v=gBsCxm2Gsnw
   english:
     speech: false
@@ -133,7 +133,7 @@
     name: aiya000
     github-id: aiya000
   talk:
-    slide: https://aiya000.github.io/Maid/my-vim-friends/my-vim-friends#/
+    slide: https://aiya000.github.io/Maid/my-vim-friends/
     video: https://www.youtube.com/watch?v=Lmn4X2w9Ndw
   english:
     speech: false
