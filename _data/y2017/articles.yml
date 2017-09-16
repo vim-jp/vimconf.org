@@ -1,0 +1,14 @@
+- title: Announcing VimConf 2017
+  url: http://vim-jp.org/blog/2017/08/04/vimconf2017-venue-and-date-en.html
+  title_ja: VimConf 2017を開催します
+  url_ja: http://vim-jp.org/blog/2017/08/04/vimconf2017-venue-and-date-ja.html
+  abstract: |
+    VimConf is the only and the first international Vim conference that has
+    been running periodically by a Vim community.
+
+- title: Looking for VimConf 2017 speakers
+  url: http://vim-jp.org/blog/2017/08/29/vimconf2017-call-for-speakers-en.html
+  title_ja: VimConf 2017のスピーカーを募集します
+  url_ja: http://vim-jp.org/blog/2017/08/29/vimconf2017-call-for-speakers-ja.html
+  abstract: |
+    We are looking for some VimConf 2017 speakers!

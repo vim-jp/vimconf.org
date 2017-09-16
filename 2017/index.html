@@ -1,0 +1,81 @@
+---
+layout: 2017/landing
+title: VimConf 2017 - An international Vim Conference
+---
+<div class="mdl-layout__tab-panel is-active" id="summary">
+
+  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    <div class="mdl-card mdl-cell mdl-cell--12-col">
+      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+        <h4 class="mdl-cell mdl-cell--12-col">VimConf 2017 - Event Info</h4>
+        <ul class="mdl-list">
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              <i class="material-icons mdl-list__item-icon">event_note</i>
+              2017/11/04 Sat.
+            </span>
+          </li>
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              <i class="material-icons mdl-list__item-icon">access_time</i>
+              10:00 〜 18:00
+              (open at 9:30 / after party 18:00 〜 20:00)
+            </span>
+          </li>
+          <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+              <i class="material-icons mdl-list__item-icon">place</i>
+              <a href="http://www.fsi.co.jp/akibaplaza/hall.html" target="_blank">Akiba Hall (Akihabara, Tokyo)</a>
+            </span>
+          </li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    <div class="mdl-card mdl-cell mdl-cell--12-col">
+      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+        <h4 class="mdl-cell mdl-cell--12-col">Guest Speakers</h4>
+        <ul class="demo-list-three mdl-list">
+          {% for guest in site.data.y2017.guest_speakers %}
+          <li class="mdl-list__item mdl-list__item--three-line">
+            <span class="mdl-list__item-primary-content">
+              {% if guest.icon_url %}
+              <img class="mdl-list__item-avatar larger-avatar" src="{{ guest.icon_url }}"></img>
+              {% else %}
+              <i class="material-icons mdl-list__item-avatar">person</i>
+              {% endif %}
+              <span>{{ guest.name }}{% if guest.aka %} (a.k.a. {{ guest.aka }}){% endif %}</span>
+              <span class="mdl-list__item-text-body">
+                {{ guest.short_desc }}
+              </span>
+            </span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    <div class="mdl-card mdl-cell mdl-cell--12-col">
+      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+        <h4 class="mdl-cell mdl-cell--12-col">Articles</h4>
+
+        {% for article in site.data.y2017.articles %}
+        <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+        </div>
+        <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+          <h5>{{ article.title }}</h5>
+          <p>
+          {{ article.abstract }} <a href="{{ article.url }}" target="_blank">...read this</a>
+          {% if article.title_ja and article.url_ja %}<br />
+          (日本語版: <a href="{{ article.url_ja }}" target="_blank">{{ article.title_ja }}</a>)
+          {% endif %}
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>
