@@ -1,0 +1,27 @@
+- name: Fatih Arslan
+  aka: fatih
+  short_desc: |
+    Software Engineer.
+    Gopher and Coffee geek.
+    Author of vim-go.
+    Tool maker.
+  icon_url: https://avatars1.githubusercontent.com/u/438920?v=4&s=460
+
+- name: haya14busa
+  short_desc: |
+    Author of vim-easymotion and many plugins.
+  icon_url: https://avatars0.githubusercontent.com/u/3797062?v=4&s=460
+
+- name: Ken Takata
+  aka: k-takata
+  short_desc: |
+    Heavy contirubor of Vim.
+    Author of Onigmo.
+  icon_url: https://avatars2.githubusercontent.com/u/840186?v=4&s=460
+
+- name: Yasuhiro Matsumoto
+  aka: mattn
+  short_desc: |
+    Legendary contirubor of Vim.
+    Contributor of many many and so many OSS projects.
+  icon_url: https://avatars3.githubusercontent.com/u/10111?v=4&s=460

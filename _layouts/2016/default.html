@@ -44,7 +44,7 @@
     <section class="section">
       <h2 class="heading">{{page.timetable.title}}</h2>
       <ol class="timetable">
-        {% for d in site.data.2016.timetable %}
+        {% for d in site.data.y2016.timetable %}
         <li class="timetable-item">
           <time class="timetable-time">{{d.start}}</time>
           <div class="timetable-title">
@@ -79,7 +79,7 @@
     <section class="section reports">
       <h2 class="heading">Reports</h2>
       <ul class="report-list">
-        {% for r in site.data.2016.reports %}
+        {% for r in site.data.y2016.reports %}
           <li>
             <a href="{{r.url | escape}}" target="_blank">{{r.title}}</a>
             by {{r.author}}
@@ -99,7 +99,7 @@
     <section class="section staffs">
       <h2 class="heading">Staffs</h2>
       <ul class="staff-list">
-        {% for s in site.data.2016.staffs %}
+        {% for s in site.data.y2016.staffs %}
           <li>
             <div class="staff-image">
               <img src="{{s.avatar | escape}}" alt="{{s.name | escape}}">

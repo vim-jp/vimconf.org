@@ -7,7 +7,7 @@ title: Reports
 ## Materials/Slide and Video
 
 Speaker | Title | Slide | Video/[All](https://www.youtube.com/playlist?list=PLx8bw5NQypsnuX8NJPRHvURhXqj2NUnGZ)
---------|-------|----------------|-------{% for d in site.data.2014.speakers %}
+--------|-------|----------------|-------{% for d in site.data.y2014.speakers %}
 {%if d.site_url%}[{{d.name}}]({{d.site_url}}){%else%}{{d.name}}{%endif%} | {{d.title}} | [Slide]({{d.slide_url}}){%if d.slide_backup_path%} (<a href="{{d.slide_backup_path}}" download>DL</a>){%endif%} | [Video]({{d.video_url}}) {% endfor %}
 
 ## Twitter
@@ -16,12 +16,12 @@ Speaker | Title | Slide | Video/[All](https://www.youtube.com/playlist?list=PLx8
 
 ## Photos
 
-<img src="{{site.data.2014.root}}/img/vimconf2014.jpg" alt="vimconf2014" style="max-width: 90%;">
+<img src="{{site.data.y2014.root}}/img/vimconf2014.jpg" alt="vimconf2014" style="max-width: 90%;">
 
 Photo album: https://plus.google.com/112910197734991000171/posts/LYKBFjandnz
 
 ## Reports
 
 Author | Link
--------|-------{% for d in site.data.2014.reports %}
+-------|-------{% for d in site.data.y2014.reports %}
 {{d.author}} さん | [{{d.title}}]({{d.url}}) {% endfor %}
