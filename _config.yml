@@ -12,7 +12,7 @@ exclude:
 encoding: utf-8
 
 ### Plugins
-gems:
+plugins:
   - jemoji
   - jekyll-sitemap
   - jekyll-redirect-from

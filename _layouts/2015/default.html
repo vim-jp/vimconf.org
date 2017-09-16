@@ -32,10 +32,10 @@
           <li><a href="#about">Event Info</a></li>
           <li><a href="#detail">Details</a></li>
           <li><a href="#agenda">Agenda</a></li>
-          {% if site.data.2015.speakers %}
+          {% if site.data.y2015.speakers %}
             <li><a href="#talks">Talks</a></li>
           {% endif %}
-          {% if site.data.2015.reports %}
+          {% if site.data.y2015.reports %}
             <li><a href="#reports">Reports</a></li>
           {% endif %}
           <li><a href="#staffs">Staffs</a></li>
@@ -53,7 +53,7 @@
         <h1 class="logo-text">VimConf 2015</h1>
         <p>{{page.date}}</p>
       </div>
-      <a href="{{site.data.2015.info.registration_url.connpass}}" target="_blank" class="button-ghost">Register on Connpass</a>
+      <a href="{{site.data.y2015.info.registration_url.connpass}}" target="_blank" class="button-ghost">Register on Connpass</a>
     </header>
     <section class="section about" id="about">
       <h2 class="heading">What's VimConf?</h2>
@@ -84,12 +84,12 @@
       <h2 class="heading">Details</h2>
       <p>
         {% if page.lang == 'ja' %}
-          {{site.data.2015.info.place.name-i18n}}<br>
-          {{site.data.2015.info.place.address-i18n}}<br>
-          {{site.data.2015.info.place.access-i18n}}
+          {{site.data.y2015.info.place.name-i18n}}<br>
+          {{site.data.y2015.info.place.address-i18n}}<br>
+          {{site.data.y2015.info.place.access-i18n}}
         {% else if page.lang == 'en' %}
-          {{site.data.2015.info.place.name}}<br>
-          {{site.data.2015.info.place.address}}
+          {{site.data.y2015.info.place.name}}<br>
+          {{site.data.y2015.info.place.address}}
         {% endif %}
       </p>
       <p><a href="https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC,+%E3%80%92150-0011+%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B8%8B%E8%B0%B7%E5%8C%BA%E6%9D%B1%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%92%EF%BC%90+%E4%BD%8F%E5%8F%8B%E4%B8%8D%E5%8B%95%E7%94%A3%E6%B8%8B%E8%B0%B7%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%82%BF%E3%83%AF%E3%83%BC/@35.657957,139.708923,15z/data=!4m2!3m1!1s0x60188b5c2d6aca41:0xd8b731cb3f7bc690?hl=ja" target="_blank">Google Maps</a></p>
@@ -103,7 +103,7 @@
           <dd>{{page.detail.general.fee}}</dd>
           <dt>{{page.detail.registration}}</dt>
           <dd>
-            <a href="{{site.data.2015.info.registration_url.connpass}}" target="_blank" class="button">Register on Connpass</a><br>
+            <a href="{{site.data.y2015.info.registration_url.connpass}}" target="_blank" class="button">Register on Connpass</a><br>
             <small class="danger">{{page.detail.general.registration}}</small>
           </dd>
         </dl>
@@ -130,7 +130,7 @@
     <section class="section agenda" id="agenda">
       <h2 class="heading">Agenda</h2>
       <ol class="time-table">
-        {% for d in site.data.2015.timetable %}
+        {% for d in site.data.y2015.timetable %}
           <li>
             <div class="time">
               <span data-min="{{d.time}}"></span>
@@ -176,11 +176,11 @@
         {% endfor %}
       </ol>
     </section>
-    {% if site.data.2015.speakers %}
+    {% if site.data.y2015.speakers %}
       <section class="section talks" id="talks">
         <h2 class="heading">Talks</h2>
         <ul class="report-list">
-          {% for d in site.data.2015.speakers %}
+          {% for d in site.data.y2015.speakers %}
             <li>
               <a href="{{d.slide_url | escape}}">{{d.title}}</a>
               {% if d.slide_backup_path %}
@@ -198,11 +198,11 @@
         </ul>
       </section>
     {% endif %}
-    {% if site.data.2015.reports %}
+    {% if site.data.y2015.reports %}
       <section class="section reports" id="reports">
         <h2 class="heading">Reports</h2>
         <ul class="report-list">
-          {% for d in site.data.2015.reports %}
+          {% for d in site.data.y2015.reports %}
             <li>
               <a href="{{d.url | escape}}" target="_blank">{{d.title}}</a>
               by {{d.author}}
@@ -214,7 +214,7 @@
     <section class="section staffs" id="staffs">
       <h2 class="heading">Staffs</h2>
       <ul class="staff-list">
-        {% for s in site.data.2015.staffs %}
+        {% for s in site.data.y2015.staffs %}
           <li>
             <img class="staff-image" src="{{s.avatar | escape}}" alt="{{s.name | escape}}">
             <div class="staff-info">
@@ -264,7 +264,7 @@
     $(function() {
       // タイムテーブルの時刻
       var offset = (new Date().getTimezoneOffset() + 540) * 60000;
-      var currentTime = new Date({{site.data.2015.info.scheduled_at}} * 1000 + offset);
+      var currentTime = new Date({{site.data.y2015.info.scheduled_at}} * 1000 + offset);
       $('.time > span').each(function() {
         var hour = currentTime.getHours();
         var min  = ('0' + currentTime.getMinutes()).slice(-2);
