@@ -241,3 +241,10 @@ html, body {
   width: 60px;
   height: 60px;
 }
+
+#header {
+  background-image: url(./logo-white.svg);
+  background-repeat: no-repeat;
+  background-size: auto 160px;
+  background-position: top 16px right 16px;
+}
