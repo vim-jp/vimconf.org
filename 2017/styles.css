@@ -247,4 +247,5 @@ html, body {
   background-repeat: no-repeat;
   background-size: auto 160px;
   background-position: top 16px right 16px;
+  background-blend-mode: soft-light;
 }
