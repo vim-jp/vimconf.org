@@ -12,3 +12,10 @@
   url_ja: http://vim-jp.org/blog/2017/08/29/vimconf2017-call-for-speakers-ja.html
   abstract: |
     We are looking for some VimConf 2017 speakers!
+
+- title: Looking for VimConf 2017 speakers
+  url: http://vim-jp.org/blog/2017/10/12/vimconf2017-speakers-en.html
+  title_ja: VimConf 2017 登壇者の発表
+  url_ja: http://vim-jp.org/blog/2017/10/12/vimconf2017-speakers.html
+  abstract: |
+    Announce speakers in VimConf 2017
