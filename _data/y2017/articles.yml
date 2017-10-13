@@ -19,3 +19,10 @@
   url_ja: http://vim-jp.org/blog/2017/10/12/vimconf2017-speakers.html
   abstract: |
     Announce speakers in VimConf 2017
+
+- title: VimConf 2017 での特別企画
+  url: http://vim-jp.org/blog/2017/10/13/vimconf-2017-interview.html
+  title_ja: VimConf 2017 での特別企画
+  url_ja: http://vim-jp.org/blog/2017/10/13/vimconf-2017-interview.html
+  abstract: |
+      Special event, Vim talks by mattn, k-takata, kaoriya.
