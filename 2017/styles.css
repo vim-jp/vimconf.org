@@ -249,3 +249,7 @@ html, body {
   background-position: top 16px right 16px;
   background-blend-mode: soft-light;
 }
+
+.timetable img {
+  width: 50px;
+}
