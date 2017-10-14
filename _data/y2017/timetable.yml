@@ -71,8 +71,8 @@
     language: japanese
 
 - start: ""
-  title: Quick walkthrough of unique features of vim-mode-plus
-  title-i18n: Quick walkthrough of unique features of vim-mode-plus
+  title: vim-mode-plus: The most ambitious vim emulator in the world
+  title-i18n: vim-mode-plus: The most ambitious vim emulator in the world
   speaker:
     name: t9md
     github-id: t9md
@@ -83,7 +83,7 @@
     language: english
 
 - start: ""
-  title: You've been super viman. After this talk, you are super viman2. - Life with gina.vim
+  title: You've been Super Viman. After this talk, you could say you are Super Viman 2 -- Life with gina.vim
   title-i18n: 超プラグ員を超えた超プラグ員…超プラグ員2ってとこかな 〜 いつも隣に gina.vim
   speaker:
     name: Λlisue
