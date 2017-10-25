@@ -254,9 +254,9 @@ html, body {
   width: 50px;
 }
 
-div.sponser-logo {
-  width: 220px;
-  height: 220px;
+div.sponser-silver-logo {
+  width: 300px;
+  height: 300px;
   display: inline-block;
   box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
   padding: 10px;
@@ -264,7 +264,22 @@ div.sponser-logo {
   text-align: center;
 }
 
-div.sponser-logo img {
+div.sponser-silver-logo img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+div.sponser-bronze-logo {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+div.sponser-bronze-logo img {
   max-width: 90%;
   max-height: 90%;
 }
