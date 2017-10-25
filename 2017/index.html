@@ -78,7 +78,6 @@ title: VimConf 2017 - An international Vim Conference
     </div>
   </section>
 
-  <!--
   <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
     <div class="mdl-card mdl-cell mdl-cell--12-col">
       <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
@@ -92,8 +91,11 @@ title: VimConf 2017 - An international Vim Conference
           <p>
           {{ item.title }}<br />
           <p style="text-align: right">
-            <img src="//vim-jp.org/assets/images/vimconf2017/{{ item.speaker.twitter-id }}.png" /><br />
-            {{ item.speaker.name }}
+            {% assign ids = item.speaker.twitter-id | split: ","  %}
+            {% for id in ids %}
+            <img src="//vim-jp.org/assets/images/vimconf2017/{{ id }}.png" /><br />
+            {{ id }}<br />
+            {% endfor %}
           </p>
           </p>
         </div>
@@ -101,7 +103,6 @@ title: VimConf 2017 - An international Vim Conference
       </div>
     </div>
   </section>
-  -->
 
   <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
     <div class="mdl-card mdl-cell mdl-cell--12-col">

@@ -1,16 +1,12 @@
-- start: ""
-  title: The Past and Future of Vim-go
-  title-i18n: The Past and Future of Vim-go
-  speaker:
-    name: Fatih Arslan
-    github-id: fatih
-    twitter-id: fatih
-  talk:
-    slide: https://
-    video: https://
-    language: english
+- start: "09:30 - 10:00"
+  title: "Reception"
+  title-i18n: "受付"
 
-- start: ""
+- start: "10:00 - 10:10"
+  title: "Opening, Notes"
+  title-i18n: "オープニング・諸注意"
+
+- start: "10:10 - 11:10"
   title: TBD
   title-i18n: 
   speaker:
@@ -22,45 +18,32 @@
     video: https://
     language: japanese
 
-- start: ""
-  title: Vim and Compatibility
-  title-i18n: Vim and Compatibility
+- start: "11:20 - 12:05"
+  title: "The Past and Future of Vim-go"
+  title-i18n: "The Past and Future of Vim-go"
   speaker:
-    name: SENOO Ken
-    github-id: senopen
-    twitter-id: senopen
+    name: Fatih Arslan
+    github-id: fatih
+    twitter-id: fatih
   talk:
     slide: https://
     video: https://
     language: english
 
-- start: ""
-  title: How ordinary Vim user contributed to Vim
-  title-i18n: How ordinary Vim user contributed to Vim
+- start: "13:05 - 14:05"
+  title: "Talk show"
+  title-i18n: "トークショー"
   speaker:
-    name: daisuzu
-    github-id: daisuzu
-    twitter-id: dice_zu
-  talk:
-    slide: http://
-    video: https://
-    language: japanese
-
-- start: ""
-  title: neosnippet.vim + deoppet.nvim
-  title-i18n: neosnippet.vim + deoppet.nvim
-  speaker:
-    name: Shougo
-    github-id: ShougoMatsu
-    twitter-id: ShougoMatsu
+    name: mattn, k-takata, koron
+    twitter-id: mattn_jp,k_takata,kaoriya
   talk:
     slide: https://
     video: https://
     language: japanese
 
-- start: ""
-  title: Creating your lovely color scheme
-  title-i18n: Creating your lovely color scheme
+- start: "14:15 - 14:45"
+  title: "Creating your lovely color scheme"
+  title-i18n: "Creating your lovely color scheme"
   speaker:
     name: Hiroki Kokubun
     github-id: cocopon
@@ -70,9 +53,9 @@
     video: https://
     language: japanese
 
-- start: ""
-  title: vim-mode-plus: The most ambitious vim emulator in the world
-  title-i18n: vim-mode-plus: The most ambitious vim emulator in the world
+- start: "14:45 - 15:15"
+  title: 'vim-mode-plus: The most ambitious vim emulator in the world'
+  title-i18n: 'vim-mode-plus: The most ambitious vim emulator in the world'
   speaker:
     name: t9md
     github-id: t9md
@@ -82,9 +65,58 @@
     video: https://
     language: english
 
-- start: ""
-  title: You've been Super Viman. After this talk, you could say you are Super Viman 2 -- Life with gina.vim
-  title-i18n: 超プラグ員を超えた超プラグ員…超プラグ員2ってとこかな 〜 いつも隣に gina.vim
+- start: "15:35 - 16:05"
+  title: "Vim and Compatibility"
+  title-i18n: "Vim and Compatibility"
+  speaker:
+    name: SENOO Ken
+    github-id: senopen
+    twitter-id: senopen
+  talk:
+    slide: https://
+    video: https://
+    language: english
+
+- start: "16:05 - 16:35"
+  title: "neosnippet.vim + deoppet.nvim"
+  title-i18n: "neosnippet.vim + deoppet.nvim"
+  speaker:
+    name: Shougo
+    github-id: ShougoMatsu
+    twitter-id: ShougoMatsu
+  talk:
+    slide: https://
+    video: https://
+    language: japanese
+
+- start: "16:45 - 17:10"
+  title: "How ordinary Vim user contributed to Vim"
+  title-i18n: "How ordinary Vim user contributed to Vim"
+  speaker:
+    name: daisuzu
+    github-id: daisuzu
+    twitter-id: dice_zu
+  talk:
+    slide: http://
+    video: https://
+    language: japanese
+
+- start: "17:10 - 17:30"
+  title: "The new syntax highlighter for Vim"
+  title-i18n: "The new syntax highlighter for Vim"
+  speaker:
+    name: Masataka Kuwabara
+    github-id: pocke
+    twitter-id: p_ck_
+  talk:
+    slide: https://
+    video: https://
+    language: japanese
+
+
+- start: "17:30 - 17:50"
+  title: "You've been Super Viman. After this talk, you could say you are Super Viman 2 -- Life with gina.vim"
+  title-i18n: "超プラグ員を超えた超プラグ員…超プラグ員2ってとこかな 〜 いつも隣に gina.vim"
   speaker:
     name: Λlisue
     github-id: lambdalisue
@@ -94,15 +126,11 @@
     video: https://
     language: japanese
 
-- start: ""
-  title: The new syntax highlighter for Vim
-  title-i18n: The new syntax highlighter for Vim
-  speaker:
-    name: Masataka Kuwabara
-    github-id: pocke
-    twitter-id: p_ck_
-  talk:
-    slide: https://
-    video: https://
-    language: japanese
+- start: "17:50 - 18:00"
+  title: "Closing"
+  title-i18n: "クロージング"
+
+- start: "18:00 -"
+  title: "After-Party"
+  title-i18n: "懇親会"
 
