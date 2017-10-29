@@ -144,3 +144,35 @@ title: VimConf 2017 - An international Vim Conference
     </div>
   </section>
 </div>
+
+<div class="mdl-layout__tab-panel" id="coc">
+
+  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    <div class="mdl-card mdl-cell mdl-cell--12-col">
+      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+        <h4 class="mdl-cell mdl-cell--12-col">Code of Conduct</h4>
+        <div>
+          <p>
+          <a href="#coc_ja">日本語版はこちら / Japanese Version</a>
+          </p>
+        </div>
+        <div>
+          {% capture coc_en %}{% include coc/en.md %}{% endcapture %}
+          {{ coc_en | markdownify }}
+        </div>
+    </div>
+  </section>
+
+  <a name="coc_ja"></a>
+  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    <div class="mdl-card mdl-cell mdl-cell--12-col">
+      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+        <h4 class="mdl-cell mdl-cell--12-col">行動規範</h4>
+        <div>
+          {% capture coc_ja %}{% include coc/ja.md %}{% endcapture %}
+          {{ coc_ja | markdownify }}
+        </div>
+    </div>
+  </section>
+
+</div>
