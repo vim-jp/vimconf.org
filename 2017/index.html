@@ -16,6 +16,7 @@ title: VimConf 2017 - An international Vim Conference
             </span>
           </li>
         </ul>
+      </div>
     </div>
   </section>
 
@@ -44,6 +45,7 @@ title: VimConf 2017 - An international Vim Conference
             </span>
           </li>
         </ul>
+      </div>
     </div>
   </section>
 
@@ -81,6 +83,29 @@ title: VimConf 2017 - An international Vim Conference
   <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
     <div class="mdl-card mdl-cell mdl-cell--12-col">
       <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+        <h4 class="mdl-cell mdl-cell--12-col">Sponsors</h4>
+        <p>VimConf2017 is memorable event in large part due to our fantastic Sponsors and Supporters. If you're interested in joining this to help make VimConf great, please email at vimconf@gmail.com</p>
+        <div>
+          <div class="sponsors-silver-logo"><img src="mercari.png" /><br />株式会社メルカリ</div>
+        </div>
+        <div>
+          <div class="sponsors-bronze-logo"><img src="akatsuki.png" /><br />株式会社アカツキ</div>
+          <div class="sponsors-bronze-logo"><img src="atware.png" /><br />株式会社アットウェア</div>
+          <div class="sponsors-bronze-logo"><img src="digitalocean.png" /><br />Digital Ocean</div>
+          <div class="sponsors-bronze-logo"><img src="https://mattn.kaoriya.net/vimconf2017/dwango.png" /><br />株式会社ドワンゴ</div>
+          <div class="sponsors-bronze-logo"><img src="fablic.png" /><br />株式会社Fablic</div>
+          <div class="sponsors-bronze-logo"><img src="fixpoint.png" /><br />株式会社フィックスポイント</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+<div class="mdl-layout__tab-panel" id="timetable">
+
+  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    <div class="mdl-card mdl-cell mdl-cell--12-col">
+      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
         <h4 class="mdl-cell mdl-cell--12-col">Time Table</h4>
 
         {% for item in site.data.y2017.timetable %}
@@ -104,25 +129,8 @@ title: VimConf 2017 - An international Vim Conference
     </div>
   </section>
 
-  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-    <div class="mdl-card mdl-cell mdl-cell--12-col">
-      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-        <h4 class="mdl-cell mdl-cell--12-col">Sponsors</h4>
-        <p>VimConf2017 is memorable event in large part due to our fantastic Sponsors and Supporters. If you're interested in joining this to help make VimConf great, please email at vimconf@gmail.com</p>
-        <div>
-          <div class="sponsors-silver-logo"><img src="mercari.png" /><br />株式会社メルカリ</div>
-        </div>
-        <div>
-          <div class="sponsors-bronze-logo"><img src="akatsuki.png" /><br />株式会社アカツキ</div>
-          <div class="sponsors-bronze-logo"><img src="atware.png" /><br />株式会社アットウェア</div>
-          <div class="sponsors-bronze-logo"><img src="digitalocean.png" /><br />Digital Ocean</div>
-          <div class="sponsors-bronze-logo"><img src="https://mattn.kaoriya.net/vimconf2017/dwango.png" /><br />株式会社ドワンゴ</div>
-          <div class="sponsors-bronze-logo"><img src="fablic.png" /><br />株式会社Fablic</div>
-          <div class="sponsors-bronze-logo"><img src="fixpoint.png" /><br />株式会社フィックスポイント</div>
-        </div>
-      </div>
-    </div>
-  </section>
+</div>
+<div class="mdl-layout__tab-panel" id="articles">
 
   <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
     <div class="mdl-card mdl-cell mdl-cell--12-col">
@@ -144,13 +152,50 @@ title: VimConf 2017 - An international Vim Conference
     </div>
   </section>
 
+</div>
+
+<div class="mdl-layout__tab-panel" id="coc">
+
+  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    <div class="mdl-card mdl-cell mdl-cell--12-col">
+      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+        <h4 class="mdl-cell mdl-cell--12-col">Code of Conduct</h4>
+        <div>
+          <p>
+          <a href="#coc_ja">日本語版はこちら / Japanese Version</a>
+          </p>
+        </div>
+        <div>
+          {% capture coc_en %}{% include coc/en.md %}{% endcapture %}
+          {{ coc_en | markdownify }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <a name="coc_ja"></a>
+  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    <div class="mdl-card mdl-cell mdl-cell--12-col">
+      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+        <h4 class="mdl-cell mdl-cell--12-col">行動規範</h4>
+        <div>
+          {% capture coc_ja %}{% include coc/ja.md %}{% endcapture %}
+          {{ coc_ja | markdownify }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+<div class="mdl-layout__tab-panel" id="staff">
+
   <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
     <div class="mdl-card mdl-cell mdl-cell--12-col">
       <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing staff">
         <h4 class="mdl-cell mdl-cell--12-col">Management and Operations Staff</h4>
 
         <div style="display: inline-block; margin-left: 10px">
-            {% assign ids = "kaoriya,mopp,deris,ryunix,thinca" | split: ","  %}
+            {% assign ids = "kaoriya,mopp,deris,ryunix,thinca,ujihisa" | split: ","  %}
             {% for id in ids %}
             <div class="icon" style="display: inline-block; margin-left: 10px">
             <img src="//vim-jp.org/assets/images/vimconf2017/{{ id }}.png" /><br />
@@ -175,36 +220,4 @@ title: VimConf 2017 - An international Vim Conference
       </div>
     </div>
   </section>
-</div>
-
-<div class="mdl-layout__tab-panel" id="coc">
-
-  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-    <div class="mdl-card mdl-cell mdl-cell--12-col">
-      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-        <h4 class="mdl-cell mdl-cell--12-col">Code of Conduct</h4>
-        <div>
-          <p>
-          <a href="#coc_ja">日本語版はこちら / Japanese Version</a>
-          </p>
-        </div>
-        <div>
-          {% capture coc_en %}{% include coc/en.md %}{% endcapture %}
-          {{ coc_en | markdownify }}
-        </div>
-    </div>
-  </section>
-
-  <a name="coc_ja"></a>
-  <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-    <div class="mdl-card mdl-cell mdl-cell--12-col">
-      <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-        <h4 class="mdl-cell mdl-cell--12-col">行動規範</h4>
-        <div>
-          {% capture coc_ja %}{% include coc/ja.md %}{% endcapture %}
-          {{ coc_ja | markdownify }}
-        </div>
-    </div>
-  </section>
-
 </div>
