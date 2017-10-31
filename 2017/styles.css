@@ -250,7 +250,12 @@ html, body {
   background-blend-mode: soft-light;
 }
 
-.timetable img {
+.icon {
+  margin: 10px;
+  text-align: center;
+}
+
+.icon img {
   width: 50px;
 }
 
