@@ -7,8 +7,8 @@
   title-i18n: "オープニング・諸注意"
 
 - start: "10:10 - 11:10"
-  title: TBD
-  title-i18n: 
+  title: "Vim, Me and Community"
+  title-i18n: "Vim, Me and Community"
   speaker:
     name: Hayabusa
     github-id: haya14busa
