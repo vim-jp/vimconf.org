@@ -30,7 +30,7 @@
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script>
     window.addEventListener("load", function() {
-      if (location.hash) document.querySelector('a[href="' + location.hash + '"]').click();
+      location.hash && setTimeout(function(){ document.querySelector('a[href="' + location.hash + '"]').click(); }, 500);
     }, false);
     </script>
   </head>
