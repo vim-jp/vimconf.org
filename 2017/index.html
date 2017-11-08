@@ -112,7 +112,7 @@ title: VimConf 2017 - An international Vim Conference
         <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone timetable">
           <h5>{{ item.start }}</h5>
           <div style="float: left">
-          {{ item.title }}
+            <a href="{{ item.url }}">{{ item.title }}</a>
           </div>
           <div style="float: right; clear: both; text-align: right">
             {% assign ids = item.speaker.twitter-id | split: ","  %}
