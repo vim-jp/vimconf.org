@@ -15,7 +15,7 @@
     twitter-id: haya14busa
   talk:
     slide: https://docs.google.com/presentation/d/14pViuMI_X_PiNwQD8nuGRG72GUqSeKDqoJqjAZWS39U/edit#slide=id.p
-    video: https://
+    video: 
     language: japanese
 
 - start: "11:20 - 12:05"
@@ -27,7 +27,7 @@
     twitter-id: fatih
   talk:
     slide: https://speakerdeck.com/farslan/the-past-and-future-of-vim-go
-    video: https://
+    video: 
     language: english
 
 - start: "13:05 - 14:05"
@@ -37,8 +37,8 @@
     name: mattn, k-takata, koron
     twitter-id: mattn_jp,k_takata,kaoriya
   talk:
-    slide: https://
-    video: https://
+    slide:
+    video:
     language: japanese
 
 - start: "14:15 - 14:45"
@@ -50,7 +50,7 @@
     twitter-id: cocopon
   talk:
     slide: https://speakerdeck.com/cocopon/creating-your-lovely-color-scheme
-    video: https://
+    video: 
     language: japanese
 
 - start: "14:45 - 15:15"
@@ -62,7 +62,7 @@
     twitter-id: t9md
   talk:
     slide: https://qiita.com/t9md/items/236d09fea9bcdfabdcea
-    video: https://
+    video: 
     language: english
 
 - start: "15:35 - 16:05"
@@ -74,7 +74,7 @@
     twitter-id: senopen
   talk:
     slide: http://lamsh.github.io/slide/2017/20171104_VimConf2017/index.html
-    video: https://
+    video: 
     language: english
 
 - start: "16:05 - 16:35"
@@ -86,7 +86,7 @@
     twitter-id: ShougoMatsu
   talk:
     slide: https://www.slideshare.net/Shougo/neosnippetvim-deoppetnvim-in-vim-conf-2017
-    video: https://
+    video: 
     language: japanese
 
 - start: "16:45 - 17:10"
@@ -98,7 +98,7 @@
     twitter-id: dice_zu
   talk:
     slide: https://speakerdeck.com/daisuzu/how-ordinary-vim-user-contributed-to-vim
-    video: https://
+    video: 
     language: japanese
 
 - start: "17:10 - 17:30"
@@ -110,7 +110,7 @@
     twitter-id: p_ck_
   talk:
     slide: https://speakerdeck.com/pocke/the-new-syntax-highlighter-for-vim
-    video: https://
+    video: 
     language: japanese
 
 
@@ -123,7 +123,7 @@
     twitter-id: lambdalisue
   talk:
     slide: https://lambdalisue.github.io/vimconf2017/
-    video: https://
+    video: 
     language: english
 
 - start: "17:50 - 18:00"
