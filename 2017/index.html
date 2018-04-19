@@ -117,6 +117,10 @@ title: VimConf 2017 - An international Vim Conference
           {% else %}
             <b>{{ item.title }}</b>
           {% endif %}
+
+          {% if item.talk.video %}
+            [<a href="{{ item.talk.video }}">video</a>]
+          {% endif %}
           </div>
           <div style="float: right; clear: both; text-align: right">
             {% assign ids = item.speaker.twitter-id | split: ","  %}
