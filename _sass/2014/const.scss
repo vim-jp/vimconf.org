@@ -22,15 +22,15 @@ $NAV_FIXEDTOP_HEIGHT: 50px;
 $SUB_CONTENT_WIDTH: 250px;
 $TWITTER_WIDGET_HEIGHT: 600px;
 
-@import url(http://fonts.googleapis.com/css?family=Audiowide);
+@import url(//fonts.googleapis.com/css?family=Audiowide);
 @mixin font-audiowide {
   font-family: 'Audiowide', ;
   font-weight: normal;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Play:400,700);
+@import url(//fonts.googleapis.com/css?family=Play:400,700);
 @mixin font-play {
   font-family: 'Play', sans-serif;
 }
 
-//@import url(http://fonts.googleapis.com/css?family=Inconsolata:400,700);
+//@import url(//fonts.googleapis.com/css?family=Inconsolata:400,700);
