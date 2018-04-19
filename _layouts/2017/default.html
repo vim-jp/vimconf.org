@@ -11,7 +11,7 @@
     <meta property="og:description" content="{{page.summary|liquify|markdownify|strip_html}}">{%endif%}
     <meta property="og:site_name" content="VimConf 2017 - Vim Conference">
     <title>{{page.title | liquify}}</title>
-    <base href="{{site.github.url}}/2017/" target="_self">
+    <base href="{{site.github.url | replace: 'http://', '//'}}/2017/" target="_self">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="//code.getmdl.io/1.3.0/material.teal-red.min.css" />

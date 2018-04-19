@@ -11,11 +11,11 @@
 <meta property="og:site_name" content="VimConf - Vim Conference">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{page.title | liquify}} - VimConf 2014</title>
-<base href="{{site.github.url}}{{site.data.y2014.root}}/" target="_self">
+<base href="{{site.github.url | replace: 'http://', '//'}}{{site.data.y2014.root}}/" target="_self">
 <link rel="stylesheet" href="default.css">{%for css in page.stylesheets%}
 <link rel="stylesheet" href="{{css}}">{%endfor%}
 </head>
-<body{%if page.class.body%} class="{{page.class.body}}"{%endif%}>
+<body{%if page.class.body%} class="{{page.class.body | replace: 'http://', '//'}}"{%endif%}>
 {{content}}</body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>{%for js in page.javascripts%}
 <script src="{{js}}"></script>{%endfor%}

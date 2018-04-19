@@ -9,7 +9,7 @@
     <meta property="og:description" content="{{page.summary|liquify|markdownify|strip_html}}">{%endif%}
     <meta property="og:site_name" content="VimConf 2015 - Vim Conference">
     <title>{{page.title | liquify}}</title>
-    <base href="{{site.github.url}}/2015/" target="_self">
+    <base href="{{site.github.url | replace: 'http://', '//'}}/2015/" target="_self">
     <link rel="stylesheet" href="default.css">{%for css in page.stylesheets%}
     <link rel="stylesheet" href="{{css}}">{%endfor%}
     <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Ubuntu:300,400'>

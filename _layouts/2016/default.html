@@ -9,7 +9,7 @@
     <meta property="og:description" content="{{page.summary|liquify|markdownify|strip_html}}">{%endif%}
     <meta property="og:site_name" content="VimConf 2016 - Vim Conference">
     <title>{{page.title | liquify}}</title>
-    <base href="{{site.github.url}}/2016/" target="_self">
+    <base href="{{site.github.url | replace: 'http://', '//'}}/2016/" target="_self">
     <link rel="stylesheet" href="default.css">
     <link href="//fonts.googleapis.com/css?family=Bungee+Hairline|Bungee+Outline|Bungee+Inline" rel="stylesheet">
   </head>
