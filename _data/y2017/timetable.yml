@@ -5,6 +5,8 @@
 - start: "10:00 - 10:10"
   title: "Opening, Notes"
   title-i18n: "オープニング・諸注意"
+  talk:
+      video: https://www.youtube.com/watch?v=-bL5qeeVlmY&t=0s&index=1&list=PLx8bw5NQypskGEy8ARntIDxKmXcBEoRZQ
 
 - start: "10:10 - 11:10"
   title: "Vim, Me and Community"
@@ -129,6 +131,8 @@
 - start: "17:50 - 18:00"
   title: "Closing"
   title-i18n: "クロージング"
+  talk:
+      video: https://www.youtube.com/watch?v=Zqqvk1MkUu8&t=0s&index=11&list=PLx8bw5NQypskGEy8ARntIDxKmXcBEoRZQ
 
 - start: "18:00 -"
   title: "After-Party"
