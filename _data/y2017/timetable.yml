@@ -15,7 +15,7 @@
     twitter-id: haya14busa
   talk:
     slide: https://docs.google.com/presentation/d/14pViuMI_X_PiNwQD8nuGRG72GUqSeKDqoJqjAZWS39U/edit#slide=id.p
-    video: 
+    video: https://www.youtube.com/watch?v=Uq4tcWS_7gw
     language: japanese
 
 - start: "11:20 - 12:05"
@@ -50,7 +50,7 @@
     twitter-id: cocopon
   talk:
     slide: https://speakerdeck.com/cocopon/creating-your-lovely-color-scheme
-    video: 
+    video: https://www.youtube.com/watch?v=TduzQYRtHwQ
     language: japanese
 
 - start: "14:45 - 15:15"
@@ -62,7 +62,7 @@
     twitter-id: t9md
   talk:
     slide: https://qiita.com/t9md/items/236d09fea9bcdfabdcea
-    video: 
+    video: https://www.youtube.com/watch?v=XeadBn-v1ts
     language: english
 
 - start: "15:35 - 16:05"
@@ -70,11 +70,11 @@
   title-i18n: "Vim and Compatibility"
   speaker:
     name: SENOO Ken
-    github-id: senopen
-    twitter-id: senopen
+    github-id: senooken
+    twitter-id: senooken
   talk:
-    slide: https://lamsh.github.io/slide/2017/20171104_VimConf2017/index.html
-    video: 
+    slide: https://senooken.jp/public/20171104/slide.html/
+    video: https://www.youtube.com/watch?v=rAWyxW7fiYc
     language: english
 
 - start: "16:05 - 16:35"
@@ -86,7 +86,7 @@
     twitter-id: ShougoMatsu
   talk:
     slide: https://www.slideshare.net/Shougo/neosnippetvim-deoppetnvim-in-vim-conf-2017
-    video: 
+    video: https://www.youtube.com/watch?v=1Nn4isFKqno
     language: japanese
 
 - start: "16:45 - 17:10"
@@ -110,7 +110,7 @@
     twitter-id: p_ck_
   talk:
     slide: https://speakerdeck.com/pocke/the-new-syntax-highlighter-for-vim
-    video: 
+    video: https://www.youtube.com/watch?v=T7b-YnRLcok
     language: japanese
 
 
@@ -123,7 +123,7 @@
     twitter-id: lambdalisue
   talk:
     slide: https://lambdalisue.github.io/vimconf2017/
-    video: 
+    video: https://www.youtube.com/watch?v=zkANQ9l7YDM
     language: english
 
 - start: "17:50 - 18:00"
@@ -133,4 +133,3 @@
 - start: "18:00 -"
   title: "After-Party"
   title-i18n: "懇親会"
-
