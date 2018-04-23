@@ -26,3 +26,11 @@
   url_ja: http://vim-jp.org/blog/2017/10/13/vimconf-2017-interview.html
   abstract: |
       Special event, Vim talks by mattn, k-takata, kaoriya.
+
+- title: VimConf 2017 Videos
+  url: http://vim-jp.org/blog/2018/04/19/vimconf2017-videos.html
+  title_ja: VimConf 2017 のビデオを公開します
+  url_ja: http://vim-jp.org/blog/2017/08/04/vimconf2017-venue-and-date-ja.html
+  abstract: |
+      Publish the videos of VimConf2017.
+
