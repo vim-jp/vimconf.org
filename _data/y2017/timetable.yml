@@ -6,7 +6,7 @@
   title: "Opening, Notes"
   title-i18n: "オープニング・諸注意"
   talk:
-      video: https://www.youtube.com/watch?v=-bL5qeeVlmY&t=0s&index=1&list=PLx8bw5NQypskGEy8ARntIDxKmXcBEoRZQ
+      video: https://www.youtube.com/watch?v=-bL5qeeVlmY
 
 - start: "10:10 - 11:10"
   title: "Vim, Me and Community"
@@ -29,7 +29,7 @@
     twitter-id: fatih
   talk:
     slide: https://speakerdeck.com/farslan/the-past-and-future-of-vim-go
-    video: http://www.youtube.com/timedtext_video?ref=share&v=Zaq4in5xGD4
+    video: https://www.youtube.com/watch?v=Zaq4in5xGD4
     language: english
 
 - start: "13:05 - 14:05"
@@ -100,7 +100,7 @@
     twitter-id: dice_zu
   talk:
     slide: https://speakerdeck.com/daisuzu/how-ordinary-vim-user-contributed-to-vim
-    video: http://www.youtube.com/timedtext_video?v=WUdAjvR1WYE&ref=share
+    video: https://www.youtube.com/watch?v=WUdAjvR1WYE
     language: japanese
 
 - start: "17:10 - 17:30"
@@ -132,7 +132,7 @@
   title: "Closing"
   title-i18n: "クロージング"
   talk:
-      video: https://www.youtube.com/watch?v=Zqqvk1MkUu8&t=0s&index=11&list=PLx8bw5NQypskGEy8ARntIDxKmXcBEoRZQ
+      video: https://www.youtube.com/watch?v=Zqqvk1MkUu8
 
 - start: "18:00 -"
   title: "After-Party"
