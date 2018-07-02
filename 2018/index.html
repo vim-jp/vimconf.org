@@ -1,23 +1,211 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <title>VimConf 2018</title>
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
   </head>
+
   <body>
-    <h1>
-      VimConf 2018
-    </h1>
-    <h2>
-      Nov 24, 2018
-    </h2>
-    <p>
-      Venue: <a href="https://www.fsi.co.jp/e/solutions/other_solutions/akibaplaza/">Fujisoft Akiba Hall in Tokyo, Japan.</a>
-    </p>
-    <p>
-      <a href="https://vimconf.wordpress.com/">Official blog</a>
-    </p>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">VimConf 2018</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <!--
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          -->
+          <li class="nav-item">
+            <a class="nav-link" href="#link-keynote">Keynote speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#link-speakers">Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#link-sponsors">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#link-staff">Staff</a>
+          </li>
+          <!--
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          -->
+          <!--
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          -->
+        </ul>
+
+        <!--
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        -->
+      </div>
+    </nav>
+
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">VimConf 2018</h1>
+          <p>at <a href="https://www.fsi.co.jp/e/solutions/other_solutions/akibaplaza/">Fujisoft Akiba Hall in Tokyo, Japan</a> on Nov 24, 2018</p>
+          <p><a class="btn btn-primary btn-lg" href="https://vimconf.wordpress.com/" role="button">Official blog &raquo;</a></p>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="jumbotron" id="link-keynote">
+          <h2>Keynote Speakers</h2>
+        </div>
+
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Bram Moolenaar</h2>
+            The author of Vim
+            <img src="https://avatars2.githubusercontent.com/u/8530623?s=460&v=4" width=236 height="236" />
+
+            <p>
+            <a href="https://github.com/brammool"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+            </p>
+
+            <p>To be determined</p>
+            <!--
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            -->
+          </div>
+
+          <div class="col-md-4">
+            <h2>Yasuhiro Matsumoto</h2>
+            also known as <strong>mattn</strong>
+            <img src="https://avatars0.githubusercontent.com/u/10111?s=460&v=4" width=236 height="236" />
+
+            <p>
+            <a href="https://github.com/mattn"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+            <a href="https://twitter.com/mattn_jp"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
+            </p>
+            <p>To be determined</p>
+            <!--
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            -->
+          </div>
+        </div>
+
+        <div class="jumbotron" id="link-speakers">
+          <h2>Speakers</h2>
+        </div>
+
+        <p>
+        To be determined. <a href="https://vim-jp.org/blog/2018/06/28/VimConf2018-cfp-en.html">CFP Open</a>
+        </p>
+
+        <div class="jumbotron" id="link-sponsors">
+          <h2>Sponsors</h2>
+        </div>
+
+        <p>
+        To be determined. <a href="https://vimconf.wordpress.com/2018/06/29/looking-for-companies-sponsoring-vimconf-2018/">We are looking for spnsors!</a>
+        </p>
+
+        <div class="row">
+        </div>
+
+        <div class="jumbotron" id="link-staff">
+          <h2>Staff</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-4">
+            <h2>Tatsuhiro Ujihisa</h2>
+            <img src="https://avatars1.githubusercontent.com/u/11504?s=460&v=4" width=236 height="236" />
+
+            <p>
+            <a href="https://github.com/ujihisa"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+            <a href="https://twitter.com/ujm"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
+            </p>
+
+            <p>Created this webpage. Created aomoriringo's profile avatar. Published some VimConf official blog posts. He has been using Vim for about 20 years.</p>
+          </div>
+          <div class="col-md-4">
+            <h2>Taro Muraoka</h2>
+            also known as <strong>KaoriYa</strong>
+            <img src="https://avatars0.githubusercontent.com/u/468368?s=400&v=4" width=236 height="236" />
+            <p>TBD</p>
+          </div>
+          <div class="col-md-4">
+            <h2>Thinca</h2>
+            <img src="https://avatars0.githubusercontent.com/u/20474?s=460&v=4" width=236 height="236" />
+            <p>TBD</p>
+          </div>
+          <div class="col-md-4">
+            <h2>Aomoriringo</h2>
+            <img src="https://pbs.twimg.com/media/DhE5h7EUwAAxme3.png" width=236 height="236" />
+            <p>TBD</p>
+          </div>
+          <div class="col-md-4">
+            <h2>Mopp</h2>
+            <img src="https://pbs.twimg.com/profile_images/919125609283969025/3F2-erNZ_400x400.jpg" width=236 height="236" />
+            <p>TBD</p>
+          </div>
+          <div class="col-md-4">
+            <h2>Yasuhiro Matsumoto</h2>
+            also known as <strong>mattn</strong>
+            <img src="https://avatars0.githubusercontent.com/u/10111?s=460&v=4" width=236 height="236" />
+
+            <p>
+            <a href="https://github.com/mattn"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+            <a href="https://twitter.com/mattn_jp"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
+            </p>
+          </div>
+
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+      <p>&copy; VimConf Jumbikai 2018 -</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
   </body>
 </html>
