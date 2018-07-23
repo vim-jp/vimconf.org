@@ -1,0 +1,40 @@
+diff --git a/2018/index.html b/2018/index.html
+index 7674b88..80145e9 100644
+--- a/2018/index.html
++++ b/2018/index.html
+@@ -10,6 +13,7 @@
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
++    <link rel="stylesheet" href="style.css" crossorigin="anonymous">
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+     <title>VimConf 2018</title>
+ 
+@@ -74,10 +78,26 @@
+ 
+       <!-- Main jumbotron for a primary marketing message or call to action -->
+       <div class="jumbotron">
+-        <div class="container">
++        <div id="description" class="container">
+           <h1 class="display-3">VimConf 2018</h1>
+           <p>at <a href="https://www.fsi.co.jp/e/solutions/other_solutions/akibaplaza/">Fujisoft Akiba Hall in Tokyo, Japan</a> on Nov 24, 2018</p>
+           <p><a class="btn btn-primary btn-lg" href="https://vimconf.wordpress.com/" role="button">Official blog &raquo;</a></p>
++
++          <div class="vimconf-is">
++            <h2 class="display-5">VimConf はあなたの Vim 愛を皆とシェアする場所</h2>
++            <p>VimConf はテキストエディタ Vim に掛けるあなたの熱い思いを共有する為のカンファレンスです。</p>
++            <p>発表内容には技術的な制約はありません。あなたがどれだけ Vim が好きか、Vim でどんな事をしたいのか。便利なプラグインを紹介するのも良し。クレイジーなプラグインの紹介も良し。</p>
++            <p>あなたの Vim 愛を披露する場所が VimConf なのです。ぜひ VimConf に参加してあなたの Vim 愛をシェアして下さい。</p>
++            <p>皆様のご参加をお待ちしております。</p>
++          </div>
++
++          <div class="vimconf-is">
++            <h2 class="display-5">VimConf is a place to share your love of Vim to everyone</h2>
++            <p>VimConf is an international Vim conference to share your passion about a text editor Vim.</p>
++            <p>Tell us how do you love Vim, what do you want to achieve with Vim, what practical Vim plugins you want to introduce, or even crazy ones -- there's no technical limit what to share.</p>
++            <p>Express your Vim knowledge, skill, research, experience, and love. That's what VimConf is for.</p>
++          </div>
++
+         </div>
+       </div>
+ 
