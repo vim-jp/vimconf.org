@@ -1,6 +1,11 @@
-#description {
+#description-box {
 	background-image: url(vimconf2017-akibaplaza.jpg);
-	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+}
+
+#description {
 	padding: 1em;
 }
 
