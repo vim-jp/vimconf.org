@@ -17,3 +17,24 @@
 	border-radius: 0.5em;
 }
 
+.sponcers-logo {
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.sponcers .sponcers-name {
+  font-size: 1.5em;
+  color: #333;
+  text-decoration: none;
+}
+
+.sponcers .sponcers-url {
+  font-size: 0.8em;
+}
+
+.sponcers-logo img {
+	width: 200px;
+}
