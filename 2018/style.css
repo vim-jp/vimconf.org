@@ -37,6 +37,16 @@
 	font-size: 0.7em;
 }
 
+.sponcers-logo-platinum {
+	width: 450px;
+	height: 450px;
+}
+
+.sponcers-logo-platinum img {
+	max-width: 420px;
+	max-height: 420px;
+}
+
 .sponcers-logo-silver {
 	width: 270px;
 	height: 270px;
