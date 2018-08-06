@@ -28,7 +28,7 @@
 }
 
 .sponcers .sponcers-name {
-	font-size: 1.5em;
+	font-size: 1.4em;
 	color: #333;
 	text-decoration: none;
 }
@@ -37,6 +37,14 @@
 	font-size: 0.8em;
 }
 
-.sponcers-logo img {
+.sponcers-logo-silver img {
 	width: 200px;
+}
+
+.sponcers-logo-bronze img {
+	width: 180px;
+}
+
+.sponcers-row {
+	margin-top: 1em;
 }
