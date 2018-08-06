@@ -23,16 +23,18 @@
 	height: 200px;
 	display: table-cell;
 	vertical-align: middle;
+	border-radius: 5px;
+    border: 4px solid rgba(100,100,100,0.05);
 }
 
 .sponcers .sponcers-name {
-  font-size: 1.5em;
-  color: #333;
-  text-decoration: none;
+	font-size: 1.5em;
+	color: #333;
+	text-decoration: none;
 }
 
 .sponcers .sponcers-url {
-  font-size: 0.8em;
+	font-size: 0.8em;
 }
 
 .sponcers-logo img {
