@@ -61,10 +61,6 @@
 	margin-bottom: 50px;
 }
 
-.staff {
-	width: 150px;
-}
-
 .staff img {
 	margin: auto;
 }
@@ -72,4 +68,8 @@
 .staff p {
 	text-align: left;
 	font-size: 0.6em;
+}
+
+.staff-icon {
+  width: 100%;
 }
