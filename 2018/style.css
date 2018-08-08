@@ -47,6 +47,16 @@
 	max-height: 420px;
 }
 
+.sponsors-logo-gold {
+	width: 350px;
+	height: 350px;
+}
+
+.sponsors-logo-gold img {
+	max-width: 320px;
+	max-height: 320px;
+}
+
 .sponsors-logo-silver {
 	width: 270px;
 	height: 270px;
