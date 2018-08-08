@@ -17,7 +17,7 @@
 	border-radius: 0.5em;
 }
 
-.sponcers-logo {
+.sponsors-logo {
 	background-color: white;
 	display: table-cell;
 	vertical-align: middle;
@@ -27,47 +27,47 @@
     border: 4px solid rgba(100,100,100,0.05);
 }
 
-.sponcers .sponcers-name {
+.sponsors .sponsors-name {
 	font-size: 1.4em;
 	color: #333;
 	text-decoration: none;
 }
 
-.sponcers .sponcers-url {
+.sponsors .sponsors-url {
 	font-size: 0.7em;
 }
 
-.sponcers-logo-platinum {
+.sponsors-logo-platinum {
 	width: 450px;
 	height: 450px;
 }
 
-.sponcers-logo-platinum img {
+.sponsors-logo-platinum img {
 	max-width: 420px;
 	max-height: 420px;
 }
 
-.sponcers-logo-silver {
+.sponsors-logo-silver {
 	width: 270px;
 	height: 270px;
 }
 
-.sponcers-logo-silver img {
+.sponsors-logo-silver img {
 	max-width: 240px;
 	max-height: 240px;
 }
 
-.sponcers-logo-bronze {
+.sponsors-logo-bronze {
 	width: 210px;
 	height: 210px;
 }
 
-.sponcers-logo-bronze img {
+.sponsors-logo-bronze img {
 	max-width: 180px;
 	max-height: 180px;
 }
 
-.sponcers-row {
+.sponsors-row {
 	margin-bottom: 50px;
 }
 
