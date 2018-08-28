@@ -45,8 +45,7 @@
 }
 
 .sponsors-logo-platinum img {
-	max-width: 420px;
-	max-height: 420px;
+	width: 96%;
 }
 
 .sponsors-logo-gold {
@@ -55,8 +54,7 @@
 }
 
 .sponsors-logo-gold img {
-	max-width: 320px;
-	max-height: 320px;
+	width: 96%;
 }
 
 .sponsors-logo-silver {
@@ -65,8 +63,7 @@
 }
 
 .sponsors-logo-silver img {
-	max-width: 240px;
-	max-height: 240px;
+	width: 96%;
 }
 
 .sponsors-logo-bronze {
@@ -75,8 +72,7 @@
 }
 
 .sponsors-logo-bronze img {
-	max-width: 180px;
-	max-height: 180px;
+	width: 96%;
 }
 
 .sponsors-row {
@@ -95,4 +91,26 @@
 .staff-icon {
   width: 100%;
   max-width: 100px;
+}
+
+@media screen and (max-width:480px) { 
+	.sponsors-logo-platinum {
+		width: calc(100vw - 30px);
+		height: calc(100vw - 30px);
+	}
+
+	.sponsors-logo-gold {
+		width: calc(78vw - 30px);
+		height: calc(78vw - 30px);
+	}
+
+	.sponsors-logo-silver {
+		width: calc(60vw - 30px);
+		height: calc(60vw - 30px);
+	}
+
+	.sponsors-logo-bronze {
+		width: calc(46vw - 30px);
+		height: calc(46vw - 30px);
+	}
 }
