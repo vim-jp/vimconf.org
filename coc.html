@@ -1,0 +1,95 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640" />
+
+    <link rel="stylesheet" href="../stylesheets/core.css" media="screen"/>
+    <link rel="stylesheet" href="../stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
+    <link rel="stylesheet" href="../stylesheets/pygment_trac.css"/>
+
+    <script type="text/javascript" src="../javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>VimConf code of conduct</title>
+  </head>
+
+  <body>
+
+    <a id="forkme_banner" href="https://github.com/vim-jp/vimconf.org">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>VimConf</h1>
+            <h2>An International Vim Conference</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <span class="banner-fix"></span>
+      <section id="main_content">
+        <div class="mdl-layout__tab-panel" id="coc">
+        
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col">Code of Conduct</h4>
+                <div>
+                  <p>
+                  <a href="#coc_ja">日本語版はこちら / Japanese Version</a>
+                  </p>
+                </div>
+                <div>
+                  {% capture coc_en %}{% include coc/en.md %}{% endcapture %}
+                  {{ coc_en | markdownify }}
+                </div>
+              </div>
+            </div>
+        
+          <a name="coc_ja"></a>
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                <h4 class="mdl-cell mdl-cell--12-col">行動規範</h4>
+                <div>
+                  {% capture coc_ja %}{% include coc/ja.md %}{% endcapture %}
+                  {{ coc_ja | markdownify }}
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <strong><a class="top" href='../'>top</a></strong>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/vim-jp">vim-jp</a> can be found on <a href="https://github.com/vim-jp/vimconf.org">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    {% include google-analytics.html %}
+    
+  </body>
+</html>

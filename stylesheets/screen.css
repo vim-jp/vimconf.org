@@ -283,6 +283,23 @@ section#main_content:before{
   display: block;
 }
 
+section#main_content .top {
+  font-family: sans-serif;
+  font-size: 125%;
+  display: block;
+  text-align: center;
+  color: #96aab4;
+}
+
+section#main_content .coc {
+  font-family: sans-serif;
+  font-size: 125%;
+  display: block;
+  padding-top: 25px;
+  text-align: center;
+  color: #96aab4;
+}
+
 section#main_content .to-year {
   font-size: 200%;
   display: block;
