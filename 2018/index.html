@@ -1,487 +1,467 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+---
+layout: 2018/default
+title: VimConf 2018 - An international Vim Conference
+---
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="#">VimConf 2018</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <!-- Bootstrap core CSS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <title>VimConf 2018</title>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <!--
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      -->
+      <li class="nav-item">
+        <a class="nav-link" href="#link-tickets">Tickets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#link-keynote">Keynote speakers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#link-speakers">Speakers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#link-sponsors">Sponsors</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#link-staff">Staff</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../coc">Code of conduct</a>
+      </li>
+      <!--
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+      -->
+      <!--
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      -->
+    </ul>
 
-    <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
-  </head>
+    <!--
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    -->
+  </div>
+</nav>
 
-  <body>
+<main role="main" class="mt-5">
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">VimConf 2018</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div id="description-box" class="jumbotron">
+    <div id="description" class="container">
+      <h1 class="display-3">VimConf 2018</h1>
+      <p>at <a href="https://www.fsi.co.jp/e/solutions/other_solutions/akibaplaza/">Fujisoft Akiba Hall in Tokyo, Japan</a> on Nov 24, 2018</p>
+      <p><a class="btn btn-primary btn-lg" href="https://vimconf.wordpress.com/" role="button">Official blog &raquo;</a></p>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <!--
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          -->
-          <li class="nav-item">
-            <a class="nav-link" href="#link-tickets">Tickets</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#link-keynote">Keynote speakers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#link-speakers">Speakers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#link-sponsors">Sponsors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#link-staff">Staff</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../coc">Code of conduct</a>
-          </li>
-          <!--
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-          -->
-          <!--
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          -->
-        </ul>
+      <div class="vimconf-is">
+        <h2 class="display-5">VimConf is a place to share your love of Vim to everyone</h2>
+        <p>VimConf is an international Vim conference to share your passion about a text editor Vim.</p>
+        <p>Tell us how do you love Vim, what do you want to achieve with Vim, what practical Vim plugins you want to introduce, or even crazy ones -- there's no technical limit what to share.</p>
+        <p>Express your Vim knowledge, skill, research, experience, and love. That's what VimConf is for.</p>
+      </div>
+
+      <div class="vimconf-is">
+        <h2 class="display-5">VimConf はあなたの Vim 愛を皆とシェアする場所</h2>
+        <p>VimConf はテキストエディタ Vim に掛けるあなたの熱い思いを共有する為のカンファレンスです。</p>
+        <p>発表内容には技術的な制約はありません。あなたがどれだけ Vim が好きか、Vim でどんな事をしたいのか。便利なプラグインを紹介するのも良し。クレイジーなプラグインの紹介も良し。</p>
+        <p>あなたの Vim 愛を披露する場所が VimConf なのです。ぜひ VimConf に参加してあなたの Vim 愛をシェアして下さい。</p>
+        <p>皆様のご参加をお待ちしております。</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="jumbotron" id="link-tickets">
+      <h2>Tickets</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-4">
+        <p><a class="btn btn-secondary" href="https://vimconf2018-ticket.peatix.com/" role="button">Purchase tickets &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="https://vimconf2018-individual.peatix.com/" role="button">Purchase individual sponsor options independently &raquo;</a></p>
+        <p><a href="https://vimconf.wordpress.com/2018/08/30/well-start-selling-vimconf-2018-tickets-on-2018-09-17/">Start selling on 2018-09-17</a></p>
+      </div>
+    </div>
+
+    <div class="jumbotron" id="link-keynote">
+      <h2>Keynote Speakers</h2>
+    </div>
+
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Bram Moolenaar</h2>
+        <p>The author of Vim</p>
+        <img src="https://avatars2.githubusercontent.com/u/8530623?s=460&v=4" width=236 height="236" />
+
+        <p>
+        <a href="https://github.com/brammool"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        </p>
+
+        <p>Bram Moolenaar is the creator and maintainer of Vim, a popular text
+or.  It comes installed with every Mac and Linux computer and is
+lable for almost every computer system.  After studying electronics
+inventing parts of digital copying machines Bram decided that
+ting open source software was more useful and fun, so he worked on
+ exclusively for several years.  He currently works for Google, one
+he few companies that embrace open source software. In between he
+volunteer work at a project in Uganda and is still helping poor
+dren there through the ICCF foundation (www.iccf.nl).
 
         <!--
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
         -->
       </div>
-    </nav>
 
-    <main role="main" class="mt-5">
+      <div class="col-md-6">
+        <h2>Yasuhiro Matsumoto</h2>
+        <p>also known as <strong>mattn</strong></p>
+        <img src="https://avatars0.githubusercontent.com/u/10111?s=460&v=4" width=236 height="236" />
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div id="description-box" class="jumbotron">
-        <div id="description" class="container">
-          <h1 class="display-3">VimConf 2018</h1>
-          <p>at <a href="https://www.fsi.co.jp/e/solutions/other_solutions/akibaplaza/">Fujisoft Akiba Hall in Tokyo, Japan</a> on Nov 24, 2018</p>
-          <p><a class="btn btn-primary btn-lg" href="https://vimconf.wordpress.com/" role="button">Official blog &raquo;</a></p>
+        <p>
+        <a href="https://github.com/mattn"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        <a href="https://twitter.com/mattn_jp"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
+        </p>
 
-          <div class="vimconf-is">
-            <h2 class="display-5">VimConf is a place to share your love of Vim to everyone</h2>
-            <p>VimConf is an international Vim conference to share your passion about a text editor Vim.</p>
-            <p>Tell us how do you love Vim, what do you want to achieve with Vim, what practical Vim plugins you want to introduce, or even crazy ones -- there's no technical limit what to share.</p>
-            <p>Express your Vim knowledge, skill, research, experience, and love. That's what VimConf is for.</p>
-          </div>
+        <p>A programmer that contributes to Vim, Go, and many other OSS(s).
+over 1,400 GitHub repositories. Many his patches were sent to
+dev and adopted. He mainly focus solving issues on Windows
+ted. Recently, he wrote a patch to support Windows for
+minal and job/channel. Maintainer of twitvim, emmet-vim, ctrlp-vim, previm, vital-vim, or many Vim plugins.
+apan, He write serial articles about Vim in monthly magazine.
 
-          <div class="vimconf-is">
-            <h2 class="display-5">VimConf はあなたの Vim 愛を皆とシェアする場所</h2>
-            <p>VimConf はテキストエディタ Vim に掛けるあなたの熱い思いを共有する為のカンファレンスです。</p>
-            <p>発表内容には技術的な制約はありません。あなたがどれだけ Vim が好きか、Vim でどんな事をしたいのか。便利なプラグインを紹介するのも良し。クレイジーなプラグインの紹介も良し。</p>
-            <p>あなたの Vim 愛を披露する場所が VimConf なのです。ぜひ VimConf に参加してあなたの Vim 愛をシェアして下さい。</p>
-            <p>皆様のご参加をお待ちしております。</p>
-          </div>
+        <!--
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        -->
+      </div>
+    </div>
 
-        </div>
+    <div class="jumbotron" id="link-speakers">
+      <h2>Speakers</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Tatsuhiro Ujihisa</h2>
+        <img src="icon/ujm.png" width=236 height="236" />
+
+        <p>
+        <a href="https://github.com/ujihisa"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        <a href="https://twitter.com/ujm"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
+        </p>
+
+        <p>TBD</p>
+        <!--
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        -->
       </div>
 
-      <div class="container">
-
-        <div class="jumbotron" id="link-tickets">
-          <h2>Tickets</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-4">
-            <p><a class="btn btn-secondary" href="https://vimconf2018-ticket.peatix.com/" role="button">Purchase tickets &raquo;</a></p>
-            <p><a class="btn btn-secondary" href="https://vimconf2018-individual.peatix.com/" role="button">Purchase individual sponsor options independently &raquo;</a></p>
-            <p><a href="https://vimconf.wordpress.com/2018/08/30/well-start-selling-vimconf-2018-tickets-on-2018-09-17/">Start selling on 2018-09-17</a></p>
-          </div>
-        </div>
-
-        <div class="jumbotron" id="link-keynote">
-          <h2>Keynote Speakers</h2>
-        </div>
-
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-6">
-            <h2>Bram Moolenaar</h2>
-            <p>The author of Vim</p>
-            <img src="https://avatars2.githubusercontent.com/u/8530623?s=460&v=4" width=236 height="236" />
-
-            <p>
-            <a href="https://github.com/brammool"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            </p>
-
-            <p>Bram Moolenaar is the creator and maintainer of Vim, a popular text
-editor.  It comes installed with every Mac and Linux computer and is
-available for almost every computer system.  After studying electronics
-and inventing parts of digital copying machines Bram decided that
-creating open source software was more useful and fun, so he worked on
-that exclusively for several years.  He currently works for Google, one
-of the few companies that embrace open source software. In between he
-did volunteer work at a project in Uganda and is still helping poor
-children there through the ICCF foundation (www.iccf.nl).
-</p>
-            <!--
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            -->
-          </div>
-
-          <div class="col-md-6">
-            <h2>Yasuhiro Matsumoto</h2>
-            <p>also known as <strong>mattn</strong></p>
-            <img src="https://avatars0.githubusercontent.com/u/10111?s=460&v=4" width=236 height="236" />
-
-            <p>
-            <a href="https://github.com/mattn"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            <a href="https://twitter.com/mattn_jp"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
-            </p>
-
-            <p>A programmer that contributes to Vim, Go, and many other OSS(s).
-Has over 1,400 GitHub repositories. Many his patches were sent to
-vim-dev and adopted. He mainly focus solving issues on Windows
-related. Recently, he wrote a patch to support Windows for
-:terminal and job/channel. Maintainer of twitvim, emmet-vim, ctrlp-vim, previm, vital-vim, or many Vim plugins.
-In Japan, He write serial articles about Vim in monthly magazine.
-</p>
-            <!--
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            -->
-          </div>
-        </div>
-
-        <div class="jumbotron" id="link-speakers">
-          <h2>Speakers</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Tatsuhiro Ujihisa</h2>
-            <img src="icon/ujm.png" width=236 height="236" />
-
-            <p>
-            <a href="https://github.com/ujihisa"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            <a href="https://twitter.com/ujm"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
-            </p>
-
-            <p>TBD</p>
-            <!--
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            -->
-          </div>
-
-          <div class="col-md-4">
-            <h2>daisuzu</h2>
-            <img src="https://avatars1.githubusercontent.com/u/1222926?s=400&v=4" width=236 height="236" />
-
-            <p>
-            <a href="https://github.com/daisuzu"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            <a href="https://twitter.com/dice_zu"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
-            </p>
-
-            <p>A server side engineer from a test engineer. Used Vim for various purposes in various environments, such as editing and viewing text or sometimes as a bit of tools on Windows, Linux and Mac. Currently, using Vim for daily works for developing a game platform with Google App Engine and Go.</p>
-            <!--
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            -->
-          </div>
-
-          <div class="col-md-4">
-            <h2>OKURA Masafumi</h2>
-            <img src="https://pbs.twimg.com/profile_images/940047602946490369/YSYuYEJn_400x400.jpg" width=236 height="236" />
-
-            <p>
-            <a href="https://github.com/okuramasafumi"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            <a href="https://twitter.com/okuramasafumi"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
-            </p>
-
-            <p>He's been doing Ruby/Rails development over the past five years with some experience of development with Go. He started using Vim just when he started his professional carrier, and is still learning to master Vim. While most of the time he uses Vim for application development, sometimes he does system administration work, and Vim really helps him to achieve goals efficiently. He thinks Vim is a daily power tools for every type of developer.</p>
-            <!--
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            -->
-          </div>
-        </div>
-
-        <hr>
-        <p>
-        More speakers are coming soon!
-        </p>
-
-        <div class="jumbotron" id="link-sponsors">
-          <h2>Sponsors</h2>
-        </div>
-
-        <h3 id="link-platinum-sponsor">Platinum Sponsor</h3>
-        <div class="row sponsors-row">
-
-          <div class="sponsors col-md-12">
-            <a href="https://www.atware.co.jp/" class="sponsors-name">atWare, Inc.</a><br />
-            <a href="https://www.atware.co.jp/" class="sponsors-url">https://www.atware.co.jp/</a><br />
-            <a href="https://www.atware.co.jp/">
-              <div class="sponsors-logo sponsors-logo-platinum">
-                <img src="logo/atware-logo.png" />
-              </div>
-            </a>
-          </div>
-
-        </div>
-
-        <h3 id="link-gold-sponsor">Gold Sponsors</h3>
-        <div class="row sponsors-row">
-
-          <div class="sponsors col-md-6">
-            <a href="https://google.com/" class="sponsors-name">Google LLC</a><br />
-            <a href="https://google.com/" class="sponsors-url">https://google.com/</a><br />
-            <a href="https://google.com/">
-              <div class="sponsors-logo sponsors-logo-gold">
-                <img src="logo/google-logo.png" />
-              </div>
-            </a>
-          </div>
-
-          <div class="sponsors col-md-6">
-            <a href="https://www.mercari.com/jp/" class="sponsors-name">Mercari, Inc.</a><br />
-            <a href="https://www.mercari.com/jp/" class="sponsors-url">https://www.mercari.com/jp/</a><br />
-            <a href="https://www.mercari.com/jp/">
-              <div class="sponsors-logo sponsors-logo-gold">
-                <img src="logo/mercari-logo.png" />
-              </div>
-            </a>
-          </div>
-
-        </div>
-
-        <h3 id="link-silver-sponsors">Silver Sponsors</h3>
-        <div class="row sponsors-row">
-
-          <div class="sponsors col-md-4">
-            <a href="https://aktsk.jp/" class="sponsors-name">Akatsuki Inc.</a><br />
-            <a href="https://aktsk.jp/" class="sponsors-url">https://aktsk.jp/</a><br />
-            <a href="https://aktsk.jp/">
-              <div class="sponsors-logo sponsors-logo-silver">
-                <img src="logo/akatsuki-logo.png" />
-              </div>
-            </a>
-          </div>
-
-          <div class="sponsors col-md-4">
-            <a href="https://corporate.coincheck.com/" class="sponsors-name">Coincheck, Inc.</a><br />
-            <a href="https://corporate.coincheck.com/" class="sponsors-url">https://corporate.coincheck.com/</a><br />
-            <a href="https://corporate.coincheck.com/">
-              <div class="sponsors-logo sponsors-logo-silver">
-                <img src="logo/coincheck-logo.png" />
-              </div>
-            </a>
-          </div>
-
-          <div class="sponsors col-md-4">
-            <a href="http://dwango.co.jp/" class="sponsors-name">DWANGO Co., Ltd.</a><br />
-            <a href="http://dwango.co.jp/" class="sponsors-url">http://dwango.co.jp/</a><br />
-            <a href="http://dwango.co.jp/">
-              <div class="sponsors-logo sponsors-logo-silver">
-                <img src="logo/dwango-logo.png" />
-              </div>
-            </a>
-          </div>
-
-          <div class="sponsors col-md-4">
-            <a href="https://www.fixpoint.co.jp/" class="sponsors-name">fixpoint, Inc.</a><br />
-            <a href="https://www.fixpoint.co.jp/" class="sponsors-url">https://www.fixpoint.co.jp/</a><br />
-            <a href="https://www.fixpoint.co.jp/">
-              <div class="sponsors-logo sponsors-logo-silver">
-                <img src="logo/fixpoint-logo.png" />
-              </div>
-            </a>
-          </div>
-
-          <div class="sponsors col-md-4">
-            <a href="https://smarthr.co.jp/" class="sponsors-name">SmartHR, Inc.</a><br />
-            <a href="https://smarthr.co.jp/" class="sponsors-url">https://smarthr.co.jp/</a><br />
-            <a href="https://smarthr.co.jp/">
-              <div class="sponsors-logo sponsors-logo-silver">
-                <img src="logo/smarthr-logo.png" />
-              </div>
-            </a>
-          </div>
-
-        </div>
-
-        <h3 id="link-bronze-sponsors">Bronze Sponsors</h3>
-        <div class="row sponsors-row">
-
-          <div class="sponsors col-md-4">
-            <a href="https://info.cookpad.com/corporate/philosophy" class="sponsors-name">Cookpad Inc.</a><br />
-            <a href="https://info.cookpad.com/corporate/philosophy" class="sponsors-url">https://info.cookpad.com/corporate/philosophy</a><br />
-            <a href="https://info.cookpad.com/corporate/philosophy">
-              <div class="sponsors-logo sponsors-logo-bronze">
-                <img src="logo/cookpad-logo.png" />
-              </div>
-            </a>
-          </div>
-
-          <div class="sponsors col-md-4">
-            <a href="https://www.iij.ad.jp/" class="sponsors-name">Internet Initiative Japan Inc.</a><br />
-            <a href="https://www.iij.ad.jp/" class="sponsors-url">https://www.iij.ad.jp/</a><br />
-            <a href="https://www.iij.ad.jp/">
-              <div class="sponsors-logo sponsors-logo-bronze">
-                <img src="logo/iij-logo.png" />
-              </div>
-            </a>
-          </div>
-
-          <div class="sponsors col-md-4">
-            <a href="https://corp.moneyforward.com/" class="sponsors-name">Money Forward, Inc.</a><br />
-            <a href="https://corp.moneyforward.com/" class="sponsors-url">https://corp.moneyforward.com/</a><br />
-            <a href="https://corp.moneyforward.com/">
-              <div class="sponsors-logo sponsors-logo-bronze">
-                <img src="logo/moneyforward-logo.png" />
-              </div>
-            </a>
-          </div>
-
-          <div class="sponsors col-md-4">
-            <a href="https://www.redish.jp/" class="sponsors-name">redish Inc.</a><br />
-            <a href="https://www.redish.jp/" class="sponsors-url">https://www.redish.jp/</a><br />
-            <a href="https://www.redish.jp/">
-              <div class="sponsors-logo sponsors-logo-bronze">
-                <img src="logo/redish-logo.png" />
-              </div>
-            </a>
-          </div>
-
-        </div>
+      <div class="col-md-4">
+        <h2>daisuzu</h2>
+        <img src="https://avatars1.githubusercontent.com/u/1222926?s=400&v=4" width=236 height="236" />
 
         <p>
-        To be determined. <a href="https://vimconf.wordpress.com/2018/06/29/looking-for-companies-sponsoring-vimconf-2018/">We are looking for sponsors!</a>
+        <a href="https://github.com/daisuzu"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        <a href="https://twitter.com/dice_zu"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
         </p>
-        <p><a class="btn btn-secondary" href="https://vimconf.wordpress.com/2018/06/29/looking-for-companies-sponsoring-vimconf-2018/" role="button">Apply now (English) &raquo;</a></p>
-        <p><a class="btn btn-secondary" href="https://vim-jp.org/blog/2018/06/07/VimConf2018-sponsor-ja.html" role="button">Apply now (Japanese) &raquo;</a></p>
 
-        <div class="row">
-        </div>
+        <p>A server side engineer from a test engineer. Used Vim for various purposes in various environments, such as editing and viewing text or sometimes as a bit of tools on Windows, Linux and Mac. Currently, using Vim for daily works for developing a game platform with Google App Engine and Go.</p>
+        <!--
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        -->
+      </div>
 
-        <div class="jumbotron" id="link-staff">
-          <h2>Staff</h2>
-        </div>
+      <div class="col-md-4">
+        <h2>OKURA Masafumi</h2>
+        <img src="https://pbs.twimg.com/profile_images/940047602946490369/YSYuYEJn_400x400.jpg" width=236 height="236" />
 
-        <div class="row">
+        <p>
+        <a href="https://github.com/okuramasafumi"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        <a href="https://twitter.com/okuramasafumi"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
+        </p>
 
-          <div class="col-md-3 col-sm-4 col-6 staff">
-            <h4>Tatsuhiro Ujihisa</h4>
-            <p>&nbsp;</p>
-            <img src="icon/ujm.png" class="staff-icon" />
-            <p>
-            <a href="https://github.com/ujihisa"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            <a href="https://twitter.com/ujm"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
-            </p>
-            <p>Created this webpage. Created aomoriringo's profile avatar. Published some VimConf official blog posts. He has been using Vim for about 20 years.</p>
+        <p>He's been doing Ruby/Rails development over the past five years with some experience of development with Go. He started using Vim just when he started his professional carrier, and is still learning to master Vim. While most of the time he uses Vim for application development, sometimes he does system administration work, and Vim really helps him to achieve goals efficiently. He thinks Vim is a daily power tools for every type of developer.</p>
+        <!--
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        -->
+      </div>
+    </div>
+
+    <hr>
+    <p>
+    More speakers are coming soon!
+    </p>
+
+    <div class="jumbotron" id="link-sponsors">
+      <h2>Sponsors</h2>
+    </div>
+
+    <h3 id="link-platinum-sponsor">Platinum Sponsor</h3>
+    <div class="row sponsors-row">
+
+      <div class="sponsors col-md-12">
+        <a href="https://www.atware.co.jp/" class="sponsors-name">atWare, Inc.</a><br />
+        <a href="https://www.atware.co.jp/" class="sponsors-url">https://www.atware.co.jp/</a><br />
+        <a href="https://www.atware.co.jp/">
+          <div class="sponsors-logo sponsors-logo-platinum">
+            <img src="logo/atware-logo.png" />
           </div>
-          <div class="col-md-3 col-sm-4 col-6 staff">
-            <h4>Taro Muraoka</h4>
-            <p>also known as <strong>KaoriYa</strong></p>
-            <img src="icon/koron.png" class="staff-icon" />
-            <p>
-            <a href="https://github.com/koron"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            </p>
-            <p>Legendally developer of Vim. Managed vimconf overall. He wrote many patches to fix Vim issues on Windows. ex: DirectX drawing. And he provide kaoriya-vim which is a patched version of Vim.</p>
-          </div>
-          <div class="col-md-3 col-sm-4 col-6 staff">
-            <h4>thinca</h4>
-            <p>&nbsp;</p>
-            <img src="icon/thinca.png" class="staff-icon" />
-            <p>
-            <a href="https://github.com/thinca"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            </p>
-            <p>Famous creator of Vim plugins. Creator of vim-quickrun, vim-themis, etc. <a href="https://megurovim.connpass.com/">Meguro.vim</a> organizer</p>
-          </div>
-          <div class="col-md-3 col-sm-4 col-6 staff">
-            <h4>aomoriringo</h4>
-            <p>&nbsp;</p>
-            <img src="icon/aomoriringo.png" class="staff-icon" />
-            <p>
-            <a href="https://github.com/aomoriringo"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            <a href="https://twitter.com/aomoriringo"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
-            </p>
-            <p>A key player of staff of vimconf. He will be exciting vimconf as a staff this year too.</p>
-          </div>
-          <div class="col-md-3 col-sm-4 col-6 staff">
-            <h4>mopp</h4>
-            <p>&nbsp;</p>
-            <img src="icon/mopp.png" class="staff-icon" />
-            <p>
-            <a href="https://github.com/mopp"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            </p>
-            <p>MC of vimconf 2017. He has been using Vim for about 6 years. The main vim activities are to custimize Vim, create plugin and send PRs to plugin.</p>
-          </div>
-          <div class="col-md-3 col-sm-4 col-6 staff">
-            <h4>Yasuhiro Matsumoto</h4>
-            <p>also known as <strong>mattn</strong></p>
-            <img src="icon/mattn.png" class="staff-icon" />
-            <p>
-            <a href="https://github.com/mattn"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            <a href="https://twitter.com/mattn_jp"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
-            </p>
-            <p>Maintained this web site. He has been using Vim for about 20 years.</p>
-          </div>
-          <div class="col-md-3 col-sm-4 col-6 staff">
-            <h4>t9md</h4>
-            <p>&nbsp;</p>
-            <img src="icon/t9md.png" class="staff-icon" />
-            <p>
-            <a href="https://github.com/t9md"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            </p>
-            <p>Creator of vim-quickhl. He make Atom extension atom-vim-mode-plus that improve vim-mode.</p>
-          </div>
-          <div class="col-md-3 col-sm-4 col-6 staff">
-            <h4>guyon</h4>
-            <p>&nbsp;</p>
-            <img src="icon/guyon.png" class="staff-icon" />
-            <p>
-            <a href="https://github.com/guyon"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            <a href="https://twitter.com/gu4"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
-            </p>
-            <p><a href="https://yokohamavim.connpass.com/">Yokohama.vim</a> organizer</p>
-          </div>
+        </a>
+      </div>
 
-        </div>
+    </div>
 
-        <hr>
+    <h3 id="link-gold-sponsor">Gold Sponsors</h3>
+    <div class="row sponsors-row">
 
-      </div> <!-- /container -->
+      <div class="sponsors col-md-6">
+        <a href="https://google.com/" class="sponsors-name">Google LLC</a><br />
+        <a href="https://google.com/" class="sponsors-url">https://google.com/</a><br />
+        <a href="https://google.com/">
+          <div class="sponsors-logo sponsors-logo-gold">
+            <img src="logo/google-logo.png" />
+          </div>
+        </a>
+      </div>
 
-    </main>
+      <div class="sponsors col-md-6">
+        <a href="https://www.mercari.com/jp/" class="sponsors-name">Mercari, Inc.</a><br />
+        <a href="https://www.mercari.com/jp/" class="sponsors-url">https://www.mercari.com/jp/</a><br />
+        <a href="https://www.mercari.com/jp/">
+          <div class="sponsors-logo sponsors-logo-gold">
+            <img src="logo/mercari-logo.png" />
+          </div>
+        </a>
+      </div>
 
-    <footer class="container">
-      <p>&copy; VimConf Jumbikai 2018 -</p>
-      <p>Contact: vimconf@gmail.com</p>
-    </footer>
+    </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-  </body>
-</html>
+    <h3 id="link-silver-sponsors">Silver Sponsors</h3>
+    <div class="row sponsors-row">
+
+      <div class="sponsors col-md-4">
+        <a href="https://aktsk.jp/" class="sponsors-name">Akatsuki Inc.</a><br />
+        <a href="https://aktsk.jp/" class="sponsors-url">https://aktsk.jp/</a><br />
+        <a href="https://aktsk.jp/">
+          <div class="sponsors-logo sponsors-logo-silver">
+            <img src="logo/akatsuki-logo.png" />
+          </div>
+        </a>
+      </div>
+
+      <div class="sponsors col-md-4">
+        <a href="https://corporate.coincheck.com/" class="sponsors-name">Coincheck, Inc.</a><br />
+        <a href="https://corporate.coincheck.com/" class="sponsors-url">https://corporate.coincheck.com/</a><br />
+        <a href="https://corporate.coincheck.com/">
+          <div class="sponsors-logo sponsors-logo-silver">
+            <img src="logo/coincheck-logo.png" />
+          </div>
+        </a>
+      </div>
+
+      <div class="sponsors col-md-4">
+        <a href="http://dwango.co.jp/" class="sponsors-name">DWANGO Co., Ltd.</a><br />
+        <a href="http://dwango.co.jp/" class="sponsors-url">http://dwango.co.jp/</a><br />
+        <a href="http://dwango.co.jp/">
+          <div class="sponsors-logo sponsors-logo-silver">
+            <img src="logo/dwango-logo.png" />
+          </div>
+        </a>
+      </div>
+
+      <div class="sponsors col-md-4">
+        <a href="https://www.fixpoint.co.jp/" class="sponsors-name">fixpoint, Inc.</a><br />
+        <a href="https://www.fixpoint.co.jp/" class="sponsors-url">https://www.fixpoint.co.jp/</a><br />
+        <a href="https://www.fixpoint.co.jp/">
+          <div class="sponsors-logo sponsors-logo-silver">
+            <img src="logo/fixpoint-logo.png" />
+          </div>
+        </a>
+      </div>
+
+      <div class="sponsors col-md-4">
+        <a href="https://smarthr.co.jp/" class="sponsors-name">SmartHR, Inc.</a><br />
+        <a href="https://smarthr.co.jp/" class="sponsors-url">https://smarthr.co.jp/</a><br />
+        <a href="https://smarthr.co.jp/">
+          <div class="sponsors-logo sponsors-logo-silver">
+            <img src="logo/smarthr-logo.png" />
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <h3 id="link-bronze-sponsors">Bronze Sponsors</h3>
+    <div class="row sponsors-row">
+
+      <div class="sponsors col-md-4">
+        <a href="https://info.cookpad.com/corporate/philosophy" class="sponsors-name">Cookpad Inc.</a><br />
+        <a href="https://info.cookpad.com/corporate/philosophy" class="sponsors-url">https://info.cookpad.com/corporate/philosophy</a><br />
+        <a href="https://info.cookpad.com/corporate/philosophy">
+          <div class="sponsors-logo sponsors-logo-bronze">
+            <img src="logo/cookpad-logo.png" />
+          </div>
+        </a>
+      </div>
+
+      <div class="sponsors col-md-4">
+        <a href="https://www.iij.ad.jp/" class="sponsors-name">Internet Initiative Japan Inc.</a><br />
+        <a href="https://www.iij.ad.jp/" class="sponsors-url">https://www.iij.ad.jp/</a><br />
+        <a href="https://www.iij.ad.jp/">
+          <div class="sponsors-logo sponsors-logo-bronze">
+            <img src="logo/iij-logo.png" />
+          </div>
+        </a>
+      </div>
+
+      <div class="sponsors col-md-4">
+        <a href="https://corp.moneyforward.com/" class="sponsors-name">Money Forward, Inc.</a><br />
+        <a href="https://corp.moneyforward.com/" class="sponsors-url">https://corp.moneyforward.com/</a><br />
+        <a href="https://corp.moneyforward.com/">
+          <div class="sponsors-logo sponsors-logo-bronze">
+            <img src="logo/moneyforward-logo.png" />
+          </div>
+        </a>
+      </div>
+
+      <div class="sponsors col-md-4">
+        <a href="https://www.redish.jp/" class="sponsors-name">redish Inc.</a><br />
+        <a href="https://www.redish.jp/" class="sponsors-url">https://www.redish.jp/</a><br />
+        <a href="https://www.redish.jp/">
+          <div class="sponsors-logo sponsors-logo-bronze">
+            <img src="logo/redish-logo.png" />
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <p>
+    To be determined. <a href="https://vimconf.wordpress.com/2018/06/29/looking-for-companies-sponsoring-vimconf-2018/">We are looking for sponsors!</a>
+    </p>
+    <p><a class="btn btn-secondary" href="https://vimconf.wordpress.com/2018/06/29/looking-for-companies-sponsoring-vimconf-2018/" role="button">Apply now (English) &raquo;</a></p>
+    <p><a class="btn btn-secondary" href="https://vim-jp.org/blog/2018/06/07/VimConf2018-sponsor-ja.html" role="button">Apply now (Japanese) &raquo;</a></p>
+
+    <div class="row">
+    </div>
+
+    <div class="jumbotron" id="link-staff">
+      <h2>Staff</h2>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-3 col-sm-4 col-6 staff">
+        <h4>Tatsuhiro Ujihisa</h4>
+        <p>&nbsp;</p>
+        <img src="icon/ujm.png" class="staff-icon" />
+        <p>
+        <a href="https://github.com/ujihisa"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        <a href="https://twitter.com/ujm"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
+        </p>
+        <p>Created this webpage. Created aomoriringo's profile avatar. Published some VimConf official blog posts. He has been using Vim for about 20 years.</p>
+      </div>
+      <div class="col-md-3 col-sm-4 col-6 staff">
+        <h4>Taro Muraoka</h4>
+        <p>also known as <strong>KaoriYa</strong></p>
+        <img src="icon/koron.png" class="staff-icon" />
+        <p>
+        <a href="https://github.com/koron"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        </p>
+        <p>Legendally developer of Vim. Managed vimconf overall. He wrote many patches to fix Vim issues on Windows. ex: DirectX drawing. And he provide kaoriya-vim which is a patched version of Vim.</p>
+      </div>
+      <div class="col-md-3 col-sm-4 col-6 staff">
+        <h4>thinca</h4>
+        <p>&nbsp;</p>
+        <img src="icon/thinca.png" class="staff-icon" />
+        <p>
+        <a href="https://github.com/thinca"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        </p>
+        <p>Famous creator of Vim plugins. Creator of vim-quickrun, vim-themis, etc. <a href="https://megurovim.connpass.com/">Meguro.vim</a> organizer</p>
+      </div>
+      <div class="col-md-3 col-sm-4 col-6 staff">
+        <h4>aomoriringo</h4>
+        <p>&nbsp;</p>
+        <img src="icon/aomoriringo.png" class="staff-icon" />
+        <p>
+        <a href="https://github.com/aomoriringo"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        <a href="https://twitter.com/aomoriringo"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
+        </p>
+        <p>A key player of staff of vimconf. He will be exciting vimconf as a staff this year too.</p>
+      </div>
+      <div class="col-md-3 col-sm-4 col-6 staff">
+        <h4>mopp</h4>
+        <p>&nbsp;</p>
+        <img src="icon/mopp.png" class="staff-icon" />
+        <p>
+        <a href="https://github.com/mopp"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        </p>
+        <p>MC of vimconf 2017. He has been using Vim for about 6 years. The main vim activities are to custimize Vim, create plugin and send PRs to plugin.</p>
+      </div>
+      <div class="col-md-3 col-sm-4 col-6 staff">
+        <h4>Yasuhiro Matsumoto</h4>
+        <p>also known as <strong>mattn</strong></p>
+        <img src="icon/mattn.png" class="staff-icon" />
+        <p>
+        <a href="https://github.com/mattn"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        <a href="https://twitter.com/mattn_jp"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
+        </p>
+        <p>Maintained this web site. He has been using Vim for about 20 years.</p>
+      </div>
+      <div class="col-md-3 col-sm-4 col-6 staff">
+        <h4>t9md</h4>
+        <p>&nbsp;</p>
+        <img src="icon/t9md.png" class="staff-icon" />
+        <p>
+        <a href="https://github.com/t9md"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        </p>
+        <p>Creator of vim-quickhl. He make Atom extension atom-vim-mode-plus that improve vim-mode.</p>
+      </div>
+      <div class="col-md-3 col-sm-4 col-6 staff">
+        <h4>guyon</h4>
+        <p>&nbsp;</p>
+        <img src="icon/guyon.png" class="staff-icon" />
+        <p>
+        <a href="https://github.com/guyon"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
+        <a href="https://twitter.com/gu4"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
+        </p>
+        <p><a href="https://yokohamavim.connpass.com/">Yokohama.vim</a> organizer</p>
+      </div>
+
+    </div>
+
+    <hr>
+
+  </div> <!-- /container -->
+
+</main>
+
+<footer class="container">
+  <p>&copy; VimConf Jumbikai 2018 -</p>
+  <p>Contact: vimconf@gmail.com</p>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="../../assets/js/vendor/popper.min.js"></script>
+<script src="../../dist/js/bootstrap.min.js"></script>
