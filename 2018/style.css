@@ -79,6 +79,37 @@
 	margin-bottom: 50px;
 }
 
+.individual-sponsor-grid {
+  padding: 1em;
+  box-sizing: border-box;
+  float: left;
+  width: 10em;
+}
+
+.individual-sponsor {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  line-height: 1;
+  text-align: center;
+}
+
+.individual-sponsor-icon {
+  margin: auto;
+  width: 6.854em;
+  height: 6.854em;
+}
+
+.individual-sponsor h6 {
+  height: 2em;
+}
+
+.individual-sponsor-icon img {
+  width: 100%;
+  height: 100%;
+  vertical-align: text-bottom;
+  border: 4px solid rgba(100,100,100,0.05);
+}
+
 .staff img {
 	margin: auto;
 }
@@ -93,7 +124,7 @@
   max-width: 100px;
 }
 
-@media screen and (max-width:480px) { 
+@media screen and (max-width:480px) {
 	.sponsors-logo-platinum {
 		width: calc(100vw - 30px);
 		height: calc(100vw - 30px);
