@@ -1,0 +1,39 @@
+---
+- name: Tatsuhiro Ujihisa
+  image: icon/ujm.png
+  github: ujihisa
+  twitter: ujm
+  bio: TBD
+- name: daisuzu
+  image: https://avatars1.githubusercontent.com/u/1222926?s=400&v=4
+  github: daisuzu
+  twitter: dice_zu
+  bio: >-
+    A server side engineer from a test engineer. Used Vim for various purposes
+    in various environments, such as editing and viewing text or sometimes as a
+    bit of tools on Windows, Linux and Mac. Currently, using Vim for daily
+    works for developing a game platform with Google App Engine and Go.
+- name: OKURA Masafumi
+  image: https://pbs.twimg.com/profile_images/940047602946490369/YSYuYEJn_400x400.jpg
+  github: okuramasafumi
+  twitter: okuramasafumi
+  bio: >-
+    He's been doing Ruby/Rails development over the past five years with some
+    experience of development with Go. He started using Vim just when he
+    started his professional carrier, and is still learning to master Vim.
+    While most of the time he uses Vim for application development, sometimes
+    he does system administration work, and Vim really helps him to achieve
+    goals efficiently. He thinks Vim is a daily power tools for every type of
+    developer.
+- name: rhysd
+  image: icon/rhysd.jpg
+  github: rhysd
+  twitter: Linda_pp
+  bio: >-
+    Software engineer at Tokyo. Hobby OSS developer. Interested in tools for
+    programming such as programming languages (compilers, runtimes &amp; specs)
+    or text editors.<br>
+    Creator of NyaoVim (Neovim frontend built on Electron and Web Components)
+    and 70+ Vim plugins. Maintainer of Neovim Node.js binding, 'wast' filetype
+    in Vim runtime, and vital.vim. My current project is vim.wasm; Vim editor
+    ported to WebAssembly.

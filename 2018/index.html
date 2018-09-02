@@ -158,69 +158,22 @@ In Japan, He write serial articles about Vim in monthly magazine.
         </div>
 
         <div class="row">
+          {% for speaker in site.data.y2018.speakers %}
           <div class="col-md-4">
-            <h2>Tatsuhiro Ujihisa</h2>
-            <img src="icon/ujm.png" width=236 height="236" />
+            <h2>{{ speaker.name }}</h2>
+            <img src="{{ speaker.image }}" width="236" height="236" />
 
             <p>
-            <a href="https://github.com/ujihisa"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            <a href="https://twitter.com/ujm"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
+              {% if speaker.github %}<a href="https://github.com/{{ speaker.github }}"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" alt="Link to GitHub account"/></a>{% endif %}
+              {% if speaker.twitter %}<a href="https://twitter.com/{{ speaker.twitter }}"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" alt="Link to Twitter account" /></a>{% endif %}
             </p>
 
-            <p>TBD</p>
+            <p>{{ speaker.bio }}</p>
             <!--
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
             -->
           </div>
-
-          <div class="col-md-4">
-            <h2>daisuzu</h2>
-            <img src="https://avatars1.githubusercontent.com/u/1222926?s=400&v=4" width=236 height="236" />
-
-            <p>
-            <a href="https://github.com/daisuzu"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            <a href="https://twitter.com/dice_zu"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
-            </p>
-
-            <p>A server side engineer from a test engineer. Used Vim for various purposes in various environments, such as editing and viewing text or sometimes as a bit of tools on Windows, Linux and Mac. Currently, using Vim for daily works for developing a game platform with Google App Engine and Go.</p>
-            <!--
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            -->
-          </div>
-
-          <div class="col-md-4">
-            <h2>OKURA Masafumi</h2>
-            <img src="https://pbs.twimg.com/profile_images/940047602946490369/YSYuYEJn_400x400.jpg" width=236 height="236" />
-
-            <p>
-            <a href="https://github.com/okuramasafumi"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" /></a>
-            <a href="https://twitter.com/okuramasafumi"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" /></a>
-            </p>
-
-            <p>He's been doing Ruby/Rails development over the past five years with some experience of development with Go. He started using Vim just when he started his professional carrier, and is still learning to master Vim. While most of the time he uses Vim for application development, sometimes he does system administration work, and Vim really helps him to achieve goals efficiently. He thinks Vim is a daily power tools for every type of developer.</p>
-            <!--
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            -->
-          </div>
-
-          <div class="col-md-4">
-            <h2>rhysd</h2>
-            <img src="icon/rhysd.jpg" width=236 height="236" alt="profile icon"/>
-
-            <p>
-              <a href="https://github.com/rhysd">
-                <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" alt="Link to GitHub account"/>
-              </a>
-              <a href="https://twitter.com/Linda_pp">
-                <img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" alt="Link to Twitter account" />
-              </a>
-            </p>
-
-            <p>Software engineer at Tokyo. Hobby OSS developer. Interested in tools for programming such as programming languages (compilers, runtimes &amp; specs) or text editors.<br>Creator of NyaoVim (Neovim frontend built on Electron and Web Components) and 70+ Vim plugins. Maintainer of Neovim Node.js binding, 'wast' filetype in Vim runtime, and vital.vim. My current project is vim.wasm; Vim editor ported to WebAssembly.</p>
-            <!--
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            -->
-          </div>
+          {% endfor %}
         </div>
 
         <hr>
