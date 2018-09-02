@@ -37,3 +37,21 @@
     and 70+ Vim plugins. Maintainer of Neovim Node.js binding, 'wast' filetype
     in Vim runtime, and vital.vim. My current project is vim.wasm; Vim editor
     ported to WebAssembly.
+- name: USAMI Kenta
+  image: https://ja.gravatar.com/userimage/33138763/3d33a1e1f6cf383f12a39dd42966b2d2.png
+  github: zonuexe
+  twitter: tadsan
+  bio: >-
+    Vim user from 2011.  Web programmer in pixiv Inc, and current
+    maintainer of Emacs PHP Mode.
+- name: Alisue
+  image: https://www.dropbox.com/s/ck7bpij0hkg4zfh/with.png?dl=1
+  github: lambdalisue
+  twitter: lambdalisue
+  bio: >-
+    Softwase engineer who used to study biology in postgradual course.
+    He has been using Vim about 10 years for daily work and is addicted to
+    it. He helps people to make Vim plugins by development of vital.vim
+    modules, a Vim script library produced by vim-jp.
+    He developped and maintains Vim related plugins such as
+    jupyter-vim-binding; gina.vim, suda.vim, gista.vim, and a lot more.
