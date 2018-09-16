@@ -176,6 +176,33 @@ In Japan, He write serial articles about Vim in monthly magazine.
           {% endfor %}
         </div>
 
+
+        <div class="jumbotron" id="link-timetable">
+          <h2>Time Table</h2>
+        </div>
+
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Content</th>
+              <th scope="col">Speaker</th>
+              <th scope="col">Language</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% for program in site.data.y2018.timetable %}
+            <tr>
+              <th>{{ program.Start }} - {{ program.End }}</th>
+              <th>{{ program.Content }}</th>
+              <th>{{ program.Speaker }}</th>
+              <th>{{ program.Language }}</th>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+
+
         <div class="jumbotron" id="link-sponsors">
           <h2>Sponsors</h2>
         </div>
