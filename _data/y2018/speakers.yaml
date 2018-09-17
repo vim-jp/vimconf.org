@@ -1,6 +1,6 @@
 ---
 - name: Tatsuhiro Ujihisa
-  image: icon/ujm.png
+  image: icon/ujihisa.png
   github: ujihisa
   twitter: ujm
   bio: >-
@@ -52,7 +52,7 @@
     Vim user from 2011.  Web programmer in pixiv Inc, and current
     maintainer of Emacs PHP Mode.
 - name: Alisue
-  image: ./icon/alisue.png
+  image: ./icon/lambdalisue.png
   github: lambdalisue
   twitter: lambdalisue
   bio: >-
