@@ -12,7 +12,7 @@
     Back then he lived in Vancouver, Canada, and he's going to move back there within a year.
     Besides programming, he worked on baking breads 🥖, and is focusing on preprocessing and cook fish 🔪🐟 recently.
 - name: daisuzu
-  image: https://avatars1.githubusercontent.com/u/1222926?s=400&v=4
+  image: icon/daisuzu.png
   github: daisuzu
   twitter: dice_zu
   bio: >-
@@ -21,7 +21,7 @@
     bit of tools on Windows, Linux and Mac. Currently, using Vim for daily
     works for developing a game platform with Google App Engine and Go.
 - name: OKURA Masafumi
-  image: https://pbs.twimg.com/profile_images/940047602946490369/YSYuYEJn_400x400.jpg
+  image: icon/okuramasafumi.jpg
   github: okuramasafumi
   twitter: okuramasafumi
   bio: >-
@@ -45,7 +45,7 @@
     in Vim runtime, and vital.vim. My current project is vim.wasm; Vim editor
     ported to WebAssembly.
 - name: USAMI Kenta
-  image: https://ja.gravatar.com/userimage/33138763/3d33a1e1f6cf383f12a39dd42966b2d2.png
+  image: icon/zonuexe.png
   github: zonuexe
   twitter: tadsan
   bio: >-
@@ -63,7 +63,7 @@
     He developed and maintains Vim related plugins such as
     jupyter-vim-binding, gina.vim, suda.vim, gista.vim, and a lot more.
 - name: Akin
-  image: https://avatars1.githubusercontent.com/u/22454918?s=400&u=13faaaaedcc9ddd912dc7284b798d015f7c8c9de&v=4
+  image: icon/Akin909.jpg
   github: Akin909
   twitter: Akin_So
   bio: >-
