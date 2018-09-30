@@ -83,7 +83,7 @@
   padding: 1em;
   box-sizing: border-box;
   float: left;
-  width: 10em;
+  width: 9em;
 }
 
 .individual-sponsor {
@@ -95,8 +95,8 @@
 
 .individual-sponsor-icon {
   margin: auto;
-  width: 6.854em;
-  height: 6.854em;
+  width: 5.854em;
+  height: 5.854em;
 }
 
 .individual-sponsor h6 {
