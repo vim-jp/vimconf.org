@@ -145,3 +145,8 @@
 		height: calc(46vw - 30px);
 	}
 }
+
+.sold-out {
+	font-weight: bold;
+	color: red;
+}
