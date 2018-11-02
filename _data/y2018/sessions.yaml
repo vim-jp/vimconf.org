@@ -6,7 +6,7 @@
 #   speaker: Yasuhiro Matsumoto
 #   language: Japanese
 #   abstract: >-
-# 
+#
 # - start_time: 11:10
 #   end_time: 12:10
 #   duration: 01:00
@@ -91,8 +91,9 @@
   github: zonuexe
   twitter: tadsan
   abstract: >-
-    従来テキストエディタは重厚なIDEの対するアンチテーゼとして好まれてきた側面がありました。しかしながら今日のソフトウェア開発においては、いわゆる動的言語の開発現場においてもIDEの有用性が認められ、生産性などの観点を重視して、テキストエディタではなくIDEが推奨される事例が増えています。
-    そのような現状において、テキストエディタを使ってIDEに匹敵する言語サポートを得て開発するための手法、特に固有のエディタに依存せずにインテリジェントなPHP開発を実現するためのツール群と、EmacsとVimへの適用例について紹介します。
+    Traditional text editors have been favored as an antithesis against heavy IDE. In today's software development, however, the power of the IDE is increasingly recognized even in the project using a dynamic language, and sometimes it is recommended over bare text-editor.
+    
+    Considering that, I will introduce methods to add IDE-like language support to text-editor, especially I will introduce editor-agnostic tools for intelligent PHP development and explain its application to Emacs and Vim.
   bio: >-
     Vim user from 2011.  Web programmer in pixiv Inc, and current
     maintainer of Emacs PHP Mode.
@@ -163,4 +164,3 @@
     and 70+ Vim plugins. Maintainer of Neovim Node.js binding, 'wast' filetype
     in Vim runtime, and vital.vim. My current project is vim.wasm; Vim editor
     ported to WebAssembly.
-
