@@ -1,7 +1,7 @@
 Start,End,Dur.,Content,Speaker,Language,Interp.,Misc.
 09:30,10:00,00:30,Reception,,,no,
 10:00,10:10,00:10,Opening,mopp,English,yes,
-10:10,11:00,00:50,Keynote - What is the next feature?,mattn,Japanese,yes,
+10:10,11:00,00:50,Keynote - What is the next feature?,Yasuhiro Matsumoto,Japanese,yes,
 11:00,11:10,00:10,Short break,,,no,
 11:10,12:10,01:00,Keynote - Vim: From hjkl to a platform for plugins,Bram Moolenaar,English,yes,"Horland, Swiss"
 12:10,13:10,01:00,Lunch break,,,no,
