@@ -22,9 +22,6 @@ title: VimConf 2018 - An international Vim Conference
             <a class="nav-link" href="#link-keynote">Keynote speakers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#link-speakers">Speakers</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#link-timetable">Time table</a>
           </li>
           <li class="nav-item">
@@ -164,30 +161,6 @@ In Japan, He write serial articles about Vim in monthly magazine.
             -->
           </div>
         </div>
-
-        <div class="jumbotron" id="link-speakers">
-          <h2>Speakers</h2>
-        </div>
-
-        <div class="row">
-          {% for speaker in site.data.y2018.speakers %}
-          <div class="col-md-4">
-            <h2>{{ speaker.name }}</h2>
-            <img src="{{ speaker.image }}" width="236" height="236" />
-
-            <p>
-              {% if speaker.github %}<a href="https://github.com/{{ speaker.github }}"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" alt="Link to GitHub account"/></a>{% endif %}
-              {% if speaker.twitter %}<a href="https://twitter.com/{{ speaker.twitter }}"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" alt="Link to Twitter account" /></a>{% endif %}
-            </p>
-
-            <p>{{ speaker.bio }}</p>
-            <!--
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            -->
-          </div>
-          {% endfor %}
-        </div>
-
 
         <div class="jumbotron" id="link-timetable">
           <h2>Time Table</h2>
