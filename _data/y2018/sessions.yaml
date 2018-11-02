@@ -1,0 +1,166 @@
+---
+# - start_time: 10:10
+#   end_time: 11:00
+#   duration: 00:50
+#   title: Keynote - What is the next feature?
+#   speaker: Yasuhiro Matsumoto
+#   language: Japanese
+#   abstract: >-
+# 
+# - start_time: 11:10
+#   end_time: 12:10
+#   duration: 01:00
+#   title: Keynote - Vim&#58; From hjkl to a platform for plugins
+#   speaker: Bram Moolenaar
+#   language: English
+#   abstract: >-
+
+- session_id: daisuzu
+  start_time: 13:10
+  end_time: 13:40
+  duration: 00:30
+  title: Migrating plugins to standard features
+  speaker: daisuzu
+  language: Japanese
+  image: ../icon/daisuzu.png
+  github: daisuzu
+  twitter: dice_zu
+  abstract: >-
+    Although it may not be well known, Vim has a lot of useful standard features and many people use them from the plugin, but they can also be used directly.
+    Certainly plugins are important for efficient use of Vim and have used many plugins so far, but I prefer standard features rather than plugins recently.
+    In this session, I'll talk about specific method of migrating plugins to standard features, along with my own growth and changes in usage of Vim itself which is that reason.
+  bio: >-
+    A server side engineer from a test engineer. Used Vim for various purposes in various environments, such as editing and viewing text or sometimes as a bit of tools on Windows, Linux and Mac. Currently, using Vim for daily works for developing a game platform with Google App Engine and Go.
+
+- session_id: ujihisa
+  start_time: 13:40
+  end_time: 14:10
+  duration: 00:30
+  title: Modes
+  speaker: Tatsuhiro Ujihisa
+  language: English
+  image: ../icon/ujihisa.png
+  github: ujihisa
+  twitter: ujm
+  abstract: >-
+    Discover what is happening internally when you switch modes, such as insert mode, normal mode, and operator-pending mode.
+    This talk first revisits how modes are when you use Vim, then I'll let you dive into the Vim C implementation to see what's exactly happening there.
+    I'll even show what modifications can be done when you make change, with using existing pull requests.
+
+    This talk is both for Vim beginners and advanced users who don't always look at the Vim C implementation.
+  bio: >-
+    He is just a programmer who writes Ruby, Vim script, Scala, Clojure, and couple others.
+    What makes him a little bit different is that he uses Vim for over 20 years to live, and organizes couple of Vim communities, including founding this VimConf back in 2013.
+    His major contribution to Vim is to create and maintain <a href="https://github.com/vim-jp/vital.vim">vital.vim</a>, the comprehensive Vim utility functions for Vim plugins.
+
+    He currently lives in Tokyo, Japan and working at Quipper Ltd.
+    Back then he lived in Vancouver, Canada, and he's going to move back there within a year.
+    Besides programming, he worked on baking breads 🥖, and is focusing on preprocessing and cook fish recently.
+
+- session_id: okuramasafumi
+  start_time: 14:20
+  end_time: 14:40
+  duration: 00:20
+  title: A day in the life of (ordinary) Vimmer
+  speaker: OKURA Masafumi
+  language: English
+  image: ../icon/okuramasafumi.jpg
+  github: okuramasafumi
+  twitter: okuramasafumi
+  abstract: >-
+    This presentation shows how I, with 5 year experience of using Vim, use Vim to do my day job.
+    In this presentation I'll talk about plugins I use frequently, native features I like the most and the tips to make a terminal and Vim work along well.
+    You'll take away some plugins and techniques you've missed.
+  bio: >-
+    He's been doing Ruby/Rails development over the past five years with some
+    experience of development with Go. He started using Vim just when he
+    started his professional carrier, and is still learning to master Vim.
+    While most of the time he uses Vim for application development, sometimes
+    he does system administration work, and Vim really helps him to achieve
+    goals efficiently. He thinks Vim is a daily power tools for every type of
+    developer.
+
+- session_id: tadsan
+  start_time: 14:40
+  end_time: 15:00
+  duration: 00:20
+  title: Modern editor - independent development environment for PHP
+  speaker: USAMI Kenta
+  language: Japanese
+  image: ../icon/zonuexe.png
+  github: zonuexe
+  twitter: tadsan
+  abstract: >-
+    従来テキストエディタは重厚なIDEの対するアンチテーゼとして好まれてきた側面がありました。しかしながら今日のソフトウェア開発においては、いわゆる動的言語の開発現場においてもIDEの有用性が認められ、生産性などの観点を重視して、テキストエディタではなくIDEが推奨される事例が増えています。
+    そのような現状において、テキストエディタを使ってIDEに匹敵する言語サポートを得て開発するための手法、特に固有のエディタに依存せずにインテリジェントなPHP開発を実現するためのツール群と、EmacsとVimへの適用例について紹介します。
+  bio: >-
+    Vim user from 2011.  Web programmer in pixiv Inc, and current
+    maintainer of Emacs PHP Mode.
+
+- session_id: lambdalisue
+  start_time: 15:00
+  end_time: 15:30
+  duration: 00:30
+  title: Effective Modern Vim scripting
+  speaker: Alisue
+  language: English
+  image: ../icon/lambdalisue.png
+  github: lambdalisue
+  twitter: lambdalisue
+  abstract: >-
+    Coming to grips with Vim script in Vim 8.x is more than a matter of familiarizing yourself with the features they introduce (e.g., timer, job control, and lambda expression).
+    The challenge is learning to use those features effectively --- so that your plugin is correct, efficient, maintainable, and portable.
+    That's where this talk comes in. It describes how to write modern asynchronous Vim plugins using modules in vim-jp/vital.vim.
+  bio: >-
+    Software engineer who used to study biology in postgraduate course.
+    He has been using Vim about 10 years for daily work and is addicted to
+    it. He helps people to make Vim plugins by development of vital.vim
+    modules, a Vim script library produced by vim-jp.
+    He developed and maintains Vim related plugins such as
+    jupyter-vim-binding, gina.vim, suda.vim, gista.vim, and a lot more.
+
+- session_id: akin
+  start_time: 15:40
+  end_time: 16:10
+  duration: 00:30
+  title: Oni - The GUI-fication of Neovim
+  speaker: Akin
+  language: English
+  image: ../icon/Akin909.jpg
+  github: Akin909
+  twitter: Akin_So
+  abstract: >-
+    Modal editing is an amazing, efficient and fun way to write code.
+    However until now has required a trade off in terms of the UI/UX of your editor as this I think is not where vim's strengths lie.
+    Oni is a typescript electron app that embeds neovim and essentially provides a modern GUI wrapper.
+    We aim to preserve the text-editing experience of neovim whilst adding a nicer UI/UX as well as IDE features.
+    This talk is about the Oni project, its current status and what we plan for Oni's future.
+  bio: >-
+    Software Engineer in London, having studied medicine in a past life, currently working with Typescript and NodeJS.
+    Vim fanatic using vim for all my editing needs, Collaborator on Onivim, a project aimed at breaking Vim free of terminal limitations
+
+- session_id: rhysd
+  start_time: 16:10
+  end_time: 16:40
+  duration: 00:30
+  title: Vim ported to WebAssembly
+  speaker: rhysd
+  language: Japanese
+  image: ../icon/rhysd.jpg
+  github: rhysd
+  twitter: Linda_pp
+  abstract: >-
+    I've started a new project <a href="https://github.com/rhysd/vim.wasm">vim.wasm</a>.
+    This is a project to port Vim editor to WebAssembly (Wasm). Wasm is a new executable format for browser. Now Vim is running on browser.
+
+    In this presentation, I will explain how/why I ported Vim to Wzsm as an experimental fork.
+    Let me share my experience porting the historic editor (which has a history of over 25 years) to a brand new web thing (Wasm); what was done well and what was an essential challenge.
+  bio: >-
+    Software engineer at Tokyo. Hobby OSS developer. Interested in tools for
+    programming such as programming languages (compilers, runtimes &amp; specs)
+    or text editors.<br>
+    Creator of NyaoVim (Neovim frontend built on Electron and Web Components)
+    and 70+ Vim plugins. Maintainer of Neovim Node.js binding, 'wast' filetype
+    in Vim runtime, and vital.vim. My current project is vim.wasm; Vim editor
+    ported to WebAssembly.
+

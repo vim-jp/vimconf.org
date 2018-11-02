@@ -22,9 +22,6 @@ title: VimConf 2018 - An international Vim Conference
             <a class="nav-link" href="#link-keynote">Keynote speakers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#link-speakers">Speakers</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#link-timetable">Time table</a>
           </li>
           <li class="nav-item">
@@ -38,6 +35,9 @@ title: VimConf 2018 - An international Vim Conference
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#link-staff">Staff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sessions">Sessions</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../coc">Code of conduct</a>
@@ -162,35 +162,9 @@ In Japan, He write serial articles about Vim in monthly magazine.
           </div>
         </div>
 
-        <div class="jumbotron" id="link-speakers">
-          <h2>Speakers</h2>
-        </div>
-
-        <div class="row">
-          {% for speaker in site.data.y2018.speakers %}
-          <div class="col-md-4">
-            <h2>{{ speaker.name }}</h2>
-            <img src="{{ speaker.image }}" width="236" height="236" />
-
-            <p>
-              {% if speaker.github %}<a href="https://github.com/{{ speaker.github }}"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" alt="Link to GitHub account"/></a>{% endif %}
-              {% if speaker.twitter %}<a href="https://twitter.com/{{ speaker.twitter }}"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" alt="Link to Twitter account" /></a>{% endif %}
-            </p>
-
-            <p>{{ speaker.bio }}</p>
-            <!--
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            -->
-          </div>
-          {% endfor %}
-        </div>
-
-
         <div class="jumbotron" id="link-timetable">
           <h2>Time Table</h2>
         </div>
-
-        <p><a href="https://gist.github.com/ujihisa/393babf6619142a1248270cb4187abf5">Temporary time table with abstract</a></p>
 
         <table class="table">
           <thead class="thead-light">
@@ -205,7 +179,11 @@ In Japan, He write serial articles about Vim in monthly magazine.
           {% for program in site.data.y2018.timetable %}
             <tr>
               <th>{{ program.Start }} - {{ program.End }}</th>
+              {% if program.SessionID %}
+              <th><a href="sessions/#link-{{program.SessionID}}">{{ program.Content }}</a></th>
+              {% else %}
               <th>{{ program.Content }}</th>
+              {% endif %}
               <th>{{ program.Speaker }}</th>
               <th>{{ program.Language }}</th>
             </tr>
@@ -233,13 +211,6 @@ In Japan, He write serial articles about Vim in monthly magazine.
 
         <p>&nbsp;</p>
         <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-
         <div class="jumbotron" id="link-sponsors">
           <h2>Sponsors</h2>
         </div>
@@ -420,7 +391,7 @@ In Japan, He write serial articles about Vim in monthly magazine.
 
         <h3><a href="#link-faq-twitter-hashtag">Q. What's the official Twitter hashtag?</a></h3>
 
-        <div class="row">
+        <div class="row col-4">
           <p>#vimconf</p>
         </div>
 

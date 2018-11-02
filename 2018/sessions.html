@@ -1,0 +1,83 @@
+---
+layout: 2018/default
+title: Sessions
+---
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="../">VimConf 2018</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../#link-tickets">Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../#link-keynote">Keynote speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../#link-timetable">Time table</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../#link-side-events">Side events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../#link-sponsors">Sponsors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../#link-faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../#link-staff">Staff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sessions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../coc">Code of conduct</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="mt-5">
+
+      <div class="container">
+        <br>
+        <h1>Sessions</h1>
+        <br>
+        {% for session in site.data.y2018.sessions %}
+        <div class="jumbotron" id="link-{{ session.session_id }}">
+          <h3>{{ session.title }}</h3>
+        </div>
+        <h4>Abstract</h4>
+        {{ session.abstract }}
+        <br><br>
+        <h4>Speaker</h4>
+        <h5>{{ session.speaker }}</h5>
+        <img src="{{ session.image }}" width="150" height="150" />
+        <br>
+        {% if session.github %}<a href="https://github.com/{{ session.github }}"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" alt="Link to GitHub account"/></a>{% endif %}
+        {% if session.twitter %}<a href="https://twitter.com/{{ session.twitter }}"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" alt="Link to Twitter account" /></a>{% endif %}
+        <br>
+        {{ session.bio }}
+        <br><br>
+        {% endfor %}
+
+        <hr>
+      </div> <!-- /container -->
+    </main>
+
+    <footer class="container">
+      <p>&copy; VimConf Jumbikai 2018 -</p>
+      <p>Contact: vimconf@gmail.com</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>

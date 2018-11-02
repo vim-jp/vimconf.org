@@ -1,19 +1,19 @@
-Start,End,Dur.,Content,Speaker,Language,Interp.,Misc.
-09:30,10:00,00:30,Reception,,,no,
-10:00,10:10,00:10,Opening,mopp,English,yes,
-10:10,11:00,00:50,Keynote - What is the next feature?,Yasuhiro Matsumoto,Japanese,yes,
-11:00,11:10,00:10,Short break,,,no,
-11:10,12:10,01:00,Keynote - Vim: From hjkl to a platform for plugins,Bram Moolenaar,English,yes,"Horland, Swiss"
-12:10,13:10,01:00,Lunch break,,,no,
-13:10,13:40,00:30,Migrating plugins to standard features,daisuzu,Japanese,yes,
-13:40,14:10,00:30,Modes,Tatsuhiro Ujihisa,English,yes,
-14:10,14:20,00:10,Short break,,,no,
-14:20,14:40,00:20,A day in the life of (ordinary) Vimmer,OKURA Masafumi,English,yes,
-14:40,15:00,00:20,Modern editor-independent development environment for PHP,USAMI Kenta,Japanese,yes,
-15:00,15:30,00:30,Effective Modern Vim scripting,Alisue,English,yes,
-15:30,15:40,00:10,Short break,,,no,
-15:40,16:10,00:30,Oni - The GUI-fication of Neovim,Akin,English,yes,G.B.
-16:10,16:40,00:30,Vim ported to WebAssembly,rhysd,Japanese,yes,
-16:40,17:15,00:35,Lightning Talks,(5 Speakers),Mixed,no?,5m (explain) + (1m + 5m) * 5ppl
-17:15,17:25,00:10,Closing,mopp,English,yes,
-17:30,19:30,02:00,After party,,,no,
+Start,End,Dur.,Content,Speaker,Language,Interp.,SessionID,Misc.
+09:30,10:00,00:30,Reception,,,no,,
+10:00,10:10,00:10,Opening,mopp,English,yes,,
+10:10,11:00,00:50,Keynote - What is the next feature?,Yasuhiro Matsumoto,Japanese,yes,,
+11:00,11:10,00:10,Short break,,,no,,
+11:10,12:10,01:00,Keynote - Vim: From hjkl to a platform for plugins,Bram Moolenaar,English,yes,,"Horland, Swiss"
+12:10,13:10,01:00,Lunch break,,,no,,
+13:10,13:40,00:30,Migrating plugins to standard features,daisuzu,Japanese,yes,daisuzu,
+13:40,14:10,00:30,Modes,Tatsuhiro Ujihisa,English,yes,ujihisa,
+14:10,14:20,00:10,Short break,,,no,,
+14:20,14:40,00:20,A day in the life of (ordinary) Vimmer,OKURA Masafumi,English,yes,okuramasafumi,
+14:40,15:00,00:20,Modern editor-independent development environment for PHP,USAMI Kenta,Japanese,yes,tadsan,
+15:00,15:30,00:30,Effective Modern Vim scripting,Alisue,English,yes,lambdalisue,
+15:30,15:40,00:10,Short break,,,no,,
+15:40,16:10,00:30,Oni - The GUI-fication of Neovim,Akin,English,yes,akin,G.B.
+16:10,16:40,00:30,Vim ported to WebAssembly,rhysd,Japanese,yes,rhysd,
+16:40,17:15,00:35,Lightning Talks,(5 Speakers),Mixed,no?,,5m (explain) + (1m + 5m) * 5ppl
+17:15,17:25,00:10,Closing,mopp,English,yes,,
+17:30,19:30,02:00,After party,,,no,,
