@@ -3,7 +3,7 @@ layout: 2018/default
 title: Sessions
 ---
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">VimConf 2018</a>
+      <a class="navbar-brand" href="../">VimConf 2018</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -11,28 +11,28 @@ title: Sessions
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#link-tickets">Tickets</a>
+            <a class="nav-link" href="../#link-tickets">Tickets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#link-keynote">Keynote speakers</a>
+            <a class="nav-link" href="../#link-keynote">Keynote speakers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#link-speakers">Speakers</a>
+            <a class="nav-link" href="../#link-speakers">Speakers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#link-timetable">Time table</a>
+            <a class="nav-link" href="../#link-timetable">Time table</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#link-side-events">Side events</a>
+            <a class="nav-link" href="../#link-side-events">Side events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#link-sponsors">Sponsors</a>
+            <a class="nav-link" href="../#link-sponsors">Sponsors</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#link-faq">FAQ</a>
+            <a class="nav-link" href="../#link-faq">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#link-staff">Staff</a>
+            <a class="nav-link" href="../#link-staff">Staff</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Sessions</a>
@@ -51,7 +51,7 @@ title: Sessions
         <h1>Sessions</h1>
         <br>
         {% for session in site.data.y2018.sessions %}
-        <div class="jumbotron" id="link-sessions">
+        <div class="jumbotron" id="link-{{ session.session_id }}">
           <h3>{{ session.title }}</h3>
         </div>
         <h4>Abstract</h4>

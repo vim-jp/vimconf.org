@@ -40,6 +40,9 @@ title: VimConf 2018 - An international Vim Conference
             <a class="nav-link" href="#link-staff">Staff</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="sessions">Sessions</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="../coc">Code of conduct</a>
           </li>
           <!--
@@ -205,7 +208,11 @@ In Japan, He write serial articles about Vim in monthly magazine.
           {% for program in site.data.y2018.timetable %}
             <tr>
               <th>{{ program.Start }} - {{ program.End }}</th>
+              {% if program.SessionID %}
+              <th><a href="sessions/#link-{{program.SessionID}}">{{ program.Content }}</a></th>
+              {% else %}
               <th>{{ program.Content }}</th>
+              {% endif %}
               <th>{{ program.Speaker }}</th>
               <th>{{ program.Language }}</th>
             </tr>
