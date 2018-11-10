@@ -19,6 +19,11 @@
 	border-radius: 0.5em;
 }
 
+#link-lightning {
+  margin-top: -56px;
+  padding-top: 56px;
+}
+
 .sponsors-logo {
 	background-color: white;
 	display: table-cell;

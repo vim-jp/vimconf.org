@@ -14,6 +14,6 @@ Start,End,Dur.,Content,Speaker,Language,Interp.,SessionID,Misc.
 15:30,15:40,00:10,Short break,,,no,,
 15:40,16:10,00:30,Oni - The GUI-fication of Neovim,Akin,English,yes,akin,G.B.
 16:10,16:40,00:30,Vim ported to WebAssembly,rhysd,Japanese,yes,rhysd,
-16:40,17:15,00:35,Lightning Talks,(5 Speakers),Mixed,no?,,5m (explain) + (1m + 5m) * 5ppl
+16:40,17:15,00:35,Lightning Talks,(5 Speakers),Mixed,no?,lightning,5m (explain) + (1m + 5m) * 5ppl
 17:15,17:25,00:10,Closing,mopp,English,yes,,
 17:30,19:30,02:00,After party,,,no,,
