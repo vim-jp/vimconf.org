@@ -150,3 +150,12 @@
 	font-weight: bold;
 	color: red;
 }
+
+.session-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.jumbotron .badge-info {
+  font-size: 1em;
+}

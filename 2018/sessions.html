@@ -49,7 +49,7 @@ title: Sessions
         <br>
         {% for session in site.data.y2018.sessions %}
         <div class="jumbotron" id="link-{{ session.session_id }}">
-          <h3>{{ session.title }}</h3>
+          <h3 class="session-title">{{ session.title }}</h3>&nbsp;&nbsp;&nbsp;<span class="badge badge-info">{{ session.language }}</span>
         </div>
         <h4>Abstract</h4>
         {{ session.abstract }}
@@ -71,7 +71,7 @@ title: Sessions
         <br>
         {% for lt in site.data.y2018.lightning %}
         <div class="jumbotron jumbotron-session" id="link-{{ lt.session_id }}">
-          <h3>{{ lt.title }}</h3>
+          <h3 class="session-title">{{ lt.title }}</h3>&nbsp;&nbsp;<span class="badge badge-info">{{ lt.language }}</span>
         </div>
         <h4>Abstract</h4>
         {{ lt.abstract }}
