@@ -66,6 +66,26 @@ title: Sessions
         {% endfor %}
 
         <hr>
+        <br>
+        <h1>Lightning Talks</h1>
+        <br>
+        {% for lt in site.data.y2018.lightning %}
+        <div class="jumbotron jumbotron-session" id="link-{{ lt.session_id }}">
+          <h3>{{ lt.title }}</h3>
+        </div>
+        <h4>Abstract</h4>
+        {{ lt.abstract }}
+        <br><br>
+        <h4>Speaker</h4>
+        <h5>{{ lt.speaker }}</h5>
+        <img src="{{ lt.image }}" width="150" height="150" />
+        <br>
+        {% if lt.github %}<a href="https://github.com/{{ lt.github }}"><img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" width="32" height="32" alt="Link to GitHub account"/></a>{% endif %}
+        {% if lt.twitter %}<a href="https://twitter.com/{{ lt.twitter }}"><img src="https://embed.gyazo.com/5f0c9cc6e0515266bef0bf736ff21213.png" width="32" height="32" alt="Link to Twitter account" /></a>{% endif %}
+        <br><br>
+        {% endfor %}
+
+        <hr>
       </div> <!-- /container -->
     </main>
 
