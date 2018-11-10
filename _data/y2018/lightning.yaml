@@ -1,0 +1,62 @@
+---
+- session_id: shougo
+  title: Differences between Nvim and Vim in 5 minutes
+  speaker: Shougo
+  language: English
+  image: ../icon/shougo.png
+  github: Shougo
+  twitter: ShougoMatsu
+  abstract: >-
+    Why are you use Vim or neovim?
+    Hm, "Vim8 has almost same API with neovim?"
+    Really?  Do you know the differences?
+    Do you know neovim advantages and disadvantages?
+    I can explain them to you in 5 minutes!
+    Because I am the contributor of Vim and neovim.
+
+- session_id: takaxp
+  title: vim-orgmode のススメ
+  speaker: Takaaki ISHIKAWA
+  language: Japanese
+  image: ../icon/takaxp.png
+  github: takaxp
+  twitter: takaxp
+  abstract: >-
+    皆さん大好きVim．何に使ってますか？設定ファイルを編集したり，がっつりとプログラミングをしたりと，用途は人それぞれ，様々だと思います．しかし，Vimをタスク管理ツールとして使う人は，いったいどれだけ居るでしょうか？Vimにもそのためのプラグインが存在します．新たな使い方でVimを楽しむために，アウトライナーとタスク管理ツールのためのプラグインvim-orgmodeを導入しましょう．このTLでは，vim-orgmodeの基本機能と本家Org Modeの魅力を紹介します．
+
+- session_id: notomo
+  title: Neovim as a web browser controller
+  speaker: notomo
+  language: Japanese
+  image: ../icon/notomo.png
+  github: notomo
+  twitter:
+  abstract: >-
+    My neovim plugin ctrlb.nvim is able to control web browsers without moving the focus to them.
+    Though this plugin communicates with web browsers through WebSocket,
+    a plugin which controls other applications also seems possible.
+    This idea shows that vim's speed and experience also can be used for outside vim.
+
+- session_id: rattcv
+  title: VimPhone 2018
+  speaker: rattcv
+  language: English
+  image: ../icon/rattcv.png
+  github:
+  twitter: rattcv
+  abstract: >-
+    Vim Advent Calendar 2012で、Vimから電話をかける話を書きました。
+    <a href="http://d.hatena.ne.jp/rattcv/20130927">http://d.hatena.ne.jp/rattcv/20130927</a>
+    今回はこれを発展させて、Androidスマートフォンのホーム画面をVimに置き換えて色々やってみます。
+
+- session_id: ktakata
+  title: The vim-history repository
+  speaker: Ken Takata
+  language: English
+  image: ../icon/ktakata.png
+  github: k-takata
+  twitter: k_takata
+  abstract: >-
+    Recently I created a new repository named <a href="https://github.com/vim/vim-history">vim-history</a> on the Vim organization on GitHub.
+    I will explain the repository (and also the history of the Vim repositories).
+
