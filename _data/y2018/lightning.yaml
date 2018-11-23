@@ -1,19 +1,4 @@
 ---
-- session_id: shougo
-  title: Differences between Nvim and Vim in 5 minutes
-  speaker: Shougo
-  language: English
-  image: ../icon/shougo.png
-  github: Shougo
-  twitter: ShougoMatsu
-  abstract: >-
-    Why are you use Vim or neovim?
-    Hm, "Vim8 has almost same API with neovim?"
-    Really?  Do you know the differences?
-    Do you know neovim advantages and disadvantages?
-    I can explain them to you in 5 minutes!
-    Because I am the contributor of Vim and neovim.
-
 - session_id: takaxp
   title: A brief introduction to vim-orgmode
   speaker: Takaaki ISHIKAWA
@@ -47,6 +32,21 @@
   abstract: >-
     I wrote an article titled "What a wonderful to make a phone call from Vim!" in Vim Advent Calendar 2012.
     Today, I'll introduce a few examples I tried after I set up Vim as a home app.
+
+- session_id: shougo
+  title: Differences between Nvim and Vim in 5 minutes
+  speaker: Shougo
+  language: English
+  image: ../icon/shougo.png
+  github: Shougo
+  twitter: ShougoMatsu
+  abstract: >-
+    Why are you use Vim or neovim?
+    Hm, "Vim8 has almost same API with neovim?"
+    Really?  Do you know the differences?
+    Do you know neovim advantages and disadvantages?
+    I can explain them to you in 5 minutes!
+    Because I am the contributor of Vim and neovim.
 
 - session_id: ktakata
   title: The vim-history repository
