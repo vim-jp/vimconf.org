@@ -15,14 +15,14 @@
     Because I am the contributor of Vim and neovim.
 
 - session_id: takaxp
-  title: vim-orgmode のススメ
+  title: A brief introduction to vim-orgmode
   speaker: Takaaki ISHIKAWA
   language: Japanese
   image: ../icon/takaxp.png
   github: takaxp
   twitter: takaxp
   abstract: >-
-    皆さん大好きVim．何に使ってますか？設定ファイルを編集したり，がっつりとプログラミングをしたりと，用途は人それぞれ，様々だと思います．しかし，Vimをタスク管理ツールとして使う人は，いったいどれだけ居るでしょうか？Vimにもそのためのプラグインが存在します．新たな使い方でVimを楽しむために，アウトライナーとタスク管理ツールのためのプラグインvim-orgmodeを導入しましょう．このTLでは，vim-orgmodeの基本機能と本家Org Modeの魅力を紹介します．
+    What is the reason why you use Vim on a daily basis? Use it for editing some configurations? Or writing lots of source code? That’s good. But some of you may want to use Vim for other purposes. For such users, Vim-orgmode has been developed by Jan Christoph Ebersbach as a Vim plugin from 2011. The vim-orgmode provides attractive capabilities to Vim users who potentially want to manage a bunch of TODO items, to write blog posts, and to edit technical articles or reports. In this lighting talk, the basic functionalities of vim-orgmode and remarkable features of the original Org Mode of Emacs are briefly introduced.
 
 - session_id: notomo
   title: Neovim as a web browser controller
