@@ -45,9 +45,8 @@
   github:
   twitter: rattcv
   abstract: >-
-    Vim Advent Calendar 2012で、Vimから電話をかける話を書きました。
-    <a href="http://d.hatena.ne.jp/rattcv/20130927">http://d.hatena.ne.jp/rattcv/20130927</a>
-    今回はこれを発展させて、Androidスマートフォンのホーム画面をVimに置き換えて色々やってみます。
+    I wrote an article titled "What a wonderful to make a phone call from Vim!" in Vim Advent Calendar 2012.
+    Today, I'll introduce a few examples I tried after I set up Vim as a home app.
 
 - session_id: ktakata
   title: The vim-history repository
