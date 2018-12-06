@@ -1,24 +1,24 @@
 Start,End,Dur.,Content,Speaker,Language,Interp.,SessionID,Misc.,Video,Slide
 09:30,10:00,0:30,Reception,,,no,,,,
-10:00,10:10,00:10,Opening,mopp,English,yes,,,,
-10:10,11:00,00:50,Keynote - What is the next feature?,Yasuhiro Matsumoto,Japanese,yes,,,,What_is_the_next_feature.pdf
+10:00,10:10,00:10,Opening,mopp,English,yes,,,https://www.youtube.com/watch?v=v5pdbfFOzpY&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=1,
+10:10,11:00,00:50,Keynote - What is the next feature?,Yasuhiro Matsumoto,Japanese,yes,,,https://www.youtube.com/watch?v=o3NygmN5lHM&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=2,What_is_the_next_feature.pdf
 11:00,11:10,00:10,Short break,,,no,,,
-11:10,12:10,01:00,Keynote - Vim: From hjkl to a platform for plugins,Bram Moolenaar,English,yes,,"Horland, Swiss",,Vim_From-hjkl-to-a-platform-for-plugins.pdf
+11:10,12:10,01:00,Keynote - Vim: From hjkl to a platform for plugins,Bram Moolenaar,English,yes,,"Horland, Swiss",https://www.youtube.com/watch?v=ES1L2SPgIDI&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=3,Vim_From-hjkl-to-a-platform-for-plugins.pdf
 12:10,13:10,01:00,Lunch break,,,no,,,,
-13:10,13:40,00:30,Migrating plugins to standard features,daisuzu,Japanese,yes,daisuzu,,,Migrating_plugins_to_standard_features.pdf
-13:40,14:10,00:30,Modes,Tatsuhiro Ujihisa,English,yes,ujihisa,,,modes-vimconf2018-ujihisa.pdf
+13:10,13:40,00:30,Migrating plugins to standard features,daisuzu,Japanese,yes,daisuzu,,https://www.youtube.com/watch?v=1Lfx7vck7So&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=4,Migrating_plugins_to_standard_features.pdf
+13:40,14:10,00:30,Modes,Tatsuhiro Ujihisa,English,yes,ujihisa,,https://www.youtube.com/watch?v=3uUYf7eiI8Q&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=5,modes-vimconf2018-ujihisa.pdf
 14:10,14:20,00:10,Short break,,,no,,,,
-14:20,14:40,00:20,A day in the life of (ordinary) Vimmer,OKURA Masafumi,English,yes,okuramasafumi,,,A_day_in_the_life_of_the__ordinary__Vimmer.pdf
-14:40,15:00,00:20,Modern editor-independent development environment for PHP,USAMI Kenta,Japanese,yes,tadsan,,,Modern_editor-independent_development_environment_for_PHP.pdf
-15:00,15:30,00:30,Effective Modern Vim scripting,Alisue,English,yes,lambdalisue,,,Effective_Modern_Vim_scripting_at_vimconf2018_for_PDF.pdf
+14:20,14:40,00:20,A day in the life of (ordinary) Vimmer,OKURA Masafumi,English,yes,okuramasafumi,,https://www.youtube.com/watch?v=H_gjNweFdpc&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=6,A_day_in_the_life_of_the__ordinary__Vimmer.pdf
+14:40,15:00,00:20,Modern editor-independent development environment for PHP,USAMI Kenta,Japanese,yes,tadsan,,https://www.youtube.com/watch?v=LA6ZH_GdzNI&t=0s&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=8,Modern_editor-independent_development_environment_for_PHP.pdf
+15:00,15:30,00:30,Effective Modern Vim scripting,Alisue,English,yes,lambdalisue,,https://www.youtube.com/watch?v=J5BX1FXnKBw&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=8,Effective_Modern_Vim_scripting_at_vimconf2018_for_PDF.pdf
 15:30,15:40,00:10,Short break,,,no,,,,
-15:40,16:10,00:30,Oni - The GUI-fication of Neovim,Akin,English,yes,akin,G.B.,,Oni-_The_GUI-fication_of_Neovim-20181206.pdf
-16:10,16:40,00:30,Vim ported to WebAssembly,rhysd,Japanese,yes,rhysd,,,vimconf-2018-vimwasm-en.pdf
-16:40,17:15,00:35,Lightning Talks,(5 Speakers),Mixed,no?,,5m (explain) + (1m + 5m) * 5ppl,,
+15:40,16:10,00:30,Oni - The GUI-fication of Neovim,Akin,English,yes,akin,G.B.,https://www.youtube.com/watch?v=MCBHz9o6gAg&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=9,Oni-_The_GUI-fication_of_Neovim-20181206.pdf
+16:10,16:40,00:30,Vim ported to WebAssembly,rhysd,Japanese,yes,rhysd,,https://www.youtube.com/watch?v=IczXWo2-MWI&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=10,vimconf-2018-vimwasm-en.pdf
+16:40,17:15,00:35,Lightning Talks,(5 Speakers),Mixed,no?,,5m (explain) + (1m + 5m) * 5ppl,https://www.youtube.com/watch?v=3bJNLu0AkC4&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=11,
 ,,,A brief introduction to vim-orgmode,Takaaki ISHIKAWA,,,takaxp,,,
 ,,,Neovim as a web browser controller,notomo,,,notomo,,,Neovim_as_a_web_browser_controller.pdf
 ,,,VimPhone 2018,rattcv,,,rattcv,,,VimPhone2018.pdf
 ,,,Differences between Nvim and Vim in 5 minutes,Shougo,,,shougo,,,
 ,,,The vim-history repository,k-takata,,,k-takata,,,vimconf2018_The_vim-history_repository.pdf
-17:15,17:25,00:10,Closing,mopp,English,yes,,,,
+17:15,17:25,00:10,Closing,mopp,English,yes,,,https://www.youtube.com/watch?v=5SmfeVzFXyk&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=6,
 17:30,19:30,02:00,After party,,,no,,,,
