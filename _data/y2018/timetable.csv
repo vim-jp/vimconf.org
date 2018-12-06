@@ -16,7 +16,7 @@ Start,End,Dur.,Content,Speaker,Language,Interp.,SessionID,Misc.,Video,Slide
 16:10,16:40,00:30,Vim ported to WebAssembly,rhysd,Japanese,yes,rhysd,,,vimconf-2018-vimwasm-en.pdf
 16:40,17:15,00:35,Lightning Talks,(5 Speakers),Mixed,no?,,5m (explain) + (1m + 5m) * 5ppl,,
 ,,,A brief introduction to vim-orgmode,Takaaki ISHIKAWA,,,takaxp,,,
-,,,Neovim as a web browser controller,notomo,,,notomo,,,
+,,,Neovim as a web browser controller,notomo,,,notomo,,,Neovim_as_a_web_browser_controller.pdf
 ,,,VimPhone 2018,rattcv,,,rattcv,,,VimPhone2018.pdf
 ,,,Differences between Nvim and Vim in 5 minutes,Shougo,,,shougo,,,
 ,,,The vim-history repository,k-takata,,,k-takata,,,
