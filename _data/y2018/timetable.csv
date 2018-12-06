@@ -18,7 +18,7 @@ Start,End,Dur.,Content,Speaker,Language,Interp.,SessionID,Misc.,Video,Slide
 ,,,A brief introduction to vim-orgmode,Takaaki ISHIKAWA,,,takaxp,,,
 ,,,Neovim as a web browser controller,notomo,,,notomo,,,Neovim_as_a_web_browser_controller.pdf
 ,,,VimPhone 2018,rattcv,,,rattcv,,,VimPhone2018.pdf
-,,,Differences between Nvim and Vim in 5 minutes,Shougo,,,shougo,,,
+,,,Differences between Nvim and Vim in 5 minutes,Shougo,,,shougo,,,Differences_between_Nvim_and_Vim_in_5_minutes.pdf
 ,,,The vim-history repository,k-takata,,,k-takata,,,vimconf2018_The_vim-history_repository.pdf
 17:15,17:25,00:10,Closing,mopp,English,yes,,,https://www.youtube.com/watch?v=5SmfeVzFXyk&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=6,
 17:30,19:30,02:00,After party,,,no,,,,
