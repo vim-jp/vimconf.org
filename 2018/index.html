@@ -186,11 +186,15 @@ In Japan, He write serial articles about Vim in monthly magazine.
               <th></th>
               {% endif %}
               {% if program.SessionID %}
-              <th><a href="sessions/#link-{{program.SessionID}}">{{ program.Content }}</a></th>
+              <th>{{ program.Content }}</a></th>
               {% else %}
               <th>{{ program.Content }}</th>
               {% endif %}
+              {% if program.SessionID %}
+              <th><a href="sessions/#link-{{program.SessionID}}">{{ program.Speaker }}</a></th>
+              {% else %}
               <th>{{ program.Speaker }}</th>
+              {% endif %}
               <th>{{ program.Language }}</th>
               <th>{% if program.Slide %}<a href="slides/{{ program.Slide }}">PDF</a>{% endif %}</th>
             </tr>
