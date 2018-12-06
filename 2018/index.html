@@ -180,7 +180,11 @@ In Japan, He write serial articles about Vim in monthly magazine.
           <tbody>
           {% for program in site.data.y2018.timetable %}
             <tr>
+              {% if program.Start %}
               <th>{{ program.Start }} - {{ program.End }}</th>
+              {% else %}
+              <th></th>
+              {% endif %}
               {% if program.SessionID %}
               <th><a href="sessions/#link-{{program.SessionID}}">{{ program.Content }}</a></th>
               {% else %}
