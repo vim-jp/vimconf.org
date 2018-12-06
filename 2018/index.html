@@ -185,8 +185,8 @@ In Japan, He write serial articles about Vim in monthly magazine.
               {% else %}
               <th></th>
               {% endif %}
-              {% if program.SessionID %}
-              <th>{{ program.Content }}</a></th>
+              {% if program.Video %}
+			  <th><a href="{{ program.Video }}">{{ program.Content }}</a></th>
               {% else %}
               <th>{{ program.Content }}</th>
               {% endif %}
