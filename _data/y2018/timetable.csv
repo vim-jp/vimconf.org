@@ -8,7 +8,7 @@ Start,End,Dur.,Content,Speaker,Language,Interp.,SessionID,Misc.,Video,Slide
 13:10,13:40,00:30,Migrating plugins to standard features,daisuzu,Japanese,yes,daisuzu,,https://www.youtube.com/watch?v=1Lfx7vck7So&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=4,Migrating_plugins_to_standard_features.pdf
 13:40,14:10,00:30,Modes,Tatsuhiro Ujihisa,English,yes,ujihisa,,https://www.youtube.com/watch?v=3uUYf7eiI8Q&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=5,modes-vimconf2018-ujihisa.pdf
 14:10,14:20,00:10,Short break,,,no,,,,
-14:20,14:40,00:20,A day in the life of (ordinary) Vimmer,OKURA Masafumi,English,yes,okuramasafumi,,https://www.youtube.com/watch?v=H_gjNweFdpc&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=6,A_day_in_the_life_of_the__ordinary__Vimmer.pdf
+14:20,14:40,00:20,A day in the life of (ordinary) Vimmer,OKURA Masafumi,English,yes,okuramasafumi,,https://www.youtube.com/watch?v=H_gjNweFdpc&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=6,A_day_in_the_life_of_the_Vimmer.pdf
 14:40,15:00,00:20,Modern editor-independent development environment for PHP,USAMI Kenta,Japanese,yes,tadsan,,https://www.youtube.com/watch?v=LA6ZH_GdzNI&t=0s&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=8,Modern_editor-independent_development_environment_for_PHP.pdf
 15:00,15:30,00:30,Effective Modern Vim scripting,Alisue,English,yes,lambdalisue,,https://www.youtube.com/watch?v=J5BX1FXnKBw&list=PLx8bw5NQypsnlh5K5LZAaFvAdxfGpt2iq&index=8,Effective_Modern_Vim_scripting_at_vimconf2018_for_PDF.pdf
 15:30,15:40,00:10,Short break,,,no,,,,
