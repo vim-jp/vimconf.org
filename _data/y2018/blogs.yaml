@@ -1,3 +1,8 @@
+sponsors:
+- title: 'プラチナスポンサーとして関わったVimConf2018を終えて - 株式会社アットウェア'
+  link: https://www.atware.co.jp/blog/2018/11/26/vimconf2018
+- title: 'VimConf 2018のスポンサーをしました - dwango on GitHub'
+  link: https://dwango.github.io/articles/vimconf2018/
 guest:
 - title: 'VimConf2018 へ行ってきました - Qiita'
   link: https://qiita.com/akif999/items/48320da5a26eb168555d
@@ -46,5 +51,3 @@ staff:
   link: http://guyon.hatenablog.jp/entry/2018/11/30/004220
 - title: 'ぼくたちとVimConfの180日戦争 - チューリング不完全'
   link: http://aomoriringo.hateblo.jp/entry/2018/12/01/021503
-- title: 'VimConf 2018のスポンサーをしました - dwango on GitHub'
-  link: https://dwango.github.io/articles/vimconf2018/
