@@ -50,6 +50,12 @@ title: Blogs
         <br>
         <h1>Blogs</h1>
         <br>
+        <h3>Sponsors</h3>
+        <div class="jumbotron">
+        {% for blog in site.data.y2018.blogs.sponsors %}
+          <p><a href="{{ blog.link }}">{{ blog.title }}</a></p>
+        {% endfor %}
+        </div>
         <h3>Guest</h3>
         <div class="jumbotron">
         {% for blog in site.data.y2018.blogs.guest %}
