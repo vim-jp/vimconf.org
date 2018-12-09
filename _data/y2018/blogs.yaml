@@ -26,8 +26,6 @@ guest:
   link: https://ryom1m1.hatenablog.com/entry/2018/11/26/002347
 - title: 'VimConf 2018 で遊んできた話'
   link: https://pxaka.tokyo/blog/2018/vimconf2018/
-- title: '本の虫: Vimconf 2018のスタッフをしてきた'
-  link: https://cpplover.blogspot.com/2018/11/vimconf-2018.html
 - title: 'VimConf 2018 参加記録 - Diginatu World'
   link: http://diginatu.github.io/vim/2018/11/25/vim-conf-2018.html
 - title: 'Vimconf 2018 感想 - blue glass block'
@@ -43,11 +41,13 @@ guest:
 - title: 'VimConf 2018 Report - DEV Community 👩‍💻👨‍💻'
   link: https://dev.to/sasurau4/vimconf-2018-report-144
 staff:
-- title: '生みの親が語る“Vimの27年”とこれから ―「VimConf 2018」レポート：レポート｜gihyo.jp … 技術評論社'
-  link: https://gihyo.jp/news/report/2018/12/0301
+- title: '本の虫: Vimconf 2018のスタッフをしてきた'
+  link: https://cpplover.blogspot.com/2018/11/vimconf-2018.html
 - title: 'Big Sky :: VimConf 2018 に行ってきた。'
   link: https://mattn.kaoriya.net/software/vim/20181127025942.htm
 - title: 'VimConf 2018のスタッフになってみて - Guyon Diary'
   link: http://guyon.hatenablog.jp/entry/2018/11/30/004220
 - title: 'ぼくたちとVimConfの180日戦争 - チューリング不完全'
   link: http://aomoriringo.hateblo.jp/entry/2018/12/01/021503
+- title: '生みの親が語る“Vimの27年”とこれから ―「VimConf 2018」レポート：レポート｜gihyo.jp … 技術評論社'
+  link: https://gihyo.jp/news/report/2018/12/0301
