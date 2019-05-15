@@ -1,0 +1,28 @@
+h1 {
+  font-size: 60px;
+  font-family: 'Gugi', cursive;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-color: #e9ecef;
+}
+
+.jumbotron {
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+ul {
+  list-style: none;
+}
