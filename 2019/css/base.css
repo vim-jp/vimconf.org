@@ -1,5 +1,4 @@
 h1 {
-  font-size: 60px;
   font-family: 'Gugi', cursive;
 }
 
@@ -10,19 +9,70 @@ h2 {
 
 body {
   background-color: #e9ecef;
+  margin-top: 4.5rem;
 }
 
 .jumbotron {
-  background-color: white;
+  color: black;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
-@media (min-width: 800px) {
+@media screen and (max-width:480px){
   .container {
     max-width: 700px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .location {
+    margin-top: 15em;
+  }
+}
+@media screen and (min-width:781px){
+  h1 {
+    font-size: 120px;
   }
 }
 
 ul {
   list-style: none;
+}
+
+.text h1 {
+  -webkit-animation: fadeText 500ms forwards 300ms;
+  animation: fadeText 500ms forwards 300ms;
+}
+
+#billboard {
+  background-image: url(../images/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  text-shadow: #000 3px 3px 0;
+  border-radius: 10px;
+}
+
+#billboard::before {
+  content: ' ';
+  position: absolute;
+  background-color: rgba(0,0,0,0.4);
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 10px;
+}
+
+.panel {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+section::before {
+  height: 54px;
+  content: '';
+  display: block;
 }
