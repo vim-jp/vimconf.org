@@ -19,7 +19,6 @@ title: VimConf 2019 - An international Vim Conference
         <a class="nav-link link text-info display-5" href="#menu-ticket" aria-expanded="false">Ticket</a>
         <a class="nav-link link text-info display-5" href="#menu-keynote-speakers" aria-expanded="false">Keynote speakers</a>
         <a class="nav-link link text-info display-5" href="#menu-time-table" aria-expanded="false">Time table</a>
-        <a class="nav-link link text-info display-5" href="#menu-side-events" aria-expanded="false">Side events</a>
         <a class="nav-link link text-info display-5" href="#menu-sponsors" aria-expanded="false">Sponsors</a>
       </nav>
     <div class="container">
@@ -80,20 +79,41 @@ title: VimConf 2019 - An international Vim Conference
 		  <section id="menu-time-table">
             <div class="panel text-center">
               <h4>Time table</h4>
-              <p>
-              That is currently being prepared.
-              </p>
-            </div>
-          </section>
-
-          <hr class="my-4" />
-
-		  <section id="menu-side-events">
-            <div class="panel text-center">
-              <h4>Side events</h4>
-              <p>
-              That is currently being prepared.
-              </p>
+              <p>All session talks, besides lightning talks, are translated both from English to Japanese, and Japanese to English, via transceiver. </p>
+              <table class="table">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Content</th>
+                    <th scope="col">Speaker</th>
+                    <th scope="col">Language</th>
+                    <th scope="col">Slide</th>
+                  </tr>
+                </thead>
+                <tbody>
+                {% for program in site.data.y2019.timetable %}
+                  <tr>
+                    {% if program.Start %}
+                    <th>{{ program.Start }} - {{ program.End }}</th>
+                    {% else %}
+                    <th></th>
+                    {% endif %}
+                    {% if program.Video %}
+		      	  <th><a href="{{ program.Video }}">{{ program.Content }}</a></th>
+                    {% else %}
+                    <th>{{ program.Content }}</th>
+                    {% endif %}
+                    {% if program.SessionID %}
+                    <th><a href="sessions/#link-{{program.SessionID}}">{{ program.Speaker }}</a></th>
+                    {% else %}
+                    <th>{{ program.Speaker }}</th>
+                    {% endif %}
+                    <th>{{ program.Language }}</th>
+                    <th>{% if program.Slide %}<a href="slides/{{ program.Slide }}">PDF</a>{% endif %}</th>
+                  </tr>
+                {% endfor %}
+                </tbody>
+              </table>
             </div>
           </section>
 
@@ -106,6 +126,101 @@ title: VimConf 2019 - An international Vim Conference
               Want to be a sponsor?<br />
               <strong><a href="https://forms.gle/KzpBDA5dbeYhagyE8" target="_blank">Get in touch!</a></strong>
               </p>
+            </div>
+          </section>
+
+          <hr class="my-4" />
+
+		  <section id="menu-staff">
+            <h4 id="staff">Staff</h4>
+            <div class="row staff">
+              <div class="col-md-4 col-sm-4 col-6 staff">
+                <h4>Tatsuhiro Ujihisa</h4>
+                <p>&nbsp;</p>
+                <img src="icon/ujihisa.png" class="staff-icon" />
+                <p>
+                <a href="https://github.com/ujihisa"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                <a href="https://twitter.com/ujm"><img src="icon/twitter-icon.png" width="31" height="32" /></a>
+                </p>
+                <p>Created this webpage. Created aomoriringo's profile avatar. Published some VimConf official blog posts. He has been using Vim for about 20 years.</p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6 staff">
+                <h4>Taro Muraoka</h4>
+                <p>also known as <strong>KaoriYa</strong></p>
+                <img src="icon/koron.png" class="staff-icon" />
+                <p>
+                <a href="https://github.com/koron"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                </p>
+                <p>Legendary developer of Vim. Managed vimconf overall. He wrote many patches to fix Vim issues on Windows. ex: DirectX drawing. And he provide kaoriya-vim which is a patched version of Vim.</p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6 staff">
+                <h4>thinca</h4>
+                <p>&nbsp;</p>
+                <img src="icon/thinca.png" class="staff-icon" />
+                <p>
+                <a href="https://github.com/thinca"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                </p>
+                <p>Famous creator of Vim plugins. Creator of vim-quickrun, vim-themis, etc. <a href="https://megurovim.connpass.com/">Meguro.vim</a> organizer</p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6 staff">
+                <h4>aomoriringo</h4>
+                <p>&nbsp;</p>
+                <img src="icon/aomoriringo.png" class="staff-icon" />
+                <p>
+                <a href="https://github.com/aomoriringo"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                <a href="https://twitter.com/aomoriringo"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                </p>
+                <p>A key player of staff of vimconf. He will be exciting vimconf as a staff this year too.</p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6 staff">
+                <h4>mopp</h4>
+                <p>&nbsp;</p>
+                <img src="icon/mopp.png" class="staff-icon" />
+                <p>
+                <a href="https://github.com/mopp"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                </p>
+                <p>MC of vimconf 2017. He has been using Vim for about 6 years. The main vim activities are to custimize Vim, create plugin and send PRs to plugin.</p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6 staff">
+                <h4>Yasuhiro Matsumoto</h4>
+                <p>also known as <strong>mattn</strong></p>
+                <img src="icon/mattn.png" class="staff-icon" />
+                <p>
+                <a href="https://github.com/mattn"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                <a href="https://twitter.com/mattn_jp"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                </p>
+                <p>Maintained this web site. He has been using Vim for about 20 years.</p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6 staff">
+                <h4>guyon</h4>
+                <p>&nbsp;</p>
+                <img src="icon/guyon.png" class="staff-icon" />
+                <p>
+                <a href="https://github.com/guyon"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                <a href="https://twitter.com/gu4"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                </p>
+                <p><a href="https://yokohamavim.connpass.com/">Yokohama.vim</a> organizer</p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6 staff">
+                <h4>aiya</h4>
+                <p>&nbsp;</p>
+                <img src="icon/aiya.png" class="staff-icon" />
+                <p>
+                <a href="https://github.com/aiya000"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                <a href="https://twitter.com/public_ai000ya"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                </p>
+                <p>にっこにっこにー</p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6 staff">
+                <h4>okuramasafumi</h4>
+                <p>&nbsp;</p>
+                <img src="icon/okuramasafumi.png" class="staff-icon" />
+                <p>
+                <a href="https://github.com/okuramasafumi"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                <a href="https://twitter.com/okuramasafumi"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                </p>
+                <p>He's been using Vim for a whole carrier as a developer. Chief i18n officer.</p>
+              </div>
             </div>
           </section>
 
