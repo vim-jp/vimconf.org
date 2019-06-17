@@ -28,6 +28,9 @@ body {
   .location {
     margin-top: 15em;
   }
+  .staff h4 {
+    font-size: 0.5em;
+  }
 }
 
 @media screen and (max-width: 650px){
@@ -57,7 +60,12 @@ ul {
   animation: fadeText 500ms forwards 300ms;
 }
 
+#billboard:hover {
+  transform: scale(1.01, 1.01);
+}
+
 #billboard {
+  transition: transform 0.2s linear;
   background-image: url(../images/background.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -81,7 +89,7 @@ ul {
 .panel {
   background-color: white;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 section::before {
@@ -90,21 +98,32 @@ section::before {
   display: block;
 }
 
-.panel h4 {
-  font-size: 25px;
-  transition-duration: 0.5s;
-}
-
-.panel h4:hover {
-  font-size: 27px;
-}
-
 .staff {
   background-color: white;
   border-radius: 10px;
   padding: 10px;
 }
 
+.speaker-icon:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.speaker-icon {
+  transition: transform 0.2s linear;
+  padding: 5px;
+  width: 236px;
+  margin: 10px 10px 30px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
+}
+
+.staff-icon:hover {
+  transform: scale(1.05, 1.05);
+}
+
 .staff-icon {
-  margin-left: 30px;
+  transition: transform 0.2s linear;
+  margin: 10px 10px 30px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
 }

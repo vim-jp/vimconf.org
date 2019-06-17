@@ -56,7 +56,7 @@ title: VimConf 2019 - An international Vim Conference
 
           <section id="menu-ticket">
             <div class="panel text-center">
-              <h4>Ticket</h4>
+              <h3>Ticket</h3>
               <p>
               That is currently being prepared.
               </p>
@@ -65,20 +65,55 @@ title: VimConf 2019 - An international Vim Conference
 
           <hr class="my-4" />
 
-		  <section id="menu-keynote-speakers">
+          <section id="menu-keynote-speakers">
             <div class="panel text-center">
-              <h4>Keynote speakers</h4>
-              <p>
-              That is currently being prepared.
-              </p>
+              <h3>Keynote speakers</h3>
+              <div class="row text-center">
+                <div class="col-md-6">
+                  <h2>Blah Blah</h2>
+                  <p>also known as <strong>blah</strong></p>
+                  <img src="https://avatars2.githubusercontent.com/u/8530623?s=460&v=4" class="speaker-icon"/>
+      
+                  <p>
+                  <a href="https://github.com/blah"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/blah"><img src="icon/twitter-icon.png" width="31" height="32" /></a>
+                  </p>
+      
+                  <p>
+				  Sit iure ipsum atque doloribus magnam Repudiandae voluptates
+				  deserunt nostrum labore minima quis ut Vitae minima animi
+				  sint at vel corporis rem ipsa Exercitationem iste dicta porro
+				  corporis quidem Laborum?
+                  </p>
+                </div>
+      
+                <div class="col-md-6">
+                  <h2>Blah Blah</h2>
+                  <p>also known as <strong>blah</strong></p>
+                  <img src="https://avatars2.githubusercontent.com/u/8530623?s=460&v=4" class="speaker-icon"/>
+      
+                  <p>
+                  <a href="https://github.com/mattn"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/mattn_jp"><img src="icon/twitter-icon.png" width="31" height="32" /></a>
+                  </p>
+      
+                  <p>
+				  Dolor dolorem quod sequi fugiat autem vel commodi tenetur
+				  repellat. Alias vel ducimus illo iste rem Odio temporibus
+				  incidunt sint consequuntur consequuntur. Id pariatur nesciunt
+				  praesentium sit adipisci, optio. Incidunt.
+                  </p>
+                </div>
+                </p>
+              </div>
             </div>
           </section>
 
           <hr class="my-4" />
 
-		  <section id="menu-time-table">
+          <section id="menu-time-table">
             <div class="panel text-center">
-              <h4>Time table</h4>
+              <h3>Time table</h3>
               <p>All session talks, besides lightning talks, are translated both from English to Japanese, and Japanese to English, via transceiver. </p>
               <table class="table">
                 <thead class="thead-light">
@@ -99,7 +134,7 @@ title: VimConf 2019 - An international Vim Conference
                     <th></th>
                     {% endif %}
                     {% if program.Video %}
-		      	  <th><a href="{{ program.Video }}">{{ program.Content }}</a></th>
+                    <th><a href="{{ program.Video }}">{{ program.Content }}</a></th>
                     {% else %}
                     <th>{{ program.Content }}</th>
                     {% endif %}
@@ -119,9 +154,23 @@ title: VimConf 2019 - An international Vim Conference
 
           <hr class="my-4" />
 
-		  <section id="menu-sponsorship">
-            <div class="panel menu-sponsorship text-center">
-              <h4 id="sponsors">Sponsors</h4>
+          <section id="menu-sponsorship">
+            <div class="panel text-center">
+              <h3 id="sponsors">Sponsors</h3>
+              <div class="row text-center">
+                <!--
+                <div class="sponsors col-md-12">
+                  <a href="https://www.atware.co.jp/" class="sponsors-name">atWare, Inc.</a><br />
+                  <a href="https://www.atware.co.jp/" class="sponsors-url">https://www.atware.co.jp/</a><br />
+                  <a href="https://www.atware.co.jp/">
+                    <div class="sponsors-logo sponsors-logo-platinum">
+                      <img src="logo/atware-logo.png" />
+                    </div>
+                  </a>
+                </div>
+                -->
+              </div>
+
               <p>
               Want to be a sponsor?<br />
               <strong><a href="https://forms.gle/KzpBDA5dbeYhagyE8" target="_blank">Get in touch!</a></strong>
@@ -131,95 +180,97 @@ title: VimConf 2019 - An international Vim Conference
 
           <hr class="my-4" />
 
-		  <section id="menu-staff">
-            <h4 id="staff">Staff</h4>
-            <div class="row staff">
-              <div class="col-md-4 col-sm-4 col-6 staff">
-                <h4>Tatsuhiro Ujihisa</h4>
-                <p>&nbsp;</p>
-                <img src="icon/ujihisa.png" class="staff-icon" />
-                <p>
-                <a href="https://github.com/ujihisa"><img src="icon/github-icon.png" width="32" height="32" /></a>
-                <a href="https://twitter.com/ujm"><img src="icon/twitter-icon.png" width="31" height="32" /></a>
-                </p>
-                <p>Created this webpage. Created aomoriringo's profile avatar. Published some VimConf official blog posts. He has been using Vim for about 20 years.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 col-6 staff">
-                <h4>Taro Muraoka</h4>
-                <p>also known as <strong>KaoriYa</strong></p>
-                <img src="icon/koron.png" class="staff-icon" />
-                <p>
-                <a href="https://github.com/koron"><img src="icon/github-icon.png" width="32" height="32" /></a>
-                </p>
-                <p>Legendary developer of Vim. Managed vimconf overall. He wrote many patches to fix Vim issues on Windows. ex: DirectX drawing. And he provide kaoriya-vim which is a patched version of Vim.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 col-6 staff">
-                <h4>thinca</h4>
-                <p>&nbsp;</p>
-                <img src="icon/thinca.png" class="staff-icon" />
-                <p>
-                <a href="https://github.com/thinca"><img src="icon/github-icon.png" width="32" height="32" /></a>
-                </p>
-                <p>Famous creator of Vim plugins. Creator of vim-quickrun, vim-themis, etc. <a href="https://megurovim.connpass.com/">Meguro.vim</a> organizer</p>
-              </div>
-              <div class="col-md-4 col-sm-4 col-6 staff">
-                <h4>aomoriringo</h4>
-                <p>&nbsp;</p>
-                <img src="icon/aomoriringo.png" class="staff-icon" />
-                <p>
-                <a href="https://github.com/aomoriringo"><img src="icon/github-icon.png" width="32" height="32" /></a>
-                <a href="https://twitter.com/aomoriringo"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
-                </p>
-                <p>A key player of staff of vimconf. He will be exciting vimconf as a staff this year too.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 col-6 staff">
-                <h4>mopp</h4>
-                <p>&nbsp;</p>
-                <img src="icon/mopp.png" class="staff-icon" />
-                <p>
-                <a href="https://github.com/mopp"><img src="icon/github-icon.png" width="32" height="32" /></a>
-                </p>
-                <p>MC of vimconf 2017. He has been using Vim for about 6 years. The main vim activities are to custimize Vim, create plugin and send PRs to plugin.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 col-6 staff">
-                <h4>Yasuhiro Matsumoto</h4>
-                <p>also known as <strong>mattn</strong></p>
-                <img src="icon/mattn.png" class="staff-icon" />
-                <p>
-                <a href="https://github.com/mattn"><img src="icon/github-icon.png" width="32" height="32" /></a>
-                <a href="https://twitter.com/mattn_jp"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
-                </p>
-                <p>Maintained this web site. He has been using Vim for about 20 years.</p>
-              </div>
-              <div class="col-md-4 col-sm-4 col-6 staff">
-                <h4>guyon</h4>
-                <p>&nbsp;</p>
-                <img src="icon/guyon.png" class="staff-icon" />
-                <p>
-                <a href="https://github.com/guyon"><img src="icon/github-icon.png" width="32" height="32" /></a>
-                <a href="https://twitter.com/gu4"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
-                </p>
-                <p><a href="https://yokohamavim.connpass.com/">Yokohama.vim</a> organizer</p>
-              </div>
-              <div class="col-md-4 col-sm-4 col-6 staff">
-                <h4>aiya</h4>
-                <p>&nbsp;</p>
-                <img src="icon/aiya.png" class="staff-icon" />
-                <p>
-                <a href="https://github.com/aiya000"><img src="icon/github-icon.png" width="32" height="32" /></a>
-                <a href="https://twitter.com/public_ai000ya"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
-                </p>
-                <p>にっこにっこにー</p>
-              </div>
-              <div class="col-md-4 col-sm-4 col-6 staff">
-                <h4>okuramasafumi</h4>
-                <p>&nbsp;</p>
-                <img src="icon/okuramasafumi.png" class="staff-icon" />
-                <p>
-                <a href="https://github.com/okuramasafumi"><img src="icon/github-icon.png" width="32" height="32" /></a>
-                <a href="https://twitter.com/okuramasafumi"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
-                </p>
-                <p>He's been using Vim for a whole carrier as a developer. Chief i18n officer.</p>
+          <section id="menu-staff">
+            <div class="panel text-center">
+              <h3 id="staff">Staff</h3>
+              <div class="row text-center">
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>Tatsuhiro Ujihisa</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/ujihisa.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/ujihisa"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/ujm"><img src="icon/twitter-icon.png" width="31" height="32" /></a>
+                  </p>
+                  <p>Created this webpage. Created aomoriringo's profile avatar. Published some VimConf official blog posts. He has been using Vim for about 20 years.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>Taro Muraoka</h4>
+                  <p>also known as <strong>KaoriYa</strong></p>
+                  <img src="icon/koron.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/koron"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>Legendary developer of Vim. Managed vimconf overall. He wrote many patches to fix Vim issues on Windows. ex: DirectX drawing. And he provide kaoriya-vim which is a patched version of Vim.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>thinca</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/thinca.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/thinca"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>Famous creator of Vim plugins. Creator of vim-quickrun, vim-themis, etc. <a href="https://megurovim.connpass.com/">Meguro.vim</a> organizer</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>aomoriringo</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/aomoriringo.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/aomoriringo"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/aomoriringo"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>A key player of staff of vimconf. He will be exciting vimconf as a staff this year too.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>mopp</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/mopp.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/mopp"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>MC of vimconf 2017. He has been using Vim for about 6 years. The main vim activities are to custimize Vim, create plugin and send PRs to plugin.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>Yasuhiro Matsumoto</h4>
+                  <p>also known as <strong>mattn</strong></p>
+                  <img src="icon/mattn.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/mattn"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/mattn_jp"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>Maintained this web site. He has been using Vim for about 20 years.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>guyon</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/guyon.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/guyon"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/gu4"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p><a href="https://yokohamavim.connpass.com/">Yokohama.vim</a> organizer</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>aiya000</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/aiya000.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/aiya000"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/public_ai000ya"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>A writer of VimConf 2019, and Haskell.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>okuramasafumi</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/okuramasafumi.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/okuramasafumi"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/okuramasafumi"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>He's been using Vim for a whole carrier as a developer. Chief i18n officer.</p>
+                </div>
               </div>
             </div>
           </section>
