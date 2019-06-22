@@ -1,5 +1,4 @@
 h1 {
-  font-size: 60px;
   font-family: 'Gugi', cursive;
 }
 
@@ -10,19 +9,150 @@ h2 {
 
 body {
   background-color: #e9ecef;
+  margin-top: 4.5rem;
 }
 
 .jumbotron {
-  background-color: white;
+  color: black;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
-@media (min-width: 800px) {
+@media screen and (max-width:320px){
+  nav {
+    font-size: 0.7rem;
+  }
   .container {
     max-width: 700px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .location {
+    margin-top: 15em;
+  }
+  .staff h4 {
+    font-size: 0.5em;
+  }
+  .fat-border {
+    padding: 0px;
+  }
+  .panel {
+    padding: 0px;
+	margin: 0px;
+  }
+}
+
+@media screen and (max-width:480px){
+  .container {
+    max-width: 700px;
+    width: 480px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .staff h4 {
+    font-size: 0.5em;
+  }
+  .staff-icon {
+    width: 100px;
+  }
+  #vim-logo {
+    width: 100px;
+  }
+  .row {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 781px){
+  h1 {
+    font-size: 120px;
   }
 }
 
 ul {
   list-style: none;
 }
+
+.text h1 {
+  -webkit-animation: fadeText 500ms forwards 300ms;
+  animation: fadeText 500ms forwards 300ms;
+}
+
+#billboard:hover {
+  transform: scale(1.01, 1.01);
+}
+
+#billboard {
+  transition: transform 0.2s linear;
+  background-image: url(../images/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  text-shadow: #000 3px 3px 0;
+  border-radius: 10px;
+}
+
+#billboard::before {
+  content: ' ';
+  position: absolute;
+  background-color: rgba(0,0,0,0.4);
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 10px;
+}
+
+.panel {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+section::before {
+  height: 54px;
+  content: '';
+  display: block;
+}
+
+.staff {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.speaker-icon:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.speaker-icon {
+  transition: transform 0.2s linear;
+  padding: 5px;
+  width: 236px;
+  margin: 10px 10px 30px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
+}
+
+.staff-icon:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.staff-icon {
+  transition: transform 0.2s linear;
+  margin: 10px 10px 30px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
+}
+
+.fat-border {
+  padding: 3em;
+}
+
+ul.cfp, ul.cfp ul {
+  list-style: disc;
+}
+

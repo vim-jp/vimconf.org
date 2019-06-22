@@ -1,4 +1,6 @@
 ---
+layout: 2019/default
+title: VimConf 2019 - An international Vim Conference
 ---
 
 <!DOCTYPE html>
@@ -13,34 +15,388 @@
     <title>VimConf 2019</title>
   </head>
   <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-short bg-dark" role="navigation">
+      <a class="nav-link link text-info display-5" href="#menu-ticket" aria-expanded="false">Ticket</a>
+      <a class="nav-link link text-info display-5" href="#menu-keynote-speakers" aria-expanded="false">Keynote speakers</a>
+      <a class="nav-link link text-info display-5" href="#menu-time-table" aria-expanded="false">Time table</a>
+      <a class="nav-link link text-info display-5" href="#menu-sponsors" aria-expanded="false">Sponsors</a>
+    </nav>
     <div class="container">
-      <header>
-        <nav>
-        </nav>
-      </header>
-      <div class="row justify-content-center">
-        <div class="jumbotron">
-          <div class="row">
-            <div class="logo col-sm-4 justify-content-center">
-              <img src="images/vimlogo-564x564.png" alt="Vim logo" class="img-fluid"/>
-            </div>
-            <div class="info col-sm-8 justify-content-center align-self-center">
-              <h1 class="text-left">
-                VimConf 2019<br />
-              </h1>
-              <h3 class="text-left">
-                <span class="font-italic">November 03, 2019</span>
-              </h3>
-              <p class="lead text-left"> VimConf is an international conference about Vim, the editor.</p>
+      <div class="justify-content-center">
+        <div class="jumbotron text">
+          <div id="billboard">
+            <div class="row">
+              <div class="logo col-sm-4 justify-content-center">
+                <img src="images/vimlogo-564x564.png" id="vim-logo" alt="Vim logo" class="img-fluid"/>
+              </div>
+              <div class="info col-sm-8 justify-content-center align-self-center">
+                <h1 class="text-left">
+                  VimConf 2019<br />
+                </h1>
+                <h3 class="text-left">
+                  <span class="font-italic">November 03, 2019</span>
+                </h3>
+                <p class="lead text-left">VimConf is an international conference about Vim, the editor.</p>
+                <div class="location">
+                  <h2 class="font-italic">
+                    <a href="https://www.fsi.co.jp/akibaplaza/hall.html">@Akiba Hall</a>,  <a href="https://www.google.com/maps/dir//%E5%AF%8C%E5%A3%AB%E3%82%BD%E3%83%95%E3%83%88%E7%A7%8B%E8%91%89%E5%8E%9F%E3%83%93%E3%83%AB%E3%80%81%E3%80%92101-0022+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%E7%A5%9E%E7%94%B0%E7%B7%B4%E5%A1%80%E7%94%BA%EF%BC%93/@35.700305,139.7718863,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x60188ea7985a3cb9:0x79180c34f60f0b55!2m2!1d139.7740739!2d35.7003056!3e3">Akihabara, Tokyo</a>
+                  </h2>
+                </div>
+              </div>
             </div>
           </div>
+
+          <blockquote class="blockquote text-center">
+            <p class="mb-5 small">Tell us how do you love Vim, what do you want to achieve with Vim, what practical Vim plugins you want to introduce, or even crazy ones -- there's no technical limit what to share.
+              Express your Vim knowledge, skill, research, experience, and love. That's what VimConf is for.</p>
+            <footer class="blockquote-footer"><cite title="VimConf 2019 Staff">VimConf 2019 Staff</cite></footer>
+          </blockquote>
+
           <hr class="my-4">
-          <div class="details text-center">
-            <div class="location ">
-              <h2 class="font-italic">
-                @Akiba Hall, Akihabara, Tokyo
-              </h2>
+
+          <section id="cfp-en">
+            <div class="panel text-center fat-border">
+              <h4>We are looking for VimConf 2019 speakers</h4>
+              <div class="text-left">
+                <p>We're looking for speakers for VimConf 2019 on 2019-11-03!</p>
+                <p>We're collecting talks which help Vim users to &quot;use Vim more productively&quot;, especially those who would like to boost their productivities with Vim or who wonder about others' Vim usages.</p>
+                <p>This, however, doesn't mean we're not collecting talks about Vim internals or creating Vim plugins. We're looking forward to see one-and-only talks backed by deep experiences.</p>
+                <p>When reviewing VimConf 2017 and 2018, there were wonderful talks about creating useful Vim plugins and improving Vim itself.</p>
+                <p>We, the VimConf staffs, discussed what VimConf 2019 should be like and we found we'd like to be closer to Vim users using Vim and being interested in diving deeper into Vim.</p>
+                <p>We had more discussion and finally decided this year's main theme: &quot;how to be more productive with Vim?&quot;</p>
+                <p>We're thrilled about what we'll see in VimConf 2019.</p>
+                <p>VimConf is based on the speakers. Without CFP submissions, we cannot hold VimConf.</p>
+                <p>What you need to have when submitting a CFP is not a technical supremacy, but passion for Vim.</p>
+                <p>How about giving a talk in VimConf to tell other Vim users about your own Vim?</p>
+                <p>Here are the details of VimConf 2019 CFP submission.</p>
+				<p>Form URL: <a href="https://forms.gle/4SJ4dU5LXhp8Eus38">https://forms.gle/4SJ4dU5LXhp8Eus38</a></p>
+                <ul class="cfp">
+                <li>Deadline: 2019-08-05, 23:59 (JST)</li>
+                <li>Maximum number of submissions: None</li>
+                <li>presentation time: 15 mins, 20 mins or 30 mins
+                <ul>
+                <li>we might ask you to talk more or less in order to adjust the schedule</li>
+                <li>whether having Q&amp;A depends on each speaker</li>
+                </ul></li>
+                <li>language: Japanese or English
+                <ul>
+                <li>please use English in slides</li>
+                <li>VimConf staffs can support you with English</li>
+                </ul></li>
+                <li>for screening:
+                <ul>
+                <li>all members of the VimConf staff have a screening meeting</li>
+                <li>for the staffs to consider and compare, please pack any information we'll need to know into the CFP</li>
+                <li>the cleaner the better, but just simple itemization is better than nothing</li>
+                <li>FYI, we had a six hour meeting last year, and we're looking forward to seeing many CFPs this year too</li>
+                <li>refer to past presentations via the links below
+                <ul>
+                <li><a href="https://vimconf.org/2017/#timetable">https://vimconf.org/2017/#timetable</a></li>
+				<li><a href="https://vimconf.org/2018/#link-timetable">https://vimconf.org/2018/#link-timetable</a></li>
+                </ul></li>
+                <li>it's not fix yet, but we're considering to assist transportation expenses</li>
+                </ul></li>
+                </ul>
+                <p>Beside CFPs, we'll have some lightening talks (LTs) with 5 minutes for each session. The requirement is to join VimConf. We'll open a dedicated form for LTs soon after we start to sell tickets for VimConf 2019.</p>
+                <p>We're looking forward to your submissions!</p>
+                <p>-- VimConf Preparatory Committee --</p>
+              </div>
             </div>
+          </section>
+
+          <section id="cfp-en">
+            <div class="panel text-center fat-border">
+              <h4 id="vimconf-2019の発表者を公募">VimConf 2019の発表者を公募</h4>
+              <div class="text-left">
+                <p>2019-11-03に開催するVimConf 2019の発表者を公募します！</p>
+                <p>今年は「もっとVimを上手に使えるようになりたい」「Vimを使って生産性を上げたい」「みんなはどのようにVimを使って開発をしてるんだろう？」 そんな、聞いた人が明日からもっと「上手にVimを使うことができる」ようになる発表を募集します。</p>
+                <p>もちろん、Vim本体に関する話やVim Plugin作成側の話も遠慮なく応募して頂きたいです。 経験により裏打ちされた、その人しか出来ないような、深い発表もお待ちしております。</p>
+                <p>『VimConf 2017 / VimConf 2018』を振り返ってみると、便利なVim Pluginを作ったり、Vim本体を改良したりと素晴らしい話が沢山ありました。</p>
+                <p>これらを踏まえてVimConf 2019の方向性をどうするかをスタッフで話し合った結果「今年はもっとVimのユーザと近い距離でありたい」「なんとなくVimを使っているがもう一歩踏み込んでみたいユーザに参加してもらいたい」という意見が集まりました。 更に議論を重ねて「Vimを使って如何にして生産性を向上するか？」をメインテーマしました。</p>
+                <p>一体どんな発表が見れるのだろうと、我々スタッフも今から期待に胸を膨らませています。</p>
+                <p>VimConfは登壇者の皆様の力によって成り立つカンファレンスです。発表の応募なくしては開催する事が出来ません。 必要なのは技術力ではありません。Vimに対する熱い思いなのです。</p>
+                <p>皆さんご自身のVimを別の誰かに届ける為に、皆さんの発表を聞かせてもらえないでしょうか？</p>
+				<p>応募フォーム: <a href="https://forms.gle/4SJ4dU5LXhp8Eus38">https://forms.gle/4SJ4dU5LXhp8Eus38</a></p>
+                <ul class="cfp">
+                <li>締切
+                <ul>
+                <li>2019-08-05 (月) 23:59 JST</li>
+                <li>1人あたりの提出数に制限はありません</li>
+                </ul></li>
+                <li>発表時間
+                <ul>
+                <li>15分・20分・30分のいずれか</li>
+                <li>質疑応答は登壇者の自由です</li>
+                <li>発表スケジュール調整のために、スタッフから「発表時間を長くしてほしい・短くしてほしい」とお願いすることがあるかもしれません</li>
+                </ul></li>
+                <li>発表言語
+                <ul>
+                <li>話す言語は『日本語』か『英語』が選択できます</li>
+                <li>発表スライドは『英語』でお願いします</li>
+                <li>スタッフからの英語の補助をすることができます (e.g., 誤字脱字の添削)</li>
+                </ul></li>
+                <li>審査のために
+                <ul>
+                <li>今年もスタッフ全員で採択会議を行います</li>
+                <li>スタッフが検討/比較をするためにも、CFPには可能な限りの情報を詰め込んでください
+                <ul>
+                <li>清書されたものが好ましいですが、箇条書き・書き殴りのようなものでもあったほうが好ましいです</li>
+                </ul></li>
+                <li>ちなみにVimConf 2018では採択のために6時間程オフラインで会議をしました。今年も今から楽しみにしています</li>
+                </ul></li>
+                <li>過去の発表は以下のリンクから参照できます
+                <ul>
+                <li><a href="https://vimconf.org/2017/#timetable">https://vimconf.org/2017/#timetable</a></li>
+				<li><a href="https://vimconf.org/2018/#link-timetable">https://vimconf.org/2018/#link-timetable</a></li>
+                </ul></li>
+                <li>交通費の補助
+                <ul>
+                <li>現時点で未定ですが、補助を検討しています</li>
+                </ul></li>
+                </ul>
+                <p>上記の登壇以外に、『LT発表枠』を設けます。一人あたり5分間の発表になります。 応募条件は当日参加している人です。チケットの販売と同時に、専用フォームを公開します。</p>
+                <p>それでは、皆様の応募をお待ちしています。</p>
+                <p>― VimConf準備会 ―</p>
+              </div>
+            </div>
+          </section>
+
+          <hr class="my-4">
+
+          <section id="menu-ticket">
+            <div class="panel text-center">
+              <h3>Ticket</h3>
+              <p>
+              Coming soon
+              </p>
+            </div>
+          </section>
+
+          <hr class="my-4" />
+
+          <section id="menu-keynote-speakers">
+            <div class="panel text-center">
+              <h3>Keynote speakers</h3>
+              <p>
+              Coming soon
+              </p>
+              <!--
+              <div class="row text-center">
+                <div class="col-md-6">
+                  <h2>Blah Blah</h2>
+                  <p>also known as <strong>blah</strong></p>
+                  <img src="https://avatars2.githubusercontent.com/u/8530623?s=460&v=4" class="speaker-icon"/>
+      
+                  <p>
+                  <a href="https://github.com/blah"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/blah"><img src="icon/twitter-icon.png" width="31" height="32" /></a>
+                  </p>
+      
+                  <p>
+				  Sit iure ipsum atque doloribus magnam Repudiandae voluptates
+				  deserunt nostrum labore minima quis ut Vitae minima animi
+				  sint at vel corporis rem ipsa Exercitationem iste dicta porro
+				  corporis quidem Laborum?
+                  </p>
+                </div>
+      
+                <div class="col-md-6">
+                  <h2>Blah Blah</h2>
+                  <p>also known as <strong>blah</strong></p>
+                  <img src="https://avatars2.githubusercontent.com/u/8530623?s=460&v=4" class="speaker-icon"/>
+      
+                  <p>
+                  <a href="https://github.com/mattn"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/mattn_jp"><img src="icon/twitter-icon.png" width="31" height="32" /></a>
+                  </p>
+      
+                  <p>
+				  Dolor dolorem quod sequi fugiat autem vel commodi tenetur
+				  repellat. Alias vel ducimus illo iste rem Odio temporibus
+				  incidunt sint consequuntur consequuntur. Id pariatur nesciunt
+				  praesentium sit adipisci, optio. Incidunt.
+                  </p>
+                </div>
+                </p>
+              </div>
+              -->
+            </div>
+          </section>
+
+          <hr class="my-4" />
+
+          <section id="menu-time-table">
+            <div class="panel text-center">
+              <h3>Time table</h3>
+              <p>
+              Coming soon
+              </p>
+              <!--
+              <p>All session talks, besides lightning talks, are translated both from English to Japanese, and Japanese to English, via transceiver. </p>
+              <table class="table">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Content</th>
+                    <th scope="col">Speaker</th>
+                    <th scope="col">Language</th>
+                    <th scope="col">Slide</th>
+                  </tr>
+                </thead>
+                <tbody>
+                {% for program in site.data.y2019.timetable %}
+                  <tr>
+                    {% if program.Start %}
+                    <th>{{ program.Start }} - {{ program.End }}</th>
+                    {% else %}
+                    <th></th>
+                    {% endif %}
+                    {% if program.Video %}
+                    <th><a href="{{ program.Video }}">{{ program.Content }}</a></th>
+                    {% else %}
+                    <th>{{ program.Content }}</th>
+                    {% endif %}
+                    {% if program.SessionID %}
+                    <th><a href="sessions/#link-{{program.SessionID}}">{{ program.Speaker }}</a></th>
+                    {% else %}
+                    <th>{{ program.Speaker }}</th>
+                    {% endif %}
+                    <th>{{ program.Language }}</th>
+                    <th>{% if program.Slide %}<a href="slides/{{ program.Slide }}">PDF</a>{% endif %}</th>
+                  </tr>
+                {% endfor %}
+                </tbody>
+              </table>
+              -->
+            </div>
+          </section>
+
+          <hr class="my-4" />
+
+          <section id="menu-sponsorship">
+            <div class="panel text-center">
+              <h3 id="sponsors">Sponsors</h3>
+              <!--
+              <div class="row text-center">
+                <div class="sponsors col-md-12">
+                  <a href="https://www.example.com/" class="sponsors-name">example</a><br />
+                  <a href="https://www.example.com/" class="sponsors-url">https://www.example.com/</a><br />
+                  <a href="https://www.example.com/">
+                    <div class="sponsors-logo sponsors-logo-platinum">
+                      <img src="logo/example-logo.png" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              -->
+
+              <p>
+              Want to be a sponsor?<br />
+              <strong><a href="https://forms.gle/KzpBDA5dbeYhagyE8" target="_blank">Get in touch!</a></strong>
+              </p>
+            </div>
+          </section>
+
+          <hr class="my-4" />
+
+          <section id="menu-staff">
+            <div class="panel text-center">
+              <h3 id="staff">Staff</h3>
+              <div class="row text-center">
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>Tatsuhiro Ujihisa</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/ujihisa.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/ujihisa"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/ujm"><img src="icon/twitter-icon.png" width="31" height="32" /></a>
+                  </p>
+                  <p>Created aomoriringo's profile avatar. Published some VimConf official blog posts. He has been using Vim for about 20 years.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>Taro Muraoka</h4>
+                  <p>also known as <strong>KaoriYa</strong></p>
+                  <img src="icon/koron.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/koron"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>Legendary developer of Vim. Managed VimConf overall. He wrote many patches to fix Vim issues on Windows. ex: DirectX drawing. And he provide kaoriya-vim which is a patched version of Vim.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>thinca</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/thinca.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/thinca"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>Famous creator of Vim plugins. Creator of quickrun.vim, themis.vim, etc. <a href="https://megurovim.connpass.com/">Meguro.vim</a> organizer</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>aomoriringo</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/aomoriringo.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/aomoriringo"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/aomoriringo"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>A key player of staff of VimConf. He will be exciting VimConf as a staff this year too.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>mopp</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/mopp.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/mopp"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>MC of VimConf 2017/2018. He has been using Vim for about 7 years. The main vim activities are to custimize Vim, create plugin and send PRs to plugin.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>Yasuhiro Matsumoto</h4>
+                  <p>also known as <strong>mattn</strong></p>
+                  <img src="icon/mattn.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/mattn"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/mattn_jp"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>Maintained this web site. He has been using Vim for about 20 years.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>guyon</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/guyon.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/guyon"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/gu4"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p><a href="https://yokohamavim.connpass.com/">Yokohama.vim</a> organizer</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>aiya000</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/aiya000.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/aiya000"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/public_ai000ya"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>A writer of VimConf 2019, and Haskell.</p>
+                </div>
+                <div class="col-md-4 col-sm-4 col-6 staff">
+                  <h4>okuramasafumi</h4>
+                  <p>&nbsp;</p>
+                  <img src="icon/okuramasafumi.png" class="staff-icon" />
+                  <p>
+                  <a href="https://github.com/okuramasafumi"><img src="icon/github-icon.png" width="32" height="32" /></a>
+                  <a href="https://twitter.com/okuramasafumi"><img src="icon/twitter-icon.png" width="32" height="32" /></a>
+                  </p>
+                  <p>He's been using Vim for a whole carrier as a developer. Chief i18n officer.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <hr class="my-4" />
+
+          <section class="details text-center">
             <div class="contact">
               <ul>
                 <li>
@@ -53,14 +409,7 @@
                 </li>
               </ul>
             </div>
-          </div>
-          <hr class="my-4">
-          <div class="sponsorship text-center">
-            <p>
-            Want to be a sponsor?<br />
-            <strong><a href="https://forms.gle/KzpBDA5dbeYhagyE8" target="_blank">Get in touch!</a></strong>
-            </p>
-          </div>
+          </section>
         </div>
       </div>
     </div>
