@@ -18,7 +18,10 @@ body {
   padding-bottom: 10px;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:320px){
+  nav {
+    font-size: 0.7rem;
+  }
   .container {
     max-width: 700px;
   }
@@ -31,17 +34,34 @@ body {
   .staff h4 {
     font-size: 0.5em;
   }
+  .fat-border {
+    padding: 0px;
+  }
+  .panel {
+    padding: 0px;
+	margin: 0px;
+  }
 }
 
-@media screen and (max-width: 650px){
-  .staff h4 {
-    font-size: 0.7em;
+@media screen and (max-width:480px){
+  .container {
+    max-width: 700px;
+    width: 480px;
   }
-  .staff p {
+  h1 {
+    font-size: 50px;
+  }
+  .staff h4 {
     font-size: 0.5em;
   }
   .staff-icon {
     width: 100px;
+  }
+  #vim-logo {
+    width: 100px;
+  }
+  .row {
+    margin-left: 0px;
   }
 }
 
@@ -127,3 +147,12 @@ section::before {
   border-radius: 10px;
   box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
 }
+
+.fat-border {
+  padding: 3em;
+}
+
+ul.cfp, ul.cfp ul {
+  list-style: disc;
+}
+
