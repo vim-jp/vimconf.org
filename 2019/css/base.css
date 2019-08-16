@@ -152,7 +152,7 @@ section::before {
   padding: 3em;
 }
 
-ul.cfp, ul.cfp ul {
+ul.cfp, ul.cfp ul, ul.about {
   list-style: disc;
 }
 
