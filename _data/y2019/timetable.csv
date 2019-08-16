@@ -1,6 +1,6 @@
 Start,End,Dur.,Content,Speaker,Language,Interp.,SessionID,Misc.,Video,Slide
 9:30,10:00,0:30,Reception,,English,no,,,,
-10:00,10:10,0:10,Opening,,,,,,,
+10:00,10:10,0:10,Opening,mopp,English,,,,,
 10:10,11:00,0:50,Keynote - Vim Renaissance,Prabir Shrestha,English,,,,,
 11:10,12:00,0:50,Keynote - We can have nice things,Justin M. Keyes,English,,,,,
 12:00,13:00,1:00,Lunch break,,,no,,,,
@@ -16,5 +16,5 @@ Start,End,Dur.,Content,Speaker,Language,Interp.,SessionID,Misc.,Video,Slide
 15:45,16:00,0:15,13 Vim plugins I use every day,Tatsuhiro Ujihisa,English,,,,,
 16:00,16:30,0:30,My dark plugins development history ~ over 10 years ~,Shougo,English,,,,,
 16:30,17:15,0:45,Lightning Talk,,,,,,,
-17:15,17:25,0:10,Closing,,,,,,,
+17:15,17:25,0:10,Closing,mopp,English,,,,,
 17:30,19:30,2:00,After party,,,no,,,,
