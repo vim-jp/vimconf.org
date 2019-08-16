@@ -192,7 +192,7 @@ title: VimConf 2019 - An international Vim Conference
         <div class="panel text-center">
           <h3>Time table</h3>
           <p>All session talks, besides lightning talks, are translated both from English to Japanese, and Japanese to English, via transceiver. </p>
-          <table class="table">
+          <table class="table" id="time-table">
             <thead class="thead-light">
               <tr>
                 <th scope="col"></th>
@@ -206,22 +206,22 @@ title: VimConf 2019 - An international Vim Conference
             {% for program in site.data.y2019.timetable %}
               <tr>
                 {% if program.Start %}
-                <th>{{ program.Start }} - {{ program.End }}</th>
+                <td>{{ program.Start }} - {{ program.End }}</td>
                 {% else %}
-                <th></th>
+                <td></td>
                 {% endif %}
                 {% if program.Video %}
-                <th><a href="{{ program.Video }}">{{ program.Content }}</a></th>
+                <td><a href="{{ program.Video }}">{{ program.Content }}</a></td>
                 {% else %}
-                <th>{{ program.Content }}</th>
+                <td>{{ program.Content }}</td>
                 {% endif %}
                 {% if program.SessionID %}
-                <th><a href="sessions/#link-{{program.SessionID}}">{{ program.Speaker }}</a></th>
+                <td><a href="sessions/#link-{{program.SessionID}}">{{ program.Speaker }}</a></td>
                 {% else %}
-                <th>{{ program.Speaker }}</th>
+                <td>{{ program.Speaker }}</td>
                 {% endif %}
-                <th>{{ program.Language }}</th>
-                <th>{% if program.Slide %}<a href="slides/{{ program.Slide }}">PDF</a>{% endif %}</th>
+                <td>{{ program.Language }}</td>
+                <td>{% if program.Slide %}<a href="slides/{{ program.Slide }}">PDF</a>{% endif %}</td>
               </tr>
             {% endfor %}
             </tbody>

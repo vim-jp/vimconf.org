@@ -243,3 +243,7 @@ ul.cfp, ul.cfp ul {
   border: 4px solid rgba(100,100,100,0.05);
 }
 
+
+#time-table td:nth-child(2), #time-table td:nth-child(3) {
+  text-align: left;
+}
