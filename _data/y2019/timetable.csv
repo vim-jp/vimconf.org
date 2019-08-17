@@ -8,7 +8,7 @@ Start,End,Dur.,Content,Speaker,Language,Interp.,SessionID,Misc.,Video,Slide
 13:20,13:35,03:36,Grown up from Vim User to Vim developer side,IK,Japanese,,,,,
 13:35,13:55,00:20,Usage and manipulation of the tag stack,daisuzu,Japanese,,,,,
 13:55,14:10,00:15,Short break,,,no,,,,
-14:10,14:25,00:15,Make test,m-nishi,Japanese,,,,,
+14:10,14:25,00:15,make test,m-nishi,Japanese,,,,,
 14:25,14:55,00:30,My Vim life,gorilla0513,Japanese,,,,,
 14:55,15:10,00:15,Using Vim at Work!,Danish Prakash,English,,,,,
 15:10,15:25,00:15,Short break,,,no,,,,
