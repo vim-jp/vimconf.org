@@ -63,6 +63,12 @@ body {
   .row {
     margin-left: 0px;
   }
+  #time-table td:nth-child(4), #time-table td:nth-child(5) {
+    display: none;
+  }
+  #time-table th:nth-child(4), #time-table th:nth-child(5) {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 781px){
