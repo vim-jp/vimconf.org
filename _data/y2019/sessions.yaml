@@ -1,0 +1,138 @@
+---
+- session_id: mopp
+  start_time: 13:00
+  end_time: 13:20
+  duration: 00:20
+  title: Let me talk about my vimrc to grow your vimrc
+  speaker: mopp
+  language: English
+  image: ../icon/mopp.png
+  github: mopp
+  twitter: Mopp_jp
+  abstract: >-
+
+  bio: >-
+
+- session_id: kazukazuinaina
+  start_time: 13:20
+  end_time: 13:35
+  duration: 00:15
+  title: Grown up from Vim User to Vim developer side
+  speaker: IK
+  language: Japanese
+  image: ../icon/get_me_power.png
+  github: kazukazuinaina
+  twitter: get_me_power
+  abstract: >-
+
+  bio: >-
+
+- session_id: dice_zu
+  start_time: 13:35
+  end_time: 13:55
+  duration: 00:20
+  title: 
+  speaker: daisuzu
+  language: English
+  image: ../icon/daisuzu.png
+  github: daisuzu
+  twitter: dice_zu
+  abstract: >-
+    Although it may not be well known, Vim has a lot of useful standard features and many people use them from the plugin, but they can also be used directly.
+    Certainly plugins are important for efficient use of Vim and have used many plugins so far, but I prefer standard features rather than plugins recently.
+    In this session, I'll talk about specific method of migrating plugins to standard features, along with my own growth and changes in usage of Vim itself which is that reason.
+
+  bio: >-
+    A server side engineer from a test engineer. Used Vim for various purposes in various environments, such as editing and viewing text or sometimes as a bit of tools on Windows, Linux and Mac. Currently, using Vim for daily works for developing a game platform with Google App Engine and Go.
+
+- session_id: mnishz
+  start_time: 14:10
+  end_time: 14:25
+  duration: 00:20
+  title: make test
+  speaker: m-nishi
+  language: Japanese
+  image: ../icon/mnishz.png
+  github: mnishz
+  twitter: mnishz0
+  abstract: >-
+
+  bio: >-
+
+- session_id: skanehira
+  start_time: 14:25
+  end_time: 14:55
+  duration: 00:30
+  title: My Vim life
+  speaker: gorilla0513
+  language: Japanese
+  image: ../icon/skanehira.png
+  github: skanehira
+  twitter: gorilla0513
+  abstract: >-
+
+  bio: >-
+
+- session_id: danishprakash
+  start_time: 14:55
+  end_time: 15:10
+  duration: 00:15
+  title: Using Vim at Work!
+  speaker: Danish Prakash
+  language: English
+  image: ../icon/danishprakash.png
+  github: danishprakash
+  twitter: prakashdanish
+  abstract: >-
+  bio: >-
+
+- session_id: hezbymuhammad
+  start_time: 15:25
+  end_time: 15:45
+  duration: 00:20
+  title: Let's Play with Vanilla Vim
+  speaker: Hezby Muhammad
+  language: English
+  image: ../icon/hezbymuhammad.png
+  github: hezbymuhammad
+  twitter: muhammadhezby
+  abstract: >-
+  bio: >-
+
+- session_id: ujihisa
+  start_time: 15:45
+  end_time: 16:00
+  duration: 00:15
+  title: Let's Play with Vanilla Vim
+  speaker: Tatsuhiro Ujihisa
+  language: English
+  image: ../icon/ujihisa.png
+  github: ujihisa
+  twitter: ujm
+  abstract: >-
+    Discover what is happening internally when you switch modes, such as insert mode, normal mode, and operator-pending mode.
+    This talk first revisits how modes are when you use Vim, then I'll let you dive into the Vim C implementation to see what's exactly happening there.
+    I'll even show what modifications can be done when you make change, with using existing pull requests.
+
+    This talk is both for Vim beginners and advanced users who don't always look at the Vim C implementation.
+  bio: >-
+    He is just a programmer who writes Ruby, Vim script, Scala, Clojure, and couple others.
+    What makes him a little bit different is that he uses Vim for over 20 years to live, and organizes couple of Vim communities, including founding this VimConf back in 2013.
+    His major contribution to Vim is to create and maintain <a href="https://github.com/vim-jp/vital.vim">vital.vim</a>, the comprehensive Vim utility functions for Vim plugins.
+
+    He currently lives in Tokyo, Japan and working at Quipper Ltd.
+    Back then he lived in Vancouver, Canada, and he's going to move back there within a year.
+    Besides programming, he worked on baking breads 🥖, and is focusing on preprocessing and cook fish recently.
+
+- session_id: shougo
+  start_time: 16:00
+  end_time: 16:30
+  duration: 00:30
+  title: My dark plugins development history ~ over 10 years ~
+  speaker: Shougo
+  language: English
+  image: ../icon/shougo.png
+  github: shougo
+  twitter: ShougoMatsu
+  abstract: >-
+  bio: >-
