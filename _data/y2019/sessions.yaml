@@ -40,6 +40,11 @@
     suggest you new sense of values about Vim.
 
   bio: >-
+    He is an undergraduate student. He has been using Vim for about 2 years,
+    and sent a lot of pull requests to some Vim plugins as part of OSS
+    development activities.
+    He also belongs to [vim-jp](https://vim-jp.org) and contributes to the
+    Japanese translation of vimdoc-ja.
 
 - session_id: dice_zu
   start_time: 13:35
@@ -60,6 +65,10 @@
     script.
 
   bio: >-
+    Server-side software engineer in Tokyo, working with Go and Google App
+    Engine. Used Vim in daily work and its experience is over 10 years. In the
+    past, wrote articles about Vim in magazines several times. Recently,
+    actively supporting Vim meetups in Tokyo(e.g., gorilla.vim, girls.vim).
 
 - session_id: mnishz
   start_time: 14:10
@@ -81,6 +90,8 @@
    review time of PR.
 
   bio: >-
+    Embedded software engineer. Vim beginner, but I'm crazy for Vim. Rarely
+    translate Vim's help documents to Japanese and send a patch to vim-dev.
 
 - session_id: skanehira
   start_time: 14:25
@@ -176,3 +187,11 @@
     development history and current development thoughts.
 
   bio: >-
+    He is called as "Dark Vim master(暗黒美無王)" pronounced as
+    "Uncock Vim Awe". He has developed popular Vim plugins over 10 years. He
+    has sent some patches to Vim/neovim.
+
+    He think text editor is everything in the world. He wants to do everything
+    in Vim(neovim) like Emacs. It is not allowed by "design-not" in Vim. It is
+    not the light way to use Vim. So He have defined it as the dark way. He is
+    the dark Vimmer. His plugins are dark powered.
