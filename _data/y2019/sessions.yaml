@@ -23,7 +23,12 @@
     to this session.
 
   bio: >-
-
+    He has worked as a backend-enginner with Elixir, Go and Ruby. His 
+    contribution to Vim in recent years is cooperating to hold VimConf as one 
+    of the members of VimConf staff, and he was chairperson in VimConf 2017/2018.
+    His favorite hobbies are developing a hobby-operating system in (C, nasm and)
+    Rust and publishing some hobby-techbooks that related to operating system.
+    
 - session_id: kazukazuinaina
   start_time: 13:20
   end_time: 13:35
