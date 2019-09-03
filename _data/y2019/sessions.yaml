@@ -33,16 +33,16 @@
   start_time: 13:20
   end_time: 13:35
   duration: 00:15
-  title: Grown up from Vim User to Vim developer side
+  title: Grown up from Vim User to Vim plugin developer side
   speaker: IK
   language: Japanese
   image: /2019/icon/get_me_power.png
   github: kazukazuinaina
   twitter: get_me_power
   abstract: >-
-    In this presentation, I will talk about track to become Vim's developer
-    from Vim's User as a student and changing  my heart about Vim. I will
-    suggest you new sense of values about Vim.
+    In this presentation, I will talk about track to become Vim plugin
+    developer from Vim's User as a student and changing  my heart about Vim. I
+    will suggest you new sense of values about Vim.
 
   bio: >-
     He is an undergraduate student. He has been using Vim for about 2 years,
