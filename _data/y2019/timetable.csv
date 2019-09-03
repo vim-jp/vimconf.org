@@ -5,7 +5,7 @@ Start,End,Dur.,Content,Speaker,Language,Interp.,SessionID,Misc.,Video,Slides
 11:10,12:00,00:50,Keynote - We can have nice things,Justin M. Keyes,English,,,,,
 12:00,13:00,01:00,Lunch break,,,no,,,,
 13:00,13:20,00:20,Let me talk about my vimrc to grow your vimrc,mopp,English,,,,,
-13:20,13:35,03:36,Grown up from Vim User to Vim developer side,IK,Japanese,,,,,
+13:20,13:35,03:36,Grown up from Vim User to Vim plugin developer side,IK,Japanese,,,,,
 13:35,13:55,00:20,Usage and manipulation of the tag stack,daisuzu,Japanese,,,,,
 13:55,14:10,00:15,Short break,,,no,,,,
 14:10,14:25,00:15,make test,m-nishi,Japanese,,,,,
