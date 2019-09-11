@@ -475,10 +475,11 @@ title: VimConf 2019 - An international Vim Conference
               {% for individual_sponsor in site.data.y2019.individual_sponsors %}
               <div class="individual-sponsor-grid">
                 <section class="individual-sponsor">
-                  <h6>{{ individual_sponsor.comment }}</h6>
+                  <h6>{{ individual_sponsor.name }}</h6>
                   <div class="sponsors-logo-indivisual">
                     <img src="individual-sponsor/{{ individual_sponsor.icon_name }}.png"/>
                   </div>
+                  <p>{{ individual_sponsor.comment }}</p>
                 </section>
               </div>
               {% endfor %}
