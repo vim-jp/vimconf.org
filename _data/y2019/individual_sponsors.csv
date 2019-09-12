@@ -1,18 +1,20 @@
-peatix_id,name,icon_name,comment
-62030,heavenshell,heavenshell,
-,msfukui,msfukui,
-177181,Tetsuya Ito,tetsuya_ito,
-177181,Tetsuya Ito,tetsuya_ito,
-297417,a_matsuda,a_matsuda,:cq
-500719,Michiru Shirakawa,michiru_shirakawa,
-501872,h-michael,h-michael,I love both Vim and Neovim.
-1107248,uochan,uochan,
-2121618,ysaito,ysaito,vim.org/sponsor
-2259665,ahada,ahada,Vim is definitely cool
-2430769,dohq,dohq,
-,yaegassy,yaegassy,
-2432343,notomo,notomo,
-,itkr,itkr,
-3756388,takaxp,takaxp,
-,hrsh7th,hrsh7th,いつもお世話になってます。
-,hrsh7th,hrsh7th,微力ながら応援させて頂きます。
+name,icon_name,comment
+heavenshell,heavenshell,
+msfukui,msfukui,
+Tetsuya Ito,tetsuya_ito,
+Tetsuya Ito,tetsuya_ito,
+a_matsuda,a_matsuda,:cq
+micchiebear,michiru_shirakawa,
+h-michael,h-michael,I love both Vim and Neovim.
+uochan,uochan,
+ysaito,ysaito,vim.org/sponsor
+ahada,ahada,Vim is definitely cool
+dohq,dohq,
+yaegassy,yaegassy,
+notomo,notomo,
+itkr,itkr,
+Takaaki Ishikawa,takaxp,
+hrsh7th,hrsh7th,いつもお世話になってます。
+hrsh7th,hrsh7th,微力ながら応援させて頂きます。
+Tsuyoshi CHO,tsuyoshi_cho,いつもお世話になってます
+note103,note103,
