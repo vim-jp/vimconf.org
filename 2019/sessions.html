@@ -83,13 +83,9 @@ title: Sessions
             <h4 class="col-md-12">Speaker</h4>
 			<div class="col-md-6 text-center">
               <strong>{{ lt.speaker }}</strong><br />
-              <img src="{{ lt.image }}" width="150" height="150" />
 			</div>
 
 			<div class="col-md-6">
-              {% if lt.github %}<a href="https://github.com/{{ lt.github }}"><img src="../icon/github-icon.png" width="32" height="32" alt="Link to GitHub account"/></a>{% endif %}
-              {% if lt.twitter %}<a href="https://twitter.com/{{ lt.twitter }}"><img src="../icon/twitter-icon.png" width="32" height="32" alt="Link to Twitter account" /></a>{% endif %}
-              <br />
               {{ lt.bio | markdownify }}
 			</div>
           </div>
