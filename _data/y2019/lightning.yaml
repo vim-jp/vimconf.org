@@ -36,7 +36,8 @@
   abstract: >-
     私が現在、誠意開発中の静的型付きプログラミング言語「Time script」の概要について発表します。
 
-    ### Time scriptとは？
+    ##### Time scriptとは？
+
     - 出力先をVim scriptにした静的型付き言語、及びそのトランスパイラー
     - JavaScriptに対するTypeScriptと同じ
     - Time scriptは先進性と整合性・書きやすさに倒すつもり
