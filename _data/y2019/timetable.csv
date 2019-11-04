@@ -1,22 +1,22 @@
 Start,End,Dur.,Content,Speaker,Language,Interp.,SessionID,Misc.,Video,Slides
 09:30,10:00,00:30,Reception,,English,no,,,,
-10:00,10:10,00:10,Opening,mopp,English,,,,,
-10:10,11:00,00:50,Keynote - Vim Renaissance,Prabir Shrestha,English,,,,,
+10:00,10:10,00:10,Opening,mopp,English,,,,,opening.pdf
+10:10,11:00,00:50,Keynote - Vim Renaissance,Prabir Shrestha,English,,,,,prabir.pdf
 11:00,11:10,10,Short break,,,no,,,,
-11:10,11:15,00:05,Sponsor session,atWare,Japanese,,,,,
-11:15,12:05,00:50,Keynote - We can have nice things,Justin M. Keyes,English,,,,,
+11:10,11:15,00:05,Sponsor session,atWare,Japanese,,,,,atware.pdf
+11:15,12:05,00:50,Keynote - We can have nice things,Justin M. Keyes,English,,,,,justin.pdf
 12:05,13:00,00:55,Lunch break,,,no,,,,
-13:00,13:20,00:20,Your Vim is Only for You,mopp,English,,,,,
-13:20,13:35,03:36,Grown up from Vim User to Vim plugin developer side,IK,Japanese,,,,,
-13:35,13:55,00:20,Usage and manipulation of the tag stack,daisuzu,Japanese,,,,,
+13:00,13:20,00:20,Your Vim is Only for You,mopp,English,,,,,mopp.pdf
+13:20,13:35,03:36,Grown up from Vim User to Vim plugin developer side,IK,Japanese,,,,,IK.pdf
+13:35,13:55,00:20,Usage and manipulation of the tag stack,daisuzu,Japanese,,,,,daisuzu.pdf
 13:55,14:10,00:15,Short break,,,no,,,,
-14:10,14:25,00:15,make test,m-nishi,Japanese,,,,,
-14:25,14:55,00:30,My Vim life,gorilla0513,Japanese,,,,,
-14:55,15:10,00:15,Using Vim at Work!,Danish Prakash,English,,,,,
+14:10,14:25,00:15,make test,m-nishi,Japanese,,,,,m-nishi.pdf
+14:25,14:55,00:30,My Vim life,gorilla0513,Japanese,,,,,gorilla0513.pdf
+14:55,15:10,00:15,Using Vim at Work!,Danish Prakash,English,,,,,danish.pdf
 15:10,15:25,00:15,Short break,,,no,,,,
-15:25,15:45,00:20,Let's Play with Vanilla Vim,Hezby Muhammad,English,,,,,
-15:45,16:00,00:15,13 Vim plugins I use every day,Tatsuhiro Ujihisa,English,,,,,
-16:00,16:30,00:30,My dark plugins development history ~ over 10 years ~,Shougo,English,,,,,
+15:25,15:45,00:20,Let's Play with Vanilla Vim,Hezby Muhammad,English,,,,,hezby.pdf
+15:45,16:00,00:15,13 Vim plugins I use every day,Tatsuhiro Ujihisa,English,,,,,ujihisa.pdf
+16:00,16:30,00:30,My dark plugins development history ~ over 10 years ~,Shougo,English,,,,,shougo.pdf
 16:30,17:15,00:45,Lightning Talk,,,,,,,
-17:15,17:25,00:10,Closing,mopp,English,,,,,
+17:15,17:25,00:10,Closing,mopp,English,,,,,closing.pdf
 17:30,19:30,02:00,After party,,,no,,,,
