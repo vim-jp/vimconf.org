@@ -1,6 +1,6 @@
 ---
 layout: 2019/default
-title: Sessions
+title: Blogs
 ---
 
 <nav class="navbar fixed-top navbar-expand-sm navbar-short bg-dark" role="navigation">
@@ -28,74 +28,21 @@ title: Sessions
   <div class="justify-content-center">
     <div class="jumbotron text">
 
-      <section id="menu-sessions">
-        <h3 id="link-sessions">Sessions</h3>
+      <section id="menu-blogs">
+        <h3 id="link-blogs">Blogs</h3>
 
-        {% for session in site.data.y2019.sessions %}
+        {% for blog in site.data.y2019.blogs %}
         <div class="panel text-left">
           <div class="row">
-            <div class="col-md-12" id="link-{{ session.session_id }}">
-              <h4 class="session-title">{{ session.title }}</h4>
-			  <span class="badge badge-info">{{ session.language }}</span>
+            <div class="col-md-12">
+              <a class="blog-title" href="{{ blog.url }}">{{ blog.title }}</a>
             </div>
-
-            <h4 class="col-md-12">Abstract</h4>
-			<div class="col-md-12">
-            {{ session.abstract | markdownify }}
-			</div>
-            <br />
-
-            <h4 class="col-md-12">Speaker</h4>
-			<div class="col-md-6 text-center">
-              <strong>{{ session.speaker }}</strong><br />
-              <img src="{{ session.image }}" width="150" height="150" />
-			</div>
-
-			<div class="col-md-6">
-              {% if session.github %}<a href="https://github.com/{{ session.github }}"><img src="../icon/github-icon.png" width="32" height="32" alt="Link to GitHub account"/></a>{% endif %}
-              {% if session.twitter %}<a href="https://twitter.com/{{ session.twitter }}"><img src="../icon/twitter-icon.png" width="32" height="32" alt="Link to Twitter account" /></a>{% endif %}
-              <br />
-              {{ session.bio | markdownify }}
-			</div>
           </div>
         </div>
 		<br />
         {% endfor %}
       </section>
 	  <hr>
-
-      <section id="menu-lightning">
-        <h3 id="link-lightning">Lightning Talks</h3>
-
-        {% for lt in site.data.y2019.lightning %}
-        <div class="panel text-left">
-          <div class="row">
-            <div class="col-md-12" id="link-{{ lt.session_id }}">
-              <h4 class="lt-title">{{ lt.title }}</h4>
-			  <span class="badge badge-info">{{ lt.language }}</span>
-            </div>
-
-            <h4 class="col-md-12">Abstract</h4>
-			<div class="col-md-12">
-            {{ lt.abstract | markdownify }}
-			</div>
-            <br />
-
-            <h4 class="col-md-12">Speaker</h4>
-			<div class="col-md-6 text-center">
-              <strong>{{ lt.speaker }}</strong><br />
-			</div>
-
-			<div class="col-md-6">
-              {{ lt.bio | markdownify }}
-			</div>
-          </div>
-        </div>
-		<br />
-        {% endfor %}
-      </section>
-
-      <hr class="my-4" />
 
       <section class="details text-center">
         <div class="contact">
