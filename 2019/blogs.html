@@ -29,18 +29,36 @@ title: Blogs
     <div class="jumbotron text">
 
       <section id="menu-blogs">
-        <h3 id="link-blogs">Blogs</h3>
+        <h3 id="link-blogs">Blogs Entries</h3>
 
-        {% for blog in site.data.y2019.blogs %}
-        <div class="panel text-left">
-          <div class="row">
-            <div class="col-md-12">
-              <a class="blog-title" href="{{ blog.url }}">{{ blog.title }}</a>
+        <section id="menu-blogs">
+
+          <h4>Sponsors</h4>
+
+          {% for blog in site.data.y2019.blogs_sponsors %}
+          <div class="panel text-left">
+            <div class="row">
+              <div class="col-md-12">
+                <a class="blog-title" href="{{ blog.url }}">{{ blog.title }}</a>
+              </div>
             </div>
           </div>
-        </div>
-		<br />
-        {% endfor %}
+		  <br />
+          {% endfor %}
+
+          <h4>Indivisuals</h4>
+
+          {% for blog in site.data.y2019.blogs_indivisual %}
+          <div class="panel text-left">
+            <div class="row">
+              <div class="col-md-12">
+                <a class="blog-title" href="{{ blog.url }}">{{ blog.title }}</a>
+              </div>
+            </div>
+          </div>
+		  <br />
+          {% endfor %}
+        </section>
       </section>
 	  <hr>
 
