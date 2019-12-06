@@ -86,6 +86,11 @@ ul {
   animation: fadeText 500ms forwards 300ms;
 }
 
+#youtube {
+  text-align: center;
+  margin: 20px 0;
+}
+
 #billboard:hover {
   transform: scale(1.01, 1.01);
 }
