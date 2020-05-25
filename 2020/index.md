@@ -7,7 +7,7 @@ title: VimConf 2020 is Canceled / VimConf 2020の開催中止のお知らせ
 *   [English Version](#english)
 *   [日本語バージョン](#japanese)
 
-## <a name="english">Vim Conf 2020 is canceled (English)</a>
+## <a name="english">VimConf 2020 is canceled (English)</a>
 
 We have decided to cancel VimConf 2020 due to the changes in the social situation caused by COVID-19 (SARS-CoV-2, a new type of coronavirus). We also believe that one of the following conditions must be met in order to restart VimConf.
 
