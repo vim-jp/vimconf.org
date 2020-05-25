@@ -44,7 +44,7 @@ In addition, we will explore the possibility of events that are different from V
 
 <div style="text-align: right">
 25th-May-2020<br/>
-VimConf Preparation Comitee<br/>
+VimConf Preparation Committee<br/>
 Representative Director: Taro Muraoka<br/>
 </div>
 
