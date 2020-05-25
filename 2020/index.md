@@ -3,7 +3,7 @@ layout: 2020/paper
 
 title: VimConf 2020 is Canceled / VimConf 2020の開催中止のお知らせ
 summary: VimConf 2019 is canceled / VimConf 2020の中止を決定しました
-ogp-image: /2020/ogp.png
+ogp-image: 2020/ogp.png
 
 ---
 
