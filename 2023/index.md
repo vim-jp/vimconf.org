@@ -3,7 +3,7 @@ layout: 2020/paper
 
 title: VimConf 2023 tiny is coming / VimConf 2023 tiny 開催のお知らせ
 summary: VimConf 2023 tiny is coming / VimConf 2023 tiny の開催をお知らせします。
-ogp-image: 2023/ogp.png
+ogp-image: 2023/ogp-teaser.png
 
 ---
 
