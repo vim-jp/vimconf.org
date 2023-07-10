@@ -1,0 +1,12 @@
+html {
+  font-family: "Sawarabi Mincho", serif;
+  font-weight: 300;
+}
+
+body {
+  margin: 0.5em 1.5em;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
