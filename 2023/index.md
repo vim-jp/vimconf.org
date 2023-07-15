@@ -7,11 +7,12 @@ ogp-image: 2023/ogp-teaser.png
 
 ---
 
-(English version is under preparation)
+*   [English Version](#english)
+*   [日本語バージョン](#japanese)
 
 ## <a anme="japanese">VimConf 2023 tiny 開催決定!</a>
 
-VimConfが3年ぶりに帰ってくる!
+VimConfが4年ぶりに帰ってくる!
 
 新型コロナの影響で開催を延期していたVimConfが、2023年ついに開催決定!
 
@@ -27,8 +28,8 @@ Vimをもっと使いこなしたい方、Vimについてもっと知りたい�
 その他のことは決まり次第、追記更新予定です。
 
 * 日付: 2023年11月18日(土)
-* 場所: アキバプラザ・セミナールーム1 (懇親会:レセプションホール)
 * 時間: 13時00分～17時30分 (懇親会:17時30分～19時30分)
+* 場所: アキバプラザ・セミナールーム1 (懇親会:レセプションホール)
 * チケット販売開始予定: 2023年9月中旬
 
 ### スピーカー
@@ -41,3 +42,34 @@ Vimをもっと使いこなしたい方、Vimについてもっと知りたい�
 * ~~[tani](https://github.com/tani)~~
 * [kuu](https://twitter.com/kuuote)
 * [あいや](https://twitter.com/public_ai000ya)
+
+## <a anme="english">VimConf 2023 tiny will be held!</a>
+
+VimConf returns after 4 years!
+
+VimConf, which was postponed due to COVID-19, will finally be held in 2023!
+
+This time, however, due to limited preparation time, it will be held in a reduced version as VimConf 2023 tiny,
+Various Vim-related sessions are planned.
+
+VimConf 2023 tiny is for all Vim users.
+If you want to get more out of Vim or learn more about Vim, please consider attending!
+
+### Outline of the event
+
+The following is what has been decided at this time.
+Other matters will be added and updated as soon as they are decided.
+
+* Date: Novembr 18th, 2023 (Sat)
+* Time: 13:00 ~ 17:30 (Convivial party 17:30 ~ 19:30)
+* Place: Akiba Plaza, Seminar room 1, at Akihabara Tokyo, Japan
+* Ticket sales start date: Mid-September 2023
+
+### Speakers
+
+* [lambdalisue](https://twitter.com/lambdalisue)
+* [gorilla0513](https://twitter.com/gorilla0513)
+* [okuramasafumi](https://twitter.com/okuramasafumi)
+* ~~[tani](https://github.com/tani)~~
+* [kuuote](https://twitter.com/kuuote)
+* [public\_ai000ya](https://twitter.com/public_ai000ya)
