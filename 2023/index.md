@@ -38,6 +38,6 @@ Vimをもっと使いこなしたい方、Vimについてもっと知りたい�
 * [ありすえ](https://twitter.com/lambdalisue)
 * [ゴリラ](https://twitter.com/gorilla0513)
 * [大倉雅史](https://twitter.com/okuramasafumi)
-* [tani](https://github.com/tani)
+* ~~[tani](https://github.com/tani)~~
 * [kuu](https://twitter.com/kuuote)
 * [あいや](https://twitter.com/public_ai000ya)
