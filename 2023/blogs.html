@@ -1,0 +1,82 @@
+---
+layout: 2019/default
+title: Blogs
+---
+
+<nav class="navbar fixed-top navbar-expand-sm navbar-short bg-dark" role="navigation">
+  <a class="nav-link link text-info display-8" href="https://vimconf.org/2019/" aria-expanded="false"><img src="https://vimconf.org/2019/images/vimlogo-564x564.png" height="42" width="42" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu2a" aria-controls="navmenu2a" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon navbar-light"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navmenu2a">
+    <div class="navbar-nav">
+      <a class="nav-link link text-info" href="..#menu-ticket" aria-expanded="false">Ticket</a>
+      <a class="nav-link link text-info" href="..#menu-keynote-speakers" aria-expanded="false">Keynote speakers</a>
+      <a class="nav-link link text-info" href="..#menu-what-is-vimconf2019" aria-expanded="false">What's VimConf 2019</a>
+      <a class="nav-link link text-info" href="..#menu-time-table" aria-expanded="false">Time table</a>
+      <a class="nav-link link text-info" href="..#menu-official-blog" aria-expanded="false">Official Blog</a>
+      <a class="nav-link link text-info" href="..#menu-sponsors" aria-expanded="false">Sponsors</a>
+      <a class="nav-link link text-info" href="..#menu-ind-sponsors" aria-expanded="false">Individual Sponsors</a>
+      <a class="nav-link link text-info" href="../sessions/" aria-expanded="false">Sessions</a>
+      <a class="nav-link link text-info" href="../blogs/" aria-expanded="false">Blogs</a>
+      <a class="nav-link link text-info" href="..#menu-staff" aria-expanded="false">Staff</a>
+      <a class="nav-link link text-info" href="../../coc/" aria-expanded="false">Code of Conduct</a>
+      <a class="nav-link link text-info" href="../photos/" aria-expanded="false">Photos</a>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="justify-content-center">
+    <div class="jumbotron text">
+
+      <section id="menu-blogs">
+        <h3 id="link-blogs">Blogs Entries</h3>
+
+        <section id="menu-blogs">
+
+          <h4>Sponsors</h4>
+
+          {% for blog in site.data.y2019.blogs_sponsors %}
+          <div class="panel text-left">
+            <div class="row">
+              <div class="col-md-12">
+                <a class="blog-title" href="{{ blog.url }}">{{ blog.title }}</a>
+              </div>
+            </div>
+          </div>
+		  <br />
+          {% endfor %}
+
+          <h4>Indivisuals</h4>
+
+          {% for blog in site.data.y2019.blogs_indivisual %}
+          <div class="panel text-left">
+            <div class="row">
+              <div class="col-md-12">
+                <a class="blog-title" href="{{ blog.url }}">{{ blog.title }}</a>
+              </div>
+            </div>
+          </div>
+		  <br />
+          {% endfor %}
+        </section>
+      </section>
+	  <hr>
+
+      <section class="details text-center">
+        <div class="contact">
+          <ul>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:vimconf@gmail.com?subject=feedback">vimconf@gmail.com</a>
+            </li>
+            <li>
+              <i class="fab fa-twitter"></i>
+              <a href="https://twitter.com/vim_jp" target="_blank">https://twitter.com/vim_jp</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
