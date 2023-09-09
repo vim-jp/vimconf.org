@@ -1,32 +1,19 @@
 ---
-- session_id: mopp
-  start_time: 13:00
-  end_time: 13:20
-  duration: 00:20
-  title: Your Vim is Only for You
-  speaker: mopp
-  language: English
+- session_id: ???
+  start_time: 13:50
+  end_time: 14:20
+  duration: 00:30
+  title: ???
+  speaker: ???
+  language: Japanese
   image: /2019/icon/mopp.png
   github: mopp
   twitter: Mopp_jp
   abstract: |-
-    The objectives of this talk are to come to like your Vim more and more to
-    increase your productivity with Vim.  I will talk way to go forward to next
-    step vimrc from vimrc build on many copy-and-past. It's composed of two
-    parts by my viewpoint. One part describes how to glow your vimrc. As you
-    know Vim is so powerful and attractive editor. However, we have to learn how
-    to use it. I will describe my way to glow my vimrc in this part. Another
-    part is to explain a case of my vimrc. It includes not only what
-    options/plugins/scripts in vimrc are used but also why I introduce them.
-    You will be able to obtain some hints to step into Vim's wonder world after
-    listening to this session.
+    WIP
 
   bio: |-
-    He has worked as a backend-enginner with Elixir, Go and Ruby. His
-    contribution to Vim in recent years is cooperating to hold VimConf as one
-    of the members of VimConf staff, and he was chairperson in VimConf 2017/2018.
-    His favorite hobbies are developing a hobby-operating system in (C, nasm and)
-    Rust and publishing some hobby-techbooks that related to operating system.
+    WIP
 
 - session_id: kazukazuinaina
   start_time: 13:20
