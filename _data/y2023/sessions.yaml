@@ -53,15 +53,15 @@
   duration: 00:30
   title: 言語密着型Vimプラグインの作り方
   speaker: 大倉雅史
-  language: WIP
-  image: ../images/vimlogo-564x564.png
+  language: English
+  image: ../icon/okuramasafumi.jpg
   github: okuramasafumi
   twitter: okuramasafumi
   abstract: |-
-    WIP
+    When developing a Vim plugin, Vim script is a primary language. However, for a plugin that's heavily involved with the target language, there's a case where Vim script is not enough. Luckily, Vim enables us to develop a plugin with the same language as the target. In this talk, I'll show how to develop a Vim plugin that works with RSpec using Ruby. I'll also provide a case where LSP is not the best tool.
 
   bio: |-
-    WIP
+    Masafumi is a programmer with a decade of experience. His favorite language is Ruby and he maintains several libraries. He organizes a tech conference called Kaigi on Rails, focusing on Rails and Web development. He's also a former organizer of VimConf.
 
 - session_id: kuuote
   start_time: 16:00
