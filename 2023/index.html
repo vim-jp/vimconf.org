@@ -111,9 +111,10 @@ title: VimConf 2023 Tiny - An international Vim Conference
 
       <section id="menu-time-table">
         <div class="panel text-center">
-          <h3>Time table</h3>
+          <h3>Time table (WIP)</h3>
           <p>
-            Some session talks are in Japanese. No translations available this time, unlike other normal VimConfs.
+            Some session talks are in Japanese.<br>
+            No translations available this time, unlike other normal VimConfs.
           </p>
           <table class="table" id="time-table">
             <thead class="thead-light">
@@ -133,18 +134,26 @@ title: VimConf 2023 Tiny - An international Vim Conference
                 {% else %}
                 <td></td>
                 {% endif %}
+
                 {% if program.Video %}
                 <td><a href="{{ program.Video }}">{{ program.Content }}</a></td>
                 {% else %}
                 <td>{{ program.Content }}</td>
                 {% endif %}
+
                 {% if program.SessionID %}
                 <td><a href="sessions/#link-{{program.SessionID}}">{{ program.Speaker }}</a></td>
                 {% else %}
                 <td>{{ program.Speaker }}</td>
                 {% endif %}
+
                 <td>{{ program.Language }}</td>
-                <td>{% if program.Slides %}<a href="slides/{{ program.Slides }}">PDF</a>{% endif %}</td>
+
+                {% if program.Slides %}
+                <td><a href="slides/{{ program.Slides }}">PDF</a></td>
+                {% else %}
+                <td>None</td>
+                {% endif %}
               </tr>
             {% endfor %}
             </tbody>
