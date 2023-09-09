@@ -6,189 +6,91 @@
   title: ???
   speaker: ???
   language: Japanese
-  image: /2019/icon/mopp.png
-  github: mopp
-  twitter: Mopp_jp
+  image: ../images/vimlogo-564x564.png
+  github:
+  twitter:
+  abstract: |-
+    :)
+
+  bio: |-
+    ;)
+
+- session_id: lambdalisue
+  start_time: 14:30
+  end_time: 15:00
+  duration: 00:30
+  title: WIP
+  speaker: Λlisue
+  language: WIP
+  image: ../images/vimlogo-564x564.png
+  github: lambdalisue
+  twitter: lambdalisue
   abstract: |-
     WIP
 
   bio: |-
     WIP
-
-- session_id: kazukazuinaina
-  start_time: 13:20
-  end_time: 13:35
-  duration: 00:15
-  title: Grown up from Vim User to Vim plugin developer side
-  speaker: IK
-  language: Japanese
-  image: /2019/icon/get_me_power.png
-  github: kazukazuinaina
-  twitter: get_me_power
-  abstract: |-
-    In this presentation, I would like to talk about the history of my Vim
-    user side to the Vim plugin developer side, as well as the changes in my
-    feelings towards Vim. I give you new values for Vim.
-
-  bio: |-
-    He is an undergraduate student. He has been using Vim for about 2 years,
-    and sent a lot of pull requests to some Vim plugins as part of OSS
-    development activities.
-    He also belongs to [vim-jp](https://vim-jp.org) and contributes to the
-    Japanese translation of vimdoc-ja.
-
-- session_id: dice_zu
-  start_time: 13:35
-  end_time: 13:55
-  duration: 00:20
-  title: Usage and manipulation of the tag stack
-  speaker: daisuzu
-  language: Japanese
-  image: /2019/icon/daisuzu.png
-  github: daisuzu
-  twitter: dice_zu
-  abstract: |-
-    Introduces the tag stack, a useful feature for jumping between files using
-    ctags and helptags. There is no problem even if ctags cannot be used or not
-    supported. Since the tag stacks can be manipulated from Vim scripts, the
-    same behavior can be implemented using LSP(Language Server protocol) etc.
-    This talk will also explain how to manipulate the tag stack from Vim
-    script.
-
-  bio: |-
-    Server-side software engineer in Tokyo, working with Go and Google App
-    Engine. Used Vim in daily work and its experience is over 10 years. In the
-    past, wrote articles about Vim in magazines several times. Recently,
-    actively supporting Vim meetups in Tokyo(e.g., gorilla.vim, girls.vim).
-
-- session_id: mnishz
-  start_time: 14:10
-  end_time: 14:25
-  duration: 00:20
-  title: make test
-  speaker: m-nishi
-  language: Japanese
-  image: /2019/icon/mnishz.png
-  github: mnishz
-  twitter: mnishz0
-  abstract: |-
-   This talk describes testing of Vim.
-
-   We can easily run the test of vim by typing `make test`, however, there
-   might be few people who have actually run the test. In this session, I'd
-   like to talk about how to run the test, how the test works and so on.
-   Writing Vim's test will help you to understand Vim script deeply and reduce
-   review time of PR.
-
-  bio: |-
-    Embedded software engineer. Vim beginner, but I'm crazy for Vim. Rarely
-    translate Vim's help documents to Japanese and send a patch to vim-dev.
 
 - session_id: skanehira
-  start_time: 14:25
-  end_time: 14:55
+  start_time: 15:00
+  end_time: 15:30
   duration: 00:30
-  title: My Vim life
-  speaker: gorilla0513
-  language: Japanese
-  image: /2019/icon/skanehira.png
+  title: Looking back at vim meetup（仮）
+  speaker: ゴリラ
+  language: WIP
+  image: ../images/vimlogo-564x564.png
   github: skanehira
   twitter: gorilla0513
   abstract: |-
-    I will also talk about what I learned through Vim writing and community
-    activities, and what good things I learned.
+    WIP
 
   bio: |-
-    It's been a year since I started using Vim, so I will talk about what Vim's
-    goodness is and how I learned Vim.
+    WIP
 
-- session_id: danishprakash
-  start_time: 14:55
-  end_time: 15:10
-  duration: 00:15
-  title: Using Vim at Work!
-  speaker: Danish Prakash
-  language: English
-  image: /2019/icon/danishprakash.png
-  github: danishprakash
-  twitter: prakashdanish
-  abstract: |-
-    Want to start using Vim at work but worried about your productivity? When I
-    started using Vim at work, it was a bumpy ride but over time, I made
-    certain changes to my Vim workflow which made the journey smoother and
-    finally I got to a point where I now comfortably use Vim at work for all my
-    writing.
-
-  bio: |-
-    Software Engineer at HackerRank writing backend appliations in
-    Golang. Has been using (n)Vim for a 2-3 years now and has written
-    a few Vim plugins. He's also interested in GNU/Linux and OSS.
-
-- session_id: hezbymuhammad
-  start_time: 15:25
-  end_time: 15:45
-  duration: 00:20
-  title: Let's Play with Vanilla Vim
-  speaker: Hezby Muhammad
-  language: English
-  image: /2019/icon/hezbymuhammad.png
-  github: hezbymuhammad
-  twitter: muhammadhezby
-  abstract: |-
-    Vim is an amazing tool. In fact, there are tons of plugins to make our life
-    easier! However, do you ever wonder how much you can do with Vim without
-    plugins? In this talk we're going to explore amazing things we can do in
-    Vanilla Vim like autocomplete, browsing files, snippets, file search, and
-    more!
-
-  bio: |-
-    Software Engineer at Quipper Indonesia. He has been using Vim since 3 years
-    ago. He loves vim at the first sight. He's also member of small community of
-    [Vim Indonesia](http://github.com/vim-id). Now, it's small but growing fast!
-
-- session_id: ujihisa
-  start_time: 15:45
+- session_id: okuramasafumi
+  start_time: 15:30
   end_time: 16:00
-  duration: 00:15
-  title: 13 Vim plugins I use every day
-  speaker: Tatsuhiro Ujihisa
-  language: English
-  image: /2019/icon/ujihisa.png
-  github: ujihisa
-  twitter: ujm
+  duration: 00:30
+  title: 言語密着型Vimプラグインの作り方
+  speaker: 大倉雅史
+  language: WIP
+  image: ../images/vimlogo-564x564.png
+  github: okuramasafumi
+  twitter: okuramasafumi
   abstract: |-
-    I'm going to talk about how I use these plugins to be able to write code
-    effectively as a professional programmer.
-
-    quickrun, vimshell, unite (+neomru), deoplete (+neosnippet),
-    tabpagebuffer/tabpagecd, lexima, open-browser, fontzoom, gina, nclipper,
-    surround, caw, cursorword
+    WIP
 
   bio: |-
+    WIP
 
-- session_id: shougo
+- session_id: kuuote
   start_time: 16:00
   end_time: 16:30
   duration: 00:30
-  title: My dark plugins development history ~ over 10 years ~
-  speaker: Shougo
-  language: English
-  image: /2019/icon/shougo.png
-  github: shougo
-  twitter: ShougoMatsu
+  title: (仮) 作ったプラグインの話
+  speaker: kuu
+  language: Japanese
+  image: ../images/vimlogo-564x564.png
+  github: kuuote
+  twitter: kuuote
   abstract: |-
-    My presentation may be the last.  So I need to speak the development
-    history.
-
-    I have been developed Vim plugins over 10 years. I talk about my plugins
-    development history and current development thoughts.
+    WIP
 
   bio: |-
-    He is called as "Dark Vim master(暗黒美無王)" pronounced as
-    "Uncock Vim Awe". He has developed popular Vim plugins over 10 years. He
-    has sent some patches to Vim/neovim.
+    WIP
 
-    He think text editor is everything in the world. He wants to do everything
-    in Vim(neovim) like Emacs. It is not allowed by "design-not" in Vim. It is
-    not the light way to use Vim. So he has defined it as the dark way. He is
-    the dark Vimmer. His plugins are dark powered.
+- session_id: aiya000
+  start_time: 16:30
+  end_time: 17:00
+  duration: 00:30
+  title: WIP
+  speaker: aiya000
+  language: WIP
+  image: ../images/vimlogo-564x564.png
+  github: aiya000
+  twitter: public_ai000ya
+  abstract: |-
+    WIP
+
+  bio: |-
+    WIP
