@@ -21,4 +21,4 @@ bundle install
 bundle exec jekyll serve
 ```
 
-TODO: Add container version to keep the environment crean.
+TODO: Add container version to keep the environment clean.
