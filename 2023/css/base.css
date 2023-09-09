@@ -274,3 +274,8 @@ ul.cfp, ul.cfp ul, ul.about {
 	color: red;
 }
 
+.comming-soon {
+	font-size: 36px;
+	font-weight: bold;
+	color: green;
+}
