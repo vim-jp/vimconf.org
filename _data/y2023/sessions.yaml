@@ -1,0 +1,96 @@
+---
+- session_id: ???
+  start_time: 13:50
+  end_time: 14:20
+  duration: 00:30
+  title: ???
+  speaker: ???
+  language: Japanese
+  image: ../images/vimlogo-564x564.png
+  github:
+  twitter:
+  abstract: |-
+    :)
+
+  bio: |-
+    ;)
+
+- session_id: lambdalisue
+  start_time: 14:30
+  end_time: 15:00
+  duration: 00:30
+  title: WIP
+  speaker: Λlisue
+  language: WIP
+  image: ../images/vimlogo-564x564.png
+  github: lambdalisue
+  twitter: lambdalisue
+  abstract: |-
+    WIP
+
+  bio: |-
+    WIP
+
+- session_id: skanehira
+  start_time: 15:00
+  end_time: 15:30
+  duration: 00:30
+  title: Looking back at vim meetup（仮）
+  speaker: ゴリラ
+  language: WIP
+  image: ../images/vimlogo-564x564.png
+  github: skanehira
+  twitter: gorilla0513
+  abstract: |-
+    WIP
+
+  bio: |-
+    WIP
+
+- session_id: okuramasafumi
+  start_time: 15:30
+  end_time: 16:00
+  duration: 00:30
+  title: 言語密着型Vimプラグインの作り方
+  speaker: 大倉雅史
+  language: English
+  image: ../icon/okuramasafumi.jpg
+  github: okuramasafumi
+  twitter: okuramasafumi
+  abstract: |-
+    When developing a Vim plugin, Vim script is a primary language. However, for a plugin that's heavily involved with the target language, there's a case where Vim script is not enough. Luckily, Vim enables us to develop a plugin with the same language as the target. In this talk, I'll show how to develop a Vim plugin that works with RSpec using Ruby. I'll also provide a case where LSP is not the best tool.
+
+  bio: |-
+    Masafumi is a programmer with a decade of experience. His favorite language is Ruby and he maintains several libraries. He organizes a tech conference called Kaigi on Rails, focusing on Rails and Web development. He's also a former organizer of VimConf.
+
+- session_id: kuuote
+  start_time: 16:00
+  end_time: 16:30
+  duration: 00:30
+  title: (仮) 作ったプラグインの話
+  speaker: kuu
+  language: Japanese
+  image: ../images/vimlogo-564x564.png
+  github: kuuote
+  twitter: kuuote
+  abstract: |-
+    WIP
+
+  bio: |-
+    WIP
+
+- session_id: aiya000
+  start_time: 16:30
+  end_time: 17:00
+  duration: 00:30
+  title: WIP
+  speaker: aiya000
+  language: WIP
+  image: ../images/vimlogo-564x564.png
+  github: aiya000
+  twitter: public_ai000ya
+  abstract: |-
+    WIP
+
+  bio: |-
+    WIP
