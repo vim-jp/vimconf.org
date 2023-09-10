@@ -100,6 +100,7 @@ ul {
   background-image: url(../images/background.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-position: bottom;
   position: relative;
   color: white;
   text-shadow: #000 3px 3px 0;
