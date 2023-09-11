@@ -19,17 +19,17 @@
   start_time: 14:30
   end_time: 15:00
   duration: 00:30
-  title: WIP
+  title: TBD
   speaker: Λlisue
-  language: WIP
+  language: TBD
   image: ../images/vimlogo-564x564.png
   github: lambdalisue
   twitter: lambdalisue
   abstract: |-
-    WIP
+    TBD
 
   bio: |-
-    WIP
+    TBD
 
 - session_id: skanehira
   start_time: 15:00
@@ -37,15 +37,15 @@
   duration: 00:30
   title: Looking back at vim meetup（仮）
   speaker: ゴリラ
-  language: WIP
+  language: TBD
   image: ../images/vimlogo-564x564.png
   github: skanehira
   twitter: gorilla0513
   abstract: |-
-    WIP
+    TBD
 
   bio: |-
-    WIP
+    TBD
 
 - session_id: okuramasafumi
   start_time: 15:30
@@ -74,23 +74,23 @@
   github: kuuote
   twitter: kuuote
   abstract: |-
-    WIP
+    TBD
 
   bio: |-
-    WIP
+    TBD
 
 - session_id: aiya000
   start_time: 16:30
   end_time: 17:00
   duration: 00:30
-  title: WIP
+  title: TBD
   speaker: aiya000
-  language: WIP
+  language: TBD
   image: ../images/vimlogo-564x564.png
   github: aiya000
   twitter: public_ai000ya
   abstract: |-
-    WIP
+    TBD
 
   bio: |-
-    WIP
+    TBD
