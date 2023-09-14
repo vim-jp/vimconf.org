@@ -35,17 +35,18 @@
   start_time: 15:00
   end_time: 15:30
   duration: 00:30
-  title: Looking back at vim meetup（仮）
+  title: Looking back at vim meetup
   speaker: ゴリラ
-  language: TBD
-  image: ../images/vimlogo-564x564.png
+  language: Japanese
+  image: ../icon/skanehira.png
   github: skanehira
   twitter: gorilla0513
   abstract: |-
-    TBD
+    I run a Vim meetup called Gorilla.vim and have held about 30 times.
+    I will talk about why I have been running meetups for the past few years, the challenges of running them, and why meetups are necessary.
 
   bio: |-
-    TBD
+    I usually work as an engineer and run a company.
 
 - session_id: okuramasafumi
   start_time: 15:30
