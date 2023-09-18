@@ -1,7 +1,7 @@
 ---
 - session_id: ???
-  start_time: 13:50
-  end_time: 14:20
+  start_time: 13:45
+  end_time: 14:15
   duration: 00:30
   title: ???
   speaker: ???
@@ -32,8 +32,8 @@
     I'm a programmer who wears many hats at work, handling everything from front-end and back-end development to management tasks and technical consultations. My favorite languages are Rust and TypeScript, and I'm a devoted fan of Neovim as my preferred text editor. I'm the type of person who relishes customizing my environment to align with my preferences, and I've created numerous Vim plugins to make it happen. This time, I joined in this conference to promote Denops.
 
 - session_id: skanehira
-  start_time: 15:00
-  end_time: 15:30
+  start_time: 15:05
+  end_time: 15:35
   duration: 00:30
   title: Looking back at vim meetup
   speaker: ゴリラ
@@ -49,9 +49,9 @@
     I usually work as an engineer and run a company.
 
 - session_id: okuramasafumi
-  start_time: 15:30
-  end_time: 16:00
-  duration: 00:30
+  start_time: 15:45
+  end_time: 16:05
+  duration: 00:20
   title: 言語密着型Vimプラグインの作り方
   speaker: 大倉雅史
   language: English
@@ -65,8 +65,8 @@
     Masafumi is a programmer with a decade of experience. His favorite language is Ruby and he maintains several libraries. He organizes a tech conference called Kaigi on Rails, focusing on Rails and Web development. He's also a former organizer of VimConf.
 
 - session_id: kuuote
-  start_time: 16:00
-  end_time: 16:30
+  start_time: 16:10
+  end_time: 16:40
   duration: 00:30
   title: Modern techniques for implements insert mode plugins / Why use IME within text editor?
   speaker: kuu
@@ -85,8 +85,8 @@
     Ordinary Vimmer who likes environment improvement and living lazy life.
 
 - session_id: aiya000
-  start_time: 16:30
-  end_time: 17:00
+  start_time: 16:50
+  end_time: 17:20
   duration: 00:30
   title: Boost your vimrc with some template techniques!
   speaker: aiya000
