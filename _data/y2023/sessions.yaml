@@ -19,17 +19,17 @@
   start_time: 14:30
   end_time: 15:00
   duration: 00:30
-  title: TBD
+  title: Revolutionizing Vim/Neovim Plugin Development ~ An In-Depth Look into Denops
   speaker: Λlisue
-  language: TBD
-  image: ../images/vimlogo-564x564.png
+  language: English
+  image: ../icon/Alisue.png
   github: lambdalisue
   twitter: lambdalisue
   abstract: |-
-    TBD
+    It's been two years since denops v1 was released. However, denops is still not widely recognized as the 'standard' among Vim users because most Vim plugin developers do not use it, possibly due to a lack of knowledge or a limited perspective on denops for plugin development. This talk aims to provide a quick introduction to denops and discuss the advantages and disadvantages of endorsing it for plugin developers, with the goal of making it the 'standard' choice for all Vim users.
 
   bio: |-
-    TBD
+    I'm a programmer who wears many hats at work, handling everything from front-end and back-end development to management tasks and technical consultations. My favorite languages are Rust and TypeScript, and I'm a devoted fan of Neovim as my preferred text editor. I'm the type of person who relishes customizing my environment to align with my preferences, and I've created numerous Vim plugins to make it happen. This time, I joined in this conference to promote Denops.
 
 - session_id: skanehira
   start_time: 15:00
@@ -68,30 +68,36 @@
   start_time: 16:00
   end_time: 16:30
   duration: 00:30
-  title: (仮) 作ったプラグインの話
+  title: Modern techniques for implements insert mode plugins / Why use IME within text editor?
   speaker: kuu
   language: Japanese
-  image: ../images/vimlogo-564x564.png
+  image: ../icon/kuuote.png
   github: kuuote
   twitter: kuuote
   abstract: |-
-    TBD
+    I made japanese input method "skkeleton" and using everyday.
+    When made it, significantly referenced "eskk.vim" which I used before. but unlike that, using new APIs and external process framework.
+    I'm going to talk about these.
+
+    Second part is why use within text editor for that much, why highly affinity input method.
 
   bio: |-
-    TBD
+    Ordinary Vimmer who likes environment improvement and living lazy life.
 
 - session_id: aiya000
   start_time: 16:30
   end_time: 17:00
   duration: 00:30
-  title: TBD
+  title: Boost your vimrc with some template techniques!
   speaker: aiya000
   language: TBD
-  image: ../images/vimlogo-564x564.png
+  image: ../icon/aiya000.jpg
   github: aiya000
   twitter: public_ai000ya
   abstract: |-
-    TBD
+    This introduces some techniques to help writing your vimrc, including Vim script libraries, and Vim script specs!
 
   bio: |-
-    TBD
+    A programmer who's passionate about strong static typing systems.
+    e.g. Haskell, and TypeScript
+    Ofcourse I still love Vim script.
