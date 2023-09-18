@@ -52,7 +52,7 @@
   start_time: 15:45
   end_time: 16:05
   duration: 00:20
-  title: 言語密着型Vimプラグインの作り方
+  title: Developing a Vim plugin with Ruby, or when in Ruby do as the Rubyists do
   speaker: 大倉雅史
   language: English
   image: ../icon/okuramasafumi.jpg
