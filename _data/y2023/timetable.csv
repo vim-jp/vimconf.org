@@ -1,7 +1,7 @@
 Start,End,Content,Speaker,Language,SessionID,Video,Slides
 13:00,13:30,Reception,,Japanese,,,
 13:30,13:40,Opening,mopp,English,,,
-13:45,14:15,???,???,TBD,???,,
+13:45,14:15,???,???,Japanese,???,,
 ,,Short break,,,,,
 14:30,15:00,Revolutionizing Vim/Neovim Plugin Development ~ An In-Depth Look into Denops,Λlisue,English,lambdalisue,,
 15:05,15:35,Looking back at vim meetup,ゴリラ,Japanese,skanehira,,
@@ -9,6 +9,6 @@ Start,End,Content,Speaker,Language,SessionID,Video,Slides
 15:45,16:05,"Developing a Vim plugin with Ruby, or when in Ruby do as the Rubyists do",大倉雅史,English,okuramasafumi,,
 16:10,16:40,Modern techniques for implements insert mode plugins / Why use IME within text editor?,kuu,Japanese,kuuote,,
 ,,Short break,,,,,
-16:50,17:20,Boost your vimrc with some template techniques!,aiya000,TBD,aiya000,,
+16:50,17:20,Boost your vimrc with some template techniques!,aiya000,Japanese,aiya000,,
 17:25,17:35,Closing,mopp,English,,,
 17:40,19:30,After party,,,,,
