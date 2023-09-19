@@ -1,16 +1,16 @@
 ---
-- session_id: ???
+- session_id: SECRET
   start_time: 13:45
   end_time: 14:15
   duration: 00:30
-  title: ???
-  speaker: ???
+  title: SECRET
+  speaker: SECRET
   language: Japanese
   image: ../images/vimlogo-564x564.png
   github:
   twitter:
   abstract: |-
-    :)
+    It will be published soon :)
 
   bio: |-
     ;)
