@@ -60,7 +60,7 @@ schedules:
     title-i18n: Evil is Justice.
     summary: Presentation for Evil-mode in emacs.
     summary-i18n: Presentation for Evil-mode in emacs.
-    details: Recentlly, I use emacs because I wish to write code by Clojure. but, I feel not so good emacs keybind.I like vim keybind and install Evil-mode.It is very confortable for me.
+    details: Recentlly, I use emacs because I wish to write code by Clojure. but, I feel not so good emacs keybind.I like vim keybind and install Evil-mode.It is very comfortable for me.
     details-i18n: 以前はVimを使っていたのですが、Lisp、あるいはClojureの勉強のために、Emacsを使い始めました。じかし、Emacsはいいものの、キーバインドにどうしても慣れることが出来ません。なんでInsertModeがない！VisualModeがない！そんな失意の中、出会ったのがEvil-modeでした。そして、実はVimのキーバインドはLispを書くのにも非常に適していることがわかりました。そういうわけで、エディタ1000年戦争を完結させるために、Evil-modeの紹介をしたいと思います。
     language: Lisp or Japanese
     time: About 20 minutes
