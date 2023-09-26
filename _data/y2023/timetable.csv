@@ -1,7 +1,7 @@
 Start,End,Content,Speaker,Language,SessionID,Video,Slides
 13:00,13:30,Reception,,Japanese,,,
 13:30,13:40,Opening,mopp,English,,,
-13:45,14:15,SECRET,SECRET,Japanese,SECRET,,
+13:45,14:15,Bram Moolenaar the Creator of Vim,mattn,Japanese,mattn,,
 ,,Short break,,,,,
 14:30,15:00,Revolutionizing Vim/Neovim Plugin Development ~ An In-Depth Look into Denops,Λlisue,English,lambdalisue,,
 15:05,15:35,Looking back at vim meetup,ゴリラ,Japanese,skanehira,,
