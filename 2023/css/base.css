@@ -130,6 +130,12 @@ section::before {
   display: block;
 }
 
+.sponsor {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 .staff {
   background-color: white;
   border-radius: 10px;
