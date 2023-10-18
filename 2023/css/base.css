@@ -136,6 +136,32 @@ section::before {
   padding: 10px;
 }
 
+.sponsor a {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+.sponsor a:link {
+  color: unset;
+}
+.sponsor a:visited {
+  color: unset;
+}
+.sponsor a:hover {
+}
+.sponsor a:active {
+}
+
+.sponsor .sponsor-logo {
+  transition: transform 0.2s linear;
+  width: 200px;
+  margin: 10px 10px 10px 10px;
+}
+
+.sponsor .sponsor-logo:hover {
+  transform: scale(1.05, 1.05);
+}
+
 .staff {
   background-color: white;
   border-radius: 10px;
