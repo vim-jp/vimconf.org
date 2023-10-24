@@ -3,7 +3,7 @@ Start,End,Content,Speaker,Language,SessionID,Video,Slides
 13:30,13:40,Opening,mopp,English,,,
 13:45,14:15,Bram Moolenaar the Creator of Vim,mattn,Japanese,mattn,,
 ,,Short break,,,,,
-14:30,15:00,Revolutionizing Vim/Neovim Plugin Development ~ An In-Depth Look into Denops,Λlisue,English,lambdalisue,,
+14:30,15:00,Revolutionizing Vim/Neovim Plugin Development ~ An In-Depth Look into Denops,Λlisue,Japanese,lambdalisue,,
 15:05,15:35,Looking back at vim meetup,ゴリラ,Japanese,skanehira,,
 ,,Short break,,,,,
 15:45,16:05,"Developing a Vim plugin with Ruby, or when in Ruby do as the Rubyists do",大倉雅史,English,okuramasafumi,,
