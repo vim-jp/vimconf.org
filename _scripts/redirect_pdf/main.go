@@ -20,8 +20,9 @@ func toURL(name string) (*url.URL, error) {
 	}
 	dir, fname := list[0], list[len(list)-1]
 	u := url.URL{
-		Host: "slides.vimconf.org",
-		Path: path.Join(dir, fname),
+		Scheme: "https",
+		Host:   "slides.vimconf.org",
+		Path:   path.Join(dir, fname),
 	}
 	return &u, nil
 }
