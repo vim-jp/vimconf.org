@@ -41,16 +41,15 @@ func writeMD(w io.Writer, u *url.URL) error {
 }
 
 func replacePDF(name string) error {
-	name = filepath.Clean(name)
 	fi, err := os.Stat(name)
 	if err != nil {
 		return err
 	}
 	if !fi.Mode().IsRegular() {
-		log.Printf("%s is not a file, skipped")
+		log.Printf("%s is not a file, skipped", name)
 		return nil
 	}
-	u, err := toURL(name)
+	u, err := toURL(filepath.Clean(name))
 	if err != nil {
 		return err
 	}
