@@ -1,0 +1,314 @@
+h1 {
+  font-family: 'Gugi', cursive;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-color: #ecefe9;
+  margin-top: 4.5rem;
+}
+
+.jumbotron {
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width:320px){
+  nav {
+    font-size: 0.7rem;
+  }
+  .container {
+    max-width: 700px;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  .location {
+    margin-top: 15em;
+  }
+  .staff h4 {
+    font-size: 0.5em;
+  }
+  .fat-border {
+    padding: 0px;
+  }
+  .panel {
+    padding: 0px;
+	margin: 0px;
+  }
+}
+
+@media screen and (max-width:480px){
+  .container {
+    max-width: 700px;
+    width: 480px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .staff h4 {
+    font-size: 0.5em;
+  }
+  .staff-icon {
+    width: 100px;
+  }
+  #vim-logo {
+    width: 100px;
+  }
+  .row {
+    margin-left: 0px;
+  }
+  #time-table td:nth-child(4), #time-table td:nth-child(5) {
+    display: none;
+  }
+  #time-table th:nth-child(4), #time-table th:nth-child(5) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 781px){
+  h1 {
+    font-size: 120px;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.text h1 {
+  -webkit-animation: fadeText 500ms forwards 300ms;
+  animation: fadeText 500ms forwards 300ms;
+}
+
+#youtube {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#billboard:hover {
+  transform: scale(1.01, 1.01);
+}
+
+#billboard {
+  transition: transform 0.2s linear;
+  background-image: url(../images/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  color: white;
+  text-shadow: #000 3px 3px 0;
+  border-radius: 10px;
+}
+
+#billboard::before {
+  content: ' ';
+  position: absolute;
+  background-color: rgba(0,0,0,0.4);
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 10px;
+}
+
+.panel {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+section::before {
+  height: 54px;
+  content: '';
+  display: block;
+}
+
+.sponsor {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sponsor a {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+.sponsor a:link {
+  color: unset;
+}
+.sponsor a:visited {
+  color: unset;
+}
+.sponsor a:hover {
+}
+.sponsor a:active {
+}
+
+.sponsor .sponsor-logo {
+  transition: transform 0.2s linear;
+  width: 200px;
+  margin: 10px 10px 10px 10px;
+}
+
+.sponsor .sponsor-logo:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.staff {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.speaker-icon:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.speaker-icon {
+  transition: transform 0.2s linear;
+  padding: 5px;
+  width: 236px;
+  margin: 10px 10px 30px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
+}
+
+.staff-icon:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.staff-icon {
+  transition: transform 0.2s linear;
+  margin: 10px 10px 30px 10px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.4);
+}
+
+.fat-border {
+  padding: 3em;
+}
+
+ul.cfp, ul.cfp ul, ul.about {
+  list-style: disc;
+}
+
+.sponsors-logo {
+	background-color: white;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 5px;
+	padding: 3px 3px 3px 3px;
+    border: 4px solid rgba(100,100,100,0.05);
+}
+
+.sponsors .sponsors-name {
+	font-size: 1.4em;
+	color: #333;
+	text-decoration: none;
+}
+
+.sponsors .sponsors-url {
+	font-size: 0.7em;
+}
+
+.sponsors-logo-platinum {
+	width: 450px;
+	height: 450px;
+}
+
+.sponsors-logo-platinum img {
+	width: 96%;
+}
+
+.sponsors-logo-gold {
+	width: 350px;
+	height: 350px;
+}
+
+.sponsors-logo-gold img {
+	width: 96%;
+}
+
+.sponsors-logo-silver {
+	width: 270px;
+	height: 270px;
+}
+
+.sponsors-logo-silver img {
+	width: 96%;
+}
+
+.sponsors-logo-bronze {
+	width: 210px;
+	height: 210px;
+}
+
+.sponsors-logo-bronze img {
+	width: 96%;
+}
+
+.individual-sponsors-logo img {
+	width: 96%;
+}
+
+.individual-sponsors-logo {
+	background-color: white;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px 5px 5px 5px;
+    border: 2px solid rgba(100,100,100,0.05);
+}
+
+
+.individual-sponsor-grid {
+  padding: 1em;
+  box-sizing: border-box;
+  width: 150px;
+}
+
+.individual-sponsor {
+  padding: 0.5em;
+  border-radius: 0.5em;
+  line-height: 1;
+  text-align: center;
+}
+
+.individual-sponsor-icon {
+  margin: auto;
+  width: 5.854em;
+  height: 5.854em;
+}
+
+.individual-sponsors h6 {
+  height: 2em;
+  font-size: 0.8em;
+}
+
+#time-table td:nth-child(2), #time-table td:nth-child(3) {
+  text-align: left;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.sold-out {
+	font-weight: bold;
+	color: red;
+}
+
+.sale {
+	font-size: 36px;
+	font-weight: bold;
+	color: green;
+}
