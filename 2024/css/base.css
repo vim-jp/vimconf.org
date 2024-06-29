@@ -312,3 +312,9 @@ ul.cfp, ul.cfp ul, ul.about {
 	font-weight: bold;
 	color: green;
 }
+
+.proposal {
+	font-size: 36px;
+	font-weight: bold;
+	color: #DC143C;
+}
