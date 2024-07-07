@@ -1,0 +1,20 @@
+---
+- session_id: christian
+  start_time: 10:10
+  end_time: 11:00
+  duration: 00:50
+  title: TBD
+  speaker: Christian Brabandt
+  language: English
+  image: ../icon/christian.jpg
+  github: chrisbra
+  abstract: |-
+    TBD
+
+  bio: |-
+    Christian Brabandt has been working in the IT industry for more than 20 years, mostly as consultant in various roles.
+    He is currently employed with Ataccama and working as platform consultant in which role he has been using Vi(m) on several different platforms to support customers with their software stack.
+
+    He got involved with Vim in the early 2000s and has been slowly becoming more and more active in the wider vim community from participating in various forums and mailing lists, Vim plugin development, bug reporting and later contributing patches regularly as well as helping with the infrastructure in the Vim project.
+    Since 2023 he has become one of the main maintainers of the Vim project after the passing of long time leader and benevolent dictator for life Bram Moolenaar.
+    In this role he has been helping steering the project and continuing the development of Vim trying to make sure the project remains active and healthy.
