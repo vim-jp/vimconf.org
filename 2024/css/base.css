@@ -110,7 +110,8 @@ ul {
 #billboard::before {
   content: ' ';
   position: absolute;
-  background-color: rgba(0,0,0,0.4);
+  /* Please apply (enable) this line after VimConf 2024 is finished. */
+  /*background-color: rgba(0,0,0,0.4);*/
   top: 0px;
   right: 0px;
   bottom: 0px;
