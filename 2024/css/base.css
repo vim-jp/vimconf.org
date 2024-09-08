@@ -295,8 +295,20 @@ ul.cfp, ul.cfp ul, ul.about {
   font-size: 0.8em;
 }
 
-#time-table td:nth-child(2), #time-table td:nth-child(3) {
+#time-table th:nth-child(3) {
   text-align: left;
+}
+
+#time-table td:nth-child(3) {
+  text-align: left;
+}
+
+#time-table th:nth-child(4) {
+  text-align: right;
+}
+
+#time-table td:nth-child(4) {
+  text-align: right;
 }
 
 .navbar-toggler .navbar-toggler-icon {

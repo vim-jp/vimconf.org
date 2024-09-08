@@ -134,17 +134,14 @@ title: VimConf 2024 - An international Vim Conference
         <div class="panel text-center">
           <h3>Time table</h3>
           <p>
-            Some session talks will be in Japanese.<br>
             We provided real time Japanese-to-English and English-to-Japanese bidirectional translations via remote headsets.
-          </p>
-          <p>
-            <strong>NOTE: This table is NOT fixed.</strong>
           </p>
           <table class="table" id="time-table">
             <thead class="thead-light">
               <tr>
                 <th scope="col">Time</th>
-                <th scope="col">Content</th>
+                <th scope="col">Duration</th>
+                <th scope="col">Title</th>
                 <th scope="col">Speaker</th>
                 <th scope="col">Language</th>
                 <th scope="col">Slides</th>
@@ -153,28 +150,33 @@ title: VimConf 2024 - An international Vim Conference
             <tbody>
             {% for program in site.data.y2024.timetable %}
               <tr>
-                {% if program.Start %}
-                <td>{{ program.Start }} - {{ program.End }}</td>
+                {% if program.start %}
+                <td>{{ program.start }} - {{ program.end }}</td>
+                {% else %}
+                <td></td>
+                {% endif %}
+                {% if program.duration %}
+                <td>{{ program.duration }}</td>
                 {% else %}
                 <td></td>
                 {% endif %}
 
-                {% if program.Video %}
-                <td><a href="{{ program.Video }}">{{ program.Content }}</a></td>
+                {% if program.video %}
+                <td width="50%"><a href="{{ program.video }}">{{ program.title }}</a></td>
                 {% else %}
-                <td>{{ program.Content }}</td>
+                <td width="50%">{{ program.title }}</td>
                 {% endif %}
 
-                {% if program.SessionID %}
-                <td><a href="sessions/#link-{{program.SessionID}}">{{ program.Speaker }}</a></td>
+                {% if program.session_id %}
+                <td><a href="sessions/#link-{{program.session_id}}">{{ program.speaker }}</a></td>
                 {% else %}
-                <td>{{ program.Speaker }}</td>
+                <td>{{ program.speaker }}</td>
                 {% endif %}
 
-                <td>{{ program.Language }}</td>
+                <td>{{ program.language }}</td>
 
-                {% if program.Slides %}
-                <td><a href="slides/{{ program.Slides }}">PDF</a></td>
+                {% if program.slides %}
+                <td><a href="slides/{{ program.slides }}">PDF</a></td>
                 {% else %}
                 <td></td>
                 {% endif %}
