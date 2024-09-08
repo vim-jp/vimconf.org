@@ -18,3 +18,18 @@
     He got involved with Vim in the early 2000s and has been slowly becoming more and more active in the wider vim community from participating in various forums and mailing lists, Vim plugin development, bug reporting and later contributing patches regularly as well as helping with the infrastructure in the Vim project.
     Since 2023 he has become one of the main maintainers of the Vim project after the passing of long time leader and benevolent dictator for life Bram Moolenaar.
     In this role he has been helping steering the project and continuing the development of Vim trying to make sure the project remains active and healthy.
+
+- session_id: tj
+  start_time: 11:20
+  end_time: 12:00
+  duration: 00:40
+  title: TBD
+  speaker: TJ DeVries
+  language: English
+  image: ../icon/tj.jpg
+  github: tjdevries
+  abstract: |-
+    TBD
+
+  bio: |-
+    TJ DeVries is a long time Neovim contributor and the author of telescope.nvim. He is currently a programming content creator who also happens to sell coffee beans over SSH. When he's not exploring new programming languages or creating ways to configure Neovim with CSS, he enjoys spending time with his wife, three kids and goofy German Shepherd.
