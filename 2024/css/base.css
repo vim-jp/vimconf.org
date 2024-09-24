@@ -293,6 +293,11 @@ ul.cfp, ul.cfp ul, ul.about {
 .individual-sponsors h6 {
   height: 2em;
   font-size: 0.8em;
+  margin-bottom: 0;
+}
+
+.individual-sponsors-comment {
+  min-height: 4em;
 }
 
 #time-table th:nth-child(3) {
