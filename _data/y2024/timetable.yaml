@@ -24,7 +24,7 @@
 - start: '10:10'
   end: '11:10'
   duration: '60min'
-  title: 'Keynote - TBD'
+  title: 'Keynote - The new Vim project - What has changed after Bram'
   speaker: 'Christian Brabandt'
   session_id: 'christian'
   language: 'English'

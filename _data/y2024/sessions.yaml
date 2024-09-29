@@ -3,13 +3,16 @@
   start_time: 10:10
   end_time: 11:00
   duration: 01:00
-  title: TBD
+  title: The new Vim project - What has changed after Bram
   speaker: Christian Brabandt
   language: English
   image: ../icon/christian.jpg
   github: chrisbra
   abstract: |-
-    TBD
+    The Vim project has changed a bit within the last year for various
+    reasons. The talk will describe what changed within the Vim project, how
+    it is currently managed, what we have achieved so far, how Vim is now
+    developed and what might be ahead in the future.
 
   bio: |-
     Christian Brabandt has been working in the IT industry for more than 20 years, mostly as consultant in various roles.
