@@ -316,7 +316,11 @@ title: VimConf 2024 - An international Vim Conference
             <div class="individual-sponsors col-md-2 col-sm-4 col-6">
               <h6>{{ individual_sponsor.name }}</h6>
               <div class="individual-sponsors-logo">
+                {% if individual_sponsor.icon == "true" %}
                 <img src="individual-sponsors/{{ individual_sponsor.order_number }}.png"/>
+                {% else %}
+                <img src="individual-sponsors/no-icon.png"/>
+                {% endif %}
               </div>
               <div class="individual-sponsors-comment">{{ individual_sponsor.comment }}</div>
             </div>
