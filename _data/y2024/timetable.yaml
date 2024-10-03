@@ -48,6 +48,7 @@
   duration: '15min'
   title: 'Mastering quickfix'
   speaker: 'daisuzu'
+  session_id: 'daisuzu'
   language: 'English'
 
 - start: '13:15'
@@ -55,6 +56,7 @@
   duration: '30min'
   title: 'Hacking Vim script'
   speaker: 'Kota Kato'
+  session_id: 'kato'
   language: 'Japanese'
 
 - start: '13:45'
@@ -62,6 +64,7 @@
   duration: '15min'
   title: 'Switch between projects like a Ninja 🥷'
   speaker: 'Yuki Ito'
+  session_id: '110y'
   language: 'Japanese'
 
 - title: 'Short break'
@@ -72,6 +75,7 @@
   duration: '20min'
   title: 'Vim meets Local LLM: Edit Text beyond the Speed of Though.'
   speaker: 'yuys13'
+  session_id: 'yuys13'
   language: 'Japanese'
 
 - start: '14:35'
@@ -79,6 +83,7 @@
   duration: '15min'
   title: 'Creating the Vim Version of VSCode Dev Container Extension: Why and How'
   speaker: 'mikoto2000'
+  session_id: 'mikoto2000'
   language: 'Japanese'
 
 - start: '14:50'
@@ -86,6 +91,7 @@
   duration: '20min'
   title: 'Neovim for Frontend Developers: Boosting Productivity and Creativity'
   speaker: 'ryoppippi'
+  session_id: 'ryoppippi'
   language: 'English'
 
 - title: 'Short break'
@@ -96,6 +102,7 @@
   duration: '20min'
   title: 'Building Neovim Plugins: A Journey from Novice to Pro'
   speaker: '2KAbhishek'
+  session_id: '2KAbhishek'
   language: 'English'
 
 - start: '15:45'
@@ -103,6 +110,7 @@
   duration: '30min'
   title: "Can't Help Falling in Vim ~ Wise men say only fools reinvent the wheel, but I can't help building yet another fuzzy finder: vim-fall"
   speaker: 'Λlisue'
+  session_id: 'lambdalisue'
   language: 'English'
 
 - start: '16:15'
@@ -110,6 +118,7 @@
   duration: '20min'
   title: 'The latest dark deno powered plugins'
   speaker: 'Shougo Matsushita'
+  session_id: 'Shougo'
   language: 'English'
 
 - title: 'Short break'

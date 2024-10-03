@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+<g transform="scale(3.75) translate(12.5, 22.5) rotate(360, 52.5, 52.5)">
+    <!-- right leg -->
+    <g transform="translate(20, 85)">
+        <!-- stroke -->
+        <g transform="rotate(180, 0, 3.75)">
+            <rect
+                width="20"
+                height="7.5"
+                stroke="black"
+                stroke-width="5" />
+        </g>
+        <g transform="rotate(135, 0, 3.75)">
+            <rect
+                width="20"
+                height="7.5"
+                stroke="black"
+                stroke-width="5" />
+        </g>
+        <g transform="rotate(90, 0, 3.75)">
+            <rect
+                width="20"
+                height="7.5"
+                stroke="black"
+                stroke-width="5" />
+        </g>
+
+        <!-- fill -->
+        <g transform="rotate(180, 0, 3.75) translate(1.25, 1.25)">
+            <rect
+                width="17.5"
+                height="5"
+                fill="yellow" />
+        </g>
+        <g transform="rotate(135, 0, 3.75) translate(1.25, 1.25)">
+            <rect
+                width="17.5"
+                height="5"
+                fill="yellow" />
+        </g>
+        <g transform="rotate(90, 0, 3.75) translate(1.25, 1.25)">
+            <rect
+                width="17.5"
+                height="5"
+                fill="yellow" />
+        </g>
+    </g>
+    <!-- left leg -->
+    <g transform="translate(85, 85)">
+        <!-- stroke -->
+        <g transform="rotate(90, 0, 3.75)">
+            <rect
+                width="20"
+                height="7.5"
+                stroke="black"
+                stroke-width="5" />
+        </g>
+        <g transform="rotate(45, 0, 3.75)">
+            <rect
+                width="20"
+                height="7.5"
+                stroke="black"
+                stroke-width="5" />
+        </g>
+        <g transform="rotate(0, 0, 3.75)">
+            <rect
+                width="20"
+                height="7.5"
+                stroke="black"
+                stroke-width="5" />
+        </g>
+
+        <!-- fill -->
+        <g transform="rotate(90, 0, 3.75) translate(1.25, 1.25)">
+            <rect
+                width="17.5"
+                height="5"
+                fill="yellow" />
+        </g>
+        <g transform="rotate(45, 0, 3.75) translate(1.25, 1.25)">
+            <rect
+                width="17.5"
+                height="5"
+                fill="yellow" />
+        </g>
+        <g transform="rotate(0, 0, 3.75) translate(1.25, 1.25)">
+            <rect
+                width="17.5"
+                height="5"
+                fill="yellow" />
+        </g>
+    </g>
+
+    <!-- combs -->
+    <g transform="translate(65, 27) rotate(-45)">
+        <!-- stroke -->
+        <g transform="rotate(0, -5, 0)">
+            <ellipse
+                rx="50"
+                ry="15"
+                stroke="black"
+                stroke-width="5" />
+        </g>
+        <g transform="rotate(30, -5, 0)">
+            <ellipse
+                rx="50"
+                ry="15"
+                stroke="black"
+                stroke-width="5" />
+        </g>
+        <g transform="rotate(60, -5, 0)">
+            <ellipse
+                rx="50"
+                ry="15"
+                stroke="black"
+                stroke-width="5" />
+        </g>
+
+        <!-- fill -->
+        <g transform="rotate(0, -5, 0)">
+            <ellipse
+                rx="47.5"
+                ry="12.5"
+                fill="red" />
+        </g>
+        <g transform="rotate(30, -5, 0)">
+            <ellipse
+                rx="47.5"
+                ry="12.5"
+                fill="red" />
+        </g>
+        <g transform="rotate(60, -5, 0)">
+            <ellipse
+                rx="47.5"
+                ry="12.5"
+                fill="red" />
+        </g>
+    </g>
+
+    <!-- body -->
+    <circle
+        cx="52.5"
+        cy="52.5"
+        r="50"
+        fill="white"
+        stroke="black"
+        stroke-width="5" />
+
+    <!-- right eye -->
+    <g transform="translate(15, 35)">
+        <circle
+            cx="0"
+            cy="0"
+            r="5"
+            fill="black" />
+        <g transform="translate(4, -3) rotate(40)">
+            <polygon
+                points="0,0 -20,-4 -20,3"
+                style="fill:black;" />
+        </g>
+    </g>
+
+    <!-- left eye -->
+    <g transform="translate(40, 40)">
+        <circle
+            cx="0"
+            cy="0"
+            r="6"
+            fill="black" />
+        <g transform="translate(0, -6) rotate(-15)">
+            <polygon
+                points="0,0 30,-5 30,5"
+                style="fill:black;" />
+        </g>
+    </g>
+
+    <!-- beak -->
+    <g transform="rotate(20, 20, 60)">
+        <ellipse
+            cx="20"
+            cy="60"
+            rx="20"
+            ry="15"
+            style="fill:yellow;
+                stroke:black;
+                stroke-width:5" />
+    </g>
+</g>
+</svg>

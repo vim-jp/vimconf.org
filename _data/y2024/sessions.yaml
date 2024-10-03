@@ -36,3 +36,193 @@
 
   bio: |-
     TJ DeVries is a long time Neovim contributor and the author of telescope.nvim. He is currently a programming content creator who also happens to sell coffee beans over SSH. When he's not exploring new programming languages or creating ways to configure Neovim with CSS, he enjoys spending time with his wife, three kids and goofy German Shepherd.
+
+- session_id: daisuzu
+  start_time: 13:00
+  end_time: 13:15
+  duration: 00:15
+  title: 'Mastering quickfix'
+  speaker: daisuzu
+  language: English
+  image: ../icon/daisuzu.png
+  github: daisuzu
+  x: dice_zu
+  abstract: |-
+    Dive deep into one of Vim's most powerful yet often underutilized features: quickfix. This talk will guide you through the journey from basic usage to advanced techniques, showing how quickfix can dramatically enhance your editing efficiency.
+
+  bio: |-
+    Server-side software engineer specializing in Go, based in Tokyo with over 15 years of Vim experience. Currently working on a massive codebase exceeding 1 million lines, where Vim is an indispensable tool for daily development. Has also contributed to Vim-related publications in the past. Co-organizer of gorilla.vim, a community event for Vim users focused on sharing knowledge, fostering connections, and practical learning.
+
+- session_id: kato
+  start_time: 13:15
+  end_time: 13:45
+  duration: 00:30
+  title: 'Hacking Vim script'
+  speaker: 'Kota Kato'
+  language: Japanese
+  image: ../icon/kato.jpg
+  github: kat0h
+  abstract: |-
+    By understanding the internal implementation of Vim script, we aim to explore more effective ways to write Vim script. As of 2024, there are two main implementations of Vim script: one by Vim and a derivative implementation by Neovim. Additionally, with the introduction of Vim9 script into Vim, the processing of built-in functions has become more complex due to the intertwined handling required for both scripts. In this presentation, we will delve into the internal workings of Vim script and Vim9 script, with the goal of empowering you to hack Vim script more effectively.
+
+  bio: |-
+    Student at the University of Electro-Communications. I will be giving a presentation to introduce Vim from the perspective of a programming language.
+
+- session_id: 110y
+  start_time: 13:45
+  end_time: 14:00
+  duration: 00:15
+  title: 'Switch between projects like a Ninja 🥷'
+  speaker: 'Yuki Ito'
+  language: Japanese
+  image: ../icon/110y.jpg
+  github: '110y'
+  x: mrno110
+  abstract: |-
+    Let's say you're writing code in an application project, and are suddenly alerted to an issue that requires you to fix a configuration file that resides in another infrastructure project. In such situations, you want to switch to the infrastructure project as soon as possible, and after fixing the issue, you want to return to what you were doing in the application project.
+    In this talk, I will show my tricks and tips for switching between projects quickly and smoothly in Vim. I will also demystify the "Session" feature in Vim/Neovim, that is the key for switching between projects.
+  bio: |-
+    Yuki is a software architect who promotes Platform Engineering, including API Platform, Cloud Infrastructure, CI/CD, and so on, for Newmo, Inc. He also acts as a Google Cloud Champion Innovator in the fields of Serverless App Development and Modern Architecture.
+
+- session_id: yuys13
+  start_time: 14:15
+  end_time: 14:35
+  duration: 00:20
+  title: 'Vim meets Local LLM: Edit Text beyond the Speed of Though.'
+  speaker: yuys13
+  language: Japanese
+  image: ../icon/yuys13.jpg
+  github: yuys13
+  abstract: |-
+    Are you editing text at the speed of thought?
+    I'm editing text at the speed of thought, but my thoughts often come to a standstill.
+    By having an LLM write text for me during these pauses in thought, I can edit text faster than the speed of thought.
+    In this presentation, I will share how to create a code generation plugin using a local LLM and the challenges involved.
+    Let's actively develop similar plugins together and improve our productivity in Vim.
+
+  bio: |-
+    I'm a car enthusiast and programmer. I can develop collama.nvim a little. Collama.nvim is a Neovim plugin that uses a local LLM for code generation. I hope to see more development of collama.nvim and similar plugins.
+
+- session_id: mikoto2000
+  start_time: 14:35
+  end_time: 14:50
+  duration: 00:20
+  title: 'Creating the Vim Version of VSCode Dev Container Extension: Why and How'
+  speaker: mikoto2000
+  language: Japanese
+  image: ../icon/mikoto2000.svg
+  github: mikoto2000
+  x: mikoto2000
+  abstract: |-
+    Vim is great. Containers are great too. But combining them is not as easy as VSCode.
+    We have created a few tools to make it easier to combine them for development.
+    I will talk about why I made the tool, its overview, how it works, and the challenges I faced.
+
+  bio: |-
+    I am a programmer by trade and hobby. I am always "getting started" on interesting things. Recently, I've been working with Tauri and submitting issues and pull requests.  I joined in this conference to introduction devcontainer.vim.
+
+- session_id: ryoppippi
+  start_time: 14:50
+  end_time: 15:10
+  duration: 00:20
+  title: 'Neovim for Frontend Developers: Boosting Productivity and Creativity'
+  speaker: ryoppippi
+  language: English
+  image: ../icon/ryoppippi.jpg
+  github: ryoppippi
+  x: ryoppippi
+  abstract: |-
+    In the world of frontend development, VSCode currently reigns as the mainstream editor. However, Neovim, with its high customizability and lightweight nature, has the potential to provide a development experience that rivals or even surpasses that of VSCode.
+
+    This presentation will explain specific methods for utilizing Neovim in frontend development and discuss its advantages compared to VSCode. We will explore how to overcome Neovim's potential weaknesses, how to construct Neovim-specific development workflows, introduce practical coding techniques, and provide know-how on maximizing the benefits of choosing Neovim, including integration with AI-powered code generation.
+
+    Participants will learn how to optimize Neovim for frontend development, from effective configuration to building next-generation code completion systems using LSP and AI, and even innovative browser integration. We will also introduce Neovim-specific development flows, such as rapid coding techniques using macros and snippets, and efficient task execution through close terminal integration.
+
+    Furthermore, we will explain methods for integrating AI tools like GitHub Copilot and Ollama, exploring new possibilities in code generation and refactoring.
+
+    The presentation will conclude with a live demonstration of a development workflow using an actual frontend project, showcasing efficient project construction methods utilizing Neovim's editing techniques and plugins.
+
+    Through this presentation, attendees will learn how to achieve a development experience superior to VSCode using Neovim, gaining concrete skills and knowledge to significantly improve productivity in frontend development. We will demonstrate practical solutions that maximize Neovim's potential and meet the demands of modern frontend development.
+
+  bio: |-
+    ryoppippi(りょっぴっぴ) is a passionate hobby coder who was born for this craft, with a deep love for Neovim, Svelte, and his wife.
+    I'll be at VimConf 2024 to share how Neovim can supercharge your frontend development workflow.
+    See you in Akiba!
+
+- session_id: 2KAbhishek
+  start_time: 15:25
+  end_time: 15:45
+  duration: 00:20
+  title: 'Building Neovim Plugins: A Journey from Novice to Pro'
+  speaker: 2KAbhishek
+  language: English
+  image: ../icon/2kabhishek.jpg
+  github: 2kabhishek
+  x: 2kabhishek
+  abstract: |-
+    ## Neovim plugin development, building your own plugins for fun and profit:
+
+    Neovim's extensibility makes it a powerful platform for building custom plugins tailored to your unique needs.
+
+    In this talk, I'll guide you through the process of developing Neovim plugins, from setting up your development environment to creating feature-rich extensions that enhance your editing experience and tips on how best to publish and maintain them.
+
+    Whether you're looking to contribute to an existing plugin, automate your repetitive tasks, integrate neovim with other tools you use, or customize your editor's behavior, this session will equip you with the knowledge and tools to build your own Neovim plugins like a pro.
+
+    All while having fun along the way!
+
+  bio: |-
+    Hi VimConf, I'm Abhishek Keshri, working with Incubyte as a Tech Lead.
+    I have been using Vim and Neovim for over 6 years and have published a few plugins.
+    I find joy in the command line and strive to develop efficient systems and workflows that help developers.
+
+    I'm very excited to share my knowledge and learn from all of you.
+
+- session_id: lambdalisue
+  start_time: 15:45
+  end_time: 16:15
+  duration: 00:20
+  title: "Can't Help Falling in Vim ~ Wise men say only fools reinvent the wheel, but I can't help building yet another fuzzy finder: vim-fall"
+  speaker: Λlisue
+  language: English
+  image: ../icon/lambdalisue.png
+  github: lambdalisue
+  x: lambdalisue
+  abstract: |-
+
+  bio: |-
+    A long-time Vim plugin developer and the creator of denops.vim, an ecosystem for Vim/Neovim plugins built on Deno.
+    I joined this conference to share my ideas for a fuzzy finder and a new plugin built around that concept.
+
+- session_id: Shougo
+  start_time: 16:15
+  end_time: 16:35
+  duration: 00:20
+  title: 'The latest dark deno powered plugins'
+  speaker: 'Shougo Matsushita'
+  language: English
+  image: ../icon/Shougo.png
+  github: Shougo
+  x: ShougoMatsu
+  abstract: |-
+    I have created the dark deno powered plugins.
+    What is the dark deno powered?
+
+    It is:
+
+    * Complex
+
+    * Hard
+
+    * You need to configure all
+
+    * Extensible
+
+    * Created by denops.vim with Deno
+
+    * Real minimal
+
+    I introduce the plugins and my philosophy's.
+
+  bio: |-
+    I have been contributing to the Vim community for many years and have extensive knowledge of both the core application and plugins.
+    As a regular presenter at VimConf in the past, I haven't had the opportunity to present for a long time due to the cancellation of VimConf. This time, to commemorate the revival of VimConf, I would like to introduce the plugins I have created and my plugin philosophy (real minimal) for the first time in a while.
