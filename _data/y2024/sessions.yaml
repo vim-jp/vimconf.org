@@ -132,18 +132,12 @@
   github: ryoppippi
   x: ryoppippi
   abstract: |-
-    In the world of frontend development, VSCode currently reigns as the mainstream editor. However, Neovim, with its high customizability and lightweight nature, has the potential to provide a development experience that rivals or even surpasses that of VSCode.
+    In the world of frontend development, VSCode currently reigns as the mainstream editor. 
+    However, Neovim, with its high customizability and lightweight nature, has the potential to provide a development experience that rivals or even surpasses that of VSCode.
 
-    This presentation will explain specific methods for utilizing Neovim in frontend development and discuss its advantages compared to VSCode. We will explore how to overcome Neovim's potential weaknesses, how to construct Neovim-specific development workflows, introduce practical coding techniques, and provide know-how on maximizing the benefits of choosing Neovim, including integration with AI-powered code generation.
-
-    Participants will learn how to optimize Neovim for frontend development, from effective configuration to building next-generation code completion systems using LSP and AI, and even innovative browser integration. We will also introduce Neovim-specific development flows, such as rapid coding techniques using macros and snippets, and efficient task execution through close terminal integration.
-
-    Furthermore, we will explain methods for integrating AI tools like GitHub Copilot and Ollama, exploring new possibilities in code generation and refactoring.
-
-    The presentation will conclude with a live demonstration of a development workflow using an actual frontend project, showcasing efficient project construction methods utilizing Neovim's editing techniques and plugins.
-
-    Through this presentation, attendees will learn how to achieve a development experience superior to VSCode using Neovim, gaining concrete skills and knowledge to significantly improve productivity in frontend development. We will demonstrate practical solutions that maximize Neovim's potential and meet the demands of modern frontend development.
-
+    This presentation will explore how to achieve a development experience superior to VSCode using Neovim. 
+    We’ll cover LSP setup, AI-powered tools, and efficient workflows using macros, snippets, and terminal integration. 
+    Practical techniques and browser integration will be demonstrated in a live coding session, showcasing how Neovim can significantly boost productivity in modern frontend development.
   bio: |-
     ryoppippi(りょっぴっぴ) is a passionate hobby coder who was born for this craft, with a deep love for Neovim, Svelte, and his wife.
     I'll be at VimConf 2024 to share how Neovim can supercharge your frontend development workflow.
