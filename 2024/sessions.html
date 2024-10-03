@@ -52,7 +52,7 @@ title: Sessions
 
             <div class="col-md-6">
               {% if session.github %}<a href="https://github.com/{{ session.github }}"><img src="../icon/github-icon.png" width="32" height="32" alt="Link to GitHub account"/></a>{% endif %}
-              {% if session.twitter %}<a href="https://twitter.com/{{ session.twitter }}"><img src="../icon/x-icon.png" width="32" height="32" alt="Link to Twitter account" /></a>{% endif %}
+              {% if session.x %}<a href="https://x.com/{{ session.x }}"><img src="../icon/x-icon.png" width="32" height="32" alt="Link to X account" /></a>{% endif %}
               <br />
               {{ session.bio | markdownify }}
             </div>
