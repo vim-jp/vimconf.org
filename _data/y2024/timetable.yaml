@@ -108,7 +108,7 @@
 - start: '15:45'
   end: '16:15'
   duration: '30min'
-  title: "Can't Help Falling in Vim ~ Wise men say only fools reinvent the wheel, but I can't help building yet another fuzzy finder: vim-fall"
+  title: "Can't Help Falling in Vim ~ Wise men say only fools reinvent the wheel, but I can't help building yet another fuzzy finder: Fall"
   speaker: 'Λlisue'
   session_id: 'lambdalisue'
   language: 'English'
