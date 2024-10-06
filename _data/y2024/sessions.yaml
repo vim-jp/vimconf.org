@@ -186,7 +186,7 @@
 
     We programmers often encounter the phrase "Yet another." For example, a search for "Yet another" on GitHub will return around 37,000 repositories. Why do programmers love using this phrase so much? Personally, I often use it as a light-hearted excuse, as if to say, "Yes, I know I’m reinventing the wheel."
 
-    Which brings me to what I’ll be discussing at Vimconf 2024: a new "Yet another" fuzzy finder called Fall. Fully aware that I’m reinventing the wheel, I even started Fall’s README with "Yet another."
+    Which brings me to what I’ll be discussing at VimConf 2024: a new "Yet another" fuzzy finder called Fall. Fully aware that I’m reinventing the wheel, I even started Fall’s README with "Yet another."
 
     Wise men say not to reinvent the wheel, but I can't help doing exactly that. In my presentation, I’ll explore the world of existing fuzzy finders, share what I look for in one, and discuss the design philosophy behind Fall.
 
