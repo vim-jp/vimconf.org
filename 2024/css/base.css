@@ -277,7 +277,7 @@ ul.cfp, ul.cfp ul, ul.about {
   width: 150px;
 }
 
-.individual-sponsor {
+.individual-sponsors {
   padding: 0.5em;
   border-radius: 0.5em;
   line-height: 1;
@@ -297,7 +297,8 @@ ul.cfp, ul.cfp ul, ul.about {
 }
 
 .individual-sponsors-comment {
-  min-height: 4em;
+  height: 2em;
+  overflow: clip;
 }
 
 #time-table th:nth-child(3) {
