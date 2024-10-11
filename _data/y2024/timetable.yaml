@@ -46,7 +46,7 @@
 - start: '13:00'
   end: '13:15'
   duration: '15min'
-  title: 'Mastering quickfix'
+  title: 'Mastering Quickfix'
   speaker: 'daisuzu'
   session_id: 'daisuzu'
   language: 'English'
