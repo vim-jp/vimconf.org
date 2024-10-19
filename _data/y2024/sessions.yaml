@@ -26,13 +26,13 @@
   start_time: 11:20
   end_time: 12:00
   duration: 00:40
-  title: TBD
+  title: (Neo)Vim Made Me a Better Software Developer
   speaker: TJ DeVries
   language: English
   image: ../icon/tj.jpg
   github: tjdevries
   abstract: |-
-    TBD
+    When you mention “vim” and “speed”, people immediately think of editing text quickly, navigating efficiently or the raw performance of the editor. Instead, I want to talk about how exploring, customizing, and iterating within Vim itself changed my career.
 
   bio: |-
     TJ DeVries is a long time Neovim contributor and the author of telescope.nvim. He is currently a programming content creator who also happens to sell coffee beans over SSH. When he's not exploring new programming languages or creating ways to configure Neovim with CSS, he enjoys spending time with his wife, three kids and goofy German Shepherd.
@@ -132,11 +132,11 @@
   github: ryoppippi
   x: ryoppippi
   abstract: |-
-    In the world of frontend development, VSCode currently reigns as the mainstream editor. 
+    In the world of frontend development, VSCode currently reigns as the mainstream editor.
     However, Neovim, with its high customizability and lightweight nature, has the potential to provide a development experience that rivals or even surpasses that of VSCode.
 
-    This presentation will explore how to achieve a development experience superior to VSCode using Neovim. 
-    We’ll cover LSP setup, AI-powered tools, and efficient workflows using macros, snippets, and terminal integration. 
+    This presentation will explore how to achieve a development experience superior to VSCode using Neovim.
+    We’ll cover LSP setup, AI-powered tools, and efficient workflows using macros, snippets, and terminal integration.
     Practical techniques and browser integration will be demonstrated in a live coding session, showcasing how Neovim can significantly boost productivity in modern frontend development.
   bio: |-
     ryoppippi(りょっぴっぴ) is a passionate hobby coder who was born for this craft, with a deep love for Neovim, Svelte, and his wife.

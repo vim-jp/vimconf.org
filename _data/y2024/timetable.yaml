@@ -35,7 +35,7 @@
 - start: '11:20'
   end: '12:00'
   duration: '40min'
-  title: 'Keynote - TBD'
+  title: 'Keynote - (Neo)Vim Made Me a Better Software Developer'
   speaker: 'TJ DeVries'
   session_id: 'tj'
   language: 'English'
