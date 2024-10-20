@@ -216,10 +216,11 @@ ogp-image: 2023/ogp.png
                 <td>{{ program.Language }}</td>
 
                 {% if program.Slides %}
-                <td><a href="slides/{{ program.Slides }}">PDF</a></td>
+                <td><a href="https://slides.vimconf.org/2023/{{ program.Slides }}">PDF</a></td>
                 {% else %}
                 <td>None</td>
                 {% endif %}
+
               </tr>
             {% endfor %}
             </tbody>
