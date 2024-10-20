@@ -1,14 +1,15 @@
 Start,End,Content,Speaker,Language,SessionID,Video,Slides
 13:00,13:30,Reception,,Japanese,,,
-13:30,13:40,Opening,mopp,English,,,
-13:45,14:15,Bram Moolenaar the Creator of Vim,mattn,Japanese,mattn,,
+13:30,13:40,Opening,mopp,English,,https://youtu.be/C8mQ47kENcw?si=f1Pd4mmj1Bd5FqHE,
+13:45,14:15,Bram Moolenaar the Creator of Vim,mattn,Japanese,mattn,https://youtu.be/HZ2DGVxklUU?si=U4OmolOcNPg61_4f,01-mattn-bram_the_creator.pdf
 ,,Short break,,,,,
-14:30,15:00,Revolutionizing Vim/Neovim Plugin Development ~ An In-Depth Look into Denops,Λlisue,Japanese,lambdalisue,,
-15:05,15:35,Looking back at vim meetup,ゴリラ,Japanese,skanehira,,
+14:30,15:00,Revolutionizing Vim/Neovim Plugin Development ~ An In-Depth Look into Denops,Λlisue,Japanese,lambdalisue,https://youtu.be/hu9EN7jl2kA?si=M_i6nAXFe0VrV5kj,02-alisue-denops-v2.pdf
+15:05,15:35,Looking back at vim meetup,ゴリラ,Japanese,skanehira,https://youtu.be/A_3eFny8odA?si=Yoibl8BUG9R_ALg8,03-gorilla-vim_meetup-v2.pdf
 ,,Short break,,,,,
-15:45,16:05,"Developing a Vim plugin with Ruby, or when in Ruby do as the Rubyists do",大倉雅史,English,okuramasafumi,,
-16:10,16:40,Modern techniques for implements insert mode plugins / Why use IME within text editor?,kuu,Japanese,kuuote,,
+15:45,16:05,"Developing a Vim plugin with Ruby, or when in Ruby do as the Rubyists do",大倉雅史,English,okuramasafumi,https://youtu.be/LE9tdoOAvtE?si=x6awKAs2dUbCRyE7,04-okura-plugin_with_ruby-v2.pdf	
+16:10,16:40,Modern techniques for implements insert mode plugins / Why use IME within text editor?,kuu,Japanese,kuuote,https://youtu.be/_GIfM5d4F3o?si=lhzXHvWstUllHjSo,05-kuu-insert_mode_plugins.pdf
 ,,Short break,,,,,
-16:50,17:20,Boost your vimrc with some template techniques!,aiya000,Japanese,aiya000,,
-17:25,17:35,Closing,mopp,English,,,
+16:50,17:20,Boost your vimrc with some template techniques!,aiya000,Japanese,aiya000,https://youtu.be/R6JD0alrRF4?si=FjQPaQyVvagrjDWx,06-aiya-vimrc_with_template.pdf
+17:25,17:27,Closing,mopp,English,,https://youtu.be/rqjE6dXiX8E?si=PoJaKtum1SgiyBQw,
+17:27,17:35,[EXTRA] Overview all sessions by chairman,mopp,Japanese,,https://youtu.be/2Uo00WfFuRM?si=O8JCu2L0AKNTpRai,
 17:40,19:30,After party,,,,,

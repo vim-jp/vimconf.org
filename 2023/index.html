@@ -21,6 +21,7 @@ ogp-image: 2023/ogp.png
       <a class="nav-link link text-info" href="#menu-staff" aria-expanded="false">Staff</a>
       <a class="nav-link link text-info" href="#menu-contact" aria-expanded="false">Contact</a>
       <a class="nav-link link text-info" href="../coc/" aria-expanded="false">Code of Conduct</a>
+      <a class="nav-link link text-info" href="./photos/" aria-expanded="false">Photos</a>
     </div>
   </div>
 </nav>
@@ -178,6 +179,9 @@ ogp-image: 2023/ogp.png
             Some session talks are in Japanese.<br>
             No translations available this time, unlike other normal VimConfs.
           </p>
+          <p><strong>
+            You can see videos for the session talks on VimConf 2023 at <a href="https://youtube.com/playlist?list=PLx8bw5NQypsmC2iJNGnLUsE6brJvuxK9B&si=B1aciaSymS3qt4hE">YouTube</a>.
+          </strong></p>
           <table class="table" id="time-table">
             <thead class="thead-light">
               <tr>
@@ -212,10 +216,11 @@ ogp-image: 2023/ogp.png
                 <td>{{ program.Language }}</td>
 
                 {% if program.Slides %}
-                <td><a href="slides/{{ program.Slides }}">PDF</a></td>
+                <td><a href="https://slides.vimconf.org/2023/{{ program.Slides }}">PDF</a></td>
                 {% else %}
                 <td>None</td>
                 {% endif %}
+
               </tr>
             {% endfor %}
             </tbody>

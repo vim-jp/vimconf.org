@@ -20,6 +20,6 @@ docker run --rm -it \
   --workdir //srv/jekyll \
   -v "${dir}:/srv/jekyll" \
   -p 4000:4000 \
-  --entrypoint jekyll \
+  --entrypoint "" \
   ghcr.io/actions/jekyll-build-pages:v1.0.13 \
-  server -H 0.0.0.0
+  "$@"
