@@ -1,22 +1,22 @@
 Start,End,Dur.,Content,Speaker,Language,Interp.,SessionID,Misc.,Video,Slides
-09:30,10:00,00:30,Reception,,English,no,,,,
-10:00,10:10,00:10,Opening,mopp,English,,,,,opening.pdf
-10:10,11:00,00:50,Keynote - Vim Renaissance,Prabir Shrestha,English,,,,,prabir.pdf
+9:30,10:00,0:30,Reception,,English,no,,,,
+10:00,10:10,0:10,Opening,mopp,English,,,,https://youtu.be/kgUciluS-ys?si=k_OR_OnmIpWxhTuI,opening.pdf
+10:10,11:00,0:50,Keynote - Vim Renaissance,Prabir Shrestha,English,,,,https://youtu.be/lbkjXWeWY-o?si=13C5XyWQTwTXBbWv,prabir.pdf
 11:00,11:10,10,Short break,,,no,,,,
-11:10,11:15,00:05,Sponsor session,atWare,Japanese,,,,,atware.pdf
-11:15,12:05,00:50,Keynote - We can have nice things,Justin M. Keyes,English,,,,,justin.pdf
-12:05,13:00,00:55,Lunch break,,,no,,,,
-13:00,13:20,00:20,Your Vim is Only for You,mopp,English,,,,,mopp.pdf
-13:20,13:35,03:36,Grown up from Vim User to Vim plugin developer side,IK,Japanese,,,,,IK.pdf
-13:35,13:55,00:20,Usage and manipulation of the tag stack,daisuzu,Japanese,,,,,daisuzu.pdf
-13:55,14:10,00:15,Short break,,,no,,,,
-14:10,14:25,00:15,make test,m-nishi,Japanese,,,,,m-nishi.pdf
-14:25,14:55,00:30,My Vim life,gorilla0513,Japanese,,,,,gorilla0513.pdf
-14:55,15:10,00:15,Using Vim at Work!,Danish Prakash,English,,,,,danish.pdf
-15:10,15:25,00:15,Short break,,,no,,,,
-15:25,15:45,00:20,Let's Play with Vanilla Vim,Hezby Muhammad,English,,,,,hezby.pdf
-15:45,16:00,00:15,13 Vim plugins I use every day,Tatsuhiro Ujihisa,English,,,,,ujihisa.pdf
-16:00,16:30,00:30,My dark plugins development history ~ over 10 years ~,Shougo,English,,,,,shougo.pdf
-16:30,17:15,00:45,Lightning Talk,,,,,,,
-17:15,17:25,00:10,Closing,mopp,English,,,,,closing.pdf
-17:30,19:30,02:00,After party,,,no,,,,
+11:10,11:15,0:05,Sponsor session,atWare,Japanese,,,,https://youtu.be/FAUY56KreSM?si=KWdpSHnclTDnzAHI,atware.pdf
+11:15,12:05,0:50,Keynote - We can have nice things,Justin M. Keyes,English,,,,https://youtu.be/Bt-vmPC_-Ho?si=33e-5c407pLuDVZn,justin.pdf
+12:05,13:00,0:55,Lunch break,,,no,,,,
+13:00,13:20,0:20,Your Vim is Only for You,mopp,English,,,,https://youtu.be/6LPBpmkQdw8?si=0jgPvq0GIKOhvEmL,mopp.pdf
+13:20,13:35,3:36,Grown up from Vim User to Vim plugin developer side,IK,Japanese,,,,https://youtu.be/dkV7ub9x5dY?si=8RakKyMFA33kYMbK,IK.pdf
+13:35,13:55,0:20,Usage and manipulation of the tag stack,daisuzu,Japanese,,,,https://youtu.be/EJX_8DAU-r8?si=ka4yNiTbOA0GbbwO,daisuzu.pdf
+13:55,14:10,0:15,Short break,,,no,,,,
+14:10,14:25,0:15,make test,m-nishi,Japanese,,,,https://youtu.be/IH_jjvIUnSk?si=tLsb2vzcgYIcK3C3,m-nishi.pdf
+14:25,14:55,0:30,My Vim life,gorilla0513,Japanese,,,,https://youtu.be/Vkv2KIMGsDA?si=9H4XkDtFAUgop-Yl,gorilla0513.pdf
+14:55,15:10,0:15,Using Vim at Work!,Danish Prakash,English,,,,https://youtu.be/_Xt-1mnsT6w?si=YjUSCm1rU893qkMJ,danish.pdf
+15:10,15:25,0:15,Short break,,,no,,,,
+15:25,15:45,0:20,Let's Play with Vanilla Vim,Hezby Muhammad,English,,,,https://youtu.be/Qn5XdjrRptU?si=v7dUTXteacmYPrgF,hezby.pdf
+15:45,16:00,0:15,13 Vim plugins I use every day,Tatsuhiro Ujihisa,English,,,,https://youtu.be/wVIhe_kJ_KU?si=C9Lyz1isLeD9QF0h,ujihisa.pdf
+16:00,16:30,0:30,My dark plugins development history ~ over 10 years ~,Shougo,English,,,,https://youtu.be/JrMkqhFXlG8?si=-XaPA2dCx5avC-kc,shougo.pdf
+16:30,17:15,0:45,Lightning Talk,,,,,,https://youtu.be/rDe1q-USCMI?si=ETI4CJbw1OEkQ1yF,
+17:15,17:25,0:10,Closing,mopp,English,,,,https://youtu.be/9CaNQfyM6Jw?si=cTYdR0-N6_eehPun,closing.pdf
+17:30,19:30,2:00,After party,,,no,,,,
