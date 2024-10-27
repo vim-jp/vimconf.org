@@ -61,6 +61,38 @@ title: Sessions
         <br />
         {% endfor %}
       </section>
+      <hr>
+
+      <section id="menu-lightning">
+        <h3 id="link-lightning">Lightning Talks</h3>
+
+        {% for lt in site.data.y2024.lightning %}
+        <div class="panel text-left">
+          <div class="row">
+            <div class="col-md-12" id="link-{{ lt.session_id }}">
+              <h4 class="lt-title">{{ lt.title }}</h4>
+              <span class="badge bg-info">{{ lt.language }}</span>
+            </div>
+
+            <h4 class="col-md-12">Abstract</h4>
+            <div class="col-md-12">
+            {{ lt.abstract | markdownify }}
+            </div>
+            <br />
+
+            <h4 class="col-md-12">Speaker</h4>
+            <div class="col-md-6 text-center">
+              <strong>{{ lt.speaker }}</strong><br />
+            </div>
+
+            <div class="col-md-6">
+              {{ lt.bio | markdownify }}
+            </div>
+          </div>
+        </div>
+        <br />
+        {% endfor %}
+      </section>
 
       <hr class="my-4" />
 
