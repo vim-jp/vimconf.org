@@ -110,13 +110,16 @@ ul {
 #billboard::before {
   content: ' ';
   position: absolute;
-  /* Please apply (enable) this line after VimConf 2024 is finished. */
-  /*background-color: rgba(0,0,0,0.4);*/
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
   border-radius: 10px;
+}
+
+/* Dim the billboard to indicate "closed" */
+#billboard.closed::before {
+  background-color: rgba(0,0,0,0.4);
 }
 
 .panel {
