@@ -28,6 +28,7 @@
   speaker: 'Christian Brabandt'
   session_id: 'christian'
   language: 'English'
+  slides: '01-chrisbra-the_new_vim_project.pdf'
 
 - title: 'Short break'
   duration: '10min'
@@ -39,6 +40,7 @@
   speaker: 'TJ DeVries'
   session_id: 'tj'
   language: 'English'
+  slides: '02-tjdevries-how_neovim_make_me_a_better_software_developer.pdf'
 
 - title: 'Lunch break'
   duration: '60min'
@@ -50,6 +52,7 @@
   speaker: 'daisuzu'
   session_id: 'daisuzu'
   language: 'English'
+  slides: '03-daisuzu-mastering_quickfix.pdf'
 
 - start: '13:15'
   end: '13:45'
@@ -58,6 +61,7 @@
   speaker: 'Kota Kato'
   session_id: 'kato'
   language: 'Japanese'
+  slides: '04-kat0h-hacking_vim_script.pdf'
 
 - start: '13:45'
   end: '14:00'
@@ -66,6 +70,7 @@
   speaker: 'Yuki Ito'
   session_id: '110y'
   language: 'English'
+  slides: '05-110y-switch_between_projects_like_a_ninja.pdf'
 
 - title: 'Short break'
   duration: '15min'
@@ -77,6 +82,7 @@
   speaker: 'yuys13'
   session_id: 'yuys13'
   language: 'Japanese'
+  slides: '06-yuys13-vim_meets_local_llm.pdf'
 
 - start: '14:35'
   end: '14:50'
@@ -85,6 +91,7 @@
   speaker: 'mikoto2000'
   session_id: 'mikoto2000'
   language: 'Japanese'
+  slides: '07-mikoto2000-creating_the_vim_version_of_vscode_dev_container_extension.pdf'
 
 - start: '14:50'
   end: '15:10'
@@ -93,6 +100,7 @@
   speaker: 'ryoppippi'
   session_id: 'ryoppippi'
   language: 'English'
+  slides: '08-ryoppippi-neovim_for_frontend_developers.pdf'
 
 - title: 'Short break'
   duration: '15min'
@@ -104,6 +112,7 @@
   speaker: '2KAbhishek'
   session_id: '2KAbhishek'
   language: 'English'
+  slides: '09-2KAbhishek-building_neovim_plugins.pdf'
 
 - start: '15:45'
   end: '16:15'
@@ -112,6 +121,7 @@
   speaker: 'Λlisue'
   session_id: 'lambdalisue'
   language: 'English'
+  slides: '10-lambdalisue-cant_help_falling_in_vim.pdf'
 
 - start: '16:15'
   end: '16:35'
@@ -120,6 +130,7 @@
   speaker: 'Shougo Matsushita'
   session_id: 'Shougo'
   language: 'English'
+  slides: '11-shougo-the_latest_dark_deno_powered_plugins.pdf'
 
 - title: 'Short break'
   duration: '15min'
