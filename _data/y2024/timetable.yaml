@@ -20,6 +20,7 @@
   title: 'Opening'
   speaker: 'mopp'
   language: 'English'
+  video: https://www.youtube.com/watch?v=RkLLyH3DHfc
 
 - start: '10:10'
   end: '11:10'
@@ -29,6 +30,7 @@
   session_id: 'christian'
   language: 'English'
   slides: '01-chrisbra-the_new_vim_project.pdf'
+  video: https://www.youtube.com/watch?v=bopbmRyHQog
 
 - title: 'Short break'
   duration: '10min'
@@ -41,6 +43,7 @@
   session_id: 'tj'
   language: 'English'
   slides: '02-tjdevries-how_neovim_make_me_a_better_software_developer.pdf'
+  video: https://www.youtube.com/watch?v=5u604lTkGAY
 
 - title: 'Lunch break'
   duration: '60min'
@@ -53,6 +56,7 @@
   session_id: 'daisuzu'
   language: 'English'
   slides: '03-daisuzu-mastering_quickfix.pdf'
+  video: https://www.youtube.com/watch?v=F3ZfdeAWP2Y
 
 - start: '13:15'
   end: '13:45'
@@ -62,6 +66,7 @@
   session_id: 'kato'
   language: 'Japanese'
   slides: '04-kat0h-hacking_vim_script.pdf'
+  video: https://www.youtube.com/watch?v=nIh-UsINFTE
 
 - start: '13:45'
   end: '14:00'
@@ -71,6 +76,7 @@
   session_id: '110y'
   language: 'English'
   slides: '05-110y-switch_between_projects_like_a_ninja.pdf'
+  video: https://www.youtube.com/watch?v=ds3fa5nXZhA
 
 - title: 'Short break'
   duration: '15min'
@@ -83,6 +89,7 @@
   session_id: 'yuys13'
   language: 'Japanese'
   slides: '06-yuys13-vim_meets_local_llm.pdf'
+  video: https://www.youtube.com/watch?v=a8q2yAny76E
 
 - start: '14:35'
   end: '14:50'
@@ -92,6 +99,7 @@
   session_id: 'mikoto2000'
   language: 'Japanese'
   slides: '07-mikoto2000-creating_the_vim_version_of_vscode_dev_container_extension.pdf'
+  video: https://www.youtube.com/watch?v=4QfWt2ewoHI
 
 - start: '14:50'
   end: '15:10'
@@ -101,6 +109,7 @@
   session_id: 'ryoppippi'
   language: 'English'
   slides: '08-ryoppippi-neovim_for_frontend_developers.pdf'
+  video: https://www.youtube.com/watch?v=tBY3RxTrhkM
 
 - title: 'Short break'
   duration: '15min'
@@ -113,6 +122,7 @@
   session_id: '2KAbhishek'
   language: 'English'
   slides: '09-2KAbhishek-building_neovim_plugins.pdf'
+  video: https://www.youtube.com/watch?v=2cFGmiDuNl4
 
 - start: '15:45'
   end: '16:15'
@@ -122,6 +132,7 @@
   session_id: 'lambdalisue'
   language: 'English'
   slides: '10-lambdalisue-cant_help_falling_in_vim.pdf'
+  video: https://www.youtube.com/watch?v=jiU5XOqQs10
 
 - start: '16:15'
   end: '16:35'
@@ -131,6 +142,7 @@
   session_id: 'Shougo'
   language: 'English'
   slides: '11-shougo-the_latest_dark_deno_powered_plugins.pdf'
+  video: https://www.youtube.com/watch?v=2oEV3Nkj1G4
 
 - title: 'Short break'
   duration: '15min'
@@ -139,6 +151,7 @@
   end: '17:20'
   duration: '30min'
   title: 'Lightning Talks (5min x 6)'
+  video: https://www.youtube.com/watch?v=-wJN0r7SsMw
 
 - start: '17:20'
   end: '17:30'
@@ -146,6 +159,7 @@
   title: 'Closing'
   speaker: 'mopp'
   language: 'English'
+  video: https://www.youtube.com/watch?v=jLGGfWxLILI
 
 - start: '17:30'
   end: '19:30'
