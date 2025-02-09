@@ -18,8 +18,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: build with jekyll
-        run: |
-          sh ./_scripts/docker_jekyll jekyll build
+        uses: actions/jekyll-build-pages@v1
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
