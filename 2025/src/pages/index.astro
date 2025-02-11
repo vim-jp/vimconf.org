@@ -1,11 +1,190 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+  <header class="hero">
+    <div class="container">
+      <h1>VimConf 2025</h1>
+      <p>なんか</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">VimConf 2025 とは？</h2>
+      <p>VimConf は、世界初かつ世界で唯一のコミュニティによって定期運営されているVimの国際カンファレンスです。</p>
+      <h3>概要</h3>
+      <table>
+        <tr>
+          <th>開催日(予定)</th>
+          <td>2025-11-02（日）</td>
+        </tr>
+        <tr>
+          <th>時間</th>
+          <td>9:30 - 17:30 (懇親会: 17:30 - 19:30)</td>
+        </tr>
+        <tr>
+          <th>会場</th>
+          <td><a href="https://www.fsi.co.jp/akibaplaza/hall.html">アキバプラザ・アキバホール</a></td>
+        </tr>
+      </table>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.053340275775!2d139.77188631510504!3d35.70030498018984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea7a29cf80b%3A0xdce74a4dd51e0a66!2z5a-M5aOr44K944OV44OI44Ki44Kt44OQ44OX44Op44K2!5e0!3m2!1sja!2sjp!4v1513741028586&amp;key=AIzaSyDYecdzqzXTkep-BSPK-rl52Yx3D1HFjME" width="1000" height="400" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+      <h3>その他</h3>
+      <p>発表スライドはすべて英語です。発表は英語か日本語かいずれかの言語で行われます。</p>
+      <p>登壇の様子を撮影し、後日 YouTube にアップロードします。</p>
+      <p>会場内ではカメラマンによる写真撮影が行われますのでご了承ください。</p>
+      <p>写真もまとめてWeb上に掲載されます。</p>
+      <p></p>
+      <p></p>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">なぜスポンサー募集が必要なのか？</h2>
+      <p>
+        VimConf2025は、普段なかなか顔を合わせられないVimmer同士が情熱を交わし、知見を共有するための貴重な場です。<br>
+        今年は、イベント継続の担保と柔軟な運営のため、必要な資金をスポンサー様のご支援で集める仕組みを採用します。
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container sponsor-info">
+      <h2 class="section-title">スポンサーシップ概要</h2>
+      <p>
+        <strong>募集期間と判断タイミング：</strong><br>
+        スポンサー募集は既に開始されています。イベント開催は、必要な支援金が集まった場合にのみ実施します。<br>
+        開催の最終判断は<strong>2025年5月15日（木）</strong>に行います。
+      </p>
+      <p>
+        <strong>ご提供いただく支援：</strong><br>
+        スポンサーシップに応じたメリット（公式サイトでのロゴ掲載、ノベルティの配布、バックパネルへのロゴ掲載など）をご用意しております。<br>
+        イベント開催のための資金として、ぜひご協力ください。<br>
+        <em>※ 個人スポンサー募集も行っております。（開催されなかった場合でも返金不可）</em>
+      </p>
+      <p>
+        <strong>初の試みですので、</strong>不明点やご質問があれば遠慮なくお問い合わせください。
+      </p>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">スポンサーに関するお問い合わせ</h2>
+      <p>
+        スポンサーシップに関するご質問、提案などのお問い合わせは、下記のフォームまたはメールにてお気軽にご連絡ください。<br>
+        <strong>※最新情報は随時更新していきます。</strong>
+      </p>
+      <p style="text-align: center; margin-top: 20px;">
+        <a class="btn" href="https://docs.google.com/presentation/d/1lePjhmnJj7YuH6orB8ykrXXGLMnLMnKSAz22tzCb_Ko/edit#slide=id.p" style="background-color: #069700;">お問い合わせフォームへ</a>
+      </p>
+    </div>
+  </section>
 </Layout>
+
+<style>
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* コンテナ */
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* ヒーローセクション */
+.hero {
+  background: linear-gradient(60deg, #9ebd13 0%, #069700 100%);
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* セクションタイトル */
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+/* セクション共通 */
+section {
+  padding: 50px 0;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+section:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+/* スポンサー募集セクション */
+.sponsor-info ul {
+  list-style: disc inside;
+  margin: 10px 0 20px;
+}
+
+/* お問い合わせボタン */
+.btn {
+  display: inline-block;
+  background-color: #007acc;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* レスポンシブ調整 */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
+</style>
