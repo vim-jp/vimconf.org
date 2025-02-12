@@ -10,7 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.2.5"
+    "astro": "^5.2.5",
+    "astro-google-fonts-optimizer": "^0.2.2"
   },
   "pnpm": {
     "executionEnv": {
