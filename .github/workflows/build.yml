@@ -8,6 +8,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: write
+      pages: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,7 +31,7 @@ jobs:
           pnpm build
       - name: copy 2025 to _site
         shell: bash
-        run: cp -r 2025/dist/ _site/2025/
+        run: cp -r ./2025/dist/ ./_site/2025/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
