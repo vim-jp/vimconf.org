@@ -1,0 +1,29 @@
+---
+import { languages } from '../i18n/ui';
+import { base } from "astro:config/client"
+---
+<ul class="language-picker">
+  {Object.entries(languages).map(([lang, label]) => (
+    <li>
+      <a href={`${base}/${lang}/`}>{label}</a>
+    </li>
+  ))}
+</ul>
+
+<style>
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+li:first-child::after {
+  content: '/';
+  display: 'inline block'
+  margin: 0 8px;
+  color: #333;
+}
+</style>
