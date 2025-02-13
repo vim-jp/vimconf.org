@@ -32,6 +32,7 @@ jobs:
       - name: copy 2025 to _site
         shell: bash
         run: |
+          sudo chown -R $(whoami) _site
           mkdir -p _site/2025
           cp -r ./2025/dist/ ./_site/2025/
 
