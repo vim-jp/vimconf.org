@@ -31,7 +31,9 @@ jobs:
           pnpm build
       - name: copy 2025 to _site
         shell: bash
-        run: cp -r ./2025/dist/ ./_site/2025/
+        run: |
+          mkdir -p _site/2025
+          cp -r ./2025/dist/ ./_site/2025/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
