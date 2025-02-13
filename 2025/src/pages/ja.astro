@@ -1,9 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import LanguagePicker from '../components/LanguagePicker.astro'
 ---
 
 <Layout>
   <header class="hero">
+    <LanguagePicker />
     <div class="container">
       <h1>VimConf <wbr />2025</h1>
     </div>
@@ -11,12 +13,12 @@ import Layout from '../layouts/Layout.astro';
 
   <section>
     <div class="container">
-      <h2 id="VimConf 2025 とは？" class="section-title"><a href="#VimConf 2025 とは？">VimConf 2025 とは？</a></h2>
+      <h2 id="what-is-vimconf-2025" class="section-title"><a href="#what-is-vimconf-2025">VimConf 2025 とは？</a></h2>
       <p>VimConf は、世界初かつ世界で唯一のコミュニティによって定期運営されているVimの国際カンファレンスです。</p>
       <h3>概要</h3>
       <table>
         <tr>
-          <th style="word-break::keep-all;">開催日<wbr />(予定)</th>
+          <th style="word-break:keep-all;">開催日<wbr />(予定)</th>
           <td>2025-11-02（日）</td>
         </tr>
         <tr>
@@ -90,12 +92,11 @@ import Layout from '../layouts/Layout.astro';
 </Layout>
 
 <style>
-
 h3 {
   font-size: 1.2rem;
 }
 
-/* コンテナ */
+/* Container */
 .container {
   width: 90%;
   max-width: 960px;
@@ -103,11 +104,10 @@ h3 {
   padding: 24px 0;
 }
 
-/* ヒーローセクション */
+/* Hero Section */
 .hero {
-  background: linear-gradient(60deg, #9ebd13 0%, #069700 100%);
+  background: linear-gradient(110deg, #9ebd13 0%, #069700 100%);
   color: #fff;
-  padding: 100px 0;
   text-align: center;
 
   h1 {
@@ -119,7 +119,7 @@ h3 {
   }
 }
 
-/* セクションタイトル */
+/* Section Title */
 .section-title {
   font-size: 2.4rem;
   border-bottom: 2px solid #ccc;
@@ -130,7 +130,7 @@ h3 {
   }
 }
 
-/* セクション共通 */
+/* Common Section Styles */
 section {
   padding: 50px 0;
   background-color: #fff;
@@ -138,13 +138,13 @@ section {
   &:nth-of-type(even) {
     background: #f1f9f1;
   }
-
+}
 
 section + section {
   margin-top: 16px;
 }
 
-/* お問い合わせボタン */
+/* Contact Button */
 .btn {
   display: inline-block;
   background-color: #069700;
@@ -171,7 +171,7 @@ table th {
   font-weight: bold;
 }
 
-/* レスポンシブ調整 */
+/* Responsive Adjustments */
 @media (max-width: 600px) {
   .hero h1 {
     font-size: 3rem;
@@ -181,4 +181,5 @@ table th {
     font-size: 1.6rem;
   }
 }
+
 </style>

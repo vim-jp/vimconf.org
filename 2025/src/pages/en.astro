@@ -1,9 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import LanguagePicker from '../components/LanguagePicker.astro'
 ---
 
 <Layout>
   <header class="hero">
+    <LanguagePicker />
     <div class="container">
       <h1>VimConf <wbr />2025</h1>
     </div>
@@ -100,9 +102,8 @@ h3 {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(60deg, #9ebd13 0%, #069700 100%);
+  background: linear-gradient(110deg, #9ebd13 0%, #069700 100%);
   color: #fff;
-  padding: 100px 0;
   text-align: center;
 
   h1 {
