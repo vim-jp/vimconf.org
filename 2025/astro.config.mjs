@@ -7,4 +7,8 @@ export default defineConfig({
   experimental: {
     serializeConfig: true,
   },
+  redirects: {
+    '/': '/2025/en',
+    '/2025': '/2025/en',
+  },
 });
