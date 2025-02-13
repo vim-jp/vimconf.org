@@ -34,7 +34,7 @@ jobs:
         run: |
           sudo chown -R $(whoami) _site
           mkdir -p _site/2025
-          cp -r ./2025/dist/ ./_site/2025/
+          cp -r ./2025/dist/* ./_site/2025/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
