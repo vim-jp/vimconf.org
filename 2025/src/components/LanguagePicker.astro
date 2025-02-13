@@ -5,7 +5,7 @@ import { base } from "astro:config/client"
 const pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, "");
 ---
 <ul class="language-picker">
-  {Object.entries(languages).map(([lang, label]) => (
+  {Object.entries(languages).sort((a, b) => a < b ? 0 : -1).map(([lang, label]) => (
     <li class:list= {[{ active: pathname.startsWith(`/${label}`) }]} >
       <a href={`${base}/${lang}/`}>{label}</a>
     </li>
