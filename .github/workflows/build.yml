@@ -20,6 +20,17 @@ jobs:
       - name: build with jekyll
         uses: actions/jekyll-build-pages@v1
 
+      # pnpm
+      - uses: pnpm/action-setup@v4
+      - name: build 2025
+        working-directory: ./2025
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm build
+      - name: copy 2025 to _site
+        shell: bash
+        run: cp -r 2025/dist/ _site/2025/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
