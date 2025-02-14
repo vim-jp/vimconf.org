@@ -1,0 +1,35 @@
+---
+import LanguagePicker from '../components/LanguagePicker.astro'
+---
+
+<header class="hero">
+  <LanguagePicker />
+  <div class="container">
+    <h1>VimConf <wbr />2025</h1>
+  </div>
+</header>
+
+<style>
+/* Hero Section */
+.hero {
+  background: linear-gradient(110deg, #9ebd13 0%, #069700 100%);
+  color: #fff;
+  text-align: center;
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 16px;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+  padding: 24px 0;
+}
+</style>

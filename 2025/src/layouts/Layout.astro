@@ -1,5 +1,6 @@
 ---
 import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
+import Header from "../components/Header.astro";
 
 const { lang = 'ja' } = Astro.props;
 ---
@@ -17,6 +18,7 @@ const { lang = 'ja' } = Astro.props;
 		<title>VimConf 2025</title>
 	</head>
 	<body>
+		<Header />
 		<slot />
 	</body>
 </html>
