@@ -1,6 +1,7 @@
 ---
 import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
 import Header from "../components/Header.astro";
+import Footer from '../components/Footer.astro';
 
 const { lang = 'ja' } = Astro.props;
 ---
@@ -20,6 +21,7 @@ const { lang = 'ja' } = Astro.props;
 	<body>
 		<Header />
 		<slot />
+		<Footer />
 	</body>
 </html>
 
