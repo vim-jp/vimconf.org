@@ -1,42 +1,49 @@
 ---
-import { languages } from '../i18n/ui';
 import { base } from "astro:config/client"
 
+const languages = Object.keys(import.meta.glob('../pages/*.astro')).map(p=>p.split("/").at(-1).replace(".astro", "")).sort();
 const pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, "");
+const currentLang = pathname.split("/")[1];
 ---
-<ul class="language-picker">
-  {Object.entries(languages).sort((a, b) => a < b ? 0 : -1).map(([lang, label]) => (
-    <li class:list= {[{ active: pathname.startsWith(`/${label}`) }]} >
-      <a href={`${base}/${lang}/`}>{label}</a>
-    </li>
+<div class="language-switcher">
+  {languages.map((lang, i) => (
+  <>
+  <a href={`${base}/${lang}/`} class:list={{active: lang === currentLang}}>
+    {lang.toUpperCase()}
+  </a>
+  {i < languages.length - 1 && <span class="separator">/</span>}
+  </>
   ))}
-</ul>
+</div>
 
 <style>
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 1rem;
-
-  a {
-    text-decoration: none;
-  }
-
+.language-switcher {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
-li:first-child::after {
-  content: '/';
-  display: 'inline block'
-  margin: 0 8px;
-  color: #333;
-
+.language-switcher a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
-li.active > a {
-  font-weight: bold;
+.language-switcher a:hover {
+  color: #ffffff;
   text-decoration: underline;
+}
+
+.language-switcher .separator {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 0.3rem;
+}
+
+/* Active language style */
+.language-switcher a.active {
+  color: #ffffff;
+  font-weight: 600;
 }
 </style>
