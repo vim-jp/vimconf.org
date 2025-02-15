@@ -1,6 +1,7 @@
 import * as ufo from 'ufo'
 import { base } from "astro:config/client"
 
-export const DOMAIN = `https://vimconf.org`;
+import { DOMAIN } from "./_domain.js" with { type: "macro" }
+
 
 export const BASE_URL = ufo.joinURL(DOMAIN, base)

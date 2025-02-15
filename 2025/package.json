@@ -17,7 +17,9 @@
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.4",
-    "typescript": "^5.7.3"
+    "astro-og-image": "^1.0.7",
+    "typescript": "^5.7.3",
+    "unplugin-macros": "^0.16.0"
   },
   "pnpm": {
     "executionEnv": {

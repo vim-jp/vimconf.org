@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import Macros from 'unplugin-macros/vite'
 
 // https://astro.build/config
 export default defineConfig({
@@ -11,4 +12,9 @@ export default defineConfig({
     '/': '/2025/ja',
     '/2025': '/2025/ja',
   },
+  vite:{
+    plugins: [
+      Macros()
+    ]
+  }
 });
