@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import VenueMap from '../components/VenueMap.astro';
 import AnnouncementSlides from '../components/AnnouncementSlides.astro';
+
+import { MAIN_BACKGROUND_COLOR } from '@/consts';
 ---
 
 <Layout>
@@ -83,7 +85,7 @@ import AnnouncementSlides from '../components/AnnouncementSlides.astro';
   </section>
 </Layout>
 
-<style>
+<style define:vars={{ mainBackgroundColor: MAIN_BACKGROUND_COLOR }}>
 h3 {
   font-size: 1.2rem;
 }
@@ -94,21 +96,6 @@ h3 {
   max-width: 960px;
   margin: auto;
   padding: 24px 0;
-}
-
-/* Hero Section */
-.hero {
-  background: linear-gradient(110deg, #9ebd13 0%, #069700 100%);
-  color: #fff;
-  text-align: center;
-
-  h1 {
-    font-size: 4rem;
-    margin-bottom: 16px;
-    font-family: "Cardo", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
 }
 
 /* Section Title */
@@ -139,7 +126,7 @@ section + section {
 /* Contact Button */
 .btn {
   display: inline-block;
-  background-color: #069700;
+  background-color: var(--mainBackgroundColor);
   color: #fff;
   padding: 12px 20px;
   border-radius: 4px;

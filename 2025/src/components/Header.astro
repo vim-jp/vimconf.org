@@ -1,5 +1,7 @@
 ---
 import LanguagePicker from '../components/LanguagePicker.astro'
+
+import { MAIN_BACKGROUND_COLOR } from '@/consts';
 ---
 
 <header class="hero">
@@ -9,10 +11,10 @@ import LanguagePicker from '../components/LanguagePicker.astro'
   </div>
 </header>
 
-<style>
+<style define:vars={{ mainBackgroundColor: MAIN_BACKGROUND_COLOR }}>
 /* Hero Section */
 .hero {
-  background: linear-gradient(110deg, #9ebd13 0%, #069700 100%);
+  background: linear-gradient(110deg, #9ebd13 0%, var(--mainBackgroundColor) 100%);
   color: #fff;
   text-align: center;
 
