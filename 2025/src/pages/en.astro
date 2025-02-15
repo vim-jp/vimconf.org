@@ -1,5 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import VenueMap from '../components/VenueMap.astro';
+import AnnouncementSlides from '../components/AnnouncementSlides.astro';
 ---
 
 <Layout lang="en">
@@ -22,7 +24,7 @@ import Layout from '../layouts/Layout.astro';
           <td><a href="https://www.fsi.co.jp/akibaplaza/hall.html">Akiba Plaza - Akiba Hall</a></td>
         </tr>
       </table>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.053340275775!2d139.77188631510504!3d35.70030498018984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea7a29cf80b%3A0xdce74a4dd51e0a66!2z5a-M5aOr44K944OV44OI44Ki44Kt44OQ44OX44Op44K2!5e0!3m2!1sja!2sjp!4v1513741028586&amp;key=AIzaSyDYecdzqzXTkep-BSPK-rl52Yx3D1HFjME" height="400" style="border:0;width:100%" allowfullscreen=""></iframe>
+      <VenueMap/>
       <h3>Additional Information</h3>
       <p>All presentation slides will be in English. Presentations will be given in either English or Japanese.</p>
       <p>The presentations will be recorded and uploaded to YouTube after the event.</p>
@@ -68,8 +70,9 @@ import Layout from '../layouts/Layout.astro';
         For questions or proposals regarding sponsorship, please feel free to contact us through the form below or via email.<br>
         <b>※ Information will be updated regularly.</b>
       </p>
+      <AnnouncementSlides />
       <p style="text-align: center;">
-        <a class="btn" href="https://docs.google.com/presentation/d/1lePjhmnJj7YuH6orB8ykrXXGLMnLMnKSAz22tzCb_Ko/edit#slide=id.p" target="blank">
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfPMjGwsmjOhzxXf_e65uyIb0ml35iIdCYq5EEoSI4KompK3w/viewform" target="blank">
           Contact Form
         </a>
       </p>
