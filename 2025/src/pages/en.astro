@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import VenueMap from '../components/VenueMap.astro';
 import AnnouncementSlides from '../components/AnnouncementSlides.astro';
+
+import { MAIN_BACKGROUND_COLOR } from '@/consts';
 ---
 
 <Layout lang="en">
@@ -80,7 +82,7 @@ import AnnouncementSlides from '../components/AnnouncementSlides.astro';
   </section>
 </Layout>
 
-<style>
+<style define:vars={{ mainBackgroundColor: MAIN_BACKGROUND_COLOR }}>
 h3 {
   font-size: 1.2rem;
 }
@@ -122,7 +124,7 @@ section + section {
 /* Contact Button */
 .btn {
   display: inline-block;
-  background-color: #069700;
+  background-color: var(--mainBackgroundColor);
   color: #fff;
   padding: 12px 20px;
   border-radius: 4px;
