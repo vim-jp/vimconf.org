@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import AnnouncementSlide from '../components/AnnouncementSlide.astro';
 ---
 
 <Layout>
@@ -43,7 +44,6 @@ import Layout from '../layouts/Layout.astro';
       </p>
     </div>
   </section>
-
   <section>
     <div class="container sponsor-info">
       <h2 id="スポンサーシップ概要" class="section-title"><a href="#スポンサーシップ概要">スポンサーシップ概要</a></h2>
@@ -72,6 +72,7 @@ import Layout from '../layouts/Layout.astro';
         スポンサーシップに関するご質問、ご提案などにつきましては、下記のフォームまたはメールにてお気軽にお問い合わせください。<br>
         <b>※最新情報は随時更新していきます。</b>
       </p>
+      <AnnouncementSlide client:visible/>
       <p style="text-align: center;">
         <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfPMjGwsmjOhzxXf_e65uyIb0ml35iIdCYq5EEoSI4KompK3w/viewform" target="blank">
           お問い合わせフォームへ
