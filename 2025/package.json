@@ -10,14 +10,21 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/react": "^4.2.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
     "astro": "^5.2.5",
     "astro-google-fonts-optimizer": "^0.2.2",
     "astro-seo": "^0.8.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "satori": "^0.12.1",
     "ufo": "^1.5.4"
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.4",
     "astro-og-image": "^1.0.7",
+    "sharp": "^0.33.5",
     "typescript": "^5.7.3",
     "unplugin-macros": "^0.16.0"
   },
