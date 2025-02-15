@@ -13,6 +13,9 @@
     "astro": "^5.2.5",
     "astro-google-fonts-optimizer": "^0.2.2"
   },
+  "devDependencies": {
+    "@astrojs/ts-plugin": "^1.10.4"
+  },
   "pnpm": {
     "executionEnv": {
       "nodeVersion": "22.13.1"
