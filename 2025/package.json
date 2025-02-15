@@ -14,7 +14,8 @@
     "astro-google-fonts-optimizer": "^0.2.2"
   },
   "devDependencies": {
-    "@astrojs/ts-plugin": "^1.10.4"
+    "@astrojs/ts-plugin": "^1.10.4",
+    "typescript": "^5.7.3"
   },
   "pnpm": {
     "executionEnv": {
