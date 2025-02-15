@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "astro": "^5.2.5",
-    "astro-google-fonts-optimizer": "^0.2.2"
+    "astro-google-fonts-optimizer": "^0.2.2",
+    "astro-seo": "^0.8.4",
+    "ufo": "^1.5.4"
   },
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.4",
