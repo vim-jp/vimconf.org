@@ -1,40 +1,48 @@
 {
-  "name": "2025",
-  "private": true,
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@astrojs/react": "^4.2.0",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
-    "astro": "^5.3.0",
-    "astro-google-fonts-optimizer": "^0.2.2",
-    "astro-seo": "^0.8.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "satori": "^0.12.1",
-    "ufo": "^1.5.4"
-  },
-  "devDependencies": {
-    "@astrojs/ts-plugin": "^1.10.4",
-    "sharp": "^0.33.5",
-    "typescript": "^5.7.3",
-    "unplugin-macros": "^0.16.0"
-  },
-  "pnpm": {
-    "executionEnv": {
-      "nodeVersion": "22.13.1"
-    },
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "sharp"
-    ]
-  },
-  "packageManager": "pnpm@10.4.0"
+	"name": "2025",
+	"type": "module",
+	"version": "0.0.1",
+	"private": true,
+	"packageManager": "pnpm@10.4.0",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"check": "astro check",
+		"lint": "eslint --cache .",
+		"format": "nr lint --fix"
+	},
+	"dependencies": {
+		"@astrojs/react": "^4.2.0",
+		"@types/react": "^19.0.8",
+		"@types/react-dom": "^19.0.3",
+		"astro": "^5.3.0",
+		"astro-google-fonts-optimizer": "^0.2.2",
+		"astro-seo": "^0.8.4",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"satori": "^0.12.1",
+		"ufo": "^1.5.4"
+	},
+	"devDependencies": {
+		"@antfu/ni": "^23.3.1",
+		"@astrojs/ts-plugin": "^1.10.4",
+		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
+		"eslint": "^9.20.1",
+		"eslint-plugin-astro": "^1.3.1",
+		"eslint-plugin-format": "^1.0.1",
+		"sharp": "^0.33.5",
+		"typescript": "^5.7.3",
+		"unplugin-macros": "^0.16.0"
+	},
+	"pnpm": {
+		"executionEnv": {
+			"nodeVersion": "22.13.1"
+		},
+		"onlyBuiltDependencies": [
+			"esbuild",
+			"sharp"
+		]
+	}
 }

@@ -1,28 +1,28 @@
 ---
-import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
-import { SEO } from "astro-seo";
-import Header from "../components/Header.astro";
+import { BASE_URL } from '@/consts';
+import { GoogleFontsOptimizer } from 'astro-google-fonts-optimizer';
+import { SEO } from 'astro-seo';
+import * as ufo from 'ufo';
 import Footer from '../components/Footer.astro';
-import { BASE_URL } from "@/consts";
 
-import * as ufo from 'ufo'
+import Header from '../components/Header.astro';
 
 const { lang = 'ja' } = Astro.props;
 
-const title = "VimConf 2025";
-const description = "VimConf 2025";
+const title = 'VimConf 2025';
+const description = 'VimConf 2025';
 const ogImageUrl = ufo.joinURL(BASE_URL, 'og.png');
 ---
 <!DOCTYPE html>
 <html lang={lang}>
 	<head>
-		<meta charset="utf-8">
+    <meta charset="utf-8" />
 		<GoogleFontsOptimizer url="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" />
 		<SEO
 			{title}
 			{description}
 			openGraph={{
-				basic:{
+				basic: {
 					title,
 					type: 'website',
 					image: ogImageUrl,
@@ -37,7 +37,7 @@ const ogImageUrl = ufo.joinURL(BASE_URL, 'og.png');
 				image: ogImageUrl,
 			}}
 			extend={{
-				link: [{ rel: "icon", href: '/favicon.ico' }],
+				link: [{ rel: 'icon', href: '/favicon.ico' }],
 			}}
 		/>
 	</head>
