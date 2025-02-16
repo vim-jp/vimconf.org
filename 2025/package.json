@@ -31,7 +31,11 @@
   "pnpm": {
     "executionEnv": {
       "nodeVersion": "22.13.1"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
   },
   "packageManager": "pnpm@10.4.0"
 }
