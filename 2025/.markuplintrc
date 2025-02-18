@@ -33,5 +33,13 @@
     "table-row-column-alignment": false,
     "use-list": false,
     "wai-aria": true
+  },
+  "overrideMode": "merge",
+  "overrides": {
+    "./src/layouts/Layout.astro": {
+      "rules": {
+        "permitted-contents": false
+      }
+    }
   }
 }
