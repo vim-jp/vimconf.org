@@ -10,7 +10,7 @@
 		"preview": "astro preview",
 		"astro": "astro",
 		"check": "astro check",
-		"lint": "eslint --cache .",
+		"lint": "eslint --cache . && markuplint \"**/*.astro\"",
 		"format": "nr lint --fix"
 	},
 	"dependencies": {
@@ -28,10 +28,12 @@
 	"devDependencies": {
 		"@antfu/ni": "^23.3.1",
 		"@astrojs/ts-plugin": "^1.10.4",
+		"@markuplint/astro-parser": "^4.6.16",
 		"@ryoppippi/eslint-config": "npm:@jsr/ryoppippi__eslint-config@^0.0.25",
 		"eslint": "^9.20.1",
 		"eslint-plugin-astro": "^1.3.1",
 		"eslint-plugin-format": "^1.0.1",
+		"markuplint": "^4.11.6",
 		"sharp": "^0.33.5",
 		"typescript": "^5.7.3",
 		"unplugin-macros": "^0.16.0"
