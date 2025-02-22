@@ -1,7 +1,9 @@
 ---
 import AnnouncementSlides from '@/components/AnnouncementSlides.astro';
 import VenueMap from '@/components/VenueMap.astro';
+import { MAIN_BACKGROUND_COLOR } from '@/consts';
 import { LANGUAGES, useTranslate } from '@/i18n';
+
 import Layout from '@/layouts/Layout.astro';
 
 export function getStaticPaths() {
@@ -165,7 +167,7 @@ const t = useTranslate(lang);
   </section>
 </Layout>
 
-<style>
+<style define:vars={{ mainBackgroundColor: MAIN_BACKGROUND_COLOR }}>
 h3 {
   font-size: 1.2rem;
 }
