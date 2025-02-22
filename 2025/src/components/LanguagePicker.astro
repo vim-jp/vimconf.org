@@ -1,18 +1,19 @@
 ---
+import { LANGUAGES } from '@/i18n';
 // @ts-expect-error not found
 import { base } from 'astro:config/client';
 
-const languages = Object.keys(import.meta.glob('../pages/*.astro')).map(p => p.split('/').at(-1)!.replace('.astro', '')).sort();
 const pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, '');
 const currentLang = pathname.split('/')[1];
+
 ---
 <div class="language-switcher">
-  {languages.map((lang, i) => (
+  {LANGUAGES.map((lang, i) => (
   <>
   <a href={`${base as string}/${lang}/`} class:list={{ active: lang === currentLang }}>
     {lang.toUpperCase()}
   </a>
-  {i < languages.length - 1 && <span class="separator">/</span>}
+  {i < LANGUAGES.length - 1 && <span class="separator">/</span>}
   </>
   ))}
 </div>
