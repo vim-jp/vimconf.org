@@ -39,19 +39,41 @@ const t = useTranslate(lang);
         </tr>
         <tr>
           <th>{t('時間', 'Time')}</th>
-          <td>{t('9:30 - 17:30 (懇親会: 17:30 - 19:30)', '9:30 AM - 5:30 PM JST (Networking Party: 5:30 PM - 7:30 PM JST)')}</td>
+          <td>{t(
+            '9:30 - 17:30 (懇親会: 17:30 - 19:30)',
+            '9:30 AM - 5:30 PM JST (Networking Party: 5:30 PM - 7:30 PM JST)',
+          )}</td>
         </tr>
         <tr>
           <th>{t('会場', 'Venue')}</th>
-          <td><a href="https://www.fsi.co.jp/akibaplaza/hall.html">{t('アキバプラザ・アキバホール', 'Akiba Plaza - Akiba Hall')}</a></td>
+          <td>
+            <a href="https://www.fsi.co.jp/akibaplaza/hall.html">
+              {t(
+                'アキバプラザ・アキバホール',
+                'Akiba Plaza - Akiba Hall',
+              )}
+            </a>
+          </td>
         </tr>
       </table>
       <VenueMap />
       <h3>{t('その他', 'Additional Information')}</h3>
-      <p>{t('発表スライドはすべて英語です。発表は英語または日本語のいずれかの言語で行われます。', 'All presentation slides will be in English. Presentations will be given in either English or Japanese.')}</p>
-      <p>{t('登壇の様子を撮影し、後日 YouTube にアップロードします。', 'The presentations will be recorded and uploaded to YouTube after the event.')}</p>
-      <p>{t('会場内ではカメラマンによる写真撮影が行われますのでご了承ください。', 'Please note that professional photographers will be taking pictures during the event.')}</p>
-      <p>{t('写真もまとめてWeb上に掲載されます。', 'Photos will be published online after the event.')}</p>
+      <p>{t(
+        '発表スライドはすべて英語です。発表は英語または日本語のいずれかの言語で行われます。',
+        'All presentation slides will be in English. Presentations will be given in either English or Japanese.',
+      )}</p>
+      <p>{t(
+        '登壇の様子を撮影し、後日 YouTube にアップロードします。',
+        'The presentations will be recorded and uploaded to YouTube after the event.',
+      )}</p>
+      <p>{t(
+        '会場内ではカメラマンによる写真撮影が行われますのでご了承ください。',
+        'Please note that professional photographers will be taking pictures during the event.',
+      )}</p>
+      <p>{t(
+        '写真もまとめてWeb上に掲載されます。',
+        'Photos will be published online after the event.',
+      )}</p>
     </div>
   </section>
 
@@ -75,10 +97,16 @@ const t = useTranslate(lang);
     <div class="container sponsor-info">
       <h2 id="sponsorship-overview" class="section-title">
         <a href="#sponsorship-overview">
-          {t('スポンサーシップ概要', 'Sponsorship Overview')}
+          {t(
+            'スポンサーシップ概要',
+            'Sponsorship Overview',
+          )}
         </a>
       </h2>
-      <h3>{t('募集期間と判断タイミング：', 'Application Period and Decision Timeline:')}</h3>
+      <h3>{t(
+        '募集期間と判断タイミング：',
+        'Application Period and Decision Timeline:',
+      )}</h3>
       <p>
         {t(
           'スポンサーの募集は既に開始されています。イベントは、必要な支援金が集まった場合にのみ開催します。\n開催の最終判断は2025年5月15日（木）に行います。',
@@ -93,7 +121,10 @@ const t = useTranslate(lang);
         )}
       </p>
       <p>
-        {t('ご支援いただける方は、以下のリンクからお願いいたします。', 'If you would like to support us as a personal sponsor, please follow the link below.')}
+        {t(
+          'ご支援いただける方は、以下のリンクからお願いいたします。',
+          'If you would like to support us as a personal sponsor, please follow the link below.',
+        )}
       </p>
       <p style="text-align: center;">
         <a class="btn" href="https://vimconf.booth.pm/" target="blank">
@@ -101,8 +132,16 @@ const t = useTranslate(lang);
         </a>
       </p>
       <p>
-        <b>{t('初の試みですので、', 'As this is our first initiative of this kind,')}</b>
-        {t('ご不明な点やご質問があればご遠慮なくお問い合わせください。', 'please don\'t hesitate to contact us with any questions or concerns.')}
+        <b>
+          {t(
+          '初の試みですので、',
+          'As this is our first initiative of this kind,',
+          )}
+        </b>
+        {t(
+          'ご不明な点やご質問があればご遠慮なくお問い合わせください。',
+          `please don't hesitate to contact us with any questions or concerns.`,
+        )}
       </p>
     </div>
   </section>
