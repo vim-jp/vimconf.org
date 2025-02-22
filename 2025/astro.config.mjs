@@ -13,8 +13,7 @@ export default defineConfig({
 	},
 
 	redirects: {
-		'/': '/2025/ja',
-		'/2025': '/2025/ja',
+		'/': '/2025',
 	},
 
 	vite: {
