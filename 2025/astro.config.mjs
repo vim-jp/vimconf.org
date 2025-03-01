@@ -12,10 +12,6 @@ export default defineConfig({
 		serializeConfig: true,
 	},
 
-	redirects: {
-		'/': '/2025',
-	},
-
 	vite: {
 		optimizeDeps: {
 			exclude: [
