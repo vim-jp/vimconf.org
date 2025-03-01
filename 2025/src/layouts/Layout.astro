@@ -17,7 +17,8 @@ const ogImageUrl = ufo.joinURL(BASE_URL, 'og.png');
 <!DOCTYPE html>
 <html lang={lang}>
 	<head>
-    <meta charset="utf-8" />
+		<slot name="header" />
+		<meta charset="utf-8" />
 		<GoogleFontsOptimizer url="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" />
 		<SEO
 			{title}
