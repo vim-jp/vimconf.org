@@ -4,6 +4,8 @@ import { defineConfig } from 'astro/config';
 
 import Macros from 'unplugin-macros/vite';
 
+import tailwindcss from '@tailwindcss/vite';
+
 // https://astro.build/config
 export default defineConfig({
 	base: '/2025',
@@ -20,6 +22,7 @@ export default defineConfig({
 		},
 		plugins: [
 			Macros(),
+      tailwindcss(),
 		],
 	},
 
