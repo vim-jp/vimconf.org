@@ -1,8 +1,37 @@
 ---
-import Layout from '@/layouts/Layout.astro';
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Top from "../components/Top.astro";
+import KeynoteSpeakers from "../components/KeynoteSpeakers.astro";
+import Venue from "../components/Venue.astro";
+import AboutVimConf from "../components/AboutVimConf.astro";
+import Schedule from "../components/Schedule/index.astro";
+import Sponsors from "../components/Sponsors/index.astro";
+import Staff from "../components/Staff.astro";
+import Footer from "../components/Footer.astro";
 ---
-<Layout>
-  <Fragment slot="header">
-    <meta http-equiv="refresh" content="0;url=/2025/ja" />
-  </Fragment>
-</Layout>
+<!DOCTYPE html>
+<html lang="en" class="light" style="color-scheme: light;">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="next-size-adjust" content="">
+      <title>v0</title>
+      <link rel="preload" href="https://kzmkbgzwl112s273gjeh.lite.vusercontent.net/_next/static/media/66f30814ff6d7cdf.p.woff2" as="font" crossorigin="" type="font/woff2">
+      <link rel="preload" href="https://kzmkbgzwl112s273gjeh.lite.vusercontent.net/_next/static/media/6d93bde91c0c2823-s.p.woff2" as="font" crossorigin="" type="font/woff2">
+      <link rel="preload" href="https://kzmkbgzwl112s273gjeh.lite.vusercontent.net/_next/static/media/e11418ac562b8ac1-s.p.woff2" as="font" crossorigin="" type="font/woff2">
+   </head>
+   <body>
+     <Header />
+      <main class="min-h-screen">
+        <Top />
+        <KeynoteSpeakers />
+        <Venue />
+        <AboutVimConf />
+        <Schedule />
+        <Sponsors />
+        <Staff />
+      </main>
+      <Footer />
+   </body>
+</html>
