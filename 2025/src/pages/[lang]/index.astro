@@ -1,7 +1,5 @@
 ---
 import AboutVimConf from '../../components/AboutVimConf.astro';
-import Footer from '../../components/Footer.astro';
-import Header from '../../components/Header.astro';
 import KeynoteSpeakers from '../../components/KeynoteSpeakers.astro';
 import Schedule from '../../components/Schedule/index.astro';
 import Sponsors from '../../components/Sponsors/index.astro';
@@ -22,7 +20,6 @@ const t = useTranslate(lang);
 ---
 
 <Layout>
-     <Header />
       <main class="min-h-screen">
         <Top />
         <KeynoteSpeakers />
@@ -32,6 +29,4 @@ const t = useTranslate(lang);
         <Sponsors />
         <Staff />
       </main>
-      <Footer />
-
 </Layout>
