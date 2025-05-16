@@ -1,34 +1,8 @@
 ---
-import AboutVimConf from '../components/AboutVimConf.astro';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import KeynoteSpeakers from '../components/KeynoteSpeakers.astro';
-import Schedule from '../components/Schedule/index.astro';
-import Sponsors from '../components/Sponsors/index.astro';
-import Staff from '../components/Staff.astro';
-import Top from '../components/Top.astro';
-import Venue from '../components/Venue.astro';
-import '../styles/global.css';
+import Layout from '@/layouts/Layout.astro';
 ---
-<!DOCTYPE html>
-<html lang="en" class="light" style="color-scheme: light;">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="next-size-adjust" content="">
-      <title>VimConf 2025 small</title>
-   </head>
-   <body>
-     <Header />
-      <main class="min-h-screen">
-        <Top />
-        <KeynoteSpeakers />
-        <Venue />
-        <AboutVimConf />
-        <Schedule />
-        <Sponsors />
-        <Staff />
-      </main>
-      <Footer />
-   </body>
-</html>
+<Layout>
+  <Fragment slot="header">
+    <meta http-equiv="refresh" content="0;url=/2025/ja" />
+  </Fragment>
+</Layout>
