@@ -1,7 +1,14 @@
 ---
-import AnnouncementSlides from '@/components/AnnouncementSlides.astro';
-import VenueMap from '@/components/VenueMap.astro';
-import { MAIN_BACKGROUND_COLOR } from '@/consts';
+import AboutVimConf from '../../components/AboutVimConf.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import KeynoteSpeakers from '../../components/KeynoteSpeakers.astro';
+import Schedule from '../../components/Schedule/index.astro';
+import Sponsors from '../../components/Sponsors/index.astro';
+import Staff from '../../components/Staff.astro';
+import Top from '../../components/Top.astro';
+import Venue from '../../components/Venue.astro';
+import '../../styles/global.css';
 import { LANGUAGES, useTranslate } from '@/i18n';
 
 import Layout from '@/layouts/Layout.astro';
@@ -15,233 +22,16 @@ const t = useTranslate(lang);
 ---
 
 <Layout>
-  <section>
-    <div class="container">
-      <h2 id="what-is-vimconf-2025" class="section-title">
-        <a href="#what-is-vimconf-2025">
-          {t('VimConf 2025 とは？', 'What is VimConf 2025?')}
-        </a>
-      </h2>
-      <p>
-        {t(
-          'VimConf は、世界初かつ世界で唯一のコミュニティによって定期運営されているVimの国際カンファレンスです。',
-          `VimConf is the world's first and only regularly organized international Vim conference run by the community.`,
-        )}
-      </p>
-      <h3>{t('概要', 'Event Details')}</h3>
-      <table>
-        <caption>
-          {t('VimConf 2025の概要', 'Details Of VimConf 2025')}
-        </caption>
-        <tr>
-          <th style="word-break:keep-all;">
-            {t('開催日(予定)', 'Date(Planned)')}
-          </th>
-          <td>{t('2025年11月2日（日）', 'November 2, 2025 (Sunday)')}</td>
-        </tr>
-        <tr>
-          <th>{t('時間', 'Time')}</th>
-          <td>{t(
-            '9:30 - 17:30 (懇親会: 17:30 - 19:30)',
-            '9:30 AM - 5:30 PM JST (Networking Party: 5:30 PM - 7:30 PM JST)',
-          )}</td>
-        </tr>
-        <tr>
-          <th>{t('会場', 'Venue')}</th>
-          <td>
-            <a href="https://www.fsi.co.jp/akibaplaza/hall.html">
-              {t(
-                'アキバプラザ・アキバホール',
-                'Akiba Plaza - Akiba Hall',
-              )}
-            </a>
-            <a>{/* XXX: Workaround for https://github.com/withastro/compiler/issues/958 */}</a>
-          </td>
-        </tr>
-      </table>
-      <VenueMap />
-      <h3>{t('その他', 'Additional Information')}</h3>
-      <p>{t(
-        '発表スライドはすべて英語です。発表は英語または日本語のいずれかの言語で行われます。',
-        'All presentation slides will be in English. Presentations will be given in either English or Japanese.',
-      )}</p>
-      <p>{t(
-        '登壇の様子を撮影し、後日 YouTube にアップロードします。',
-        'The presentations will be recorded and uploaded to YouTube after the event.',
-      )}</p>
-      <p>{t(
-        '会場内ではカメラマンによる写真撮影が行われますのでご了承ください。',
-        'Please note that professional photographers will be taking pictures during the event.',
-      )}</p>
-      <p>{t(
-        '写真もまとめてWeb上に掲載されます。',
-        'Photos will be published online after the event.',
-      )}</p>
-    </div>
-  </section>
+     <Header />
+      <main class="min-h-screen">
+        <Top />
+        <KeynoteSpeakers />
+        <Venue />
+        <AboutVimConf />
+        <Schedule />
+        <Sponsors />
+        <Staff />
+      </main>
+      <Footer />
 
-  <section>
-    <div class="container">
-      <h2 id="why-we-need-sponsors" class="section-title">
-        <a href="#why-we-need-sponsors">
-          {t('なぜスポンサーが必要なのか？', 'Why We Need Sponsors')}
-        </a>
-      </h2>
-      <p>
-        {t(
-          'VimConf 2025は、普段なかなか顔を合わせられないVimmer同士が情熱を交わし、知見を共有するための貴重な場です。\n今年は、イベント継続の担保と柔軟な運営のため、必要な資金をスポンサー様のご支援で集める仕組みを採用します。',
-          'VimConf 2025 is a valuable opportunity for Vimmers, who rarely get to meet in person, to share their passion and knowledge.\nThis year, to ensure the event\'s sustainability and flexible operation, we are seeking financial support through sponsorships.',
-        )}
-      </p>
-    </div>
-  </section>
-
-  <section>
-    <div class="container sponsor-info">
-      <h2 id="sponsorship-overview" class="section-title">
-        <a href="#sponsorship-overview">
-          {t(
-            'スポンサーシップ概要',
-            'Sponsorship Overview',
-          )}
-        </a>
-      </h2>
-      <h3>{t(
-        '募集期間と判断タイミング：',
-        'Application Period and Decision Timeline:',
-      )}</h3>
-      <p>
-        {t(
-          'スポンサーの募集は既に開始されています。イベントは、必要な支援金が集まった場合にのみ開催します。\n開催の最終判断は2025年5月15日（木）に行います。',
-          'Sponsor recruitment is already underway. The event will only be held if we receive sufficient sponsorship support.\nThe final decision on the event will be made on May 15, 2025 (Thursday).',
-        )}
-      </p>
-      <h3>{t('ご提供いただく支援：', 'Sponsorship Benefits:')}</h3>
-      <p>
-        {t(
-          'スポンサーシップに応じたメリット（公式サイトでのロゴ掲載、ノベルティの配布、バックパネルへのロゴ掲載など）を用意しています。\nイベント開催のための資金として、ぜひご協力ください。\n※ また、併せて個人による寄付の募集も行っています。（開催されなかった場合でも返金不可）',
-          'We offer various benefits depending on the sponsorship level (including logo placement on the official website, distribution of promotional materials, logo display on the backdrop, etc.).\nPlease consider supporting us to make this event possible.\n※ Individual sponsorships are also available. (Please note that sponsorships are non-refundable even if the event is canceled)',
-        )}
-      </p>
-      <p>
-        {t(
-          'ご支援いただける方は、以下のリンクからお願いいたします。',
-          'If you would like to support us as a personal sponsor, please follow the link below.',
-        )}
-      </p>
-      <p style="text-align: center;">
-        <a class="btn" href="https://vimconf.booth.pm/" target="blank">
-          {t('寄付をする', 'become a personal sponsor')}
-        </a>
-      </p>
-      <p>
-        <b>
-          {t(
-          '初の試みですので、',
-          'As this is our first initiative of this kind,',
-          )}
-        </b>
-        {t(
-          'ご不明な点やご質問があればご遠慮なくお問い合わせください。',
-          `please don't hesitate to contact us with any questions or concerns.`,
-        )}
-      </p>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <h2 class="section-title">{t('スポンサーに関するお問い合わせ', 'Sponsorship Inquiries')}</h2>
-      <p>
-        {t(
-          'スポンサーシップに関するご質問、ご提案などにつきましては、下記のフォームまたはメールにてお気軽にお問い合わせください。\n※最新情報は随時更新していきます。',
-          'For questions or proposals regarding sponsorship, please feel free to contact us through the form below or via email.\n※ Information will be updated regularly.',
-        )}
-      </p>
-      <AnnouncementSlides />
-      <p style="text-align: center;">
-        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfPMjGwsmjOhzxXf_e65uyIb0ml35iIdCYq5EEoSI4KompK3w/viewform" target="blank">
-          {t('お問い合わせフォームへ', 'Contact Form')}
-        </a>
-      </p>
-    </div>
-  </section>
 </Layout>
-
-<style define:vars={{ mainBackgroundColor: MAIN_BACKGROUND_COLOR }}>
-h3 {
-  font-size: 1.2rem;
-}
-
-/* Container */
-.container {
-  width: 90%;
-  max-width: 960px;
-  margin: auto;
-  padding: 24px 0;
-}
-
-/* Section Title */
-.section-title {
-  font-size: 2.4rem;
-  border-bottom: 2px solid #ccc;
-
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-}
-
-/* Common Section Styles */
-section {
-  padding: 50px 0;
-  background-color: #fff;
-
-  &:nth-of-type(even) {
-    background: #f1f9f1;
-  }
-}
-
-section + section {
-  margin-top: 16px;
-}
-
-/* Contact Button */
-.btn {
-  display: inline-block;
-  background-color: var(--mainBackgroundColor);
-  color: #fff;
-  padding: 12px 20px;
-  border-radius: 4px;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 12px 0;
-}
-
-table th,
-table td {
-  border: 1px solid #ccc;
-  padding: 12px;
-  text-align: left;
-}
-
-table th {
-  background-color: #f2f2f2;
-  font-weight: bold;
-}
-
-/* Responsive Adjustments */
-@media (max-width: 600px) {
-  .hero h1 {
-    font-size: 3rem;
-  }
-
-  .section-title {
-    font-size: 1.6rem;
-  }
-}
-
-</style>
