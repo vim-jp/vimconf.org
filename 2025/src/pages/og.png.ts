@@ -1,11 +1,11 @@
-import { ogImage } from '@/components/OgImage';
+import { ogImage } from "@/components/OgImage";
 
 export async function GET() {
-	const body = await ogImage();
+  const body = await ogImage();
 
-	return new Response(body, {
-		headers: {
-			'content-type': 'image/png',
-		},
-	});
+  return new Response(body, {
+    headers: {
+      "content-type": "image/png",
+    },
+  });
 }

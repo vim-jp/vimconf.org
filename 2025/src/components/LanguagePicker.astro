@@ -1,51 +1,56 @@
 ---
-import { LANGUAGES } from '@/i18n';
+import { LANGUAGES } from "@/i18n";
 // @ts-expect-error not found
-import { base } from 'astro:config/client';
+import { base } from "astro:config/client";
 
-const pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, '');
-const currentLang = pathname.split('/')[1];
-
+const pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, "");
+const currentLang = pathname.split("/")[1];
 ---
+
 <div class="language-switcher">
-  {LANGUAGES.map((lang, i) => (
-  <>
-  <a href={`${base as string}/${lang}/`} class:list={{ active: lang === currentLang }}>
-    {lang.toUpperCase()}
-  </a>
-  {i < LANGUAGES.length - 1 && <span class="separator">/</span>}
-  </>
-  ))}
+  {
+    LANGUAGES.map((lang, i) => (
+      <>
+        <a
+          href={`${base as string}/${lang}/`}
+          class:list={{ active: lang === currentLang }}
+        >
+          {lang.toUpperCase()}
+        </a>
+        {i < LANGUAGES.length - 1 && <span class="separator">/</span>}
+      </>
+    ))
+  }
 </div>
 
 <style>
-.language-switcher {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
+  .language-switcher {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
 
-.language-switcher a {
-  color: rgba(255, 255, 255, 0.7);
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
+  .language-switcher a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
 
-.language-switcher a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-}
+  .language-switcher a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
 
-.language-switcher .separator {
-  color: rgba(255, 255, 255, 0.5);
-  margin: 0 0.3rem;
-}
+  .language-switcher .separator {
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 0.3rem;
+  }
 
-/* Active language style */
-.language-switcher a.active {
-  color: #ffffff;
-  font-weight: 600;
-}
+  /* Active language style */
+  .language-switcher a.active {
+    color: #ffffff;
+    font-weight: 600;
+  }
 </style>

@@ -1,18 +1,18 @@
 ---
-import AboutVimConf from '../../components/AboutVimConf.astro';
-import KeynoteSpeakers from '../../components/KeynoteSpeakers.astro';
-import Schedule from '../../components/Schedule/index.astro';
-import Sponsors from '../../components/Sponsors/index.astro';
-import Staff from '../../components/Staff.astro';
-import Top from '../../components/Top.astro';
-import Venue from '../../components/Venue.astro';
-import '../../styles/global.css';
-import { LANGUAGES, useTranslate } from '@/i18n';
+import AboutVimConf from "../../components/AboutVimConf.astro";
+import KeynoteSpeakers from "../../components/KeynoteSpeakers.astro";
+import Schedule from "../../components/Schedule/index.astro";
+import Sponsors from "../../components/Sponsors/index.astro";
+import Staff from "../../components/Staff.astro";
+import Top from "../../components/Top.astro";
+import Venue from "../../components/Venue.astro";
+import "../../styles/global.css";
+import { LANGUAGES, useTranslate } from "@/i18n";
 
-import Layout from '@/layouts/Layout.astro';
+import Layout from "@/layouts/Layout.astro";
 
 export function getStaticPaths() {
-  return LANGUAGES.map(lang => ({ params: { lang } }));
+  return LANGUAGES.map((lang) => ({ params: { lang } }));
 }
 
 const { lang } = Astro.params;
@@ -20,13 +20,13 @@ const t = useTranslate(lang);
 ---
 
 <Layout>
-      <main class="min-h-screen">
-        <Top />
-        <KeynoteSpeakers />
-        <Venue />
-        <AboutVimConf />
-        <Schedule />
-        <Sponsors />
-        <Staff />
-      </main>
+  <main class="min-h-screen">
+    <Top />
+    <KeynoteSpeakers />
+    <Venue />
+    <AboutVimConf />
+    <Schedule />
+    <Sponsors />
+    <Staff />
+  </main>
 </Layout>

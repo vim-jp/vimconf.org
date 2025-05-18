@@ -1,41 +1,63 @@
 ---
 // import VimLogo from "../assets/vimlogo.svg";
 ---
-<header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-transparent">
-   <div class="container mx-auto px-4">
-      <div class="flex items-center justify-between h-16">
-         <div class="flex items-center">
-           <a href="/2025/ja" class="flex items-center">
-             <!-- <VimLogo width={32} height={32} /> -->
-              <span class="text-xl font-bold text-emerald-700">VimConf 2025</span>
-           </a>
-         </div>
-         <nav class="hidden md:flex items-center space-x-6">
-           <a href="#keynote" class="text-sm font-medium hover:text-emerald-600 transition-colors">
-             Keynote Speakers
-           </a>
-           <a href="#venue" class="text-sm font-medium hover:text-emerald-600 transition-colors">
-             Venue
-           </a>
-           <a href="#about" class="text-sm font-medium hover:text-emerald-600 transition-colors">
-             About
-           </a>
-           <a href="#schedule" class="text-sm font-medium hover:text-emerald-600 transition-colors">
-             Schedule
-           </a>
-           <a href="#sponsors" class="text-sm font-medium hover:text-emerald-600 transition-colors">
-             Sponsors
-           </a>
-           <a href="#staff" class="text-sm font-medium hover:text-emerald-600 transition-colors">
-             Staff
-           </a>
-           <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground rounded-md font-medium text-sm px-2 py-1 h-auto">
-             <span class="font-bold">EN</span>
-             <span class="mx-1">/</span>
-             <span class="opacity-60">JA</span>
-           </button>
-         </nav>
-      </div>
-   </div>
-</header>
 
+<header
+  class="fixed top-0 right-0 left-0 z-50 bg-transparent transition-all duration-300"
+>
+  <div class="container mx-auto px-4">
+    <div class="flex h-16 items-center justify-between">
+      <div class="flex items-center">
+        <a href="/2025/ja" class="flex items-center">
+          <!-- <VimLogo width={32} height={32} /> -->
+          <span class="text-xl font-bold text-emerald-700">VimConf 2025</span>
+        </a>
+      </div>
+      <nav class="hidden items-center space-x-6 md:flex">
+        <a
+          href="#keynote"
+          class="text-sm font-medium transition-colors hover:text-emerald-600"
+        >
+          Keynote Speakers
+        </a>
+        <a
+          href="#venue"
+          class="text-sm font-medium transition-colors hover:text-emerald-600"
+        >
+          Venue
+        </a>
+        <a
+          href="#about"
+          class="text-sm font-medium transition-colors hover:text-emerald-600"
+        >
+          About
+        </a>
+        <a
+          href="#schedule"
+          class="text-sm font-medium transition-colors hover:text-emerald-600"
+        >
+          Schedule
+        </a>
+        <a
+          href="#sponsors"
+          class="text-sm font-medium transition-colors hover:text-emerald-600"
+        >
+          Sponsors
+        </a>
+        <a
+          href="#staff"
+          class="text-sm font-medium transition-colors hover:text-emerald-600"
+        >
+          Staff
+        </a>
+        <button
+          class="inline-flex h-auto items-center justify-center gap-2 rounded-md px-2 py-1 text-sm font-medium whitespace-nowrap ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+        >
+          <span class="font-bold">EN</span>
+          <span class="mx-1">/</span>
+          <span class="opacity-60">JA</span>
+        </button>
+      </nav>
+    </div>
+  </div>
+</header>
