@@ -19,4 +19,4 @@ jobs:
           version: 10.4.0
       - run: pnpm install --frozen-lockfile
       - run: pnpm check
-      - run: pnpm lint
+      - run: pnpm prettier:check
