@@ -7,16 +7,13 @@ import Staff from "../../components/Staff.astro";
 import Top from "../../components/Top.astro";
 import Venue from "../../components/Venue.astro";
 import "../../styles/global.css";
-import { LANGUAGES, useTranslate } from "@/i18n";
+import { LANGUAGES } from "@/i18n";
 
 import Layout from "@/layouts/Layout.astro";
 
 export function getStaticPaths() {
   return LANGUAGES.map((lang) => ({ params: { lang } }));
 }
-
-const { lang } = Astro.params;
-const t = useTranslate(lang);
 ---
 
 <Layout>
