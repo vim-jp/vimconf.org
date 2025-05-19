@@ -1,5 +1,5 @@
 ---
-// import VimLogo from "../assets/vimlogo.svg";
+import VimLogo from "./VimLogo.astro";
 ---
 
 <header
@@ -9,7 +9,7 @@
     <div class="flex h-16 items-center justify-between">
       <div class="flex items-center">
         <a href="/2025/ja" class="flex items-center">
-          <!-- <VimLogo width={32} height={32} /> -->
+          <VimLogo class="h-10 w-10" />
           <span class="text-xl font-bold text-emerald-700">VimConf 2025</span>
         </a>
       </div>
@@ -18,44 +18,45 @@
           href="#keynote"
           class="text-sm font-medium transition-colors hover:text-emerald-600"
         >
-          Keynote Speakers
+          基調講演
         </a>
         <a
           href="#venue"
           class="text-sm font-medium transition-colors hover:text-emerald-600"
         >
-          Venue
+          会場
         </a>
         <a
           href="#about"
           class="text-sm font-medium transition-colors hover:text-emerald-600"
         >
-          About
+          概要
         </a>
         <a
           href="#schedule"
           class="text-sm font-medium transition-colors hover:text-emerald-600"
         >
-          Schedule
+          スケジュール
         </a>
         <a
           href="#sponsors"
           class="text-sm font-medium transition-colors hover:text-emerald-600"
         >
-          Sponsors
+          スポンサー
         </a>
         <a
           href="#staff"
           class="text-sm font-medium transition-colors hover:text-emerald-600"
         >
-          Staff
+          スタッフ
         </a>
         <button
+          disabled
           class="inline-flex h-auto items-center justify-center gap-2 rounded-md px-2 py-1 text-sm font-medium whitespace-nowrap ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
         >
-          <span class="font-bold">EN</span>
+          <span class="opacity-60">EN</span>
           <span class="mx-1">/</span>
-          <span class="opacity-60">JA</span>
+          <span class="font-bold">JA</span>
         </button>
       </nav>
     </div>
