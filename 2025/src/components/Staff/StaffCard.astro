@@ -1,0 +1,88 @@
+---
+import GithubIcon from '@/assets/github-icon.png?url'
+import XIcon from '@/assets/x-icon.png?url'
+import BlueSkyIcon from '@/assets/bluesky.jpg?url'
+type Props = {
+  name: string;
+  alsoKnownAs?: string;
+  image: string;
+  github: string;
+  x?: string;
+  bluesky?: string;
+};
+
+const { name, alsoKnownAs, image, github, x, bluesky }: Props = Astro.props;
+---
+
+<div
+  class="rounded-lg border border-emerald-100 bg-card text-card-foreground shadow-sm transition-shadow hover:shadow-md"
+  data-v0-t="card"
+>
+  <div class="grid grid-cols-1 gap-2 p-3">
+    <div class="grid place-items-center">
+      <span
+        class="relative flex h-16 w-16 shrink-0 overflow-hidden rounded-full md:h-20 md:w-20"
+        ><img
+          class="aspect-square h-full w-full object-cover"
+          alt={name}
+          src={image}
+          loading="lazy"
+        /></span
+      >
+    </div>
+    
+    <div class="grid gap-0.5 text-center">
+      <h3 class="text-sm font-semibold md:text-base">
+        {name}
+      </h3>
+      
+      {alsoKnownAs && 
+      <p class="text-xs text-gray-600">あるいは<b>{alsoKnownAs}</b></p>
+      }
+    </div>
+    
+    <div class="grid grid-flow-col auto-cols-max justify-center gap-2">
+      <a
+        href={github}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="grid place-items-center text-gray-600 transition-colors hover:text-emerald-600"
+      >
+        <img
+          src={GithubIcon}
+          alt="GitHub"
+          class="h-4 w-4" />
+        <span class="sr-only">GitHub</span>
+      </a>
+      
+      {x &&
+      <a
+        href={x}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="grid place-items-center text-gray-600 transition-colors hover:text-emerald-600"
+      >
+        <img
+          src={XIcon}
+          alt="X (Twitter)"
+          class="h-4 w-4" />
+        <span class="sr-only">X (Twitter)</span>
+      </a>
+      }
+      
+      {bluesky &&
+      <a
+        href={bluesky}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="grid place-items-center text-gray-600 transition-colors hover:text-emerald-600">
+        <img
+          src={BlueSkyIcon}
+          alt="Bluesky"
+          class="h-4 w-4" />
+        <span class="sr-only">Bluesky</span>
+      </a>
+      }
+    </div>
+  </div>
+</div>

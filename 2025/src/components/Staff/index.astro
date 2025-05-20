@@ -1,0 +1,60 @@
+---
+import StaffCard from "./StaffCard.astro";
+---
+
+<section id="staff" class="bg-emerald-50 py-10 md:py-16">
+  <div class="container mx-auto px-4">
+    <div class="mb-8 text-center">
+      <h2 class="mb-3 text-2xl font-bold text-gray-900 md:text-3xl">
+        スタッフ
+      </h2>
+      <div class="mx-auto h-1 w-16 bg-emerald-500"></div>
+    </div>
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-6">
+      <StaffCard
+        name="Tatsuhiro Ujihisa"
+        image="https://github.com/ujihisa.png"
+        github="https://github.com/ujihisa"
+        bluesky="https://bsky.app/profile/ujm.bsky.social"
+      />
+      <StaffCard
+        name="Taro Muraoka"
+        image="https://github.com/KoRoN.png"
+        github="https://github.com/KoRoN"
+        x="https://x.com/kaoriya"
+        bluesky="https://bsky.app/profile/koron.bsky.social"
+        alsoKnownAs="KaoriYa"
+      />
+      <StaffCard
+        name="thinca"
+        image="https://github.com/thinca.png"
+        github="https://github.com/thinca"
+      />
+      <StaffCard
+        name="mopp"
+        image="https://github.com/mopp.png"
+        github="https://github.com/mopp"
+      />
+      <StaffCard
+        name="Yasuhiro Matsumoto"
+        image="https://github.com/mattn.png"
+        github="https://github.com/mattn"
+        x="https://x.com/mattn_jp"
+        alsoKnownAs="mattn"
+      />
+      <StaffCard
+        name="higashi"
+        image="https://github.com/higashi000.png"
+        github="https://github.com/higashi000"
+        x="https://x.com/gorilla0513"
+      />
+      <StaffCard
+        name="Gorilla"
+        image="https://github.com/skanehira.png"
+        github="https://github.com/skanehira"
+        x="https://x.com/gorilla0513"
+        alsoKnownAs="ゴリラ"
+      />
+    </div>
+  </div>
+</section>
