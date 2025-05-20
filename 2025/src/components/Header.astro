@@ -3,7 +3,7 @@ import VimLogo from "./VimLogo.astro";
 ---
 
 <header
-  class="fixed top-0 right-0 left-0 z-50 bg-white/30 backdrop-blur-md transition-all duration-300 border-b border-gray-100"
+  class="fixed top-0 right-0 left-0 z-50 border-b border-gray-100 bg-white/30 backdrop-blur-md transition-all duration-300"
 >
   <div class="container mx-auto px-4">
     <div class="flex h-16 items-center justify-between">
@@ -55,12 +55,102 @@ import VimLogo from "./VimLogo.astro";
         <button
           disabled
           class="inline-flex h-auto items-center justify-center gap-2 rounded-md px-2 py-1 text-sm font-medium whitespace-nowrap ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+          ><span class="opacity-60">EN</span><span class="mx-1">/</span><span
+            class="font-bold">JA</span
+          ></button
         >
-          <span class="opacity-60">EN</span>
-          <span class="mx-1">/</span>
-          <span class="font-bold">JA</span>
+      </nav>
+      <div class="flex items-center md:hidden">
+        <button
+          class="inline-flex h-auto items-center justify-center gap-2 rounded-md px-2 py-1 text-sm font-medium whitespace-nowrap ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+          ><span class="opacity-60">EN</span><span class="mx-1">/</span><span
+            class="font-bold">JA</span
+          ></button
+        ><button
+          class="inline-flex h-10 w-10 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+          aria-label="Toggle menu"
+        >
+          <span class="sr-only">Toggle menu</span>
+          <span id="menu-close" class="hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-x h-6 w-6"
+              ><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path>
+            </svg>
+          </span>
+          <span id="menu-open">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-menu h-6 w-6"
+              ><line x1="4" x2="20" y1="12" y2="12"></line><line
+                x1="4"
+                x2="20"
+                y1="6"
+                y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg
+            >
+          </span>
         </button>
+      </div>
+    </div>
+  </div>
+  <div class="border-t border-gray-100 bg-white md:hidden hidden" id="mobile-menu">
+    <div class="container mx-auto px-4 py-4">
+      <nav class="flex flex-col space-y-4">
+        <a
+          href="#keynote"
+          class="py-2 text-sm font-medium transition-colors hover:text-emerald-600"
+          >基調講演</a
+        ><a
+          href="#venue"
+          class="py-2 text-sm font-medium transition-colors hover:text-emerald-600"
+          >会場</a
+        ><a
+          href="#about"
+          class="py-2 text-sm font-medium transition-colors hover:text-emerald-600"
+          >VimConf とは</a
+        ><a
+          href="#schedule"
+          class="py-2 text-sm font-medium transition-colors hover:text-emerald-600"
+          >スケジュール</a
+        ><a
+          href="#sponsors"
+          class="py-2 text-sm font-medium transition-colors hover:text-emerald-600"
+          >スポンサー</a
+        ><a
+          href="#staff"
+          class="py-2 text-sm font-medium transition-colors hover:text-emerald-600"
+          >スタッフ</a
+        >
       </nav>
     </div>
   </div>
 </header>
+
+<script>
+  const menuButton = document.querySelector('button[aria-label="Toggle menu"]');
+  const mobileMenu = document.getElementById("mobile-menu");
+  const menuOpen = document.getElementById("menu-open");
+  const menuClose = document.getElementById("menu-close");
+  menuButton.addEventListener("click", () => {
+    menuButton.classList.toggle("open");
+    mobileMenu.classList.toggle("hidden");
+    menuOpen.classList.toggle("hidden");
+    menuClose.classList.toggle("hidden");
+  });
+</script>
