@@ -157,5 +157,10 @@ import VimLogo from "./VimLogo.astro";
     menuClose?.classList.toggle("hidden");
   }
 
+  const menuLinks = mobileMenu?.querySelectorAll("a");
+  menuLinks?.forEach((link) => {
+    link.addEventListener("click", () => {
+      toggleMenu();
+    });
   });
 </script>
