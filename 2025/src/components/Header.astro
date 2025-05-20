@@ -147,10 +147,15 @@ import VimLogo from "./VimLogo.astro";
   const mobileMenu = document.getElementById("mobile-menu");
   const menuOpen = document.getElementById("menu-open");
   const menuClose = document.getElementById("menu-close");
-  menuButton.addEventListener("click", () => {
-    menuButton.classList.toggle("open");
-    mobileMenu.classList.toggle("hidden");
-    menuOpen.classList.toggle("hidden");
-    menuClose.classList.toggle("hidden");
+  menuButton?.addEventListener("click", () => {
+    toggleMenu();
+  });
+  function toggleMenu() {
+    menuButton?.classList.toggle("open");
+    mobileMenu?.classList.toggle("hidden");
+    menuOpen?.classList.toggle("hidden");
+    menuClose?.classList.toggle("hidden");
+  }
+
   });
 </script>
