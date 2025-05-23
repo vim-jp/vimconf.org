@@ -1,0 +1,49 @@
+---
+import VimLogo from "./VimLogo.astro";
+---
+
+<section
+  class="relative flex min-h-[85vh] items-center justify-center bg-gradient-to-b from-emerald-50 to-white pt-16 md:min-h-screen"
+>
+  <div class="absolute inset-0 overflow-hidden">
+    <div class="bg-grid-pattern absolute inset-0 opacity-5"></div>
+  </div>
+  <div class="z-10 container mx-auto px-4 py-8 text-center md:py-16">
+    <div class="mb-6">
+      <VimLogo class="mx-auto h-28 w-28" />
+    </div>
+    <h1 class="mb-3 text-3xl font-bold text-emerald-800 md:mb-4 md:text-6xl">
+      VimConf 2025 Small
+    </h1>
+    <div
+      class="mb-8 flex flex-col items-center justify-center gap-3 md:mb-12 md:flex-row"
+    >
+      <div class="rounded-lg bg-white/80 px-4 py-2 shadow-sm backdrop-blur-sm">
+        <p class="text-base font-medium text-gray-800 md:text-lg">
+          2025年11月2日（日）
+        </p>
+      </div>
+      <div class="rounded-lg bg-white/80 px-4 py-2 shadow-sm backdrop-blur-sm">
+        <p class="text-base font-medium text-gray-800 md:text-lg">
+          9:30 - 17:30
+        </p>
+      </div>
+      <div class="rounded-lg bg-white/80 px-4 py-2 shadow-sm backdrop-blur-sm">
+        <p class="text-base font-medium text-gray-800 md:text-lg">
+          アキバプラザ・アキバホール
+        </p>
+      </div>
+    </div>
+    <div class="flex flex-col items-center justify-center gap-3 sm:flex-row">
+      <button
+        disabled
+        class="inline-flex h-10 w-auto items-center justify-center gap-2 rounded-md bg-emerald-600 px-4 py-2 text-sm font-medium whitespace-nowrap text-primary-foreground ring-offset-background transition-colors hover:bg-emerald-700 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+        >参加登録</button
+      ><button
+        disabled
+        class="inline-flex h-10 w-auto items-center justify-center gap-2 rounded-md border border-emerald-600 bg-background px-4 py-2 text-sm font-medium whitespace-nowrap text-emerald-700 ring-offset-background transition-colors hover:bg-emerald-50 hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+        ><a href="#schedule">スケジュールを見る</a></button
+      >
+    </div>
+  </div>
+</section>

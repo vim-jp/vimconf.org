@@ -1,0 +1,8 @@
+---
+import VimLogoRaw from "@/assets/Vimlogo.svg?raw";
+const VimLogoUrl = `data:image/svg+xml;base64,${Buffer.from(VimLogoRaw).toString("base64")}`;
+
+const { class: className } = Astro.props;
+---
+
+<img src={VimLogoUrl} alt="VimConf 2025" class={className} />
