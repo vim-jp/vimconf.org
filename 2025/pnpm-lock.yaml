@@ -11,6 +11,9 @@ importers:
       '@astrojs/react':
         specifier: ^4.2.0
         version: 4.2.0(@types/node@22.13.4)(@types/react-dom@19.0.3(@types/react@19.0.8))(@types/react@19.0.8)(jiti@2.4.2)(lightningcss@1.29.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(yaml@2.7.0)
+      '@lucide/astro':
+        specifier: ^0.511.0
+        version: 0.511.0(astro@5.3.0(@types/node@22.13.4)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.34.6)(typescript@5.7.3)(yaml@2.7.0))
       '@tailwindcss/vite':
         specifier: ^4.1.6
         version: 4.1.6(vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(lightningcss@1.29.2)(yaml@2.7.0))
@@ -688,6 +691,11 @@ packages:
 
   '@jsr/ryoppippi__eslint-config@0.0.25':
     resolution: {integrity: sha512-mwMuE8qjMwNX3MLgGM8JwokghEHSAA8azksBAxPxghA1qVOMfP3s3d4n697CmHB5sVEyParx769vaDiuSZp5tQ==, tarball: https://npm.jsr.io/~/11/@jsr/ryoppippi__eslint-config/0.0.25.tgz}
+
+  '@lucide/astro@0.511.0':
+    resolution: {integrity: sha512-Qq3WAQVyL+mMSl8UYJJdfIbhfO/tskRRDWilZcwxazhd+e99KfSbxS1q0xjrCIUN4VFD8W/BCcNasChJqQv/8A==}
+    peerDependencies:
+      astro: ^4 || ^5
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -4005,6 +4013,10 @@ snapshots:
       - svelte-eslint-parser
       - typescript
       - vitest
+
+  '@lucide/astro@0.511.0(astro@5.3.0(@types/node@22.13.4)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.34.6)(typescript@5.7.3)(yaml@2.7.0))':
+    dependencies:
+      astro: 5.3.0(@types/node@22.13.4)(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.34.6)(typescript@5.7.3)(yaml@2.7.0)
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
