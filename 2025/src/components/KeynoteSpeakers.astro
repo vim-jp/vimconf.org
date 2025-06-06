@@ -1,5 +1,6 @@
 ---
 import { Users } from "@lucide/astro";
+import Card from "./Card.astro";
 ---
 
 <section
@@ -13,9 +14,7 @@ import { Users } from "@lucide/astro";
       </h2>
       <div class="mx-auto h-1 w-16 bg-emerald-500"></div>
     </div>
-    <div
-      class="mx-auto max-w-2xl rounded-lg border border-emerald-100 bg-card p-8 text-center"
-    >
+    <Card class="mx-auto max-w-2xl p-8 text-center">
       <Users class="mx-auto mb-4 h-12 w-12 text-emerald-600 md:h-16 md:w-16" />
 
       <h3 class="mx-auto text-center text-lg font-semibold md:text-xl">
@@ -26,6 +25,6 @@ import { Users } from "@lucide/astro";
       >
         基調講演者は近日公開予定です。お楽しみに！
       </p>
-    </div>
+    </Card>
   </div>
 </section>

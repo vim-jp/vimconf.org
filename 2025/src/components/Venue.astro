@@ -1,5 +1,6 @@
 ---
 import VenueMap from "@/components/VenueMap.astro";
+import Card from "./Card.astro";
 import { MapPin, Calendar, Clock } from "@lucide/astro";
 ---
 
@@ -10,9 +11,7 @@ import { MapPin, Calendar, Clock } from "@lucide/astro";
       <div class="mx-auto h-1 w-16 bg-emerald-500"></div>
     </div>
     <div class="grid items-center gap-6 md:grid-cols-2">
-      <div
-        class="rounded-lg border border-emerald-100 bg-card text-card-foreground shadow-sm"
-      >
+      <Card>
         <div class="p-4">
           <h3 class="mb-3 text-lg font-semibold md:text-xl">
             アキバプラザ・アキバホール
@@ -32,7 +31,7 @@ import { MapPin, Calendar, Clock } from "@lucide/astro";
             </div>
           </div>
         </div>
-      </div>
+      </Card>
       <div class="h-64 overflow-hidden rounded-lg bg-gray-200 md:h-80">
         <VenueMap />
       </div>

@@ -1,4 +1,5 @@
 ---
+import Card from "./Card.astro";
 import { CalendarClock } from "@lucide/astro";
 ---
 
@@ -10,9 +11,7 @@ import { CalendarClock } from "@lucide/astro";
       </h2>
       <div class="mx-auto h-1 w-16 bg-emerald-500"></div>
     </div>
-    <div
-      class="mx-auto max-w-2xl border border-emerald-100 bg-card p-8 text-center text-card-foreground shadow-sm"
-    >
+    <Card class="mx-auto max-w-2xl p-8">
       <CalendarClock
         class="mx-auto mb-4 h-12 w-12 text-emerald-600 md:h-16 md:w-16"
       />
@@ -24,6 +23,6 @@ import { CalendarClock } from "@lucide/astro";
       >
         カンファレンスの詳細なスケジュールは近日公開されます
       </p>
-    </div>
+    </Card>
   </div>
 </section>
