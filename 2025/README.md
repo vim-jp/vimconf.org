@@ -1,4 +1,4 @@
-# vimConf 2025
+# vimConf 2025 Small
 
 ## 💻 Development
 
