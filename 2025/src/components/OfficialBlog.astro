@@ -1,14 +1,12 @@
 ---
+import Heading from "./Heading.astro";
 import { Calendar, User, Clock, ExternalLink } from "@lucide/astro";
 ---
 
 <section id="blog" class="bg-gray-50 py-10 md:py-16">
   <div class="container mx-auto px-4">
-    <div class="mb-8 text-center">
-      <h2 class="mb-3 text-2xl font-bold text-gray-900 md:text-3xl">
-        公式ブログ
-      </h2><div class="mx-auto h-1 w-16 bg-emerald-500"></div>
-    </div><div class="mx-auto max-w-2xl">
+    <Heading> 公式ブログ </Heading>
+    <div class="mx-auto max-w-2xl">
       <a
         href="https://vimconf.wordpress.com/2025/05/30/announcing-vimconf-2025-small/"
         target="_blank"

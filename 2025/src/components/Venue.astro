@@ -2,14 +2,12 @@
 import VenueMap from "@/components/VenueMap.astro";
 import Card from "./Card.astro";
 import { MapPin, Calendar, Clock } from "@lucide/astro";
+import Heading from "./Heading.astro";
 ---
 
 <section id="venue" class="bg-white py-10 md:py-16">
   <div class="container mx-auto px-4">
-    <div class="mb-8 text-center">
-      <h2 class="mb-3 text-2xl font-bold text-gray-900 md:text-3xl">会場</h2>
-      <div class="mx-auto h-1 w-16 bg-emerald-500"></div>
-    </div>
+    <Heading> 会場 </Heading>
     <div class="grid items-center gap-6 md:grid-cols-2">
       <Card>
         <div class="p-4">
