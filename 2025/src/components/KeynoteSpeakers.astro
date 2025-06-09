@@ -1,34 +1,17 @@
+---
+import { Users } from "@lucide/astro";
+import Card from "./Card.astro";
+import Heading from "./Heading.astro";
+---
+
 <section
   id="keynote"
   class="bg-gradient-to-b from-white to-emerald-50 py-10 md:py-16"
 >
   <div class="container mx-auto px-4">
-    <div class="mb-8 text-center">
-      <h2 class="mb-3 text-2xl font-bold text-gray-900 md:text-3xl">
-        基調講演
-      </h2>
-      <div class="mx-auto h-1 w-16 bg-emerald-500"></div>
-    </div>
-    <div
-      class="mx-auto max-w-2xl rounded-lg border border-emerald-100 bg-card p-8 text-center"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="lucide lucide-users mx-auto mb-4 h-12 w-12 text-emerald-600 md:h-16 md:w-16"
-        ><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle
-          cx="9"
-          cy="7"
-          r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path
-          d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg
-      >
+    <Heading> 基調講演 </Heading>
+    <Card class="mx-auto max-w-2xl p-8 text-center">
+      <Users class="mx-auto mb-4 h-12 w-12 text-emerald-600 md:h-16 md:w-16" />
 
       <h3 class="mx-auto text-center text-lg font-semibold md:text-xl">
         基調講演者は近日公開
@@ -38,6 +21,6 @@
       >
         基調講演者は近日公開予定です。お楽しみに！
       </p>
-    </div>
+    </Card>
   </div>
 </section>

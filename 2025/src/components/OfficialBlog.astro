@@ -1,10 +1,12 @@
+---
+import Heading from "./Heading.astro";
+import { Calendar, User, Clock, ExternalLink } from "@lucide/astro";
+---
+
 <section id="blog" class="bg-gray-50 py-10 md:py-16">
   <div class="container mx-auto px-4">
-    <div class="mb-8 text-center">
-      <h2 class="mb-3 text-2xl font-bold text-gray-900 md:text-3xl">
-        公式ブログ
-      </h2><div class="mx-auto h-1 w-16 bg-emerald-500"></div>
-    </div><div class="mx-auto max-w-2xl">
+    <Heading> 公式ブログ </Heading>
+    <div class="mx-auto max-w-2xl">
       <a
         href="https://vimconf.wordpress.com/2025/05/30/announcing-vimconf-2025-small/"
         target="_blank"
@@ -34,39 +36,11 @@
                   class="flex items-center space-x-3 text-sm text-gray-500"
                 >
                   <div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-calendar mr-1 h-4 w-4"
-                      ><path d="M8 2v4"></path><path d="M16 2v4"></path><rect
-                        width="18"
-                        height="18"
-                        x="3"
-                        y="4"
-                        rx="2"></rect><path d="M3 10h18"></path></svg
-                    >2025年5月30日
+                    <Calendar class="mr-1 h-4 w-4" />
+                    2025年5月30日
                   </div><div class="flex items-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="lucide lucide-clock mr-1 h-4 w-4"
-                      ><circle cx="12" cy="12" r="10"></circle><polyline
-                        points="12 6 12 12 16 14"></polyline></svg
-                    >1分
+                    <Clock class="mr-1 h-4 w-4" />
+                    1分
                   </div>
                 </div>
               </div><h3
@@ -76,21 +50,8 @@
               </h3><div
                 class="mb-3 inline-flex items-center font-medium text-emerald-600 transition-colors group-hover:text-emerald-700"
               >
-                続きを読む<svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="lucide lucide-external-link ml-2 h-4 w-4"
-                  ><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path
-                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-                  ></path></svg
-                >
+                続きを読む
+                <ExternalLink class="ml-1 h-4 w-4" />
               </div><p class="mb-4 leading-relaxed text-gray-600">
                 We’re excited to announce VimConf 2025 Small, this year’s event
                 held as a Japan Local Conference. The conference is scheduled
@@ -98,20 +59,8 @@
                 in Tokyo.
               </p><div class="flex items-center justify-between">
                 <div class="flex items-center text-sm text-gray-500">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-user mr-1 h-4 w-4"
-                    ><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
-                    ></path><circle cx="12" cy="7" r="4"></circle></svg
-                  >ujihisa
+                  <User class="mr-1 h-4 w-4" />
+                  ujihisa
                 </div>
               </div>
             </div>
@@ -127,22 +76,9 @@
             alt="VimConf Blog favicon"
             class="mr-2 h-4 w-4"
             src="https://secure.gravatar.com/avatar/686f2fcfa2e7f34ed429972938f880b5?s=160&d=identicon&r=g"
-          />公式ブログを見る<svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide lucide-external-link ml-1 h-4 w-4"
-            ><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path
-              d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
-            ></path></svg
-          ></a
-        >
+          />公式ブログを見る
+          <ExternalLink class="ml-1 h-4 w-4" />
+        </a>
       </div>
     </div>
   </div>

@@ -1,81 +1,35 @@
 ---
 import VenueMap from "@/components/VenueMap.astro";
+import Card from "./Card.astro";
+import { MapPin, Calendar, Clock } from "@lucide/astro";
+import Heading from "./Heading.astro";
 ---
 
 <section id="venue" class="bg-white py-10 md:py-16">
   <div class="container mx-auto px-4">
-    <div class="mb-8 text-center">
-      <h2 class="mb-3 text-2xl font-bold text-gray-900 md:text-3xl">会場</h2>
-      <div class="mx-auto h-1 w-16 bg-emerald-500"></div>
-    </div>
+    <Heading> 会場 </Heading>
     <div class="grid items-center gap-6 md:grid-cols-2">
-      <div
-        class="rounded-lg border border-emerald-100 bg-card text-card-foreground shadow-sm"
-      >
+      <Card>
         <div class="p-4">
           <h3 class="mb-3 text-lg font-semibold md:text-xl">
             アキバプラザ・アキバホール
           </h3>
           <div class="space-y-3">
             <div class="flex items-start gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-map-pin mt-0.5 h-4 w-4 flex-shrink-0 text-emerald-600"
-              >
-                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
-                <circle cx="12" cy="10" r="3"></circle>
-              </svg>
+              <MapPin class="mt-0.5 h-4 w-4 flex-shrink-0 text-emerald-600" />
               <p class="text-sm md:text-base">東京都千代田区神田練塀町3</p>
             </div>
             <div class="flex items-start gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-calendar mt-0.5 h-4 w-4 flex-shrink-0 text-emerald-600"
-              >
-                <path d="M8 2v4"></path>
-                <path d="M16 2v4"></path>
-                <rect width="18" height="18" x="3" y="4" rx="2"></rect>
-                <path d="M3 10h18"></path>
-              </svg>
+              <Calendar class="mt-0.5 h-4 w-4 flex-shrink-0 text-emerald-600" />
               <p class="text-sm md:text-base">2025年11月2日(日)</p>
             </div>
             <div class="flex items-start gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="lucide lucide-clock mt-0.5 h-4 w-4 flex-shrink-0 text-emerald-600"
-              >
-                <circle cx="12" cy="12" r="10"></circle>
-                <polyline points="12 6 12 12 16 14"></polyline>
-              </svg>
+              <Clock class="mt-0.5 h-4 w-4 flex-shrink-0 text-emerald-600" />
               <p class="text-sm md:text-base">9:30 - 17:30</p>
             </div>
           </div>
         </div>
-      </div>
+      </Card>
       <div class="h-64 overflow-hidden rounded-lg bg-gray-200 md:h-80">
         <VenueMap />
       </div>

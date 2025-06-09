@@ -1,4 +1,5 @@
 ---
+import Card from "../Card.astro";
 import GithubIcon from "@/assets/github-icon.png?url";
 import XIcon from "@/assets/x-icon.png?url";
 import BlueSkyIcon from "@/assets/bluesky.jpg?url";
@@ -14,10 +15,7 @@ type Props = {
 const { name, alsoKnownAs, image, github, x, bluesky }: Props = Astro.props;
 ---
 
-<div
-  class="rounded-lg border border-emerald-100 bg-card text-card-foreground shadow-sm transition-shadow hover:shadow-md"
-  data-v0-t="card"
->
+<Card class="transition-shadow hover:shadow-md">
   <div class="grid grid-cols-1 gap-2 p-3">
     <div class="grid place-items-center">
       <span
@@ -85,4 +83,4 @@ const { name, alsoKnownAs, image, github, x, bluesky }: Props = Astro.props;
       }
     </div>
   </div>
-</div>
+</Card>
