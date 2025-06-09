@@ -10,10 +10,6 @@ import Macros from 'unplugin-macros/vite';
 export default defineConfig({
 	base: '/2025',
 
-	experimental: {
-		serializeConfig: true,
-	},
-
 	vite: {
 		optimizeDeps: {
 			exclude: [

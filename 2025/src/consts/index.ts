@@ -1,4 +1,3 @@
-// @ts-expect-error not found
 import { base } from "astro:config/client";
 import * as ufo from "ufo";
 
