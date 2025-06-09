@@ -1,0 +1,126 @@
+---
+import Heading from "./Heading.astro";
+import Card from "./Card.astro";
+import {
+  FileText,
+  Calendar,
+  Clock,
+  ExternalLink,
+  Gift,
+  Globe,
+} from "@lucide/astro";
+---
+
+<section id="cfp" class="bg-white py-10 md:py-16">
+  <div class="container mx-auto px-4">
+    <Heading>プロポーザルの募集</Heading>
+    <div class="mx-auto max-w-4xl">
+      <Card class="p-6 md:p-8">
+        <div class="mb-6 text-center">
+          <FileText class="mx-auto mb-4 h-10 w-10 text-emerald-600" />
+          <p class="mb-4 text-base text-gray-700 md:text-lg">
+            VimConf 2025 Small の Proposal を募集します
+          </p>
+        </div>
+
+        <div class="mb-6 grid gap-6 md:grid-cols-2">
+          <div>
+            <h3 class="mb-3 text-lg font-semibold text-gray-800">詳細</h3>
+            <ul class="space-y-3 text-sm md:text-base">
+              <li class="flex items-start gap-2">
+                <Calendar class="h-5 w-5 flex-shrink-0 text-emerald-600" />
+                <div>
+                  <span class="font-medium text-gray-800">応募締切: </span>
+                  <span class="text-gray-700"
+                    >2025年7月21日（月） 23:59:59.999999 JST</span
+                  >
+                </div>
+              </li>
+              <li class="flex items-start gap-2">
+                <Clock class="h-5 w-5 flex-shrink-0 text-emerald-600" />
+                <div>
+                  <span class="font-medium text-gray-800">発表時間: </span>
+                  <span class="text-gray-700"> 15分、20分または30分</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3
+              class="mb-3 flex items-center text-lg font-semibold text-gray-800"
+            >
+              <Globe class="mr-2 h-5 w-5 text-emerald-600" />
+              発表言語
+            </h3>
+            <ul class="space-y-2 text-sm text-gray-700 md:text-base">
+              <li>• スライドは英語のみ</li>
+              <li>• 運営による英語の添削が可能です</li>
+              <li>• 発表は日本語か英語のみ</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mb-6 border-t border-gray-200 pt-6">
+          <h3
+            class="mb-4 flex items-center text-lg font-semibold text-gray-800"
+          >
+            <Gift class="mr-2 h-5 w-5 text-emerald-600" />
+            登壇者特典
+          </h3>
+          <div class="rounded-lg bg-emerald-50 p-4">
+            <ul class="space-y-2 text-sm text-gray-700 md:text-base">
+              <li class="flex items-start gap-2">
+                <span class="font-bold text-emerald-600">✓</span>
+                チケット代が無料になります
+              </li>
+              <li class="flex items-start gap-2">
+                <span class="font-bold text-red-500">✗</span>
+                旅費の補助はありません
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mb-6 border-t border-gray-200 pt-6">
+          <h3 class="mb-4 text-lg font-semibold text-gray-800">関連リンク</h3>
+          <div class="space-y-3">
+            <a
+              href="https://vim-jp.org/blog/2025/06/07/vimconf2025small-call-for-proposal-ja.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center text-emerald-600 transition-colors hover:text-emerald-700"
+            >
+              imConf 2025 Small の登壇者を募集します
+              <ExternalLink class="mr-2 h-4 w-4" />
+            </a>
+            <a
+              href="https://vim-jp.org/blog/2024/06/29/vimconf2024-call-for-proposal-ja.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex items-center text-emerald-600 transition-colors hover:text-emerald-700"
+            >
+              VimConf 2024 の登壇者を募集します
+              <ExternalLink class="mr-2 h-4 w-4" />
+            </a>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button
+            class="inline-flex h-10 w-auto items-center justify-center gap-2 rounded-md bg-emerald-600 px-4 py-2 text-sm font-medium whitespace-nowrap text-primary-foreground ring-offset-background transition-colors hover:bg-emerald-700 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+          >
+            <a
+              href="https://forms.gle/7Pu4uvE4t8d9veBD6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              プロポーザルを提出する
+              <ExternalLink class="ml-2 h-5 w-5" />
+            </a>
+          </button>
+        </div>
+      </Card>
+    </div>
+  </div>
+</section>
