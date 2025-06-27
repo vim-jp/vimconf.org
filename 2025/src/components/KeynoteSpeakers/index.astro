@@ -1,6 +1,8 @@
 ---
 import Heading from "../Heading.astro";
 import KeynoteSpeaker from "./KeynoteSpeaker.astro";
+import hrsh7th from "../../assets/speaker-icon/hrsh7th.png?url";
+import rbtnn from "../../assets/speaker-icon/rbtnn.png?url";
 ---
 
 <section
@@ -15,7 +17,7 @@ import KeynoteSpeaker from "./KeynoteSpeaker.astro";
   >
     <KeynoteSpeaker
       keynoteSpeaker="hrsh7th"
-      imageUrl="icon/hrsh7th.png"
+      imageUrl={hrsh7th}
       title="comming soon"
       profile=`hrsh7th is a Web frontend engineer based in Japan.
 With around 15 years of experience using (n)vim, he's the author of popular plugins like vim-vsnip and nvim-cmp.
@@ -23,7 +25,7 @@ As a Web frontend engineer, he has a strong interest in enhancing editor-based w
     />
     <KeynoteSpeaker
       keynoteSpeaker="rbtnn"
-      imageUrl="icon/rbtnn.png"
+      imageUrl={rbtnn}
       title="comming soon"
       profile=`rbtnn is what you might call an SIer in Japan.
 These days, his main role is team management, so he doesn't get to write code as often.
