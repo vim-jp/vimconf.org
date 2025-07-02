@@ -1,5 +1,6 @@
 ---
 import VimLogo from "./VimLogo.astro";
+import { ExternalLink, Heart } from "@lucide/astro";
 ---
 
 <section
@@ -34,20 +35,50 @@ import VimLogo from "./VimLogo.astro";
         </p>
       </div>
     </div>
-    <div class="flex flex-col items-center justify-center gap-3 sm:flex-row">
+    <div
+      class="mb-6 inline-flex items-center rounded-full bg-gradient-to-r from-emerald-500 to-green-500 px-6 py-3 text-white"
+    >
+      <span class="text-sm font-bold md:text-base"
+        >🎉 チケット販売開始！ 🎉</span
+      >
+    </div>
+    <div
+      class="mb-8 flex flex-col items-center justify-center gap-3 sm:flex-row"
+    >
       <button
         class="inline-flex h-10 w-auto items-center justify-center gap-2 rounded-md border border-emerald-600 bg-background px-4 py-2 text-sm font-medium whitespace-nowrap text-emerald-700 ring-offset-background transition-colors hover:bg-emerald-50 hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
         ><a href="#cfp">プロポーザルを提出する</a></button
       >
       <button
-        disabled
-        class="inline-flex h-10 w-auto items-center justify-center gap-2 rounded-md bg-emerald-600 px-4 py-2 text-sm font-medium whitespace-nowrap text-primary-foreground ring-offset-background transition-colors hover:bg-emerald-700 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
-        >参加登録</button
+        class="inline-flex h-10 items-center justify-center gap-2 rounded-md bg-emerald-600 px-4 py-2 text-sm font-medium whitespace-nowrap text-primary-foreground ring-offset-background transition-colors hover:bg-emerald-700 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+        ><a
+          class="flex"
+          href="https://peatix.com/event/4468402/view"
+          target="_blank"
+          rel="noopener"
+          >チケットを購入する
+          <ExternalLink class="ml-2 h-4 w-4" />
+        </a></button
       ><button
         disabled
         class="inline-flex h-10 w-auto items-center justify-center gap-2 rounded-md border border-emerald-600 bg-background px-4 py-2 text-sm font-medium whitespace-nowrap text-emerald-700 ring-offset-background transition-colors hover:bg-emerald-50 hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
         ><a href="#schedule">スケジュールを見る</a></button
       >
+    </div>
+    <div class="flex justify-center">
+      <a
+        href="https://peatix.com/event/4468783/view"
+        target="_blank"
+        rel="noopener"
+      >
+        <button
+          class="inline-flex h-10 items-center justify-center gap-2 rounded-md bg-pink-500 bg-gradient-to-r px-4 py-2 text-sm font-medium whitespace-nowrap text-primary-foreground ring-offset-background transition-colors hover:bg-pink-600 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+        >
+          <Heart class="mr-2 h-5 w-5" />
+          個人スポンサーになる
+          <ExternalLink class="ml-2 h-4 w-4" />
+        </button>
+      </a>
     </div>
   </div>
 </section>
