@@ -1,0 +1,46 @@
+---
+import Card from "../Card.astro";
+
+type Props = {
+  name: string;
+  src: string;
+  comment: string;
+};
+
+const { name, src, comment } = Astro.props;
+
+let iconUrl = "";
+try {
+  const module = await import(
+    `../../assets/individual-sponsors/${src && src !== "" ? src : "no-icon"}.png?url`
+  );
+  iconUrl = module.default;
+} catch (e) {
+  console.error(`Icon not found: ${src}`);
+}
+---
+
+<Card class="border-pink-100">
+  <div class="flex flex-col items-start space-x-4 p-4 md:flex-row">
+    <div
+      class="mb-1 flex h-12 w-12 shrink-0 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
+    >
+      <img
+        alt={name}
+        src={iconUrl}
+        loading="lazy"
+        class="aspect-square h-full w-full object-cover"
+      />
+    </div>
+    <div class="flex shrink-1 flex-col items-start gap-1">
+      <span class="text-center text-xs font-semibold md:text-sm">{name}</span>
+      {
+        comment && comment !== "" && (
+          <span class="text-xs font-medium text-gray-500 md:text-sm">
+            {comment}
+          </span>
+        )
+      }
+    </div>
+  </div>
+</Card>
