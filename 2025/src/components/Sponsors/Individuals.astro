@@ -1,0 +1,26 @@
+---
+import Individual from "./Individual.astro";
+import rawCsv from "../../data/individual_sponsors.csv";
+import { CsvSchema } from "../../types/schema";
+
+const csv = CsvSchema.parse(rawCsv);
+---
+
+<div class="container mx-auto mb-8 px-4">
+  <h3 class="mb-6 text-center text-xl font-semibold md:text-2xl">
+    個人スポンサー
+  </h3>
+  <div class="mb-10 grid grid-cols-3 gap-4 md:grid-cols-3 lg:grid-cols-4">
+    {
+      csv
+        .sort((a, b) => Number(a.order_number) - Number(b.order_number))
+        .map((row) => (
+          <Individual
+            name={row.name}
+            src={row.order_number}
+            comment={row.comment}
+          />
+        ))
+    }
+  </div>
+</div>
