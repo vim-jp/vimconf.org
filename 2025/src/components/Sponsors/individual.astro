@@ -1,115 +1,46 @@
-<div class="mb-8">
-  <h3 class="mb-6 text-center text-xl font-semibold md:text-2xl">
-    個人スポンサー
-  </h3>
-  <div class="rounded-lg bg-emerald-50 p-4 md:p-6">
-    <div class="flex flex-wrap justify-center gap-4">
-      <div class="flex flex-col items-center">
-        <div
-          class="mb-1 h-12 w-12 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
-        >
-          <img alt="田中一郎" class="h-full w-full object-cover" />
-        </div>
-        <span class="text-center text-xs font-medium md:text-sm">田中一郎</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="mb-1 h-12 w-12 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
-        >
-          <img alt="John Doe" class="h-full w-full object-cover" />
-        </div>
-        <span class="text-center text-xs font-medium md:text-sm">John Doe</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="mb-1 h-12 w-12 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
-        >
-          <img alt="鈴木花子" class="h-full w-full object-cover" />
-        </div>
-        <span class="text-center text-xs font-medium md:text-sm">鈴木花子</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="mb-1 h-12 w-12 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
-        >
-          <img alt="Jane Smith" class="h-full w-full object-cover" />
-        </div>
-        <span class="text-center text-xs font-medium md:text-sm"
-          >Jane Smith</span
-        >
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="mb-1 h-12 w-12 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
-        >
-          <img alt="佐藤健太" class="h-full w-full object-cover" />
-        </div>
-        <span class="text-center text-xs font-medium md:text-sm">佐藤健太</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="mb-1 h-12 w-12 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
-        >
-          <img alt="Alex Johnson" class="h-full w-full object-cover" />
-        </div>
-        <span class="text-center text-xs font-medium md:text-sm"
-          >Alex Johnson</span
-        >
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="mb-1 h-12 w-12 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
-        >
-          <img alt="山田太郎" class="h-full w-full object-cover" />
-        </div>
-        <span class="text-center text-xs font-medium md:text-sm">山田太郎</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="mb-1 h-12 w-12 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
-        >
-          <img alt="Emily Brown" class="h-full w-full object-cover" />
-        </div>
-        <span class="text-center text-xs font-medium md:text-sm"
-          >Emily Brown</span
-        >
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="mb-1 h-12 w-12 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
-        >
-          <img alt="伊藤直子" class="h-full w-full object-cover" />
-        </div>
-        <span class="text-center text-xs font-medium md:text-sm">伊藤直子</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="mb-1 h-12 w-12 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
-        >
-          <img alt="Michael Wilson" class="h-full w-full object-cover" />
-        </div>
-        <span class="text-center text-xs font-medium md:text-sm"
-          >Michael Wilson</span
-        >
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="mb-1 h-12 w-12 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
-        >
-          <img alt="高橋誠" class="h-full w-full object-cover" />
-        </div>
-        <span class="text-center text-xs font-medium md:text-sm">高橋誠</span>
-      </div>
-      <div class="flex flex-col items-center">
-        <div
-          class="mb-1 h-12 w-12 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
-        >
-          <img alt="Sarah Davis" class="h-full w-full object-cover" />
-        </div>
-        <span class="text-center text-xs font-medium md:text-sm"
-          >Sarah Davis</span
-        >
-      </div>
+---
+import Card from "../Card.astro";
+
+type Props = {
+  name: string;
+  src: string;
+  comment: string;
+};
+
+const { name, src, comment } = Astro.props;
+
+let iconUrl = "";
+try {
+  const module = await import(
+    `../../assets/individual-sponsors/${src && src !== "" ? src : "no-icon"}.png?url`
+  );
+  iconUrl = module.default;
+} catch (e) {
+  console.error(`Icon not found: ${src}`);
+}
+---
+
+<Card class="border-pink-100">
+  <div class="flex flex-col items-start space-x-4 p-4 md:flex-row">
+    <div
+      class="mb-1 flex h-12 w-12 shrink-0 overflow-hidden rounded-full bg-white shadow-sm md:h-16 md:w-16"
+    >
+      <img
+        alt={name}
+        src={iconUrl}
+        loading="lazy"
+        class="aspect-square h-full w-full object-cover"
+      />
+    </div>
+    <div class="flex shrink-1 flex-col items-start gap-1">
+      <span class="text-center text-xs font-semibold md:text-sm">{name}</span>
+      {
+        comment && comment !== "" && (
+          <span class="text-xs font-medium text-gray-500 md:text-sm">
+            {comment}
+          </span>
+        )
+      }
     </div>
   </div>
-</div>
+</Card>
