@@ -1,5 +1,7 @@
 ---
 import Heading from "./Heading.astro";
+import Card from "./Card.astro";
+import { Clapperboard } from "@lucide/astro";
 ---
 
 <section id="about" class="bg-emerald-50 py-10 md:py-16">
@@ -9,8 +11,21 @@ import Heading from "./Heading.astro";
       class="mx-auto mb-8 max-w-3xl text-center text-base text-gray-700 md:text-lg"
     >
       <p>
-        VimConfは、世界初かつ世界で唯一のコミュニティによって定期運営されているVimのカンファレンスです。
+        VimConfは、世界初かつ世界で唯一のコミュニティによって定期運営されている<br
+        />Vimのカンファレンスです。
       </p>
     </div>
+    <Card class="mx-auto max-w-2xl p-8">
+      <Clapperboard
+        class="mx-auto mb-4 h-12 w-12 text-emerald-600 md:h-16 md:w-16"
+      />
+      <h3 class="mx-auto mb-4 text-center text-lg font-semibold md:text-xl">
+        当日のYouTube live配信について
+      </h3>
+      <span class="mx-auto text-center">
+        <p>今回のVimConfはYouTube live配信を予定しております。</p>
+        <p>配信URLについては別途Peatix、connpass、Xに掲載する予定です。</p>
+      </span>
+    </Card>
   </div>
 </section>
