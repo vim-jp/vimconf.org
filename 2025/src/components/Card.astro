@@ -10,8 +10,8 @@ const { class: className } = Astro.props;
   class:list={[
     className,
     "rounded-lg border text-card-foreground",
-    [(className ?? '').search('border-') === -1 && 'border-emerald-100'],
-    [(className ?? '').search('bg-') === -1 && 'bg-card'],
+    [(className ?? "").search("border-") === -1 && "border-emerald-100"],
+    [(className ?? "").search("bg-") === -1 && "bg-card"],
   ]}
 >
   <slot />
