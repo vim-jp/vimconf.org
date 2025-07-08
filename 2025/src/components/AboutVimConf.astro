@@ -1,7 +1,7 @@
 ---
 import Heading from "./Heading.astro";
 import Card from "./Card.astro";
-import { Clapperboard } from "@lucide/astro";
+import { Clapperboard, Camera } from "@lucide/astro";
 ---
 
 <section id="about" class="bg-emerald-50 py-10 md:py-16">
@@ -15,16 +15,64 @@ import { Clapperboard } from "@lucide/astro";
         />Vimのカンファレンスです。
       </p>
     </div>
-    <Card class="mx-auto max-w-2xl p-8">
-      <Clapperboard
-        class="mx-auto mb-4 h-12 w-12 text-emerald-600 md:h-16 md:w-16"
-      />
-      <h3 class="mx-auto mb-4 text-center text-lg font-semibold md:text-xl">
+    <Card class="mx-auto mb-4 max-w-2xl border-red-200 bg-red-50 p-8">
+      <h3 class="mb-4 flex text-lg font-bold text-red-900 md:text-xl">
+        <Clapperboard class="mr-2 h-6 w-6" />
         当日のYouTube live配信について
       </h3>
-      <span class="mx-auto text-center">
+      <span class="">
         <p>今回のVimConfはYouTube live配信を予定しております。</p>
         <p>配信URLについては別途Peatix、connpass、Xに掲載する予定です。</p>
+      </span>
+    </Card>
+    <Card class="mx-auto mb-4 max-w-2xl border-blue-300 bg-blue-50 p-8">
+      <h3 class="mb-4 flex text-lg font-bold text-blue-900 md:text-xl">
+        <Camera class="mr-2 h-6 w-6" />
+        当日の写真撮影について
+      </h3>
+      <span class="">
+        <p>
+          今回は VimConf を更に盛り上げるため<b
+            >参加者による写真撮影と SNS への投稿を許可します。</b
+          >
+        </p>
+        <p>次のガイドライン遵守をお願いします。</p>
+        <p>
+          <ul class="ml-4 space-y-3">
+            <li class="flex items-baseline">
+              <span class="mt-1 mr-2">•</span><div>
+                <span class="font-semibold"
+                  >公序良俗に準じ参加者の迷惑とならないように撮影をすること</span
+                ><br /><span class="text-sm"
+                  >特に人を撮るときには挨拶をしましょう。</span
+                >
+              </div>
+            </li><li class="flex items-baseline">
+              <span class="mt-1 mr-2">•</span><div>
+                <span class="font-semibold"
+                  >撮影及び映り込みの許可、不許可をネックストラップの色で区別する予定です。</span
+                ><br /><span class="text-sm"
+                  >不許可のネックストラップの方が写り込まないように注意してください。<br
+                  />しかし、チェックには限度があるため、個人を識別出来ない背後姿や身体の一部が映り込んでしまうことなどは、何卒ご了承ください。</span
+                >
+              </div>
+            </li><li class="flex items-baseline">
+              <span class="mt-1 mr-2">•</span><div>
+                <span class="font-semibold">撮影してもよい場所</span><br /><span
+                  class="text-sm">メインホールと懇親会会場の中</span
+                >
+              </div>
+            </li><li class="flex items-baseline">
+              <span class="mt-1 mr-2">•</span><div>
+                <span class="font-semibold"
+                  >誤って写真が公開されているときは運営に連絡すること</span
+                ><br /><span class="text-sm">非公開対応を行います。</span>
+              </div>
+            </li>
+          </ul>
+        </p>
+        <hr class="my-2 border border-blue-100" />
+        <p>またカメラマンによる撮影と公式サイトへ公開も行います。</p>
       </span>
     </Card>
   </div>
