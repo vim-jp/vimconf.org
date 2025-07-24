@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import Company from "./Company.astro";
 import Heading from "../Heading.astro";
+import type { CollectionEntry } from "astro:content";
 
 const sponsorsData = await getCollection("sponsors");
 
@@ -18,7 +19,12 @@ const sponsorsByRank = sponsors.reduce(
   {} as Record<string, typeof sponsors>,
 );
 
-const rankOrder = ["platinum", "gold", "silver", "bronze"];
+const rankOrder = [
+  "platinum",
+  "gold",
+  "silver",
+  "bronze",
+] as CollectionEntry<"sponsors">["data"]["rank"][];
 
 const rankNameMap = {
   platinum: "プラチナ",
