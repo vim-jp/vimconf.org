@@ -1,84 +1,49 @@
-<div class="mb-10">
-  <h3 class="mb-6 text-center text-xl font-semibold md:text-2xl">
-    企業スポンサー
-  </h3>
-  <div class="space-y-10">
-    <div class="space-y-6">
-      <h4 class="text-center text-lg font-medium">プラチナ</h4>
-      <div class="grid grid-cols-1 justify-items-center gap-8 md:grid-cols-2">
-        <div class="flex flex-col items-center">
-          <div class="mb-3 flex h-24 items-center justify-center md:h-32">
-            <img alt="Acme Inc." class="max-h-full max-w-full object-contain" />
-          </div>
-          <h4 class="text-base font-medium text-gray-800 md:text-lg">
-            Acme Inc.
+---
+import { getCollection } from "astro:content";
+import Company from "./Company.astro";
+import Heading from "../Heading.astro";
+
+const sponsorsData = await getCollection("sponsors");
+
+const sponsors = sponsorsData.map((sponsor) => sponsor.data);
+
+const sponsorsByRank = sponsors.reduce(
+  (acc, sponsor) => {
+    if (!acc[sponsor.rank]) {
+      acc[sponsor.rank] = [];
+    }
+    acc[sponsor.rank].push(sponsor);
+    return acc;
+  },
+  {} as Record<string, typeof sponsors>,
+);
+
+const rankOrder = ["platinum", "gold", "silver", "bronze"];
+---
+
+<Heading>企業スポンサー</Heading>
+{
+  rankOrder.map(
+    (rank) =>
+      sponsorsByRank[rank] && (
+        <>
+          <h4 class="mb-4 text-center text-lg font-medium capitalize">
+            {rank}
           </h4>
-        </div>
-        <div class="flex flex-col items-center">
-          <div class="mb-3 flex h-24 items-center justify-center md:h-32">
-            <img alt="TechCorp" class="max-h-full max-w-full object-contain" />
+          <div
+            class:list={[
+              "mb-8 grid place-items-center gap-4",
+              { "grid-cols-1": rank === "platinum" },
+              { "grid-cols-2 md:grid-cols-2": rank === "gold" },
+              { "grid-cols-2 md:grid-cols-3": rank === "silver" },
+              { "grid-cols-2 md:grid-cols-4": rank === "bronze" },
+            ]}
+          >
+            {sponsorsByRank[rank].map((sponsor) => (
+              <Company {sponsor} />
+            ))}
           </div>
-          <h4 class="text-base font-medium text-gray-800 md:text-lg">
-            TechCorp
-          </h4>
-        </div>
-      </div>
-    </div>
-    <div class="space-y-6">
-      <h4 class="text-center text-lg font-medium">ゴールド</h4>
-      <div class="grid grid-cols-2 justify-items-center gap-6 md:grid-cols-3">
-        <div class="flex flex-col items-center">
-          <div class="mb-2 flex h-20 items-center justify-center md:h-24">
-            <img
-              alt="DevSolutions"
-              class="max-h-full max-w-full object-contain"
-            />
-          </div>
-          <h4 class="text-sm font-medium text-gray-800 md:text-base">
-            DevSolutions
-          </h4>
-        </div>
-        <div class="flex flex-col items-center">
-          <div class="mb-2 flex h-20 items-center justify-center md:h-24">
-            <img
-              alt="CodeMasters"
-              class="max-h-full max-w-full object-contain"
-            />
-          </div>
-          <h4 class="text-sm font-medium text-gray-800 md:text-base">
-            CodeMasters
-          </h4>
-        </div>
-      </div>
-    </div>
-    <div class="space-y-6">
-      <h4 class="text-center text-lg font-medium">シルバー</h4>
-      <div class="grid grid-cols-3 justify-items-center gap-4 md:grid-cols-4">
-        <div class="flex flex-col items-center">
-          <div class="mb-2 flex h-12 items-center justify-center md:h-16">
-            <img alt="ByteWorks" class="max-h-full max-w-full object-contain" />
-          </div>
-          <h4 class="text-center text-xs font-medium text-gray-800 md:text-sm">
-            ByteWorks
-          </h4>
-        </div>
-        <div class="flex flex-col items-center">
-          <div class="mb-2 flex h-12 items-center justify-center md:h-16">
-            <img alt="EditPro" class="max-h-full max-w-full object-contain" />
-          </div>
-          <h4 class="text-center text-xs font-medium text-gray-800 md:text-sm">
-            EditPro
-          </h4>
-        </div>
-        <div class="flex flex-col items-center">
-          <div class="mb-2 flex h-12 items-center justify-center md:h-16">
-            <img alt="VimTools" class="max-h-full max-w-full object-contain" />
-          </div>
-          <h4 class="text-center text-xs font-medium text-gray-800 md:text-sm">
-            VimTools
-          </h4>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+        </>
+      ),
+  )
+}

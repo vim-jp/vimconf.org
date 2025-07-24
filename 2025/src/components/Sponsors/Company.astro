@@ -1,0 +1,60 @@
+---
+// Company.astro
+type Props = {
+  sponsor: {
+    rank: "platinum" | "gold" | "silver" | "bronze";
+    name: string;
+    url: string;
+    image: string;
+  };
+};
+
+const props = Astro.props;
+const { rank, name, url, image } = props.sponsor;
+
+let imageUrl = "";
+try {
+  const module = await import(`../../assets/sponsors/${image}?url`);
+  imageUrl = module.default;
+} catch (e) {
+  console.error(`Icon not found: ${image}`);
+}
+
+// ランクごとのスタイル設定
+const rankStyles = {
+  platinum: {
+    container: "mb-4 flex items-center justify-center",
+    image: "h-28 w-auto object-contain md:h-36 lg:h-40",
+  },
+  gold: {
+    container: "mb-3 flex items-center justify-center",
+    image: "h-20 w-auto object-contain md:h-24 lg:h-28",
+  },
+  silver: {
+    container: "mb-2 flex items-center justify-center",
+    image: "h-14 w-auto object-contain md:h-16 lg:h-20",
+  },
+  bronze: {
+    container: "mb-2 flex items-center justify-center",
+    image: "h-12 w-auto object-contain md:h-14 lg:h-16",
+  },
+};
+
+const currentStyle = rankStyles[rank];
+---
+
+<a
+  href={url}
+  class="relative block w-full max-w-xs"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <div class={currentStyle.container}>
+    <img
+      alt={name}
+      src={imageUrl}
+      class={currentStyle.image + " bg-white"}
+      loading="lazy"
+    />
+  </div>
+</a>
