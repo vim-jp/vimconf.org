@@ -19,6 +19,13 @@ const sponsorsByRank = sponsors.reduce(
 );
 
 const rankOrder = ["platinum", "gold", "silver", "bronze"];
+
+const rankNameMap = {
+  platinum: "プラチナ",
+  gold: "ゴールド",
+  silver: "シルバー",
+  bronze: "ブロンズ",
+};
 ---
 
 <Heading>企業スポンサー</Heading>
@@ -27,8 +34,8 @@ const rankOrder = ["platinum", "gold", "silver", "bronze"];
     (rank) =>
       sponsorsByRank[rank] && (
         <>
-          <h4 class="mb-4 text-center text-lg font-medium capitalize">
-            {rank}
+          <h4 class="mb-6 text-center text-2xl font-bold text-gray-800">
+            {rankNameMap[rank]}
           </h4>
           <div
             class:list={[
