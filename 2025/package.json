@@ -11,9 +11,9 @@
 		"astro": "astro",
 		"check": "astro check",
 		"lint": "eslint --cache .",
-		"format": "nr lint --fix",
-		"prettier:check": "prettier --cache --check --plugin-search-dir=. src",
-		"prettier:fix": "prettier --cache --write --plugin-search-dir=. src"
+		"format": "nr prettier:fix",
+		"prettier:check": "prettier --cache --check src",
+		"prettier:fix": "prettier --cache --write src"
 	},
 	"dependencies": {
 		"@astrojs/react": "^4.3.0",
