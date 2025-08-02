@@ -8,6 +8,7 @@ import Macros from 'unplugin-macros/vite';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://vimconf.org/',
 	base: '/2025',
 
 	vite: {
