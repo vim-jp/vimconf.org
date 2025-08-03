@@ -52,7 +52,7 @@ const rankNameMap = {
               { "grid-cols-2 md:grid-cols-4": rank === "bronze" },
             ]}
           >
-            {sponsorsByRank[rank].map((sponsor) => (
+            {sponsorsByRank[rank].sort().map((sponsor) => (
               <Company {sponsor} />
             ))}
           </div>
