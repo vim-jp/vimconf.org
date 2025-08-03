@@ -12,14 +12,6 @@ const sponsors = defineCollection({
     name: z.string(),
     url: z.string().url(),
     image: z.string(),
-    // sponsor: z.array(
-    //   z.object({
-    //     rank: z.enum(['gold', 'silver', 'bronze']),
-    //     name: z.string(),
-    //     url: z.string().url(),
-    //     image: z.string()
-    //   })
-    // )
   }),
 });
 
