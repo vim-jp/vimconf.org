@@ -32,6 +32,53 @@ const rankNameMap = {
   silver: "シルバー",
   bronze: "ブロンズ",
 };
+
+const getGridClasses = (rank: string, count: number) => {
+  const baseClasses = [
+    "mb-8",
+    "grid",
+    "place-items-center",
+    "gap-4",
+  ];
+
+  if (rank === "platinum") {
+    return [...baseClasses, "grid-cols-1"];
+  }
+
+  if (count === 1) {
+    return [...baseClasses, "grid-cols-1"];
+  }
+
+  const gridConfig: Record<string, Record<number, string>> = {
+    gold: {
+      2: "grid-cols-2 md:grid-cols-2",
+    },
+    silver: {
+      2: "grid-cols-2 md:grid-cols-2",
+      3: "grid-cols-2 md:grid-cols-3",
+    },
+    bronze: {
+      2: "grid-cols-2 md:grid-cols-2",
+      3: "grid-cols-2 md:grid-cols-3",
+      4: "grid-cols-2 md:grid-cols-4",
+    },
+  };
+
+  const config = gridConfig[rank];
+  if (config) {
+    const counts = Object.keys(config)
+      .map(Number)
+      .sort((a, b) => b - a);
+
+    for (const minCount of counts) {
+      if (count >= minCount) {
+        return [...baseClasses, config[minCount]];
+      }
+    }
+  }
+
+  return baseClasses;
+};
 ---
 
 <Heading>企業スポンサー</Heading>
@@ -44,13 +91,7 @@ const rankNameMap = {
             {rankNameMap[rank]}
           </h4>
           <div
-            class:list={[
-              "mb-8 grid place-items-center gap-4",
-              { "grid-cols-1": rank === "platinum" },
-              { "grid-cols-2 md:grid-cols-2": rank === "gold" },
-              { "grid-cols-2 md:grid-cols-3": rank === "silver" },
-              { "grid-cols-2 md:grid-cols-4": rank === "bronze" },
-            ]}
+            class={getGridClasses(rank, sponsorsByRank[rank].length).join(" ")}
           >
             {sponsorsByRank[rank].sort().map((sponsor) => (
               <Company {sponsor} />
