@@ -1,5 +1,4 @@
 ---
-// Company.astro
 type Props = {
   sponsor: {
     rank: "platinum" | "gold" | "silver" | "bronze";
@@ -14,7 +13,7 @@ const { rank, name, url, image } = props.sponsor;
 
 let imageUrl = "";
 try {
-  const module = await import(`../../assets/sponsors/${image}?url`);
+  const module = await import(/* @vite-ignore */ `../../assets/sponsors/${image}?url`);
   imageUrl = module.default;
 } catch (e) {
   console.error(`Icon not found: ${image}`);
