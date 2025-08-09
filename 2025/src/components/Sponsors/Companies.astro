@@ -34,12 +34,7 @@ const rankNameMap = {
 };
 
 const getGridClasses = (rank: string, count: number) => {
-  const baseClasses = [
-    "mb-8",
-    "grid",
-    "place-items-center",
-    "gap-4",
-  ];
+  const baseClasses = ["mb-8", "grid", "place-items-center", "gap-4"];
 
   if (rank === "platinum") {
     return [...baseClasses, "grid-cols-1"];
