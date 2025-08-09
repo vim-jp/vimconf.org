@@ -1,0 +1,50 @@
+session_id = "Λlisue"
+start_at = 2025-11-02T13:35:00+09:00
+end_at = 2025-11-02T14:05:00+09:00
+speaker_name = "Λlisue"
+title = "And Yet, Vim Survived: Thinking and Seeing in the Age of Code You Don't Write"
+abstract = '''
+In the year 202X, the world was ravaged by AI-assisted coding.
+Functions were generated automatically. Code reviews ran on natural language prompts.
+Developers stopped writing code and became... prompt engineers.
+
+Text editors disappeared — or so it seemed.
+But Vim survived.
+
+I’m no exception.
+These days, the first draft of code often comes from an AI, and I rarely need to write loops or simple routines myself.
+But while I’m writing less, I’m spending a lot more time reading.
+
+Why is this function written this way?
+What role does this design play in the bigger picture?
+Who made this change — and why?
+
+Even in an age where machines write the code,
+understanding the flow, the structure, and the reasoning still falls to us.
+
+And that’s when I realized:
+Vim is absurdly good at seeing.
+
+Split windows for parallel perspectives.
+Mode switching to shift context.
+Jumps and searches to trace the flow.
+Viewing code alongside its history.
+Custom mappings to navigate between layers of abstraction.
+
+With tools like Fall, Fern, and Gin,
+Vim transforms from just a code editor into a thinking interface.
+
+In this talk, I’ll share why I still use Vim
+in a time where writing code is no longer the main act.
+
+As more of our code is machine-generated,
+how we look at it — and what we pay attention to — becomes more important.
+
+I’ll walk through how I use Vim to “see,”
+through the lens of Fall, Fern, and Gin.
+
+The machine can write.
+But I still need to see.
+You’re no longer writing.
+And yet—you’re still watching.
+'''

@@ -1,0 +1,18 @@
+session_id = "satoru_kitaguchi_dot"
+start_at = 2025-11-02T15:55:00+09:00
+end_at = 2025-11-02T16:15:00+09:00
+speaker_name = "Satoru Kitaguchi"
+title = 'Designing Repeatable Edits: The Architecture of . in Vim'
+abstract = '''
+Vim’s dot (.) command is deceptively simple—it repeats the last change.
+But beneath this minimalism lies one of Vim’s most powerful ideas: editing as a repeatable, structured action.
+Dot doesn’t just replay—it expresses Vim’s philosophy of reusable, composable editing.
+
+In this session, we’ll explore how dot works under the hood: how edits are recorded and replayed, and why some actions are repeatable while others are not.
+We'll then move into practical techniques for designing dot-friendly edits using operators, motions, and text objects.
+
+We’ll also look at why many plugin actions don’t support dot repeat by default, and how tools like repeat.vim and repeat#set() help restore consistency.
+By understanding how to align plugin behavior with Vim’s model, we can extend dot’s elegance even in custom workflows.
+
+Ultimately, this talk is not just about using . more effectively—it’s about writing edits and workflows that align with it, unlocking a deeper level of speed, clarity, and composability in your Vim usage.
+'''

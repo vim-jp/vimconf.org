@@ -1,0 +1,18 @@
+session_id = "teppei22"
+start_at = 2025-11-02T13:00:00+09:00
+end_at = 2025-11-02T13:15:00+09:00
+speaker_name = "teppei22"
+title = 'Lowering the Vim Barrier: Building nvim Environment with AI Assistance'
+abstract = '''
+As a vim beginner, I've always felt the steep learning curve of vim was intimidating. However, with the advent of AI-powered coding assistants, the barriers to entry for various technologies, including vim, have significantly lowered. This talk explores how AI is democratizing vim adoption.
+
+In this session, I will share:
+- My journey from vim-curious to vim user through AI assistance
+- How to build nvim configuration with AI guidance step by step
+- Essential plugins and configurations for beginners using AI tools
+- How to leverage AI to understand complex vim concepts and commands
+- Creating beginner-friendly documentation and README.md/CLAUDE.md with AI help
+- Common pitfalls and how AI can help avoid them
+
+This talk is aimed at vim-curious developers and beginners who want to overcome the traditional vim learning curve by leveraging modern AI tools to make their Step 0 into the vim world more approachable.
+'''

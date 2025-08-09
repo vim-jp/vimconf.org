@@ -1,0 +1,15 @@
+session_id = "hrsh7th"
+start_at = 2025-11-02T10:00:00+09:00
+end_at = 2025-11-02T10:50:00+09:00
+speaker_name = "hrsh7th"
+title = 'nvim-cmp retrospective: Exploring Completion and Facing FOSS Challenges'
+abstract = '''
+Over 15 years with Vim, I transitioned from user to OSS contributor and plugin creator.
+This keynote reflects on my nvim-cmp journey, sharing insights into text completion across Vim, VSCode, and LSP.
+Meanwhile, I'll candidly discuss FOSS challenges—maintenance limits and burnout—touching on my current perspectives.
+'''
+self_introduction = '''
+hrsh7th is a Web frontend engineer based in Japan.
+With around 15 years of experience using (n)vim, he's the author of popular plugins like vim-vsnip and nvim-cmp.
+As a Web frontend engineer, he has a strong interest in enhancing editor-based workflows and user experience for daily development.
+'''
