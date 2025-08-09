@@ -1,0 +1,116 @@
+[[sessions]]
+title = 'Opening'
+speaker_name = 'mopp'
+start_at = 2025-11-02T09:45:00+09:00
+end_at = 2025-11-02T10:00:00+09:00
+
+[[sessions]]
+title = 'nvim-cmp retrospective: Exploring Completion and Facing FOSS Challenges'
+speaker_name = 'hrsh7th'
+start_at = 2025-11-02T09:45:00+09:00
+end_at = 2025-11-02T10:00:00+09:00
+session_id = 'hrsh7th'
+
+[[sessions]]
+title = 'Short break'
+start_at = 2025-11-02T10:50:00+09:00
+end_at = 2025-11-02T11:00:00+09:00
+
+[[sessions]]
+title = 'WIP'
+speaker_name = 'rbtnn'
+start_at = 2025-11-02T11:00:00+09:00
+end_at = 2025-11-02T11:50:00+09:00
+session_id = 'rbtnn'
+
+[[sessions]]
+title = 'Lunch break'
+start_at = 2025-11-02T11:50:00+09:00
+end_at = 2025-11-02T13:00:00+09:00
+
+[[sessions]]
+title = 'Lowering the Vim Barrier: Building nvim Environment with AI Assistance'
+speaker_name = 'teppei22'
+start_at = 2025-11-02T13:00:00+09:00
+end_at = 2025-11-02T13:15:00+09:00
+session_id = 'teppei22'
+
+[[sessions]]
+title = 'Getting Started with *your own* Neovim feat. mini.nvim'
+speaker_name = 'kawarimidoll'
+start_at = 2025-11-02T13:15:00+09:00
+end_at = 2025-11-02T13:35:00+09:00
+session_id = 'kawarimidoll'
+
+[[sessions]]
+title = "And Yet, Vim Survived: Thinking and Seeing in the Age of Code You Don't Write"
+speaker_name = 'Λlisue'
+start_at = 2025-11-02T13:35:00+09:00
+end_at = 2025-11-02T14:05:00+09:00
+session_id = 'Λlisue'
+
+[[sessions]]
+title = 'Short break'
+start_at = 2025-11-02T14:05:00+09:00
+end_at = 2025-11-02T14:20:00+09:00
+
+[[sessions]]
+title = 'Beyond Syntax Highlighting: Unlocking the Power of Tree-sitter in Neovim'
+speaker_name = 'atusy'
+start_at = 2025-11-02T14:20:00+09:00
+end_at = 2025-11-02T14:50:00+09:00
+session_id = 'atusy'
+
+[[sessions]]
+title = 'Assists text writing anywhere'
+speaker_name = 'kuuote'
+start_at = 2025-11-02T14:50:00+09:00
+end_at = 2025-11-02T15:20:00+09:00
+session_id = 'kuuote'
+
+[[sessions]]
+title = 'Short break'
+start_at = 2025-11-02T15:20:00+09:00
+end_at = 2025-11-02T15:35:00+09:00
+
+[[sessions]]
+title = 'Cloud-Native, but Still Want to Use Vim: Running Vim Editor in Eclipse Che IDE'
+speaker_name = 'mikoto2000'
+start_at = 2025-11-02T15:35:00+09:00
+end_at = 2025-11-02T15:55:00+09:00
+session_id = 'mikoto2000'
+
+[[sessions]]
+title = 'Designing Repeatable Edits: The Architecture of . in Vim'
+speaker_name = 'Satoru Kitaguchi'
+start_at = 2025-11-02T15:55:00+09:00
+end_at = 2025-11-02T16:15:00+09:00
+session_id = 'satoru_kitaguchi_dot'
+
+[[sessions]]
+title = "You Know They're Not Just Clipboards — Now Learn What They Really Are"
+speaker_name = 'Satoru Kitaguchi'
+start_at = 2025-11-02T16:15:00+09:00
+end_at = 2025-11-02T16:35:00+09:00
+session_id = 'satoru_kitaguchi_register'
+
+[[sessions]]
+title = 'Short break'
+start_at = 2025-11-02T16:35:00+09:00
+end_at = 2025-11-02T16:45:00+09:00
+
+[[sessions]]
+title = 'Lightning talks'
+start_at = 2025-11-02T16:45:00+09:00
+end_at = 2025-11-02T17:15:00+09:00
+
+[[sessions]]
+title = 'Closing'
+speaker_name = 'mopp'
+start_at = 2025-11-02T17:15:00+09:00
+end_at = 2025-11-02T17:30:00+09:00
+
+[[sessions]]
+title = 'After party'
+start_at = 2025-11-02T17:30:00+09:00
+end_at = 2025-11-02T19:30:00+09:00
