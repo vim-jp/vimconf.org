@@ -5,26 +5,14 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 );
 
 export async function getSessionImageUrl(sessionId: string): Promise<string> {
-  // ファイル名とsession_idのマッピング
-  const imageFiles: Record<string, string> = {
-    atusy: "atusy.jpg",
-    hrsh7th: "hrsh7th.png",
-    kawarimidoll: "kawarimidoll.png",
-    kuuote: "kuuote.png",
-    Λlisue: "lambdalisue.png",
-    mikoto2000: "mikoto2000.png",
-    rbtnn: "rbtnn.png",
-    satoru_kitaguchi_register: "satorunooshie.png",
-    satoru_kitaguchi_dot: "satorunooshie.png",
-    teppei22: "teppei22.jpg",
+  const customExtensions: Record<string, string> = {
+    atusy: "jpg",
+    teppei22: "jpg",
   };
 
-  const fileName = imageFiles[sessionId];
-  if (!fileName) {
-    return "";
-  }
+  const suffix = customExtensions[sessionId] ?? "png";
 
-  const imagePath = `/src/assets/sessions/${fileName}`;
+  const imagePath = `/src/assets/sessions/${sessionId}.${suffix}`;
   if (images[imagePath]) {
     const imageModule = await images[imagePath]();
     return imageModule.default.src;
