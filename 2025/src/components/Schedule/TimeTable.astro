@@ -8,8 +8,8 @@ type Props = {
   start_at: Date;
   end_at: Date;
   title: string;
-  session_id?: string | undefined;
-  speaker_name?: string | undefined;
+  session_id?: string;
+  speaker_name?: string;
 };
 
 const { title, start_at, end_at, speaker_name } = Astro.props;
