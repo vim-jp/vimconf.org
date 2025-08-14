@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+import Heading from "../Heading.astro";
+import TimeTable from "./TimeTable.astro";
+
+const timetable = await getCollection("timetable");
+---
+
+<section id="schedule" class="bg-white py-10 md:py-16">
+  <div class="container mx-auto px-4 max-w-4xl">
+    <Heading>スケジュール</Heading>
+    {
+      timetable
+        .shift()
+        ?.data.map((schedule) => <TimeTable {...schedule} />)
+    }
+  </div>
+</section>
