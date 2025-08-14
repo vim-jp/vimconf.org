@@ -11,19 +11,22 @@ type Props = {
   image_url?: string;
 };
 
-const { speaker_name, title, abstract, self_introduction, image_url } = Astro.props;
+const { speaker_name, title, abstract, self_introduction, image_url } =
+  Astro.props;
 ---
 
-<Card class="p-8 mb-5">
+<Card class="mb-5 p-8">
   <div class="flex flex-col items-center gap-6 md:flex-row md:items-start">
     <div class="flex-shrink-0">
       <span
         class="relative flex h-24 w-24 shrink-0 overflow-hidden rounded-full md:h-32 md:w-32"
       >
-        <img 
-          class="aspect-square h-full w-full text-center object-cover" 
+        <img
+          class="aspect-square h-full w-full object-cover text-center"
           alt={speaker_name}
-          src={image_url || 'https://via.placeholder.com/150?text=' + encodeURIComponent(speaker_name.charAt(0))}
+          src={image_url ||
+            "https://via.placeholder.com/150?text=" +
+              encodeURIComponent(speaker_name.charAt(0))}
         /></span
       >
     </div>
