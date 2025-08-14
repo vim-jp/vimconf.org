@@ -7,12 +7,8 @@ const timetable = await getCollection("timetable");
 ---
 
 <section id="schedule" class="bg-white py-10 md:py-16">
-  <div class="container mx-auto px-4 max-w-4xl">
+  <div class="container mx-auto max-w-4xl px-4">
     <Heading>スケジュール</Heading>
-    {
-      timetable
-        .shift()
-        ?.data.map((schedule) => <TimeTable {...schedule} />)
-    }
+    {timetable.shift()?.data.map((schedule) => <TimeTable {...schedule} />)}
   </div>
 </section>

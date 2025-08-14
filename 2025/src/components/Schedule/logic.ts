@@ -11,10 +11,9 @@ export const getScheduleCardStyle = (title: string) => {
   }
 
   const isOtherEvent = ["Opening", "Closing", "After party"].includes(title);
-  if(isOtherEvent) {
-    return ["bg-blue-50 border-blue-200", MicVocal]
+  if (isOtherEvent) {
+    return ["bg-blue-50 border-blue-200", MicVocal];
   }
-
 
   return ["bg-green-50", MicVocal];
 };
