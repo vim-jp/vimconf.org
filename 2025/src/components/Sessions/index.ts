@@ -13,7 +13,7 @@ export async function getSessionImageUrl(sessionId: string): Promise<string> {
     kuuote: "kuuote.png",
     Λlisue: "lambdalisue.png",
     mikoto2000: "mikoto2000.png",
-    rbtnn: "rbtnn.jpg",
+    rbtnn: "rbtnn.png",
     satoru_kitaguchi_register: "satorunooshie.png",
     satoru_kitaguchi_dot: "satorunooshie.png",
     teppei22: "teppei22.jpg",
