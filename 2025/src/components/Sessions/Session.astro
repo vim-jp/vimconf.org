@@ -1,0 +1,61 @@
+---
+import { User, FileText } from "@lucide/astro";
+import Card from "../Card.astro";
+
+type Props = {
+  session_id: string;
+  speaker_name: string;
+  title: string;
+  abstract: string;
+  self_introduction?: string;
+  image_url?: string;
+};
+
+const { speaker_name, title, abstract, self_introduction, image_url } = Astro.props;
+---
+
+<Card class="p-8 mb-5">
+  <div class="flex flex-col items-center gap-6 md:flex-row md:items-start">
+    <div class="flex-shrink-0">
+      <span
+        class="relative flex h-24 w-24 shrink-0 overflow-hidden rounded-full md:h-32 md:w-32"
+      >
+        <img 
+          class="aspect-square h-full w-full text-center object-cover" 
+          alt={speaker_name}
+          src={image_url || 'https://via.placeholder.com/150?text=' + encodeURIComponent(speaker_name.charAt(0))}
+        /></span
+      >
+    </div>
+    <div class="flex-1 text-center md:text-left">
+      <div class="mb-3">
+        <h3 class="mb-2 text-2xl font-bold text-gray-900 md:text-3xl">
+          {speaker_name}
+        </h3>
+      </div>
+      <div class="mb-4">
+        <p class="text-lg text-gray-600 italic">{title}</p>
+      </div>
+      <div>
+        <div class="mb-3 flex items-center justify-center md:justify-start">
+          <FileText class="mr-2 h-5 w-5 text-emerald-600" />
+          <span class="font-semibold text-gray-800">概要</span>
+        </div>
+        <p class="leading-relaxed text-gray-700" style="white-space: pre-line;">
+          {abstract}
+        </p>
+      </div>
+      {
+        self_introduction && (
+          <div>
+            <div class="mb-3 flex items-center">
+              <User class="mr-2 h-5 w-5 text-emerald-600" />
+              <span class="font-semibold text-gray-800">スピーカー紹介</span>
+            </div>
+            <p class="leading-relaxed text-gray-600">{self_introduction}</p>
+          </div>
+        )
+      }
+    </div>
+  </div>
+</Card>

@@ -1,0 +1,26 @@
+---
+import Heading from "../Heading.astro";
+import Session from "./Session.astro";
+import { getCollection } from "astro:content";
+import { getSessionImageUrl } from "./index";
+
+const sessions = await getCollection("sessions");
+
+// 各セッションに画像URLを追加
+const sessionsWithImages = await Promise.all(
+  sessions.map(async (session) => ({
+    ...session,
+    data: {
+      ...session.data,
+      image_url: await getSessionImageUrl(session.data.session_id),
+    },
+  }))
+);
+---
+
+<section id="sessions" class="bg-white py-10 md:py-16">
+  <div class="container mx-auto px-4">
+    <Heading>セッション一覧</Heading>
+    {sessionsWithImages.sort((a, b) => a.data.start_at.getTime() - b.data.start_at.getTime()).map((session) => <Session {...session.data} />)}
+  </div>
+</section>
