@@ -1,0 +1,8 @@
+session_id = "kuuote"
+start_at = 2025-11-02T14:50:00+09:00
+end_at = 2025-11-02T15:20:00+09:00
+speaker_name = "kuuote"
+title = 'Assists text writing anywhere'
+abstract = '''
+In recent years, the rise of generative AI has only heightened the importance of writing skills. In this presentation, I'll explain how Vim's rich editing features make it particularly suitable for writing, and how customization can enhance your writing experience. I'll demonstrate this with practical examples from my own workflow, then share my method for quickly exporting text outside of Vim.
+'''

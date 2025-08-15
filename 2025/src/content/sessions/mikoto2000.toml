@@ -1,0 +1,10 @@
+session_id = 'mikoto2000'
+start_at = 2025-11-02T15:35:00+09:00
+end_at = 2025-11-02T15:55:00+09:00
+speaker_name = 'mikoto2000'
+title = 'Cloud-Native, but Still Want to Use Vim: Running Vim Editor in Eclipse Che IDE'
+abstract = '''
+Vimmers are the kind of people who want to use Vim anytime, anywhere — and that doesn’t change even in a cloud-native world.
+I’ve been working on a way to run the Vim editor inside Eclipse Che, a cloud-native IDE.
+It’s not fully production-ready yet, but in this talk, I’d like to share how it works and discuss the challenges I’ve faced.
+'''

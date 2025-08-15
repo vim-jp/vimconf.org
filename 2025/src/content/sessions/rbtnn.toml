@@ -1,0 +1,14 @@
+session_id = "rbtnn"
+start_at = 2025-11-02T11:00:00+09:00
+end_at = 2025-11-02T11:50:00+09:00
+speaker_name = "rbtnn"
+title = 'WIP'
+abstract = '''
+WIP
+'''
+self_introduction = '''
+rbtnn is what you might call an SIer in Japan. These days, his main role is team management, so he doesn't get to write code as often.
+That said, he worked across the stack throughout his career—from server-side and client-side development to embedded systems—making him a so-called full-stack engineer.
+Vim has been his primary text editor for nearly 15 years, and he uses it to write code in almost any programming language.
+He's contributed to Vim itself several times in the past, and this time, He'd like to introduce a feature he implemented called TabPanel, and share the background and motivation behind adding it.
+'''

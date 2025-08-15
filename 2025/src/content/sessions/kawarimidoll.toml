@@ -1,0 +1,20 @@
+session_id = "kawarimidoll"
+start_at = 2025-11-02T13:15:00+09:00
+end_at = 2025-11-02T13:35:00+09:00
+speaker_name = "kawarimidoll"
+title = 'Getting Started with *your own* Neovim feat. mini.nvim'
+abstract = '''
+It's exciting to start using Neovim with the thought, "Using Neovim is cool!"
+Many beginners want to improve their Neovim. They often start by copying settings recommended on websites or YouTube.
+That's fine and can be useful, but it's still using someone else's Neovim as long as you're just following recommendations.
+To truly make Neovim your own, you need to understand what you can achieve by configuring it yourself.
+Many beginners simply don't know what's possible through configuration. That's why I'll introduce some of those possibilities.
+In this talk, I'll show you an overview of Neovim features and settings using a nice plugin, mini.nvim.
+This plugin is a collection of many useful modules that you can mix and match according to your needs.
+By exploring these modules, you'll gain insight into what Neovim can do and what features you might need.
+More importantly, you'll learn to think about what you want to achieve, how to figure out the best way to do it, and how to write the right settings for that.
+This process helps you develop your engineering skills.
+You'll also experience the joy of growing your configuration. It's not just useful, it's really fun!
+Let's get started with your own Neovim, featuring mini.nvim!
+Disclaimer: I'm not the author of mini.nvim. I'm a big fan of it and use it in my Neovim configuration.
+'''

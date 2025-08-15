@@ -1,0 +1,22 @@
+session_id = "satoru_kitaguchi_register"
+start_at = 2025-11-02T16:15:00+09:00
+end_at = 2025-11-02T16:35:00+09:00
+speaker_name = "Satoru Kitaguchi"
+title = "You Know They're Not Just Clipboards — Now Learn What They Really Are"
+abstract = '''
+You already know Vim registers aren’t just clipboards.
+But when asked:
+“Why didn’t it go into ""0""?”,
+“What’s rotating in ""1–9""?”,
+or “Why did the thing I just copied disappear?” —
+can you explain why?
+
+Vim’s register system is both powerful and subtle.
+It tracks what gets saved, when it's overwritten, and which register each operation touches—often silently.
+Understanding this system is key to avoiding accidental loss and enabling intentional, reusable editing workflows.
+
+In this talk, we’ll break down how each register works: ""0"", ""1–9"", ""a–z"", ""="", ""_"", ""*"" and others.
+You’ll learn practical techniques for designing safer edits, preserving state, and even injecting dynamic content from expressions or shell commands.
+
+This session will help you stop guessing—and start thinking in registers.
+'''
