@@ -1,0 +1,19 @@
+---
+import { getCollection } from "astro:content";
+import Heading from "../Heading.astro";
+import TimeTable from "./TimeTable.astro";
+
+const timetable = await getCollection("timetable");
+---
+
+<section id="schedule" class="bg-white py-10 md:py-16">
+  <div class="container mx-auto max-w-4xl px-4">
+    <Heading>スケジュール</Heading>
+    {
+      timetable
+        .shift()
+        ?.data.sort((a, b) => a.start_at.getTime() - b.start_at.getTime())
+        .map((schedule) => <TimeTable {...schedule} />)
+    }
+  </div>
+</section>

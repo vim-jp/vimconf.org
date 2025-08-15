@@ -1,0 +1,42 @@
+---
+import Card from "../Card.astro";
+import { Clock, User } from "@lucide/astro";
+import { getScheduleCardStyle, formatTime } from "./index.ts";
+
+type Props = {
+  start_at: Date;
+  end_at: Date;
+  title: string;
+  session_id?: string;
+  speaker_name?: string;
+};
+
+const { title, start_at, end_at, speaker_name } = Astro.props;
+const [cardClass, Icon] = getScheduleCardStyle(title);
+---
+
+<Card class=`p-2 mb-5 ${cardClass}`>
+  <div class="p-4">
+    <div class="space-y-2">
+      <div class="flex items-center text-sm">
+        <Clock class="mr-2 h-4 w-4 flex-shrink-0 text-green-900" />
+        <span class="font-bold text-gray-800"
+          >{formatTime(start_at)} - {formatTime(end_at)}</span
+        >
+        {
+          speaker_name && (
+            <div class="ml-5 flex items-center">
+              <User class="mr-2 h-4 w-4 text-gray-600" />
+              <span class="text-gray-600">{speaker_name}</span>
+            </div>
+          )
+        }
+      </div><div class="flex items-center">
+        <Icon class="mr-3 h-4 w-4 flex-shrink-0 text-gray-900" />
+        <h3 class="min-w-0 flex-1 text-base leading-tight font-semibold">
+          {title}
+        </h3>
+      </div>
+    </div>
+  </div>
+</Card>
