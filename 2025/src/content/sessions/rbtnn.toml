@@ -2,13 +2,13 @@ session_id = "rbtnn"
 start_at = 2025-11-02T11:00:00+09:00
 end_at = 2025-11-02T11:50:00+09:00
 speaker_name = "rbtnn"
-title = 'WIP'
+title = 'Introducing the TabPanel Feature: Motivation and Implementation'
 abstract = '''
-WIP
+I've implemented a new feature called TabPanel and would like to share the story behind it — including the motivation for its development, design considerations, and technical implementation. In this talk, I'll cover:
+- Motivation & Background: Why TabPanel was added and what problems it solves.
+- Design & Implementation: How TabPanel works under the hood, including design decisions and challenges encountered.
+- Usage & Configuration: An introduction to the basic usage and configuration of TabPanel.
 '''
 self_introduction = '''
-rbtnn is what you might call an SIer in Japan. These days, his main role is team management, so he doesn't get to write code as often.
-That said, he worked across the stack throughout his career—from server-side and client-side development to embedded systems—making him a so-called full-stack engineer.
-Vim has been his primary text editor for nearly 15 years, and he uses it to write code in almost any programming language.
-He's contributed to Vim itself several times in the past, and this time, He'd like to introduce a feature he implemented called TabPanel, and share the background and motivation behind adding it.
+rbtnn is what you might call an SIer in Japan. These days, his main role is team management, so he doesn't get to write code as often. That said, he worked across the stack throughout his career—from server-side and client-side development to embedded systems—making him a so-called full-stack engineer. Vim has been his primary text editor for nearly 15 years, and he uses it to write code in almost any programming language. He's contributed to Vim itself several times in the past.
 '''
