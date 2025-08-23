@@ -19,7 +19,7 @@ const csv = CsvSchema.parse(rawCsv);
         .map((row) => (
           <Individual
             name={row.name}
-            src={(row.icon === "true") ? row.order_number : "no-icon"}
+            src={row.icon === "true" ? row.order_number : "no-icon"}
             comment={row.comment}
           />
         ))
