@@ -7,8 +7,8 @@ end_at = 2025-11-02T10:00:00+09:00
 [[sessions]]
 title = 'nvim-cmp retrospective: Exploring Completion and Facing FOSS Challenges'
 speaker_name = 'hrsh7th'
-start_at = 2025-11-02T09:45:00+09:00
-end_at = 2025-11-02T10:00:00+09:00
+start_at = 2025-11-02T10:00:00+09:00
+end_at = 2025-11-02T10:50:00+09:00
 session_id = 'hrsh7th'
 
 [[sessions]]
