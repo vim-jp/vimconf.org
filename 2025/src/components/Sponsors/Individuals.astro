@@ -1,0 +1,49 @@
+---
+import Card from "../Card.astro";
+import Individual from "./Individual.astro";
+import rawCsv from "../../content/individual_sponsors.csv";
+import { CsvSchema } from "../../types/schema";
+import { ExternalLink, Heart } from "@lucide/astro";
+
+const csv = CsvSchema.parse(rawCsv);
+---
+
+<div class="container mx-auto mb-8 px-4">
+  <h3 class="mb-6 text-center text-xl font-semibold md:text-2xl">
+    個人スポンサー
+  </h3>
+  <div class="mb-10 grid grid-cols-3 gap-4 md:grid-cols-3 lg:grid-cols-4">
+    {
+      csv
+        .sort((a, b) => Number(a.order_number) - Number(b.order_number))
+        .map((row) => (
+          <Individual
+            name={row.name}
+            src={row.icon === "true" ? row.order_number : "no-icon"}
+            comment={row.comment}
+          />
+        ))
+    }
+  </div>
+  <Card class="flex flex-col rounded-lg border border-pink-200 bg-pink-50 p-6">
+    <Heart class="mx-auto mb-4 h-12 w-12 text-pink-500" />
+    <p class="mx-auto font-bold">個人スポンサーになりませんか？</p>
+    <p class="mx-auto mb-4 text-gray-700">
+      VimConf 2025 Smallの成功を一緒に作り上げましょう！
+    </p>
+    <span class="mx-auto">
+      <a
+        href="https://peatix.com/event/4468783/view"
+        target="_blank"
+        rel="noopener"
+      >
+        <button
+          class="inline-flex h-10 items-center justify-center gap-2 rounded-md bg-pink-500 bg-gradient-to-r px-4 py-2 text-sm font-medium whitespace-nowrap text-primary-foreground ring-offset-background transition-colors hover:bg-pink-600 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+        >
+          個人スポンサーになる
+          <ExternalLink class="ml-2 h-4 w-4" />
+        </button>
+      </a>
+    </span>
+  </Card>
+</div>
