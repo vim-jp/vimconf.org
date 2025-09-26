@@ -53,6 +53,10 @@ const rankStyles = {
 };
 
 const currentStyle = rankStyles[rank];
+
+if (name === "NodeX 株式会社") {
+  currentStyle.container = currentStyle.container.replace("p-6", "p-1");
+}
 ---
 
 <a
