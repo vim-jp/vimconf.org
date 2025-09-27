@@ -31,29 +31,37 @@ if (images[imagePath]) {
 // ランクごとのスタイル設定
 const rankStyles = {
   platinum: {
-    container: "mb-4 flex items-center justify-center",
-    image: "h-28 w-auto object-contain md:h-36 lg:h-40",
+    container:
+      "h-72 mb-4 flex items-center justify-center bg-white p-6 rounded-lg border border-gray-100",
+    image: "w-full h-full object-contain",
   },
   gold: {
-    container: "mb-3 flex items-center justify-center",
-    image: "h-20 w-auto object-contain md:h-24 lg:h-28",
+    container:
+      "h-52 mb-3 flex items-center justify-center bg-white p-6 rounded-lg border border-gray-100",
+    image: "w-full h-full object-contain",
   },
   silver: {
-    container: "mb-2 flex items-center justify-center",
-    image: "h-14 w-auto object-contain md:h-16 lg:h-20",
+    container:
+      "h-32 mb-2 flex items-center justify-center bg-white p-6 rounded-lg border border-gray-100",
+    image: "w-full h-full object-contain",
   },
   bronze: {
-    container: "mb-2 flex items-center justify-center",
-    image: "h-12 w-auto object-contain md:h-14 lg:h-16",
+    container:
+      "h-22 mb-2 flex items-center justify-center bg-white p-6 rounded-lg border border-gray-100",
+    image: "w-full h-full object-contain",
   },
 };
 
 const currentStyle = rankStyles[rank];
+
+if (name === "NodeX 株式会社") {
+  currentStyle.container = currentStyle.container.replace("p-6", "p-1");
+}
 ---
 
 <a
   href={url}
-  class="relative block w-full max-w-xs"
+  class="relative block w-full"
   target="_blank"
   rel="noopener noreferrer"
 >
