@@ -1,0 +1,8 @@
+session_id = 'ryoppippi'
+start_at = 2025-11-02T17:10:00+09:00
+end_at = 2025-11-02T17:15:00+09:00
+speaker_name = 'ryoppippi'
+title = 'AI-Optimised Vim Keybindings: HCI-Driven HITL Interfaces'
+abstract = '''
+In the LLM era, Vim’s modal interface evolves with AI-driven personalisation. This talk explores how LLMs analyse keystroke patterns to propose optimised keybindings, reducing cognitive load from an HCI perspective. A live demo shows an LLM processing Vim logs to suggest mappings, with human-in-the-loop feedback for refinement. We envision adaptive interfaces where users shape AI suggestions, blending Vim’s power with personalised, interactive editing.
+'''

@@ -1,0 +1,10 @@
+session_id = 'sirasagi62'
+start_at = 2025-11-02T17:05:00+09:00
+end_at = 2025-11-02T17:10:00+09:00
+speaker_name = 'Sirasagi62'
+title = 'From Fuzzy to Fluent: Semantic Code Search in Neovim'
+abstract = '''
+シンボル名ではなくコードの内容でコードを検索したいと思ったことはありませんか？
+
+本LTではローカルで動くベクトル検索で日本語もしくは英語でのコード検索を実現する、fluent findを紹介します。
+'''

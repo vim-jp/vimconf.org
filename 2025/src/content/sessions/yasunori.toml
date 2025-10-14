@@ -1,0 +1,18 @@
+session_id = 'yasunori'
+start_at = 2025-11-02T16:50:00+09:00
+end_at = 2025-11-02T16:55:00+09:00
+speaker_name = 'yasunori'
+title = 'Tried writing it `vim9script`, pros&cons, points to note.'
+abstract = '''
+dpp.vimの読み込み部分を`vim9script`で書いてみました。
+その中で`vim9script`の「良いところ、気になったところ、注意点」があるので紹介します。
+https://github.com/yasunori0418/dotfiles/tree/main/home/.config/vim/autoload/user
+
+このLTでは`vim9script`を書いたことが無い人に、`vim9script`の雰囲気が伝わるような内容にします。
+
+- Ajenda
+    1. Pros
+    2. Cons
+    3. Points to note
+    4. Conclusion
+'''

@@ -1,0 +1,10 @@
+session_id = 'yuys13'
+start_at = 2025-11-02T16:55:00+09:00
+end_at = 2025-11-02T17:00:00+09:00
+speaker_name = 'yuys13'
+title = 'Test Your init.lua & Lua Plugins!'
+abstract = '''
+This talk is for Neovim users who write configurations and plugins in Lua.
+I will introduce tools and practical techniques for testing your `init.lua` and Lua plugins, including measuring code coverage and CI/CD integration.
+This session aims to be valuable for both seasoned authors and those just starting out, offering practical techniques to help build more robust and reliable Neovim setups.
+'''

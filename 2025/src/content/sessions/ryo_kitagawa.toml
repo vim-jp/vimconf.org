@@ -1,0 +1,12 @@
+session_id = 'ryo_kitagawa'
+start_at = 2025-11-02T16:45:00+09:00
+end_at = 2025-11-02T16:50:00+09:00
+speaker_name = 'Ryo Kitagawa'
+title = 'Machine Learning in Neovim: Handwriting MNIST'
+abstract = '''
+NeovimでMNIST手書き数字認識システムを実装しました。
+
+TorchライブラリをNeovimのruntimepathに追加することで、Neovim上で直接ニューラルネットワークを学習。さらにマウスジェスチャープラグインを改造して、Neovim上で数字を手書きすると、学習したモデルが認識した数字をテキストとして挿入する仕組みを作りました。
+
+「エディタで機械学習を学習・推論する」という実用性ゼロだけど技術的に面白いプロジェクトを通じて、Neovimの拡張性とLuaの可能性を探ります。手動のスピードで入力しましょう！
+'''
