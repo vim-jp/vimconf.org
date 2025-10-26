@@ -2,7 +2,7 @@ session_id = "atusy"
 start_at = 2025-11-02T14:20:00+09:00
 end_at = 2025-11-02T14:50:00+09:00
 speaker_name = "atusy"
-title = 'Beyond Syntax Highlighting: Unlocking the Power of Tree-sitter in Neovim'
+title = 'Beyond Syntax Highlighting in Neovim: Unlocking the Power of Tree-sitter'
 abstract = '''
 Neovim users get benefits of beautiful syntax highlighting with Tree-sitter.
 However, Tree-sitter can do much more than just syntax highlighting.
