@@ -14,6 +14,11 @@ session_id = 'hrsh7th'
 [[sessions]]
 title = 'Short break'
 start_at = 2025-11-02T10:50:00+09:00
+end_at = 2025-11-02T10:55:00+09:00
+
+[[sessions]]
+title = 'スポンサーLT (エンジニアの楽園 vim-jpラジオ)'
+start_at = 2025-11-02T10:55:00+09:00
 end_at = 2025-11-02T11:00:00+09:00
 
 [[sessions]]
@@ -52,6 +57,11 @@ session_id = 'Λlisue'
 [[sessions]]
 title = 'Short break'
 start_at = 2025-11-02T14:05:00+09:00
+end_at = 2025-11-02T14:15:00+09:00
+
+[[sessions]]
+title = 'スポンサーLT (株式会社テックリード)'
+start_at = 2025-11-02T14:15:00+09:00
 end_at = 2025-11-02T14:20:00+09:00
 
 [[sessions]]
