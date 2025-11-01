@@ -2,7 +2,7 @@ session_id = "satoru_kitaguchi_register"
 start_at = 2025-11-02T16:15:00+09:00
 end_at = 2025-11-02T16:35:00+09:00
 speaker_name = "Satoru Kitaguchi"
-title = "You Know They're Not Just Clipboards — Now Learn What They Really Are"
+title = "Register is more than clipboard"
 abstract = '''
 You already know Vim registers aren’t just clipboards.
 But when asked:
