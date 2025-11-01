@@ -2,7 +2,7 @@ session_id = 'sirasagi62'
 start_at = 2025-11-02T17:05:00+09:00
 end_at = 2025-11-02T17:10:00+09:00
 speaker_name = 'Sirasagi62'
-title = 'From Fuzzy to Fluent: Semantic Code Search in Neovim'
+title = 'From Fuzzy to Fluent: Semantic Code Search in Vim/Neovim'
 abstract = '''
 シンボル名ではなくコードの内容でコードを検索したいと思ったことはありませんか？
 
