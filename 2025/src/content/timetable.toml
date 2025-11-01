@@ -14,17 +14,17 @@ session_id = 'hrsh7th'
 [[sessions]]
 title = 'Short break'
 start_at = 2025-11-02T10:50:00+09:00
-end_at = 2025-11-02T10:55:00+09:00
+end_at = 2025-11-02T11:00:00+09:00
 
 [[sessions]]
 title = 'スポンサーLT (エンジニアの楽園 vim-jpラジオ)'
-start_at = 2025-11-02T10:55:00+09:00
-end_at = 2025-11-02T11:00:00+09:00
+start_at = 2025-11-02T11:00:00+09:00
+end_at = 2025-11-02T11:05:00+09:00
 
 [[sessions]]
 title = 'Introducing the TabPanel Feature: Motivation and Implementation'
 speaker_name = 'rbtnn'
-start_at = 2025-11-02T11:00:00+09:00
+start_at = 2025-11-02T11:05:00+09:00
 end_at = 2025-11-02T11:50:00+09:00
 session_id = 'rbtnn'
 
