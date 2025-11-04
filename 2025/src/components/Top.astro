@@ -1,6 +1,6 @@
 ---
 import VimLogo from "./VimLogo.astro";
-import { ExternalLink, Heart, Zap } from "@lucide/astro";
+import { ExternalLink } from "@lucide/astro";
 ---
 
 <section
@@ -35,61 +35,29 @@ import { ExternalLink, Heart, Zap } from "@lucide/astro";
         </p>
       </div>
     </div>
-    <div class="mb-6 flex flex-col items-center gap-3">
-      <div
-        class="inline-flex items-center rounded-full bg-gradient-to-r from-emerald-500 to-green-500 px-6 py-3 text-white"
-      >
-        <span class="text-sm font-bold md:text-base"
-          >🎉 チケット販売開始！ 🎉</span
-        >
-      </div>
-    </div>
-    <div class="mb-6 flex flex-col items-center gap-3">
-      <div
-        class="inline-flex items-center rounded-full bg-gradient-to-r from-orange-500 to-red-500 px-6 py-3 text-white"
-      >
-        <a
-          class="flex"
-          href="https://youtube.com/live/9MQpu0nxl5E"
-          target="_blank"
-          rel="noopener"
-        >
-          YouTube 配信はこちら<ExternalLink class="ml-2 h-4 w-4" />
-        </a>
-      </div>
-    </div>
+    <p
+      class="my-8 py-10 text-center text-xl leading-15 font-bold text-emerald-950 md:mb-16 md:text-4xl"
+    >
+      VimConf 2025 Small は終了しました。<br
+      />ご参加いただいた皆様、ありがとうございました！
+    </p>
     <div
       class="mb-8 flex flex-col items-center justify-center gap-3 sm:flex-row"
     >
       <button
-        class="inline-flex h-10 items-center justify-center gap-2 rounded-md bg-emerald-600 px-4 py-2 text-sm font-medium whitespace-nowrap text-primary-foreground ring-offset-background transition-colors hover:bg-emerald-700 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
+        class="inline-flex h-10 items-center justify-center gap-2 rounded-md bg-red-500 px-4 py-2 text-sm font-medium whitespace-nowrap text-primary-foreground ring-offset-background transition-colors hover:bg-red-700 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
         ><a
           class="flex"
-          href="https://peatix.com/event/4468402/view"
+          href="https://youtube.com/live/9MQpu0nxl5E"
           target="_blank"
           rel="noopener"
-          >チケットを購入する
+          >YouTube 配信のアーカイブはこちら
           <ExternalLink class="ml-2 h-4 w-4" />
         </a></button
       ><button
         class="inline-flex h-10 w-auto items-center justify-center gap-2 rounded-md border border-emerald-600 bg-background px-4 py-2 text-sm font-medium whitespace-nowrap text-emerald-700 ring-offset-background transition-colors hover:bg-emerald-50 hover:text-accent-foreground focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
         ><a href="#schedule">スケジュールを見る</a></button
       >
-    </div>
-    <div class="flex flex-col justify-center gap-2">
-      <a
-        href="https://peatix.com/event/4468783/view"
-        target="_blank"
-        rel="noopener"
-      >
-        <button
-          class="inline-flex h-10 items-center justify-center gap-2 rounded-md bg-pink-500 bg-gradient-to-r px-4 py-2 text-sm font-medium whitespace-nowrap text-primary-foreground ring-offset-background transition-colors hover:bg-pink-600 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0"
-        >
-          <Heart class="mr-2 h-5 w-5" />
-          個人スポンサーになる
-          <ExternalLink class="ml-2 h-4 w-4" />
-        </button>
-      </a>
     </div>
   </div>
 </section>
