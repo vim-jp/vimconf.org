@@ -32,8 +32,10 @@ const { speaker_name, title, abstract, self_introduction, image_url } =
     </div>
     <div class="flex-1 text-center md:text-left">
       <div class="mb-3">
-        <h3 class="mb-2 text-2xl font-bold text-gray-900 md:text-3xl">
+        <h3 id={speaker_name} class="mb-2 text-2xl font-bold text-gray-900 md:text-3xl">
+          <a href={"#"+speaker_name} class="hover:underline">
           {speaker_name}
+          </a>
         </h3>
       </div>
       <div class="mb-4">
