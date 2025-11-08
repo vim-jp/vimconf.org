@@ -46,10 +46,14 @@
     "typescript": "^5.9.2",
     "unplugin-macros": "^0.17.2"
   },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.5.0",
+      "onFail": "download"
+    }
+  },
   "pnpm": {
-    "executionEnv": {
-      "nodeVersion": "22.13.1"
-    },
     "onlyBuiltDependencies": [
       "@tailwindcss/oxide",
       "esbuild",
