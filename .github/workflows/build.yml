@@ -22,8 +22,8 @@ jobs:
       # pnpm
       - uses: pnpm/action-setup@v4
         with:
+          package_json_file: ./2025/package.json
           run_install: false
-          version: 10.4.0
       - name: build 2025
         working-directory: ./2025
         run: |
