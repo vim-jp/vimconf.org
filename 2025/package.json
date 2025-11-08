@@ -51,8 +51,10 @@
 			"nodeVersion": "22.13.1"
 		},
 		"onlyBuiltDependencies": [
+			"@tailwindcss/oxide",
 			"esbuild",
-			"sharp"
+			"sharp",
+			"unrs-resolver"
 		],
 		"overrides": {
 			"devalue": "^5.3.2"
