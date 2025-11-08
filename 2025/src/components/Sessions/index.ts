@@ -13,8 +13,9 @@ export async function getSessionImageUrl(sessionId: string): Promise<string> {
   const suffix = customExtensions[sessionId] ?? "png";
 
   const imagePath = `/src/assets/sessions/${sessionId}.${suffix}`;
-  if (images[imagePath]) {
-    const imageModule = await images[imagePath]();
+  const imageModuleFunction = images[imagePath];
+  if (imageModuleFunction != null) {
+    const imageModule = await imageModuleFunction();
     return imageModule.default.src;
   }
 

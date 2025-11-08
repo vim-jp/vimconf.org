@@ -1,6 +1,6 @@
-import { MicVocal, Zap, Coffee } from "@lucide/astro";
+import { Coffee, MicVocal, Zap } from "@lucide/astro";
 
-export const getScheduleCardStyle = (title: string) => {
+export function getScheduleCardStyle(title: string) {
   const isBreak = ["Short break", "Lunch break"].includes(title);
   if (isBreak) {
     return ["bg-gray-50 border-gray-200", Coffee];
@@ -16,13 +16,13 @@ export const getScheduleCardStyle = (title: string) => {
   }
 
   return ["bg-green-50", MicVocal];
-};
+}
 
-export const formatTime = (date: Date): string => {
+export function formatTime(date: Date): string {
   return new Intl.DateTimeFormat("ja-JP", {
     timeZone: "Asia/Tokyo",
     hour: "2-digit",
     minute: "2-digit",
     hour12: false,
   }).format(date);
-};
+}

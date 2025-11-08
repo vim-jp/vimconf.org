@@ -1,9 +1,9 @@
 import { Buffer } from "node:buffer";
-import LogoWhite from "@/assets/logo-white.svg?raw";
-import { MAIN_BACKGROUND_COLOR } from "@/consts";
 import satori from "satori";
-
 import sharp from "sharp";
+import LogoWhite from "@/assets/logo-white.svg?raw";
+
+import { MAIN_BACKGROUND_COLOR } from "@/consts";
 
 /* convert string to base64 */
 const LogoWhiteUrl = `data:image/svg+xml;base64,${Buffer.from(LogoWhite).toString("base64")}`;

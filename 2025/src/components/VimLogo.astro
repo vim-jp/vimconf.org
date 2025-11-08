@@ -1,4 +1,5 @@
 ---
+import { Buffer } from "node:buffer";
 import VimLogoRaw from "@/assets/Vimlogo.svg?raw";
 const VimLogoUrl = `data:image/svg+xml;base64,${Buffer.from(VimLogoRaw).toString("base64")}`;
 

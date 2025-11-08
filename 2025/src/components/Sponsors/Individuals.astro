@@ -1,9 +1,9 @@
 ---
-import Card from "../Card.astro";
-import Individual from "./Individual.astro";
+import { ExternalLink, Heart } from "@lucide/astro";
 import rawCsv from "../../content/individual_sponsors.csv";
 import { CsvSchema } from "../../types/schema";
-import { ExternalLink, Heart } from "@lucide/astro";
+import Card from "../Card.astro";
+import Individual from "./Individual.astro";
 
 const csv = CsvSchema.parse(rawCsv);
 ---
