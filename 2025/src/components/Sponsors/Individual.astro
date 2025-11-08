@@ -15,7 +15,7 @@ try {
     `../../assets/individual-sponsors/${src && src !== "" ? src : "no-icon"}.png?url`
   );
   iconUrl = module.default;
-} catch (e) {
+} catch {
   console.error(`Icon not found: ${src}`);
 }
 ---
