@@ -11,7 +11,7 @@ type Props = {
   image_url?: string;
 };
 
-const { speaker_name, title, abstract, self_introduction, image_url } =
+const { session_id,speaker_name, title, abstract, self_introduction, image_url } =
   Astro.props;
 ---
 
@@ -32,8 +32,8 @@ const { speaker_name, title, abstract, self_introduction, image_url } =
     </div>
     <div class="flex-1 text-center md:text-left">
       <div class="mb-3">
-        <h3 id={encodeURIComponent(`${speaker_name}-${title}`)} class="mb-2 text-2xl font-bold text-gray-900 md:text-3xl">
-          <a href={`#${encodeURIComponent(`${speaker_name}-${title}`)}`} class="hover:underline">
+        <h3 id={session_id} class="mb-2 text-2xl font-bold text-gray-900 md:text-3xl">
+          <a href={`#${session_id}`} class="hover:underline">
           {speaker_name}
           </a>
         </h3>
