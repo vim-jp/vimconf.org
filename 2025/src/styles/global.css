@@ -8,6 +8,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+  scroll-padding-top: calc(var(--spacing) * 16);
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

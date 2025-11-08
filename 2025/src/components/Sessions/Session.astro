@@ -11,8 +11,14 @@ type Props = {
   image_url?: string;
 };
 
-const { speaker_name, title, abstract, self_introduction, image_url } =
-  Astro.props;
+const {
+  session_id,
+  speaker_name,
+  title,
+  abstract,
+  self_introduction,
+  image_url,
+} = Astro.props;
 ---
 
 <Card class="mb-5 p-8">
@@ -32,8 +38,13 @@ const { speaker_name, title, abstract, self_introduction, image_url } =
     </div>
     <div class="flex-1 text-center md:text-left">
       <div class="mb-3">
-        <h3 class="mb-2 text-2xl font-bold text-gray-900 md:text-3xl">
-          {speaker_name}
+        <h3
+          id={session_id}
+          class="mb-2 text-2xl font-bold text-gray-900 md:text-3xl"
+        >
+          <a href={`#${session_id}`} class="hover:underline">
+            {speaker_name}
+          </a>
         </h3>
       </div>
       <div class="mb-4">
