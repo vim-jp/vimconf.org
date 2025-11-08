@@ -11,7 +11,8 @@
     "astro": "astro",
     "check": "astro check",
     "lint": "eslint --cache .",
-    "format": "nr prettier:fix",
+    "lint:fix": "nr lint --fix",
+    "format": "nr prettier:fix && nr lint:fix",
     "prettier:check": "prettier --cache --check src",
     "prettier:fix": "prettier --cache --write src"
   },
