@@ -1,8 +1,8 @@
 ---
-import { getCollection } from "astro:content";
-import Company from "./Company.astro";
-import Heading from "../Heading.astro";
 import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import Heading from "../Heading.astro";
+import Company from "./Company.astro";
 
 const sponsorsData = await getCollection("sponsors");
 
@@ -33,7 +33,7 @@ const rankNameMap = {
   bronze: "ブロンズ",
 };
 
-const getGridClasses = (rank: string, count: number) => {
+function getGridClasses(rank: string, count: number) {
   const baseClasses = ["mb-8", "grid", "place-items-center", "gap-4"];
 
   if (rank === "platinum") {
@@ -73,7 +73,7 @@ const getGridClasses = (rank: string, count: number) => {
   }
 
   return baseClasses;
-};
+}
 ---
 
 <Heading>企業スポンサー</Heading>

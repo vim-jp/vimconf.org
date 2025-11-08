@@ -1,5 +1,5 @@
 ---
-import { User, FileText } from "@lucide/astro";
+import { FileText, User } from "@lucide/astro";
 import Card from "../Card.astro";
 
 type Props = {
@@ -31,8 +31,9 @@ const {
           class="aspect-square h-full w-full object-cover text-center"
           alt={speaker_name}
           src={image_url ||
-            "https://via.placeholder.com/150?text=" +
-              encodeURIComponent(speaker_name.charAt(0))}
+            `https://via.placeholder.com/150?text=${encodeURIComponent(
+              speaker_name.charAt(0),
+            )}`}
         /></span
       >
     </div>

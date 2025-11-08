@@ -1,6 +1,6 @@
 ---
-import { LANGUAGES } from "@/i18n";
 import { base } from "astro:config/client";
+import { LANGUAGES } from "@/i18n";
 
 const pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, "");
 const currentLang = pathname.split("/")[1];
