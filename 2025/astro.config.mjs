@@ -1,6 +1,6 @@
 import react from '@astrojs/react';
-import tailwindcss from '@tailwindcss/vite';
 import dsv from '@rollup/plugin-dsv';
+import tailwindcss from '@tailwindcss/vite';
 
 // @ts-check
 import { defineConfig } from 'astro/config';
