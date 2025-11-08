@@ -9,7 +9,7 @@ body {
 }
 
 html {
-  scroll-padding-top: calc(var(--spacing) * 16)
+  scroll-padding-top: calc(var(--spacing) * 16);
 }
 
 @layer utilities {
