@@ -13,6 +13,7 @@ exclude:
 encoding: utf-8
 
 include:
+  # 2025/_astro を生成に含めるために追加した
   - '_astro'
 
 ### Plugins
