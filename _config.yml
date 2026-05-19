@@ -9,9 +9,12 @@ exclude:
   - 'README.md'
   - 'vendor'
   - 'go.mod'
-  - '2025'
 # デフォルトと同じだが「utf-8で記事を書こう」という宣言的な意味合で残した。
 encoding: utf-8
+
+include:
+  # 2025/_astro を生成に含めるために追加した
+  - '_astro'
 
 ### Plugins
 plugins:
